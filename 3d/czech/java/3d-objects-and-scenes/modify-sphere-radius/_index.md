@@ -1,28 +1,31 @@
 ---
-date: 2026-07-27
-description: Zjistěte, jak upravit poloměr koule v Javě a exportovat soubor OBJ v
-  Javě pomocí Aspose.3D, přední knihovny Java 3D pro převod 3D na OBJ.
+date: 2026-10-03
+description: Naučte se, jak vytvořit kouli v Java a exportovat soubor OBJ pomocí Aspose.3D,
+  přední Java 3D knihovny pro převod 3D modelů.
+images:
+- /java/3d-objects-and-scenes/modify-sphere-radius/og-image.png
 keywords:
-- modify sphere radius java
-- export obj file java
-- aspose 3d java
-lastmod: 2026-07-27
-linktitle: 'Úprava poloměru koule v Javě: Převod 3D na OBJ pomocí Aspose.3D'
-og_description: Upravte poloměr koule v Javě a exportujte soubor OBJ v Javě pomocí
-  Aspose.3D. Tento tutoriál krok za krokem ukazuje, jak přidat kouli, změnit její
-  velikost a uložit jako OBJ.
-og_image_alt: 'Guide: modify sphere radius Java and export OBJ using Aspose.3D'
-og_title: Úprava poloměru koule v Javě – Převod 3D na OBJ pomocí Aspose.3D
+- create sphere java
+- save 3d as obj
+- java convert 3d model
+- write obj file java
+lastmod: 2026-10-03
+linktitle: 'Vytvořit kouli v Java: převod 3D na OBJ pomocí Aspose.3D'
+og_description: Naučte se, jak vytvořit kouli v Java a exportovat soubor OBJ pomocí
+  Aspose.3D. Tento krok‑za‑krokem průvodce ukazuje, jak přidat kouli, změnit její
+  poloměr a uložit jako OBJ.
+og_image_alt: 'Guide: create sphere java and export OBJ using Aspose.3D'
+og_title: Vytvořit kouli v Java – Export OBJ pomocí Aspose.3D
 schemas:
 - author: Aspose
-  dateModified: '2026-07-27'
-  description: Learn how to modify sphere radius Java and export OBJ file Java using
-    Aspose.3D, the leading Java 3D library for converting 3D to OBJ.
-  headline: 'Modify Sphere Radius Java: Convert 3D to OBJ with Aspose.3D'
+  dateModified: '2026-10-03'
+  description: Learn how to create sphere java and export OBJ file using Aspose.3D,
+    the leading Java 3D library for converting 3D models.
+  headline: 'Create sphere java: Convert 3D to OBJ with Aspose.3D'
   type: TechArticle
-- description: Learn how to modify sphere radius Java and export OBJ file Java using
-    Aspose.3D, the leading Java 3D library for converting 3D to OBJ.
-  name: 'Modify Sphere Radius Java: Convert 3D to OBJ with Aspose.3D'
+- description: Learn how to create sphere java and export OBJ file using Aspose.3D,
+    the leading Java 3D library for converting 3D models.
+  name: 'Create sphere java: Convert 3D to OBJ with Aspose.3D'
   steps:
   - name: Initialize a Scene
     text: '**Definition anchor:** The `Scene` class is Aspose.3D''s top‑level container
@@ -71,7 +74,7 @@ tags:
 - aspose.3d
 - java 3d
 - 3d conversion
-title: 'Úprava poloměru koule v Javě: Převod 3D na OBJ pomocí Aspose.3D'
+title: 'Vytvořit kouli v Java: převod 3D na OBJ pomocí Aspose.3D'
 url: /cs/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
@@ -80,36 +83,32 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Převod 3D na OBJ: Přidání koule a úprava poloměru v Javě
+# Vytvořte kouli v Javě a exportujte do OBJ
 
 ## Úvod
 
-Pokud potřebujete **rychle a programově upravit poloměr koule v Javě**, tento průvodce vám přesně ukáže, jak přidat kouli do scény, změnit její poloměr a zapsat výsledný OBJ soubor pomocí **Aspose.3D Java knihovny**. Projdeme každý řádek kódu, vysvětlíme, proč je každý krok důležitý, a poskytneme tipy, jak se vyhnout běžným úskalím — abyste mohli tento postup integrovat do her, CAD nástrojů nebo vědeckých vizualizací s jistotou.
+V tomto tutoriálu se naučíte, jak **vytvořit kouli v Javě**, upravit její poloměr a poté **uložit 3D jako OBJ** pomocí knihovny Aspose.3D Java. Projdeme každý řádek kódu, vysvětlíme, proč je každý krok důležitý, a poskytneme vám praktické tipy, abyste mohli tento workflow s jistotou začlenit do her, CAD nástrojů nebo vědeckých vizualizací.
 
 ## Rychlé odpovědi
-- **Jaký je hlavní cíl tohoto tutoriálu?** Ukázat, jak převést 3D na OBJ vytvořením koule, úpravou jejího poloměru a exportem modelu v Javě.  
-- **Která knihovna poskytuje 3D funkčnost?** Aspose.3D, kompletní **java 3d library tutorial**.  
-- **Jak změním velikost koule?** Voláním `sphere.setRadius(double)` na instanci `Sphere`.  
-- **Mohu z Java přímo zapsat OBJ soubor?** Ano — použijte `scene.save("file.obj", FileFormat.WAVEFRONTOBJ)`.  
-- **Potřebuji licenci pro produkční nasazení?** Pro vývoj stačí bezplatná zkušební verze; pro komerční použití je vyžadována trvalá licence.
+- **Jaký je hlavní cíl tohoto tutoriálu?** Ukázat, jak vytvořit kouli v Javě, upravit její velikost a exportovat model jako OBJ pomocí Javy.
+- **Která knihovna poskytuje 3D funkčnost?** Aspose.3D, a full‑featured **java 3d library tutorial**.
+- **Jak změním velikost koule?** Call `sphere.setRadius(double)` on the `Sphere` instance.
+- **Mohu zapisovat soubor OBJ přímo z Javy?** Yes—use `scene.save("file.obj", FileFormat.WAVEFRONTOBJ)`.
+- **Potřebuji licenci pro produkci?** A free trial is fine for development; a permanent license is required for commercial use.
 
 ## Co je Aspose.3D pro Javu?
 
-Aspose.3D pro Javu je komplexní **java 3d library**, která umožňuje vývojářům vytvářet, upravovat a převádět 3D soubory bez externích závislostí. Podporuje více než **50 vstupních a výstupních formátů** — včetně OBJ, FBX, STL a GLTF — což umožňuje bezproblémovou integraci do jakéhokoli 3‑D pipeline.
+Aspose.3D pro Javu je komplexní **java 3d library**, která umožňuje vývojářům vytvářet, upravovat a konvertovat 3D soubory bez externích závislostí. Podporuje více než **50 vstupních a výstupních formátů**—včetně OBJ, FBX, STL a GLTF—což umožňuje plynulou integraci do jakéhokoli 3‑D pipeline.
 
-## Proč převádět 3D na OBJ?
+## Proč konvertovat 3D do OBJ?
 
-Převod na OBJ poskytuje univerzálně čitelnou, textovou reprezentaci geometrie, kterou lze prohlížet, upravovat a importovat prakticky v jakékoli 3D aplikaci, což je ideální pro rychlé prototypování a výměnu aktiv napříč platformami.
+Konverze do OBJ vám poskytuje univerzálně podporovanou, textovou reprezentaci geometrie, kterou může číst jakýkoli 3D nástroj, což je ideální pro rychlé prototypování, výměnu aktiv napříč platformami a snadné ladění dat vrcholů. Protože soubory OBJ jsou lehké a čitelné pro člověka, můžete je v případě potřeby prohlížet nebo upravovat pomocí jednoduchého textového editoru.
 
-- **Univerzální kompatibilita** – OBJ je podporován prakticky všemi 3D prohlížeči, herními enginy a modelovacími programy.  
-- **Lehký export** – OBJ ukládá geometrii v prostém textovém formátu, který je snadno kontrolovatelný a laditelný.  
-- **Flexibilita workflow** – Můžete generovat OBJ soubory za běhu z Java kódu na serveru, což umožňuje automatizované pipeline pro tvorbu aktiv.
-
-## Předpoklady
+## Požadavky
 
 - Základní znalost programování v Javě.  
-- Nainstalovaná knihovna Aspose.3D — stáhněte ji z [dokumentace Aspose.3D pro Javu](https://reference.aspose.com/3d/java/).  
-- Nainstalovaný JDK 8 nebo novější na vašem vývojovém počítači.
+- Knihovna Aspose.3D nainstalována – stáhněte ji z [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/).  
+- JDK 8 nebo novější nainstalovaný na vašem vývojovém počítači.
 
 ## Import balíčků
 
@@ -123,7 +122,9 @@ import java.io.IOException;
 
 ## Jak upravit poloměr koule v Javě?
 
-Načtěte objekt `Sphere`, zavolejte `setRadius` s požadovanou hodnotou a poté uložte scénu jako OBJ — tento celý workflow lze provést v pěti stručných krocích. Přístup funguje pro libovolný číselný poloměr a zaručuje, že exportovaný OBJ odráží přesně velikost, kterou zadáte.
+`Sphere` je geometrický primitiv představující kouli v Aspose.3D.
+
+Načtěte objekt `Sphere`, zavolejte `setRadius` s požadovanou hodnotou a poté uložte scénu jako OBJ — tento celý workflow lze provést v pěti stručných krocích. Přístup funguje pro jakýkoli číselný poloměr a zajišťuje, že exportovaný OBJ odráží přesně velikost, kterou zadáte.
 
 ### Krok 1: Inicializace scény
 
@@ -134,7 +135,7 @@ Načtěte objekt `Sphere`, zavolejte `setRadius` s požadovanou hodnotou a poté
 Scene scene = new Scene();
 ```
 
-**Definiční kotva:** Třída `Scene` je nejvyšší kontejner Aspose.3D, který drží geometrii, světla a kamery pro 3D model. Vytvořením `Scene` získáte pracovní prostor, kde můžete přidávat a manipulovat s objekty.
+**Definition anchor:** Třída `Scene` je nejvyšší kontejner Aspose.3D, který obsahuje geometrii, světla a kamery pro 3D model. Vytvořením `Scene` získáte pracovní prostor, kde můžete přidávat a manipulovat s objekty.
 
 Vytvořením `Scene` získáte kontejner pro veškerou geometrii, světla a kamery. Zde později **přidáme kouli do scény**.
 
@@ -145,22 +146,22 @@ Vytvořením `Scene` získáte kontejner pro veškerou geometrii, světla a kame
 Sphere sphere = new Sphere();
 ```
 
-**Definiční kotva:** Třída `Sphere` představuje geometrický primitivní objekt koule s konfigurovatelným poloměrem, středem a materiálem. Ve výchozím nastavení má poloměr 1,0.
+**Definition anchor:** Třída `Sphere` představuje geometrický primitiv koule s konfigurovatelným poloměrem, středem a materiálem. Ve výchozím nastavení má poloměr 1.0.
 
-Objekt `Sphere` začíná s výchozím poloměrem 1,0. Považujte ho za čisté plátno pro tvar, který chcete exportovat.
+Objekt `Sphere` začíná s výchozím poloměrem 1.0. Považujte ho za prázdné plátno pro tvar, který chcete exportovat.
 
-### Krok 3: Nastavení požadovaného poloměru
+### Krok 3: Nastavte požadovaný poloměr
 
-Metoda `setRadius(double)` aktualizuje velikost koule přiřazením nové hodnoty poloměru ve stejných jednotkách, jaké používá scéna.
+**Definition anchor:** Metoda `setRadius(double)` nastavuje poloměr koule ve stejných jednotkách, které používá scéna.  
 
 ```java
 // set radius
 sphere.setRadius(10);
 ```
 
-Zde **píšeme kód ve stylu write obj file java**, který nastaví přesný poloměr. Nahraďte `10` libovolnou `double` hodnotou, která odpovídá vašim návrhovým požadavkům.
+Zde máme kód ve stylu **write obj file java**, který nastavuje přesný poloměr. Nahraďte `10` libovolnou hodnotou typu `double`, která odpovídá vašim návrhovým požadavkům.
 
-### Krok 4: Přidání koule do scény
+### Krok 4: Přidejte kouli do scény
 
 ```java
 // add sphere to the scene
@@ -169,57 +170,58 @@ scene.getRootNode().createChildNode(sphere);
 
 Tento řádek **přidá kouli do scény** vytvořením podřízeného uzlu pod kořenovým uzlem. Je to okamžik, kdy se geometrie stane součástí grafu scény.
 
-### Krok 5: Export modelu jako OBJ
-
-Metoda `save(String, FileFormat)` zapíše celou scénu do zadaného souboru pomocí vybraného formátu, například OBJ.
+### Krok 5: Exportujte model jako OBJ
 
 ```java
 // save scene
 scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-Voláním `scene.save` **exportujete obj file java** — efektivně **uložíte scénu jako obj**. Vygenerovaný `sphere.obj` lze otevřít v libovolném standardním 3D prohlížeči.
+Metoda `save(String, FileFormat)` zapíše celou scénu do určeného souboru pomocí zvoleného formátu, například OBJ. Voláním `scene.save` **exportuje obj file java**‑style, efektivně **uloží scénu jako obj**. Vygenerovaný `sphere.obj` lze otevřít v libovolném standardním 3D prohlížeči.
 
 ## Časté problémy a řešení
 
-| Problém | Řešení |
+| Issue | Solution |
 |-------|----------|
-| **Koule se ve vieweru zobrazuje příliš malá** | Ověřte, že je hodnota poloměru nastavena správně; pamatujte, že jednotky jsou libovolné, pokud nepoužijete transformační měřítko. |
+| **Koule se v prohlížeči zobrazuje příliš malá** | Ověřte, že je hodnota poloměru nastavena správně; pamatujte, že jednotky jsou libovolné, pokud nepoužijete škálovací transformaci. |
 | **Exportovaný OBJ nemá materiál** | Aspose.3D zapisuje pouze geometrii; přidejte materiál ke kouli, pokud potřebujete textury (`sphere.setMaterial(...)`). |
-| **Výjimka licence během běhu** | Ujistěte se, že máte načtený dočasný nebo trvalý licenční soubor před vytvořením `Scene`. |
+| **Výjimka licence za běhu** | Ujistěte se, že máte načtený buď dočasný, nebo trvalý licenční soubor před vytvořením `Scene`. |
 
 ## Často kladené otázky
 
-**Q: Kde najdu dokumentaci k Aspose.3D pro Javu?**  
-A: Můžete se podívat na [dokumentaci k Aspose.3D pro Javu](https://reference.aspose.com/3d/java/) pro komplexní návod.
+**Q: Kde mohu najít dokumentaci pro Aspose.3D pro Javu?**  
+A: Můžete se podívat na [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/) pro komplexní návod.
 
-**Q: Jak stáhnout Aspose.3D pro Javu?**  
-A: Stáhněte knihovnu ze stránky vydání: [Stáhnout Aspose.3D pro Javu](https://releases.aspose.com/3d/java/).
+**Q: Jak si mohu stáhnout Aspose.3D pro Javu?**  
+A: Stáhněte knihovnu ze stránky vydání: [Download Aspose.3D for Java](https://releases.aspose.com/3d/java/).
 
-**Q: Je k dispozici bezplatná zkušební verze Aspose.3D pro Javu?**  
-A: Ano, prozkoumejte funkce s bezplatnou zkušební verzí na [Bezplatná zkušební verze Aspose.3D](https://releases.aspose.com/).
+**Q: Je k dispozici bezplatná zkušební verze pro Aspose.3D pro Javu?**  
+A: Ano, prozkoumejte funkce pomocí bezplatné zkušební verze na [Aspose.3D Free Trial](https://releases.aspose.com/).
 
 **Q: Kde mohu získat podporu pro Aspose.3D pro Javu?**  
-A: Připojte se ke komunitě Aspose na [Fórum podpory Aspose.3D](https://forum.aspose.com/c/3d/18) pro pomoc a diskuze.
+A: Připojte se ke komunitě Aspose na [Aspose.3D Support Forum](https://forum.aspose.com/c/3d/18) pro pomoc a diskuse.
 
-**Q: Jak získat dočasnou licenci pro Aspose.3D?**  
-A: Získejte dočasnou licenci na stránce [Dočasná licence](https://purchase.aspose.com/temporary-license/).
+**Q: Jak mohu získat dočasnou licenci pro Aspose.3D?**  
+A: Získejte dočasnou licenci na stránce [Temporary License](https://purchase.aspose.com/temporary-license/).
 
-**Q: Mohu použít tento kód s jinými 3D formáty, jako je STL?**  
-A: Rozhodně — stačí změnit výčtový typ `FileFormat` při volání `scene.save`, např. `FileFormat.STL`.
+**Q: Mohu tento kód použít s jinými 3D formáty, jako je STL?**  
+A: Určitě – stačí změnit enum `FileFormat` při volání `scene.save`, např. `FileFormat.STL`.
 
-**Poslední aktualizace:** 2026-07-27  
-**Testováno s:** Aspose.3D pro Javu 24.11  
+---
+
+**Poslední aktualizace:** 2026-10-03  
+**Testováno s:** Aspose.3D for Java 24.11  
 **Autor:** Aspose
 
 ## Související tutoriály
 
 - [Jak nastavit normály na 3D objektech v Javě pomocí Aspose.3D Java API](/3d/java/geometry/set-up-normals-on-3d-objects/)
-- [Jak vložit texturu do FBX v Javě – Použití materiálů na 3D objekty pomocí Aspose.3D](/3d/java/geometry/apply-materials-to-3d-objects/)
+- [Jak vložit texturu do FBX v Javě – Použít materiály na 3D objekty pomocí Aspose.3D](/3d/java/geometry/apply-materials-to-3d-objects/)
 - [Jak změnit orientaci roviny a exportovat OBJ v Javě](/3d/java/3d-scenes-and-models/change-plane-orientation/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
