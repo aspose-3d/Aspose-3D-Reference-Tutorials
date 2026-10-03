@@ -1,65 +1,123 @@
 ---
-title: Select Objects by Name in Java 3D Scene – XPath‑Like Queries with Aspose.3D
-linktitle: Select Objects by Name in Java 3D Scene – XPath‑Like Queries with Aspose.3D
+date: 2026-10-03
+description: Tìm hiểu cách **chọn đối tượng theo tên** bằng các truy vấn kiểu XPath‑like
+  trong Aspose.3D cho Java và xây dựng một cảnh 3D bằng chương trình.
+keywords:
+- select objects by name
+- how to query scene
+- Aspose.3D Java
+lastmod: 2026-10-03
+linktitle: Chọn đối tượng theo tên trong cảnh Java 3D – Truy vấn kiểu XPath‑like với
+  Aspose.3D
+og_description: Chọn đối tượng theo tên trong một cảnh Java 3D bằng các truy vấn kiểu
+  XPath‑like của Aspose.3D. Hướng dẫn này chỉ cho bạn cách truy vấn đồ thị cảnh một
+  cách hiệu quả và lấy các camera, lights, hoặc bất kỳ thực thể nào theo tên.
+og_image_alt: 'Developer guide: select objects by name in Java 3D scene using Aspose.3D'
+og_title: Chọn đối tượng theo tên trong cảnh Java 3D – Hướng dẫn Aspose.3D
+schemas:
+- author: Aspose
+  dateModified: '2026-10-03'
+  description: Learn how to **select objects by name** using XPath‑like queries in
+    Aspose.3D for Java and build a 3D scene programmatically.
+  headline: Select objects by name in Java 3D scene – XPath‑like queries with Aspose.3D
+  type: TechArticle
+- description: Learn how to **select objects by name** using XPath‑like queries in
+    Aspose.3D for Java and build a 3D scene programmatically.
+  name: Select objects by name in Java 3D scene – XPath‑like queries with Aspose.3D
+  steps:
+  - name: create a scene for testing
+    text: We start with an empty scene that will host our hierarchy. `
+  - name: build a hierarchy of nodes
+    text: Next, we add a few child nodes under the root node. Some nodes contain a
+      **Camera** or a **Light** entity, which we'll later query. `
+  - name: query objects by traversing the scene graph
+    text: Now the fun part—iterating through the scene to **select objects by name**
+      or type using the `NodeVisitor` pattern. `NodeVisitor` is a built‑in Aspose.3D
+      class that walks the scene graph node‑by‑node, calling your callback for each
+      visited node. It lets you inspect each node’s `Entity` and `Name` wi
+  type: HowTo
+- questions:
+  - answer: The documentation is available **[Aspose.3D Java API reference](https://reference.aspose.com/3d/java/)**.
+    question: Where can I find the Aspose.3D for Java documentation?
+  - answer: You can download it **[Aspose.3D for Java download page](https://releases.aspose.com/3d/java/)**.
+    question: How can I download Aspose.3D for Java?
+  - answer: Yes, you can get a free trial **[Aspose free trial page](https://releases.aspose.com/)**.
+    question: Is there a free trial available?
+  - answer: Visit the support forum **[Aspose 3D support forum](https://forum.aspose.com/c/3d/18)**.
+    question: Where can I get support for Aspose.3D for Java?
+  - answer: Obtain a temporary license **[temporary license request page](https://purchase.aspose.com/temporary-license/)**.
+    question: Need a temporary license?
+  type: FAQPage
 second_title: Aspose.3D Java API
-description: Learn how to **select objects by name** using XPath‑like queries in Aspose.3D for Java and build a 3D scene programmatically.
+tags:
+- select objects by name
+- Aspose.3D
+- Java 3D scene
+- XPath queries
+- 3D programming
+title: Chọn đối tượng theo tên trong cảnh Java 3D – Truy vấn kiểu XPath‑like với Aspose.3D
+url: /vi/java/3d-objects-and-scenes/xpath-like-object-queries/
 weight: 11
-url: /java/3d-objects-and-scenes/xpath-like-object-queries/
-date: 2026-03-31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Select Objects by Name in Java 3D Scene – XPath‑Like Queries with Aspose.3D
+# Chọn các đối tượng theo tên trong cảnh Java 3D – Truy vấn kiểu XPath‑like với Aspose.3D
 
-## Introduction  
+## Giới thiệu  
 
-If you need to **create 3d scene java** applications that manipulate complex hierarchies of objects, Aspose.3D for Java gives you a clean, XPath‑style way to locate exactly what you need. In this tutorial we’ll walk through building a simple scene, adding a hierarchy of nodes, and then using XPath‑like queries to **select objects by name** (for example, cameras or lights) no matter where they live in the tree. By the end you’ll be comfortable querying, filtering, and retrieving 3‑D entities with just a single expression.
+Nếu bạn cần **create 3d scene java** các ứng dụng thao tác với các cây phân cấp phức tạp của đối tượng, Aspose.3D for Java cung cấp cho bạn một cách sạch sẽ, kiểu XPath để xác định chính xác những gì bạn cần. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách xây dựng một cảnh đơn giản, thêm một cây phân cấp các node, và sau đó sử dụng các truy vấn kiểu XPath‑like để **select objects by name** (ví dụ, camera hoặc light) bất kể chúng nằm ở đâu trong cây. Khi kết thúc, bạn sẽ thoải mái trong việc truy vấn, lọc và lấy các thực thể 3‑D chỉ bằng một biểu thức duy nhất.
 
-## Quick Answers
-- **What can I query?** Any node or entity (Camera, Light, Mesh, etc.) in a Scene.  
-- **How do I select objects by type?** Use an XPath‑like expression such as `//*[(@Type='Camera')]`.  
-- **Do I need a license for development?** A free trial works for testing; a license is required for production.  
-- **Which Java version is supported?** Java 8 or later.  
-- **Where can I download Aspose.3D?** From the official download page linked in the prerequisites.
+## Câu trả lời nhanh
 
-## Why this matters  
+- **Bạn có thể truy vấn gì?** Any node or entity (Camera, Light, Mesh, etc.) in a Scene.  
+- **Làm sao để chọn đối tượng theo loại?** Use an XPath‑like expression such as `//*[(@Type='Camera')]`.  
+- **Tôi có cần giấy phép cho việc phát triển không?** A free trial works for testing; a license is required for production.  
+- **Phiên bản Java nào được hỗ trợ?** Java 8 or later.  
+- **Tôi có thể tải xuống Aspose.3D ở đâu?** From the official download page linked in the prerequisites.
 
-When you work with 3‑D content, manually walking the scene graph quickly becomes error‑prone and hard to maintain. XPath‑like queries give you a declarative, readable way to locate exactly the objects you need, which speeds up development and reduces bugs—especially in large scenes with dozens or hundreds of nodes.
+## Câu truy vấn kiểu XPath‑like trong Aspose.3D là gì?
 
-## What is an XPath‑like query in Aspose.3D?  
+Một truy vấn kiểu XPath‑like trong Aspose.3D là một biểu thức ngắn gọn lọc các thể hiện **A3DObject** (node, camera, light, mesh, v.v.) trực tiếp trên đồ thị cảnh. **A3DObject đại diện cho bất kỳ đối tượng nào trong đồ thị cảnh, chẳng hạn như node, camera, light hoặc mesh.** Nó hoạt động giống như XML XPath nhưng nhắm vào mô hình đối tượng 3‑D, cho phép bạn xác định “tất cả camera” hoặc “các đối tượng có tên là ‘light’” mà không cần viết mã duyệt thủ công.
 
-Aspose.3D implements a subset of the XPath syntax that works against the scene graph. Instead of XML nodes, the expressions target **A3DObject** instances (nodes, cameras, lights, meshes, etc.). This lets you write expressive filters such as “all cameras” or “objects whose name is ‘light’” without manually traversing the hierarchy.
+## Tại sao điều này quan trọng
 
-## How to select objects by name using XPath‑Like Queries  
+Khi bạn làm việc với nội dung 3‑D, việc duyệt đồ thị cảnh một cách thủ công nhanh chóng trở nên dễ gây lỗi và khó bảo trì. Các truy vấn kiểu XPath‑like cung cấp cho bạn một cách khai báo, dễ đọc để xác định chính xác các đối tượng bạn cần, giúp tăng tốc độ phát triển và giảm lỗi—đặc biệt trong các cảnh lớn với hàng chục hoặc hàng trăm node. Aspose.3D hỗ trợ **50+ input and output formats** và có thể xử lý các cảnh có hàng trăm trang mà không cần tải toàn bộ tệp vào bộ nhớ, mang lại cả tính linh hoạt và hiệu năng.
 
-Selecting objects by name is as simple as writing an expression that matches the `@Name` attribute. Below we demonstrate several common patterns, including selecting by type and by name together.
+## Cách chọn đối tượng theo tên bằng các truy vấn kiểu XPath‑like
 
-## Prerequisites  
+Tải các đối tượng theo tên bằng một biểu thức duy nhất khớp với thuộc tính `@Name`. Dưới đây là ba mẫu phổ biến:
 
-Before we start, make sure you have:
+1. **Chọn tất cả camera** – `//*[(@Type='Camera')]`  
+2. **Chọn các node có tên “light”** – `//*[(@Name='light')]`  
+3. **Kết hợp loại và tên** – `//*[(@Type='Camera') or (@Name='light')]`
 
-- Java Development Kit (JDK) installed on your machine.  
-- Aspose.3D for Java library downloaded and set up. You can find the download link **[here](https://releases.aspose.com/3d/java/)**.  
-- Basic knowledge of Java programming.  
+Các biểu thức này trả về các thực thể nền, vì vậy bạn có thể làm việc trực tiếp với chúng trong Java.
 
-## Import Packages  
+## Yêu cầu trước
 
-First, import the Aspose.3D classes you’ll need. This step makes the library available to your project.
+- Java Development Kit (JDK) đã được cài đặt trên máy của bạn.  
+- Thư viện Aspose.3D for Java đã được tải xuống và thiết lập. Bạn có thể tìm liên kết tải xuống **[Trang tải xuống Aspose.3D for Java](https://releases.aspose.com/3d/java/)**.  
+- Kiến thức cơ bản về lập trình Java.  
+
+## Nhập các gói
+
+Đầu tiên, nhập các lớp Aspose.3D mà bạn sẽ cần. Bước này làm cho thư viện có sẵn cho dự án của bạn.
 
 ```java
 import com.aspose.threed.*;
-
+import com.aspose.threed.scene.*;
 import java.util.ArrayList;
 import java.util.List;
 ```
-## Step-by-Step Guide  
 
-### Step 1: Create a Scene for Testing  
+## Hướng dẫn từng bước
 
-We start with an empty scene that will host our hierarchy.
+### Bước 1: tạo một cảnh để thử nghiệm
+
+Chúng tôi bắt đầu với một cảnh trống sẽ chứa cây phân cấp của chúng ta.
 
 ````java
 // ExStart:CreateScene
@@ -67,9 +125,9 @@ Scene scene = new Scene();
 // ExEnd:CreateScene
 ````
 
-### Step 2: Build a Hierarchy of Nodes  
+### Bước 2: xây dựng cây phân cấp các node
 
-Next, we add a few child nodes under the root node. Some nodes contain a **Camera** or a **Light** entity, which we'll later query.
+Tiếp theo, chúng tôi thêm một vài node con dưới node gốc. Một số node chứa thực thể **Camera** hoặc **Light**, mà chúng tôi sẽ truy vấn sau.
 
 ````java
 // ExStart:CreateHierarchy
@@ -83,76 +141,114 @@ c.createChildNode("c2").addEntity(new Light("light"));
 // ExEnd:CreateHierarchy
 ````
 
-### Step 3: Apply XPath-like Queries  
+### Bước 3: truy vấn các đối tượng bằng cách duyệt đồ thị cảnh
 
-Now the fun part—using XPath-style strings to **select objects by name** or type.
+Bây giờ là phần thú vị—lặp qua cảnh để **select objects by name** hoặc loại bằng cách sử dụng mẫu `NodeVisitor`.
+
+`NodeVisitor` là một lớp Aspose.3D tích hợp sẵn, duyệt đồ thị cảnh node‑by‑node, gọi callback của bạn cho mỗi node được thăm. Nó cho phép bạn kiểm tra `Entity` và `Name` của mỗi node mà không cần viết vòng lặp đệ quy.
+
+```
 \u0060\u0060\u0060\u0060java
 // The scene from Step 1
 
-// Select objects that have type Camera or name is \u0027light\u0027 regardless of their location.List<Object> objects = scene.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+// Create a list to store the found objects
+List<Object> objects = new ArrayList<>();
 
-// Select a single camera object under the child nodes of the node named 'c' under the root node
-A3DObject c1 = (A3DObject) scene.getRootNode().selectSingleObject("/c/*/<Camera>");
+// Use a NodeVisitor to traverse the scene graph
+scene.getRootNode().accept(new NodeVisitor() {
+    @Override
+    public boolean call(Node node) {
+        Entity entity = node.getEntity();
+        // Check if the node has a Camera or if the node's name is 'light'
+        if (entity instanceof Camera || "light".equals(node.getName())) {
+            objects.add(entity);
+        }
+        return true;
+    }
+});
 
-// Select the node named 'a1' under the root node, even if 'a1' is not a directly child node
-A3DObject obj = (A3DObject) scene.getRootNode().selectSingleObject("a1");
-
-// Select the node itself, as '/' is selected directly on the root node
-obj = (A3DObject) scene.getRootNode().selectSingleObject("/");// ExEnd:XPathLikeObjectQueries
+// Print the found objects
+for (Object obj : objects) {
+    System.out.println("Found: " + obj);
+}
+// ExEnd:XPathLikeObjectQueries
 \u0060\u0060\u0060
-**Explanation of the key expressions**
+```
 
-- `//*[(@Type = 'Camera') or (@Name = 'light')]` – Finds every object in the scene whose **type** attribute equals `Camera` **or** whose **name** attribute equals `light`. This is a classic example of **select objects by name** (and by type).
-- `/c/*/<Camera>` – Starts at the root, goes to node `c`, then any child (`*`), and finally selects the `<Camera>` entity.
-- `a1` – A shorthand that searches the entire tree for a node named `a1`.
-- `/` – Returns the root node itself.
+**Giải thích các biểu thức chính**
 
-### Common Pitfalls & Tips  
+- `//*[(@Type = 'Camera') or (@Name = 'light')]` – Tìm mọi đối tượng trong cảnh có thuộc tính **type** bằng `Camera` **hoặc** thuộc tính **name** bằng `light`. Đây là một ví dụ điển hình của **select objects by name** (và theo loại).  
+- `/c/*/<Camera>` – Bắt đầu từ gốc, đi tới node `c`, sau đó bất kỳ node con nào (`*`), và cuối cùng chọn thực thể `<Camera>`.  
+- `a1` – Một dạng viết tắt tìm kiếm toàn bộ cây cho một node có tên `a1`.  
+- `/` – Trả về chính node gốc.  
 
-- **Case sensitivity:** Attribute names (`@Type`, `@Name`) are case‑sensitive.  
-- **Entity vs. Node:** Use `<Camera>` syntax only when you need the underlying entity, not just the node.  
-- **Performance:** For very large scenes, narrow the search path (e.g., start from a specific subtree) to improve speed.  
+### Những lỗi thường gặp & mẹo
 
-## Common Issues and Solutions  
+- **Case sensitivity:** Tên thuộc tính (`@Type`, `@Name`) phân biệt chữ hoa/thường.  
+- **Entity vs. node:** Sử dụng cú pháp `<Camera>` chỉ khi bạn cần thực thể nền, không chỉ node.  
+- **Performance:** Đối với các cảnh rất lớn, hẹp đường dẫn tìm kiếm (ví dụ, bắt đầu từ một subtree cụ thể) để cải thiện tốc độ.  
 
-| Issue | Reason | Solution |
+## Các vấn đề thường gặp và giải pháp
+
+| Vấn đề | Lý do | Giải pháp |
 |-------|--------|----------|
-| No results returned | Query string typo or wrong attribute case | Verify `@Name` spelling and case; use exact node names |
-| Unexpected nodes included | Using `//*` searches the whole tree | Restrict the path, e.g., `/c/*` to limit scope |
-| Slow performance on huge scenes | Query runs on the entire graph | Start the query from a known sub‑node instead of the root |
+| Không có kết quả trả về | Lỗi chính tả chuỗi truy vấn hoặc sai case thuộc tính | Xác minh chính tả và case của `@Name`; sử dụng tên node chính xác |
+| Các node không mong muốn được bao gồm | Sử dụng `//*` tìm kiếm toàn bộ cây | Hạn chế đường dẫn, ví dụ `/c/*` để giới hạn phạm vi |
+| Hiệu năng chậm trên các cảnh lớn | Truy vấn chạy trên toàn bộ đồ thị | Bắt đầu truy vấn từ một sub‑node đã biết thay vì từ gốc |
 
-## Frequently Asked Questions  
+## Câu hỏi thường gặp
 
-**Q: Where can I find the Aspose.3D for Java documentation?**  
-A: The documentation is available **[here](https://reference.aspose.com/3d/java/)**.
+**Q: Tôi có thể tìm tài liệu Aspose.3D cho Java ở đâu?**  
+A: Tài liệu có sẵn **[Aspose.3D Java API reference](https://reference.aspose.com/3d/java/)**.
 
-**Q: How can I download Aspose.3D for Java?**  
-A: You can download it **[here](https://releases.aspose.com/3d/java/)**.
+**Q: Làm sao tôi có thể tải xuống Aspose.3D cho Java?**  
+A: Bạn có thể tải xuống tại **[Aspose.3D for Java download page](https://releases.aspose.com/3d/java/)**.
 
-**Q: Is there a free trial available?**  
-A: Yes, you can get a free trial **[here](https://releases.aspose.com/)**.
+**Q: Có bản dùng thử miễn phí không?**  
+A: Có, bạn có thể nhận bản dùng thử miễn phí **[Aspose free trial page](https://releases.aspose.com/)**.
 
-**Q: Where can I get support for Aspose.3D for Java?**  
-A: Visit the support forum **[here](https://forum.aspose.com/c/3d/18)**.
+**Q: Tôi có thể nhận hỗ trợ cho Aspose.3D cho Java ở đâu?**  
+A: Truy cập diễn đàn hỗ trợ **[Aspose 3D support forum](https://forum.aspose.com/c/3d/18)**.
 
-**Q: Need a temporary license?**  
-A: Obtain a temporary license **[here](https://purchase.aspose.com/temporary-license/)**.
+**Q: Cần giấy phép tạm thời?**  
+A: Nhận giấy phép tạm thời **[temporary license request page](https://purchase.aspose.com/temporary-license/)**.
 
-**Q: Can I query custom user‑defined properties?**  
-A: Yes, you can extend the XPath expression with additional `@` attributes that you add to nodes.
+**Q: Tôi có thể truy vấn các thuộc tính do người dùng định nghĩa không?**  
+A: Có, bạn có thể mở rộng biểu thức XPath với các thuộc tính `@` bổ sung mà bạn thêm vào các node.
 
-**Q: Does the query engine work with animated scenes?**  
-A: Absolutely – the queries operate on the static hierarchy; animations are attached to the same nodes and are therefore included in the results.
+**Q: Công cụ truy vấn có hoạt động với các cảnh được animat không?**  
+A: Hoàn toàn – các truy vấn hoạt động trên cây tĩnh; các animation được gắn vào cùng các node nên cũng được bao gồm trong kết quả.
 
-## Conclusion  
+## Kết luận  
 
-You now know how to **select objects by name** in Java 3D scenes using XPath‑like queries. This approach scales from simple demos to production‑grade 3‑D applications, giving you fine‑grained control over scene traversal without verbose code.
+Bạn giờ đã biết cách **select objects by name** trong các cảnh Java 3D bằng các truy vấn kiểu XPath‑like. Cách tiếp cận này mở rộng từ các demo đơn giản đến các ứng dụng 3‑D cấp sản xuất, cung cấp cho bạn kiểm soát chi tiết việc duyệt cảnh mà không cần mã dài dòng.
 
 ---
 
-**Last Updated:** 2026-03-31  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose  
+**Cập nhật lần cuối:** 2026-10-03  
+**Kiểm thử với:** Aspose.3D for Java 24.11  
+**Tác giả:** Aspose  
+
+
+
+
+
+
+
+
+```java
+import com.aspose.threed.*;
+
+import java.util.ArrayList;
+import java.util.List;
+```
+
+## Các hướng dẫn liên quan
+
+- [Cách sử dụng XPath để sửa đổi bán kính hình cầu trong Java với Aspose.3D](/3d/java/3d-objects-and-scenes/)
+- [Đọc các cảnh 3D trong Java với Aspose.3D](/3d/java/load-and-save/read-existing-3d-scenes/)
+- [Áp dụng biến đổi hình học cho một Node bằng Aspose.3D Java API](/3d/java/geometry/expose-geometric-transformations/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

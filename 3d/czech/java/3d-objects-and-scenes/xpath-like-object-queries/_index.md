@@ -1,65 +1,123 @@
 ---
-title: Select Objects by Name in Java 3D Scene – XPath‑Like Queries with Aspose.3D
-linktitle: Select Objects by Name in Java 3D Scene – XPath‑Like Queries with Aspose.3D
+date: 2026-10-03
+description: Naučte se, jak **vybírat objekty podle názvu** pomocí dotazů podobných
+  XPath v Aspose.3D pro Java a programově vytvořit 3D scénu.
+keywords:
+- select objects by name
+- how to query scene
+- Aspose.3D Java
+lastmod: 2026-10-03
+linktitle: Výběr objektů podle názvu v Java 3D scéně – dotazy podobné XPath s Aspose.3D
+og_description: Vyberte objekty podle názvu v Java 3D scéně pomocí dotazů podobných
+  XPath v Aspose.3D. Tento průvodce vám ukáže, jak efektivně dotazovat graf scény
+  a získat kamery, světla nebo jakýkoli objekt podle názvu.
+og_image_alt: 'Developer guide: select objects by name in Java 3D scene using Aspose.3D'
+og_title: Výběr objektů podle názvu v Java 3D scéně – průvodce Aspose.3D
+schemas:
+- author: Aspose
+  dateModified: '2026-10-03'
+  description: Learn how to **select objects by name** using XPath‑like queries in
+    Aspose.3D for Java and build a 3D scene programmatically.
+  headline: Select objects by name in Java 3D scene – XPath‑like queries with Aspose.3D
+  type: TechArticle
+- description: Learn how to **select objects by name** using XPath‑like queries in
+    Aspose.3D for Java and build a 3D scene programmatically.
+  name: Select objects by name in Java 3D scene – XPath‑like queries with Aspose.3D
+  steps:
+  - name: create a scene for testing
+    text: We start with an empty scene that will host our hierarchy. `
+  - name: build a hierarchy of nodes
+    text: Next, we add a few child nodes under the root node. Some nodes contain a
+      **Camera** or a **Light** entity, which we'll later query. `
+  - name: query objects by traversing the scene graph
+    text: Now the fun part—iterating through the scene to **select objects by name**
+      or type using the `NodeVisitor` pattern. `NodeVisitor` is a built‑in Aspose.3D
+      class that walks the scene graph node‑by‑node, calling your callback for each
+      visited node. It lets you inspect each node’s `Entity` and `Name` wi
+  type: HowTo
+- questions:
+  - answer: The documentation is available **[Aspose.3D Java API reference](https://reference.aspose.com/3d/java/)**.
+    question: Where can I find the Aspose.3D for Java documentation?
+  - answer: You can download it **[Aspose.3D for Java download page](https://releases.aspose.com/3d/java/)**.
+    question: How can I download Aspose.3D for Java?
+  - answer: Yes, you can get a free trial **[Aspose free trial page](https://releases.aspose.com/)**.
+    question: Is there a free trial available?
+  - answer: Visit the support forum **[Aspose 3D support forum](https://forum.aspose.com/c/3d/18)**.
+    question: Where can I get support for Aspose.3D for Java?
+  - answer: Obtain a temporary license **[temporary license request page](https://purchase.aspose.com/temporary-license/)**.
+    question: Need a temporary license?
+  type: FAQPage
 second_title: Aspose.3D Java API
-description: Learn how to **select objects by name** using XPath‑like queries in Aspose.3D for Java and build a 3D scene programmatically.
+tags:
+- select objects by name
+- Aspose.3D
+- Java 3D scene
+- XPath queries
+- 3D programming
+title: Výběr objektů podle názvu v Java 3D scéně – dotazy podobné XPath s Aspose.3D
+url: /cs/java/3d-objects-and-scenes/xpath-like-object-queries/
 weight: 11
-url: /java/3d-objects-and-scenes/xpath-like-object-queries/
-date: 2026-03-31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Select Objects by Name in Java 3D Scene – XPath‑Like Queries with Aspose.3D
+# Vyberte objekty podle názvu ve scéně Java 3D – dotazy podobné XPath s Aspose.3D
 
-## Introduction  
+## Úvod  
 
-If you need to **create 3d scene java** applications that manipulate complex hierarchies of objects, Aspose.3D for Java gives you a clean, XPath‑style way to locate exactly what you need. In this tutorial we’ll walk through building a simple scene, adding a hierarchy of nodes, and then using XPath‑like queries to **select objects by name** (for example, cameras or lights) no matter where they live in the tree. By the end you’ll be comfortable querying, filtering, and retrieving 3‑D entities with just a single expression.
+Pokud potřebujete **vytvářet 3d scénu java** aplikace, které manipulují se složitými hierarchiemi objektů, Aspose.3D for Java vám poskytuje čistý, XPath‑stylový způsob, jak přesně najít to, co potřebujete. V tomto tutoriálu projdeme vytvoření jednoduché scény, přidání hierarchie uzlů a poté použití dotazů podobných XPath k **výběru objektů podle názvu** (například kamer nebo světel), ať už jsou kdekoliv ve stromu. Na konci budete pohodlně dotazovat, filtrovat a získávat 3‑D entity pomocí jediného výrazu.
 
-## Quick Answers
-- **What can I query?** Any node or entity (Camera, Light, Mesh, etc.) in a Scene.  
-- **How do I select objects by type?** Use an XPath‑like expression such as `//*[(@Type='Camera')]`.  
-- **Do I need a license for development?** A free trial works for testing; a license is required for production.  
-- **Which Java version is supported?** Java 8 or later.  
-- **Where can I download Aspose.3D?** From the official download page linked in the prerequisites.
+## Rychlé odpovědi
+- **Co mohu dotazovat?** Jakýkoli uzel nebo entitu (Camera, Light, Mesh, atd.) ve Scéně.  
+- **Jak vybrat objekty podle typu?** Použijte výraz podobný XPath, například `//*[(@Type='Camera')]`.  
+- **Potřebuji licenci pro vývoj?** Bezplatná zkušební verze funguje pro testování; licence je vyžadována pro produkci.  
+- **Jaká verze Javy je podporována?** Java 8 nebo novější.  
+- **Kde mohu stáhnout Aspose.3D?** Na oficiální stránce ke stažení uvedené v předpokladech.
 
-## Why this matters  
+## Co je dotaz podobný XPath v Aspose.3D?  
 
-When you work with 3‑D content, manually walking the scene graph quickly becomes error‑prone and hard to maintain. XPath‑like queries give you a declarative, readable way to locate exactly the objects you need, which speeds up development and reduces bugs—especially in large scenes with dozens or hundreds of nodes.
+Dotaz podobný XPath v Aspose.3D je stručný výraz, který filtruje **A3DObject** instance (uzly, kamery, světla, meshe atd.) přímo proti grafu scény. **A3DObject představuje jakýkoli objekt v grafu scény, jako jsou uzly, kamery, světla nebo meshe.** Funguje jako XML XPath, ale cílí na 3‑D model objektů, což vám umožní najít „všechny kamery“ nebo „objekty, jejichž název je ‘light’“ bez psaní ručního kódu pro procházení.
 
-## What is an XPath‑like query in Aspose.3D?  
+## Proč je to důležité  
 
-Aspose.3D implements a subset of the XPath syntax that works against the scene graph. Instead of XML nodes, the expressions target **A3DObject** instances (nodes, cameras, lights, meshes, etc.). This lets you write expressive filters such as “all cameras” or “objects whose name is ‘light’” without manually traversing the hierarchy.
+Když pracujete s 3‑D obsahem, ruční procházení grafu scény se rychle stává náchylným k chybám a těžko udržovatelným. Dotazy podobné XPath vám poskytují deklarativní, čitelný způsob, jak přesně najít potřebné objekty, což urychluje vývoj a snižuje chyby – zejména ve velkých scénách s desítkami nebo stovkami uzlů. Aspose.3D podporuje **více než 50 vstupních a výstupních formátů** a dokáže zpracovat scény o stovkách stránek, aniž by načítal celý soubor do paměti, což vám poskytuje jak flexibilitu, tak výkon.
 
-## How to select objects by name using XPath‑Like Queries  
+## Jak vybrat objekty podle názvu pomocí dotazů podobných XPath  
 
-Selecting objects by name is as simple as writing an expression that matches the `@Name` attribute. Below we demonstrate several common patterns, including selecting by type and by name together.
+Načtěte objekty podle názvu jedním výrazem, který odpovídá atributu `@Name`. Níže jsou tři běžné vzory:
 
-## Prerequisites  
+1. **Vybrat všechny kamery** – `//*[(@Type='Camera')]`  
+2. **Vybrat uzly pojmenované “light”** – `//*[(@Name='light')]`  
+3. **Kombinovat typ a název** – `//*[(@Type='Camera') or (@Name='light')]`
 
-Before we start, make sure you have:
+Tyto výrazy vrací podkladové entity, takže s nimi můžete pracovat přímo v Javě.
 
-- Java Development Kit (JDK) installed on your machine.  
-- Aspose.3D for Java library downloaded and set up. You can find the download link **[here](https://releases.aspose.com/3d/java/)**.  
-- Basic knowledge of Java programming.  
+## Předpoklady  
 
-## Import Packages  
+Než začneme, ujistěte se, že máte:
 
-First, import the Aspose.3D classes you’ll need. This step makes the library available to your project.
+- Java Development Kit (JDK) nainstalovaný na vašem počítači.  
+- Knihovnu Aspose.3D for Java staženou a nastavenou. Odkaz ke stažení najdete na **[Aspose.3D for Java download page](https://releases.aspose.com/3d/java/)**.  
+- Základní znalosti programování v Javě.  
+
+## Import balíčků  
+
+Nejprve importujte třídy Aspose.3D, které budete potřebovat. Tento krok zpřístupní knihovnu vašemu projektu.
 
 ```java
 import com.aspose.threed.*;
-
+import com.aspose.threed.scene.*;
 import java.util.ArrayList;
 import java.util.List;
 ```
-## Step-by-Step Guide  
 
-### Step 1: Create a Scene for Testing  
+## Průvodce krok za krokem  
 
-We start with an empty scene that will host our hierarchy.
+### Krok 1: vytvořte scénu pro testování  
+
+Začínáme s prázdnou scénou, která bude hostit naši hierarchii.
 
 ````java
 // ExStart:CreateScene
@@ -67,9 +125,9 @@ Scene scene = new Scene();
 // ExEnd:CreateScene
 ````
 
-### Step 2: Build a Hierarchy of Nodes  
+### Krok 2: vytvořte hierarchii uzlů  
 
-Next, we add a few child nodes under the root node. Some nodes contain a **Camera** or a **Light** entity, which we'll later query.
+Dále přidáme několik podřízených uzlů pod kořenový uzel. Některé uzly obsahují entitu **Camera** nebo **Light**, kterou později dotážeme.
 
 ````java
 // ExStart:CreateHierarchy
@@ -83,76 +141,114 @@ c.createChildNode("c2").addEntity(new Light("light"));
 // ExEnd:CreateHierarchy
 ````
 
-### Step 3: Apply XPath-like Queries  
+### Krok 3: dotazujte objekty procházením grafu scény  
 
-Now the fun part—using XPath-style strings to **select objects by name** or type.
+Nyní ta zábavná část — iterace přes scénu k **výběru objektů podle názvu** nebo typu pomocí vzoru `NodeVisitor`.
+
+`NodeVisitor` je vestavěná třída Aspose.3D, která prochází graf scény uzel po uzlu a volá vaši zpětnou funkci pro každý navštívený uzel. Umožňuje vám zkontrolovat `Entity` a `Name` každého uzlu, aniž byste museli psát rekurzivní smyčky.
+
+```
 \u0060\u0060\u0060\u0060java
 // The scene from Step 1
 
-// Select objects that have type Camera or name is \u0027light\u0027 regardless of their location.List<Object> objects = scene.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+// Create a list to store the found objects
+List<Object> objects = new ArrayList<>();
 
-// Select a single camera object under the child nodes of the node named 'c' under the root node
-A3DObject c1 = (A3DObject) scene.getRootNode().selectSingleObject("/c/*/<Camera>");
+// Use a NodeVisitor to traverse the scene graph
+scene.getRootNode().accept(new NodeVisitor() {
+    @Override
+    public boolean call(Node node) {
+        Entity entity = node.getEntity();
+        // Check if the node has a Camera or if the node's name is 'light'
+        if (entity instanceof Camera || "light".equals(node.getName())) {
+            objects.add(entity);
+        }
+        return true;
+    }
+});
 
-// Select the node named 'a1' under the root node, even if 'a1' is not a directly child node
-A3DObject obj = (A3DObject) scene.getRootNode().selectSingleObject("a1");
-
-// Select the node itself, as '/' is selected directly on the root node
-obj = (A3DObject) scene.getRootNode().selectSingleObject("/");// ExEnd:XPathLikeObjectQueries
+// Print the found objects
+for (Object obj : objects) {
+    System.out.println("Found: " + obj);
+}
+// ExEnd:XPathLikeObjectQueries
 \u0060\u0060\u0060
-**Explanation of the key expressions**
+```
 
-- `//*[(@Type = 'Camera') or (@Name = 'light')]` – Finds every object in the scene whose **type** attribute equals `Camera` **or** whose **name** attribute equals `light`. This is a classic example of **select objects by name** (and by type).
-- `/c/*/<Camera>` – Starts at the root, goes to node `c`, then any child (`*`), and finally selects the `<Camera>` entity.
-- `a1` – A shorthand that searches the entire tree for a node named `a1`.
-- `/` – Returns the root node itself.
+**Vysvětlení klíčových výrazů**
 
-### Common Pitfalls & Tips  
+- `//*[(@Type = 'Camera') or (@Name = 'light')]` – Najde každý objekt ve scéně, jehož atribut **type** je `Camera` **nebo** jehož atribut **name** je `light`. Jedná se o klasický příklad **výběru objektů podle názvu** (a také podle typu).  
+- `/c/*/<Camera>` – Začne u kořene, přejde na uzel `c`, pak na libovolné dítě (`*`) a nakonec vybere entitu `<Camera>`.  
+- `a1` – Zkratka, která prohledá celý strom pro uzel pojmenovaný `a1`.  
+- `/` – Vrátí samotný kořenový uzel.
 
-- **Case sensitivity:** Attribute names (`@Type`, `@Name`) are case‑sensitive.  
-- **Entity vs. Node:** Use `<Camera>` syntax only when you need the underlying entity, not just the node.  
-- **Performance:** For very large scenes, narrow the search path (e.g., start from a specific subtree) to improve speed.  
+### Běžné úskalí a tipy  
 
-## Common Issues and Solutions  
+- **Rozlišování velkých a malých písmen:** Názvy atributů (`@Type`, `@Name`) jsou citlivé na velikost písmen.  
+- **Entita vs. uzel:** Používejte syntaxi `<Camera>` pouze tehdy, když potřebujete podkladovou entitu, ne jen uzel.  
+- **Výkon:** U velmi velkých scén zúžte vyhledávací cestu (např. začněte od konkrétního podstromu), aby se zvýšila rychlost.  
 
-| Issue | Reason | Solution |
+## Běžné problémy a řešení  
+
+| Problém | Důvod | Řešení |
 |-------|--------|----------|
-| No results returned | Query string typo or wrong attribute case | Verify `@Name` spelling and case; use exact node names |
-| Unexpected nodes included | Using `//*` searches the whole tree | Restrict the path, e.g., `/c/*` to limit scope |
-| Slow performance on huge scenes | Query runs on the entire graph | Start the query from a known sub‑node instead of the root |
+| Žádné výsledky | Chybný řetězec dotazu nebo špatná velikost písmen atributu | Ověřte pravopis a velikost písmen `@Name`; použijte přesné názvy uzlů |
+| Neočekávané uzly zahrnuty | Použití `//*` prohledává celý strom | Omezte cestu, např. `/c/*`, aby se zúžil rozsah |
+| Pomalejší výkon u obrovských scén | Dotaz běží na celém grafu | Začněte dotaz od známého poduzlu místo kořene |
 
-## Frequently Asked Questions  
+## Často kladené otázky  
 
-**Q: Where can I find the Aspose.3D for Java documentation?**  
-A: The documentation is available **[here](https://reference.aspose.com/3d/java/)**.
+**Q: Kde najdu dokumentaci Aspose.3D for Java?**  
+A: Dokumentace je k dispozici na **[Aspose.3D Java API reference](https://reference.aspose.com/3d/java/)**.
 
-**Q: How can I download Aspose.3D for Java?**  
-A: You can download it **[here](https://releases.aspose.com/3d/java/)**.
+**Q: Jak si mohu stáhnout Aspose.3D for Java?**  
+A: Můžete ji stáhnout na **[Aspose.3D for Java download page](https://releases.aspose.com/3d/java/)**.
 
-**Q: Is there a free trial available?**  
-A: Yes, you can get a free trial **[here](https://releases.aspose.com/)**.
+**Q: Je k dispozici bezplatná zkušební verze?**  
+A: Ano, můžete získat bezplatnou zkušební verzi na **[Aspose free trial page](https://releases.aspose.com/)**.
 
-**Q: Where can I get support for Aspose.3D for Java?**  
-A: Visit the support forum **[here](https://forum.aspose.com/c/3d/18)**.
+**Q: Kde mohu získat podporu pro Aspose.3D for Java?**  
+A: Navštivte fórum podpory **[Aspose 3D support forum](https://forum.aspose.com/c/3d/18)**.
 
-**Q: Need a temporary license?**  
-A: Obtain a temporary license **[here](https://purchase.aspose.com/temporary-license/)**.
+**Q: Potřebuji dočasnou licenci?**  
+A: Dočasnou licenci získáte na **[temporary license request page](https://purchase.aspose.com/temporary-license/)**.
 
-**Q: Can I query custom user‑defined properties?**  
-A: Yes, you can extend the XPath expression with additional `@` attributes that you add to nodes.
+**Q: Mohu dotazovat uživatelem definované vlastnosti?**  
+A: Ano, můžete rozšířit XPath výraz o další `@` atributy, které přidáte k uzlům.
 
-**Q: Does the query engine work with animated scenes?**  
-A: Absolutely – the queries operate on the static hierarchy; animations are attached to the same nodes and are therefore included in the results.
+**Q: Funguje dotazovací engine s animovanými scénami?**  
+A: Rozhodně — dotazy operují na statické hierarchii; animace jsou připojeny ke stejným uzlům a jsou tedy zahrnuty ve výsledcích.
 
-## Conclusion  
+## Závěr  
 
-You now know how to **select objects by name** in Java 3D scenes using XPath‑like queries. This approach scales from simple demos to production‑grade 3‑D applications, giving you fine‑grained control over scene traversal without verbose code.
+Nyní víte, jak **vybrat objekty podle názvu** ve scénách Java 3D pomocí dotazů podobných XPath. Tento přístup škáluje od jednoduchých ukázek po produkční 3‑D aplikace, poskytuje jemnozrnné řízení procházení scény bez zbytečného kódu.
 
 ---
 
-**Last Updated:** 2026-03-31  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose  
+**Poslední aktualizace:** 2026-10-03  
+**Testováno s:** Aspose.3D for Java 24.11  
+**Autor:** Aspose  
+
+
+
+
+
+
+
+
+```java
+import com.aspose.threed.*;
+
+import java.util.ArrayList;
+import java.util.List;
+```
+
+## Související tutoriály
+
+- [Jak použít XPath pro úpravu poloměru koule v Javě s Aspose.3D](/3d/java/3d-objects-and-scenes/)
+- [Číst 3D scény v Javě s Aspose.3D](/3d/java/load-and-save/read-existing-3d-scenes/)
+- [Použít geometrické transformace na uzel pomocí Aspose.3D Java API](/3d/java/geometry/expose-geometric-transformations/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
