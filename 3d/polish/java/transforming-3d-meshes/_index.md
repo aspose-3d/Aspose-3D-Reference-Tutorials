@@ -94,7 +94,7 @@ Wczytaj istniejącą siatkę, zastosuj skalowanie, obrót lub translację za pom
 `Box` reprezentuje prymityw prostokątnego pryzmatu, a `toMesh()` konwertuje go na obiekt siatki.  
 Utwórz instancję prymitywu `Box`, wywołaj jego metodę `toMesh()`, a następnie wyeksportuj siatkę przy użyciu `Scene.save()`. Ta konwersja zamienia prosty kształt geometryczny w pełnoprawną siatkę, którą możesz dalej edytować, teksturować lub animować. Proces wymaga tylko kilku wywołań API i działa dla wszystkich standardowych typów prymitywów.
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Zanurz się w wielokąty 
 [Tworzenie wielokątów w siatkach 3D przy użyciu Aspose.3D](./create-polygons-in-meshes/)
@@ -141,7 +141,7 @@ A: Dokumentacja zawiera przykłady specyficzne dla platformy dla JavaFX, Swing i
 **Testowano z:** Aspose.3D 24.9 for Java  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Powiązane samouczki
 
@@ -149,7 +149,9 @@ A: Dokumentacja zawiera przykłady specyficzne dla platformy dla JavaFX, Swing i
 - [samouczek java 3d graphics – Konkatenacja macierzy Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-matrices/)
 - [Jak tworzyć wielokąty w siatkach 3D – Samouczek Java z Aspose.3D](/3d/java/transforming-3d-meshes/create-polygons-in-meshes/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

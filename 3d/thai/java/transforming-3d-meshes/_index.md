@@ -92,7 +92,7 @@ Aspose.3D รองรับรูปแบบการนำเข้าแล�
 `Box` แทน primitive รูปทรงสี่เหลี่ยมมุมฉาก, และ `toMesh()` แปลงเป็นอ็อบเจกต์เมช.  
 สร้างอินสแตนซ์ของ primitive `Box`, เรียกเมธอด `toMesh()` ของมัน, แล้วส่งออกเมชโดยใช้ `Scene.save()`. การแปลงนี้ทำให้รูปทรงเรขาคณิตง่าย ๆ กลายเป็นเมชเต็มรูปแบบที่คุณสามารถแก้ไข, ใส่เทกเจอร์, หรือทำแอนิเมชันต่อได้. กระบวนการนี้ต้องการเพียงไม่กี่การเรียก API และทำงานกับ primitive มาตรฐานทั้งหมด.
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## สำรวจโพลิกอน 
 [สร้างโพลิกอนในเมช 3D ด้วย Aspose.3D](./create-polygons-in-meshes/)
@@ -139,7 +139,7 @@ A: เอกสารให้ตัวอย่างเฉพาะแพล�
 **ทดสอบด้วย:** Aspose.3D 24.9 for Java  
 **ผู้เขียน:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## บทแนะนำที่เกี่ยวข้อง
 
@@ -147,7 +147,9 @@ A: เอกสารให้ตัวอย่างเฉพาะแพล�
 - [บทแนะนำกราฟิก 3 มิติ Java – รวมเมทริกซ์ Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-matrices/)
 - [วิธีสร้างโพลิกอนในเมช 3D – บทแนะนำ Java กับ Aspose.3D](/3d/java/transforming-3d-meshes/create-polygons-in-meshes/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

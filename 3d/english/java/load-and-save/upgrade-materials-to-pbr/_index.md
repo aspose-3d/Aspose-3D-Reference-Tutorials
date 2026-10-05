@@ -177,9 +177,9 @@ By following the steps above, you now know **how to upgrade 3d materials pbr** u
 
 ## Related Tutorials
 
-- [Create 3D Cube Java and Apply PBR Materials with Aspose.3D]({{< relref "3d/java/geometry/_index.md" >}})
-- [Create 3D Document Java – Working with 3D Files (Create, Load, Save & Convert)]({{< relref "3d/java/load-and-save/_index.md" >}})
-- [Save Rendered 3D Scenes to Image Files with Aspose.3D for Java]({{< relref "3d/java/rendering-3d-scenes/render-to-file/_index.md" >}})
+- [Create 3D Cube Java and Apply PBR Materials with Aspose.3D]({{< relref "/java/geometry/" >}})
+- [Create 3D Document Java – Working with 3D Files (Create, Load, Save & Convert)]({{< relref "/java/load-and-save/" >}})
+- [Save Rendered 3D Scenes to Image Files with Aspose.3D for Java]({{< relref "/java/rendering-3d-scenes/render-to-file/" >}})
 
 
 

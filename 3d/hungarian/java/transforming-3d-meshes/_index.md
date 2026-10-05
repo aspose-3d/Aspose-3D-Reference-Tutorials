@@ -93,7 +93,7 @@ Töltsön be egy meglévő hálót, alkalmazzon méretezést, forgást vagy elto
 `Box` egy téglalap‑prizmát ábrázoló primitív, és a `toMesh()` átalakítja háló objektummá.  
 Hozzon létre egy `Box` primitívet, hívja meg a `toMesh()` metódusát, majd exportálja a hálót a `Scene.save()` segítségével. Ez a konverzió egy egyszerű geometriai alakzatot teljes értékű hálóvá alakít, amelyet tovább szerkeszthet, textúrázhat vagy animálhat. A folyamat csak néhány API hívást igényel, és minden szabványos primitív típusra működik.
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Merüljön el a poligonokban
 [Poligonok létrehozása 3D hálókban az Aspose.3D segítségével](./create-polygons-in-meshes/)
@@ -140,7 +140,7 @@ A: A dokumentáció platform‑specifikus példákat tartalmaz a JavaFX, Swing �
 **Tesztelve ezzel:** Aspose.3D 24.9 for Java  
 **Szerző:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Kapcsolódó oktatóanyagok
 
@@ -148,7 +148,9 @@ A: A dokumentáció platform‑specifikus példákat tartalmaz a JavaFX, Swing �
 - [java 3d grafikai útmutató – Mátrixok összefűzése Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-matrices/)
 - [Poligonok létrehozása 3D hálókban – Java oktatóanyag az Aspose.3D‑vel](/3d/java/transforming-3d-meshes/create-polygons-in-meshes/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

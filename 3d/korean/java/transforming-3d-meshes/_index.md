@@ -92,7 +92,7 @@ Aspose.3D는 **30개 이상**의 입력 및 출력 포맷을 지원합니다—O
 `Box`는 직육면체 프리미티브를 나타내며, `toMesh()`는 이를 메쉬 객체로 변환합니다.  
 `Box` 프리미티브를 인스턴스화하고 `toMesh()` 메서드를 호출한 뒤 `Scene.save()`를 사용해 메쉬를 내보냅니다. 이 변환은 단순한 기하학적 형태를 완전한 메쉬로 바꾸어 추가 편집, 텍스처링 또는 애니메이션이 가능하게 합니다. 이 과정은 몇 번의 API 호출만으로 수행되며 모든 표준 프리미티브 타입에 적용됩니다.
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 폴리곤 탐구
 [Aspose.3D를 사용하여 3D 메쉬에서 폴리곤 만들기](./create-polygons-in-meshes/)
@@ -139,7 +139,7 @@ A: 문서에는 JavaFX, Swing, Android용 플랫폼별 예제가 제공되어 �
 **테스트 환경:** Aspose.3D 24.9 for Java  
 **작성자:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## 관련 튜토리얼
 
@@ -148,5 +148,8 @@ A: 문서에는 JavaFX, Swing, Android용 플랫폼별 예제가 제공되어 �
 - [3D 메쉬에서 폴리곤 만들기 – Aspose.3D와 Java 튜토리얼](/3d/java/transforming-3d-meshes/create-polygons-in-meshes/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

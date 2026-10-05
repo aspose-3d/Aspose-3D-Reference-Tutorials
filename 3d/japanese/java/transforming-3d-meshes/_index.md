@@ -96,7 +96,7 @@ Aspose.3D は **30+** の入出力フォーマット（OBJ、STL、FBX、GLTF �
 `Box` は長方形プリズムのプリミティブを表し、`toMesh()` はそれをメッシュオブジェクトに変換します。  
 `Box` プリミティブをインスタンス化し、`toMesh()` メソッドを呼び出し、`Scene.save()` でメッシュをエクスポートします。この変換により、単純な幾何形状が完全なメッシュに変わり、さらに編集、テクスチャ付け、アニメーションが可能になります。プロセスは数回の API 呼び出しだけで済み、すべての標準プリミティブタイプで機能します。
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## ポリゴンに取り組む
 [Aspose.3D で 3D メッシュにポリゴンを作成](./create-polygons-in-meshes/)
@@ -143,7 +143,7 @@ A: ドキュメントには JavaFX、Swing、Android 向けのプラットフォ
 **テスト環境:** Aspose.3D 24.9 for Java  
 **作者:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## 関連チュートリアル
 
@@ -151,7 +151,9 @@ A: ドキュメントには JavaFX、Swing、Android 向けのプラットフォ
 - [java 3d graphics tutorial – 行列の連結 Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-matrices/)
 - [3D メッシュでポリゴンを作成する方法 – Aspose.3D を使用した Java チュートリアル](/3d/java/transforming-3d-meshes/create-polygons-in-meshes/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

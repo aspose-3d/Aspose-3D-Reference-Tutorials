@@ -88,7 +88,7 @@ Aspose.3D 支持 **30+** 输入和输出格式——包括 OBJ、STL、FBX、GLT
 ## 如何将 Box 转换为 Mesh？
 `Box` 表示矩形棱柱原语，`toMesh()` 将其转换为网格对象。实例化 `Box` 原语，调用其 `toMesh()` 方法，然后使用 `Scene.save()` 导出网格。此转换将简单几何形状变为完整的网格，您可以进一步编辑、贴图或动画化。仅需几次 API 调用，适用于所有标准原语类型。
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 深入多边形 
 [Create Polygons in 3D Meshes with Aspose.3D](./create-polygons-in-meshes/)
@@ -135,7 +135,7 @@ Aspose.3D 支持 **30+** 输入和输出格式——包括 OBJ、STL、FBX、GLT
 **测试环境：** Aspose.3D 24.9 for Java  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## 相关教程
 
@@ -143,7 +143,9 @@ Aspose.3D 支持 **30+** 输入和输出格式——包括 OBJ、STL、FBX、GLT
 - [java 3d graphics tutorial – Concatenate Matrices Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-matrices/)
 - [How to Create Polygons in 3D Meshes – Java Tutorial with Aspose.3D](/3d/java/transforming-3d-meshes/create-polygons-in-meshes/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

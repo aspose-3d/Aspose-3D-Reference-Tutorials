@@ -92,7 +92,7 @@ Muat mesh yang sudah ada, terapkan skala, rotasi, atau translasi melalui metode 
 `Box` mewakili primitive prisma‑persegi panjang, dan `toMesh()` mengubahnya menjadi objek mesh.  
 Buat instance primitive `Box`, panggil metode `toMesh()`‑nya, lalu ekspor mesh menggunakan `Scene.save()`. Konversi ini mengubah bentuk geometris sederhana menjadi mesh lengkap yang dapat Anda edit, beri tekstur, atau animasikan lebih lanjut. Proses ini hanya memerlukan beberapa panggilan API dan bekerja untuk semua tipe primitive standar.
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Menyelami Poligon 
 [Buat Poligon dalam Mesh 3D dengan Aspose.3D](./create-polygons-in-meshes/)
@@ -139,7 +139,7 @@ A: Dokumentasi menyediakan contoh khusus platform untuk JavaFX, Swing, dan Andro
 **Diuji Dengan:** Aspose.3D 24.9 for Java  
 **Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Tutorial Terkait
 
@@ -148,5 +148,8 @@ A: Dokumentasi menyediakan contoh khusus platform untuk JavaFX, Swing, dan Andro
 - [Cara Membuat Poligon dalam Mesh 3D – Tutorial Java dengan Aspose.3D](/3d/java/transforming-3d-meshes/create-polygons-in-meshes/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
