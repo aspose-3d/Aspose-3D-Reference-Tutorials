@@ -92,7 +92,7 @@ Aspose.3D **30+** इनपुट और आउटपुट फ़ॉर्म�
 `Box` एक आयताकार‑प्रिज़्म प्रिमिटिव को दर्शाता है, और `toMesh()` इसे मेष ऑब्जेक्ट में बदलता है।  
 एक `Box` प्रिमिटिव का इंस्टेंस बनाएं, उसके `toMesh()` मेथड को कॉल करें, और फिर `Scene.save()` का उपयोग करके मेष को एक्सपोर्ट करें। यह परिवर्तन एक साधारण ज्यामितीय आकार को पूर्ण मेष में बदल देता है जिसे आप आगे संपादित, टेक्सचर या एनीमेट कर सकते हैं। प्रक्रिया में केवल कुछ API कॉल्स की आवश्यकता होती है और यह सभी मानक प्रिमिटिव प्रकारों के लिए काम करता है।
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## बहुभुजों में डुबकी 
 [ Aspose.3D के साथ 3D मेष में बहुभुज बनाना ](./create-polygons-in-meshes/)
@@ -139,7 +139,7 @@ A: दस्तावेज़ीकरण JavaFX, Swing, और Android के 
 **परीक्षित संस्करण:** Aspose.3D 24.9 for Java  
 **लेखक:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## संबंधित ट्यूटोरियल्स
 
@@ -147,7 +147,9 @@ A: दस्तावेज़ीकरण JavaFX, Swing, और Android के 
 - [java 3d graphics tutorial – मैट्रिसेज़ को जोड़ें Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-matrices/)
 - [3D मेष में बहुभुज कैसे बनाएं – Aspose.3D के साथ जावा ट्यूटोरियल](/3d/java/transforming-3d-meshes/create-polygons-in-meshes/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

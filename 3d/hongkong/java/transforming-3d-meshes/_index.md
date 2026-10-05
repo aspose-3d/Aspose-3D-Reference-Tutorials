@@ -90,7 +90,7 @@ Aspose.3D 支援 **30+** 種輸入與輸出格式，包括 OBJ、STL、FBX 與 G
 `Box` 代表矩形棱柱基元，`toMesh()` 可將其轉換為網格物件。  
 建立一個 `Box` 基元，呼叫其 `toMesh()` 方法，然後使用 `Scene.save()` 匯出網格。此轉換將簡單的幾何形狀變為完整的網格，您可進一步編輯、貼圖或動畫化。此過程僅需少量 API 呼叫，且適用於所有標準基元類型。
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 探索多邊形 
 [使用 Aspose.3D 建立 3D 網格多邊形](./create-polygons-in-meshes/)
@@ -137,7 +137,7 @@ A: 文件中提供針對 JavaFX、Swing 與 Android 的平台特定範例，示�
 **測試環境：** Aspose.3D 24.9 for Java  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## 相關教學
 
@@ -145,7 +145,9 @@ A: 文件中提供針對 JavaFX、Swing 與 Android 的平台特定範例，示�
 - [java 3d graphics tutorial – 連接矩陣 Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-matrices/)
 - [如何在 3D 網格中建立多邊形 – Java 教學與 Aspose.3D](/3d/java/transforming-3d-meshes/create-polygons-in-meshes/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

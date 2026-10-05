@@ -92,7 +92,7 @@ weight: 31
 `Box` يمثل الشكل الأولي المستطيل‑المقعر، وتقوم `toMesh()` بتحويله إلى كائن شبكة.  
 أنشئ كائنًا من النوع `Box`، استدعِ طريقة `toMesh()` الخاصة به، ثم صدّر الشبكة باستخدام `Scene.save()`. يتحول هذا التحويل الشكل الهندسي البسيط إلى شبكة كاملة يمكنك تعديلها، وإضافة القوام، أو تحريكها. العملية تتطلب بضع نداءات API فقط وتعمل مع جميع الأنواع الأولية القياسية.
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## الغوص في المضلعات 
 [إنشاء مضلعات في شبكات 3D باستخدام Aspose.3D](./create-polygons-in-meshes/)
@@ -138,7 +138,7 @@ weight: 31
 **تم الاختبار مع:** Aspose.3D 24.9 for Java  
 **المؤلف:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## دروس ذات صلة
 
@@ -147,5 +147,8 @@ weight: 31
 - [كيفية إنشاء مضلعات في شبكات 3D – دليل Java مع Aspose.3D](/3d/java/transforming-3d-meshes/create-polygons-in-meshes/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

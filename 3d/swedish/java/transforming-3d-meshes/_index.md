@@ -92,7 +92,7 @@ Läs in en befintlig mesh, applicera skalning, rotation eller translation via `M
 `Box` representerar en rektangulär prisma‑primitiv, och `toMesh()` konverterar den till ett mesh‑objekt.  
 Instansiera en `Box`‑primitiv, anropa dess `toMesh()`‑metod och exportera sedan meshen med `Scene.save()`. Denna konvertering förvandlar en enkel geometrisk form till en fullständig mesh som du kan redigera, texturera eller animera vidare. Processen kräver bara några få API‑anrop och fungerar för alla standardprimitiva typer.
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Fördjupa dig i polygoner 
 [Skapa polygoner i 3D-meshar med Aspose.3D](./create-polygons-in-meshes/)
@@ -139,7 +139,7 @@ A: Dokumentationen innehåller plattforms‑specifika exempel för JavaFX, Swing
 **Testad med:** Aspose.3D 24.9 for Java  
 **Författare:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Relaterade handledningar
 
@@ -147,7 +147,9 @@ A: Dokumentationen innehåller plattforms‑specifika exempel för JavaFX, Swing
 - [java 3d graphics tutorial – Sammanfoga matriser Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-matrices/)
 - [Hur man skapar polygoner i 3D-meshar – Java‑handledning med Aspose.3D](/3d/java/transforming-3d-meshes/create-polygons-in-meshes/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

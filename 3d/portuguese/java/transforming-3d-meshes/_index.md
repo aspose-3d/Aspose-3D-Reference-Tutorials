@@ -92,7 +92,7 @@ Carregue uma malha existente, aplique escala, rotação ou translação via o m�
 `Box` representa uma primitiva de prisma retangular, e `toMesh()` a converte em um objeto mesh.  
 Instancie uma primitiva `Box`, chame seu método `toMesh()` e então exporte a malha usando `Scene.save()`. Essa conversão transforma uma forma geométrica simples em uma malha completa que você pode editar, texturizar ou animar. O processo requer apenas algumas chamadas de API e funciona para todos os tipos de primitivas padrão.
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Mergulhe em Polígonos 
 [Criar Polígonos em Malhas 3D com Aspose.3D](./create-polygons-in-meshes/)
@@ -139,7 +139,7 @@ A: A documentação fornece exemplos específicos por plataforma para JavaFX, Sw
 **Testado com:** Aspose.3D 24.9 for Java  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Tutoriais Relacionados
 
@@ -147,7 +147,9 @@ A: A documentação fornece exemplos específicos por plataforma para JavaFX, Sw
 - [Tutorial de Gráficos 3D Java – Concatenar Matrizes Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-matrices/)
 - [Como Criar Polígonos em Malhas 3D – Tutorial Java com Aspose.3D](/3d/java/transforming-3d-meshes/create-polygons-in-meshes/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -168,9 +168,9 @@ Congratulations! You now know how to **read 3d scene java** files using Aspose.3
 
 ## Related Tutorials
 
-- convert 3d file java – Save 3D Scenes with Aspose.3D ({{< relref "3d/java/load-and-save/save-3d-scenes/_index.md" >}})
-- How to Read 3D Files in Java with Aspose.3D ({{< relref "3d/java/load-and-save/detect-3d-file-formats/_index.md" >}})
-- Save Rendered 3D Scenes to Image Files with Aspose.3D for Java ({{< relref "3d/java/rendering-3d-scenes/render-to-file/_index.md" >}})
+- convert 3d file java – Save 3D Scenes with Aspose.3D ({{< relref "/java/load-and-save/save-3d-scenes/" >}})
+- How to Read 3D Files in Java with Aspose.3D ({{< relref "/java/load-and-save/detect-3d-file-formats/" >}})
+- Save Rendered 3D Scenes to Image Files with Aspose.3D for Java ({{< relref "/java/rendering-3d-scenes/render-to-file/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

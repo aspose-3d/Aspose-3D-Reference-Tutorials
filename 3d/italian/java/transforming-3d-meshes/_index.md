@@ -92,7 +92,7 @@ Carica una mesh esistente, applica scaling, rotazione o traslazione tramite il m
 `Box` rappresenta un primitivo a prisma rettangolare, e `toMesh()` lo converte in un oggetto mesh.  
 Istanzia un primitivo `Box`, chiama il suo metodo `toMesh()` e poi esporta la mesh usando `Scene.save()`. Questa conversione trasforma una semplice forma geometrica in una mesh completa che puoi modificare ulteriormente, texturizzare o animare. Il processo richiede solo poche chiamate API e funziona per tutti i tipi di primitivi standard.
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Immergiti nei Poligoni 
 [Create Polygons in 3D Meshes with Aspose.3D](./create-polygons-in-meshes/)
@@ -139,7 +139,7 @@ Che tu sia uno sviluppatore esperto o alle prime armi, i nostri tutorial Aspose.
 **Testato Con:** Aspose.3D 24.9 for Java  
 **Autore:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Tutorial Correlati
 
@@ -147,7 +147,9 @@ Che tu sia uno sviluppatore esperto o alle prime armi, i nostri tutorial Aspose.
 - [tutorial di grafica 3d java – Concatenare Matrici Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-matrices/)
 - [Come Creare Poligoni in Mesh 3D – Tutorial Java con Aspose.3D](/3d/java/transforming-3d-meshes/create-polygons-in-meshes/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

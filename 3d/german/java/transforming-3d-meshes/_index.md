@@ -92,7 +92,7 @@ Laden Sie ein vorhandenes Mesh, wenden Sie Skalierung, Rotation oder Translation
 `Box` stellt ein rechteckiges Primitiv dar, und `toMesh()` konvertiert es in ein Mesh‑Objekt.  
 Instanziieren Sie ein `Box`‑Primitiv, rufen Sie dessen `toMesh()`‑Methode auf und exportieren Sie das Mesh anschließend mit `Scene.save()`. Diese Konvertierung verwandelt eine einfache geometrische Form in ein vollwertiges Mesh, das Sie weiter bearbeiten, texturieren oder animieren können. Der Vorgang erfordert nur wenige API‑Aufrufe und funktioniert für alle gängigen Primitive.
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Eintauchen in Polygone 
 [Polygone in 3D‑Meshes mit Aspose.3D erstellen](./create-polygons-in-meshes/)
@@ -139,7 +139,7 @@ A: Die Dokumentation liefert plattformspezifische Beispiele für JavaFX, Swing u
 **Getestet mit:** Aspose.3D 24.9 für Java  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Verwandte Tutorials
 
@@ -147,7 +147,9 @@ A: Die Dokumentation liefert plattformspezifische Beispiele für JavaFX, Swing u
 - [Java 3D‑Grafik‑Tutorial – Matrizen verketten Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-matrices/)
 - [Wie man Polygone in 3D‑Meshes erstellt – Java‑Tutorial mit Aspose.3D](/3d/java/transforming-3d-meshes/create-polygons-in-meshes/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

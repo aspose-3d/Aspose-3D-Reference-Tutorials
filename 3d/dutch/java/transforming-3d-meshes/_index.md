@@ -92,7 +92,7 @@ Load an existing mesh, apply scaling, rotation, or translation via the `Mesh` ob
 `Box` represents a rectangular‑prism primitive, and `toMesh()` converts it into a mesh object.  
 Instantiate a `Box` primitive, call its `toMesh()` method, and then export the mesh using `Scene.save()`. This conversion turns a simple geometric shape into a fully fledged mesh that you can further edit, texture, or animate. The process requires only a few API calls and works for all standard primitive types.
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Duik in polygonen 
 [Polygonen maken in 3D‑meshes met Aspose.3D](./create-polygons-in-meshes/)
@@ -139,7 +139,7 @@ A: De documentatie biedt platformspecifieke voorbeelden voor JavaFX, Swing en An
 **Tested With:** Aspose.3D 24.9 for Java  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Gerelateerde tutorials
 
@@ -147,7 +147,9 @@ A: De documentatie biedt platformspecifieke voorbeelden voor JavaFX, Swing en An
 - [java 3d graphics tutorial – Concatenate Matrices Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-matrices/)
 - [How to Create Polygons in 3D Meshes – Java Tutorial with Aspose.3D](/3d/java/transforming-3d-meshes/create-polygons-in-meshes/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

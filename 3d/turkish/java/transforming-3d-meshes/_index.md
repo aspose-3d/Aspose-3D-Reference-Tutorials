@@ -93,7 +93,7 @@ Mevcut bir mesh'i yükleyin, `Mesh` nesnesinin `Transform` yöntemiyle ölçekle
 `Box`, dikdörtgen prizma primitifini temsil eder ve `toMesh()` onu bir mesh nesnesine dönüştürür.  
 Bir `Box` primitifini örnekleyin, `toMesh()` metodunu çağırın ve ardından mesh'i `Scene.save()` ile dışa aktarın. Bu dönüşüm, basit bir geometrik şekli tamamen işlevsel bir mesh'e çevirir; böylece daha fazla düzenleme, doku ekleme veya animasyon yapabilirsiniz. İşlem sadece birkaç API çağrısı gerektirir ve tüm standart primitif tipleri için çalışır.
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Poligonlara Dalın 
 [Aspose.3D ile 3D Mesh'lerde Poligon Oluşturma](./create-polygons-in-meshes/)
@@ -140,7 +140,7 @@ A: Dokümantasyon, JavaFX, Swing ve Android için platforma özgü örnekler sun
 **Test Edilen:** Aspose.3D 24.9 for Java  
 **Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## İlgili Öğreticiler
 
@@ -149,5 +149,8 @@ A: Dokümantasyon, JavaFX, Swing ve Android için platforma özgü örnekler sun
 - [3D Mesh'lerde Poligon Oluşturma – Aspose.3D ile Java Öğreticisi](/3d/java/transforming-3d-meshes/create-polygons-in-meshes/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

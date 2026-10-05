@@ -92,7 +92,7 @@ Tải một lưới hiện có, áp dụng phép co giãn, quay hoặc dịch ch
 `Box` đại diện cho một primitive dạng khối chữ nhật, và `toMesh()` chuyển nó thành một đối tượng lưới.  
 Khởi tạo một primitive `Box`, gọi phương thức `toMesh()` của nó, sau đó xuất lưới bằng `Scene.save()`. Quá trình chuyển đổi này biến một hình học đơn giản thành một lưới đầy đủ mà bạn có thể tiếp tục chỉnh sửa, tạo texture hoặc hoạt hình. Quá trình chỉ cần một vài lời gọi API và hoạt động cho tất cả các loại primitive tiêu chuẩn.
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Khám phá Đa giác 
 [Create Polygons in 3D Meshes with Aspose.3D](./create-polygons-in-meshes/)
@@ -139,7 +139,7 @@ A: Tài liệu cung cấp các ví dụ riêng cho từng nền tảng cho JavaF
 **Kiểm tra với:** Aspose.3D 24.9 for Java  
 **Tác giả:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Các hướng dẫn liên quan
 
@@ -148,5 +148,8 @@ A: Tài liệu cung cấp các ví dụ riêng cho từng nền tảng cho JavaF
 - [How to Create Polygons in 3D Meshes – Java Tutorial with Aspose.3D](/3d/java/transforming-3d-meshes/create-polygons-in-meshes/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -92,7 +92,7 @@ Načtěte existující síť, aplikujte škálování, rotaci nebo translaci pom
 `Box` představuje primitivní pravoúhlý hranol a `toMesh()` jej převádí na objekt sítě.  
 Vytvořte instanci primitivu `Box`, zavolejte jeho metodu `toMesh()` a poté exportujte síť pomocí `Scene.save()`. Tento převod změní jednoduchý geometrický tvar na plnohodnotnou síť, kterou můžete dále upravovat, texturovat nebo animovat. Proces vyžaduje jen několik volání API a funguje pro všechny standardní typy primitiv.
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Ponořte se do polygonů 
 [Create Polygons in 3D Meshes with Aspose.3D](./create-polygons-in-meshes/)
@@ -139,7 +139,7 @@ A: Dokumentace poskytuje platformově specifické příklady pro JavaFX, Swing a
 **Tested With:** Aspose.3D 24.9 for Java  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Související tutoriály
 
@@ -147,7 +147,9 @@ A: Dokumentace poskytuje platformově specifické příklady pro JavaFX, Swing a
 - [java 3d graphics tutorial – Spojování matic Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-matrices/)
 - [Jak vytvořit polygony v 3D sítích – Java tutoriál s Aspose.3D](/3d/java/transforming-3d-meshes/create-polygons-in-meshes/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
