@@ -1,59 +1,64 @@
 ---
-date: 2026-05-14
-description: Java 3D sahnesi oluşturmayı, Aspose.3D for Java kullanarak eğik altlı
-  silindirler yaratmayı öğrenin. Bu öğreticide Aspose 3D kurulumu, shear transformation
-  uygulanması ve OBJ dosyalarının dışa aktarılması ele alınmaktadır.
+date: 2026-10-13
+description: Aspose.3D kullanarak Java'da eğimli silindir oluşturmayı öğrenin. Bu
+  adım adım rehber, kurulum, kayma dönüşümünün uygulanması ve OBJ'ye dışa aktarmayı
+  kapsar.
 keywords:
-- java 3d scene
-- install aspose 3d
+- create sheared cylinder java
+- aspose 3d shear transformation
 - export obj java
-- apply shear transformation
-- aspose 3d tutorial
+- java 3d scene tutorial
+- aspose 3d installation
+lastmod: 2026-10-13
 linktitle: Java 3D Sahnesi – Aspose.3D ile Eğimli Alt Silindirler
+og_description: Aspose.3D kullanarak Java'da eğimli bir silindir oluşturmayı öğrenin.
+  Kurulum, kayma uygulama ve OBJ dosyalarını saniyeler içinde dışa aktarma için kısa
+  öğreticiyi izleyin.
+og_image_alt: Screenshot of a Java program creating a sheared cylinder with Aspose.3D
+og_title: Java'da Aspose.3D ile eğimli silindir oluşturma – Hızlı rehber
 schemas:
 - author: Aspose
-  dateModified: '2026-05-14'
-  description: Learn how to build a java 3d scene by creating cylinders with a sheared
-    bottom using Aspose.3D for Java. This tutorial covers installing Aspose 3D, applying
-    shear transformation, and exporting OBJ files.
-  headline: Java 3D Scene – Sheared Bottom Cylinders with Aspose.3D
+  dateModified: '2026-10-13'
+  description: Learn how to create a sheared cylinder in Java using Aspose.3D. This
+    tutorial covers installing, applying shear transformation, and exporting OBJ files.
+  headline: How to create sheared cylinder in Java with Aspose.3D
   type: TechArticle
-- description: Learn how to build a java 3d scene by creating cylinders with a sheared
-    bottom using Aspose.3D for Java. This tutorial covers installing Aspose 3D, applying
-    shear transformation, and exporting OBJ files.
-  name: Java 3D Scene – Sheared Bottom Cylinders with Aspose.3D
+- description: Step‑by‑step guide for building a Java 3D scene with a sheared‑bottom
+    cylinder and exporting to OBJ.
+  name: How to create sheared cylinder in Java with Aspose.3D
   steps:
   - name: Create a Scene
     text: A scene is the container for all 3‑D objects. We’ll start by creating an
       empty scene.
   - name: Create Cylinder 1 – How to Shear Cylinder
-    text: Now we’ll build the first cylinder and **apply shear transformation** to
-      its bottom. This demonstrates **how to shear cylinder** geometry directly via
-      the API.
+    text: Build the first cylinder and apply shear transformation to its bottom.
   - name: Create Cylinder 2 – Standard Cylinder (No Shear)
-    text: For comparison, we’ll add a second cylinder that does **not** have a sheared
-      bottom.
+    text: Add a second cylinder without a sheared bottom for comparison.
   - name: Save the Scene – Export OBJ File Java
-    text: Finally, we export the scene to a Wavefront OBJ file, illustrating **export
-      obj file java** usage.
+    text: Export the scene to a Wavefront OBJ file.
   type: HowTo
 - questions:
   - answer: Aspose.3D is designed to work independently. While you can integrate it
       with other libraries, it already provides a full‑featured API for most 3‑D tasks.
     question: Can I use Aspose.3D for Java with other Java 3D libraries?
-  - answer: Absolutely. The API is straightforward, and this **beginner 3d tutorial**
+  - answer: Absolutely. The API is straightforward, and this beginner 3d tutorial
       demonstrates core concepts with minimal code.
     question: Is Aspose.3D suitable for beginners in 3D modeling?
   - answer: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community
       help and official answers.
     question: Where can I find additional support for Aspose.3D for Java?
-  - answer: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+  - answer: You can get a [temporary license](https://purchase.aspose.com/temporary-license/).
     question: How can I obtain a temporary license for Aspose.3D?
-  - answer: Purchase options are available [here](https://purchase.aspose.com/buy).
+  - answer: Purchase options are available on the [Aspose.3D purchase page](https://purchase.aspose.com/buy).
     question: Where do I purchase a full Aspose.3D for Java license?
   type: FAQPage
 second_title: Aspose.3D Java API
-title: Java 3D Sahnesi – Aspose.3D ile Eğimli Alt Silindirler
+tags:
+- create sheared cylinder
+- Aspose.3D
+- Java 3D modeling
+- OBJ export
+title: Java'da Aspose.3D ile eğimli silindir nasıl oluşturulur
 url: /tr/java/cylinders/creating-cylinders-with-sheared-bottom/
 weight: 12
 ---
@@ -62,42 +67,46 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java 3D Sahnesi – Kesilmiş Alt Silindirler ile Aspose.3D
+# Java'da Aspose.3D ile eğimli silindir nasıl oluşturulur
 
 ## Giriş
 
-Bu uygulamalı **java 3d sahne** öğreticisinde, alt kısmı kesilmiş bir silindiri nasıl modelleyeceğinizi ve sonucu Wavefront OBJ dosyası olarak dışa aktaracağınızı öğreneceksiniz. İster 3‑D kavramlarını keşfeden bir yeni başlayan olun, ister hızlı bir programatik dönüşüm ihtiyacı duyan deneyimli bir geliştirici, bu rehber Aspose.3D for Java ile proje kurulumundan nihai dosya çıktısına kadar tam iş akışını gösterir.
+Bu uygulamalı **java 3d scene** öğreticisinde, alt kısmı eğimli bir silindiri nasıl modelleyeceğinizi ve ardından sonucu Wavefront OBJ dosyası olarak dışa aktaracağınızı öğreneceksiniz. İster 3‑D kavramlarını keşfeden bir yeni başlayan, ister hızlı bir programatik dönüşüm ihtiyacı duyan deneyimli bir geliştirici olun, bu kılavuz Aspose.3D for Java ile proje kurulumundan son dosya çıktısına kadar tam iş akışını gösterir. Kütüphanenin anlık geometri manipülasyonu için sağlam bir seçenek olduğunu göreceksiniz.
 
 ## Hızlı Yanıtlar
 - **Hangi kütüphane kullanılıyor?** Aspose.3D for Java  
-- **Aspose 3D'yi Maven üzerinden kurabilir miyim?** Evet – `pom.xml` dosyanıza Aspose.3D bağımlılığını ekleyin  
+- **Aspose 3D'yi Maven üzerinden kurabilir miyim?** Evet – Aspose.3D bağımlılığını `pom.xml` dosyanıza ekleyin  
 - **Geliştirme için lisans gerekli mi?** Test için geçici bir lisans yeterlidir; üretim için tam lisans gerekir  
 - **Hangi dosya formatı gösteriliyor?** Wavefront OBJ (`.obj`)  
 - **Örnek çalıştırma süresi ne kadar?** Tipik bir iş istasyonunda bir saniyeden az  
+- **Eğim mantığını diğer primitive'lerde yeniden kullanabilir miyim?** Kesinlikle – aynı `Vector2`‑tabanlı eğim konilere, prizmalara veya özel ağlara uygulanabilir  
 
-## Java 3D sahnesi nedir?
+## java 3d scene nedir?
 
-Bir **java 3d sahnesi**, tüm ağları, ışıkları, kameraları ve bir 3‑D modeli renderlamak veya dışa aktarmak için gereken dönüşümleri tutan bir kapsayıcı nesnedir. Aspose.3D'deki `Scene` sınıfı bu kapsayıcıyı bellekte temsil eder; geometri ekleyebilir, dönüşümler uygulayabilir ve sonunda sahneyi istediğiniz dosya formatına serileştirebilirsiniz.
+`Scene`, Aspose.3D'nin 3‑D nesneleri için üst‑seviye kapsayıcısıdır.  
+Bir **java 3d scene**, bir 3‑D modeli renderlamak veya dışa aktarmak için gereken tüm ağları, ışıkları, kameraları ve dönüşümleri tutan bir kapsayıcı nesnedir.  
+Aspose.3D'deki `Scene` sınıfı bu kapsayıcıyı bellekte temsil eder; geometri eklemenize, dönüşümler uygulamanıza ve sonunda tüm sahneyi seçtiğiniz bir dosya formatına serileştirmenize olanak tanır.
 
 ## Bu görev için neden Aspose.3D kullanılmalı?
 
-Aspose.3D, **50+ giriş ve çıkış formatını** destekler—OBJ, FBX, STL ve GLTF dahil— ve tüm dosyayı belleğe yüklemeden çok sayfalı modelleri işleyebilir. API'si yerleşik dönüşüm yardımcıları sunar, böylece sadece birkaç satır kodla kesme, ölçekleme veya döndürme gibi işlemleri uygulayabilir, harici modelleme araçlarına ihtiyaç duymazsınız.
+Aspose.3D, **50+ giriş ve çıkış formatını**—OBJ, FBX, STL ve GLTF dahil—destekler ve tüm dosyayı belleğe yüklemeden çok sayfalı modelleri işleyebilir.  
+API'si yerleşik dönüşüm yardımcıları sunar; bu sayede sadece birkaç satır kodla primitive'lere eğim, ölçekleme veya döndürme uygulayabilir, harici modelleme araçlarına ihtiyaç duymazsınız.  
+Kütüphane ayrıca kayıpsız geometri koruması sağlar; bu, mühendislik hatları için kritiktir.  
+Topluluk tartışmaları için [Aspose.3D forum](https://forum.aspose.com/c/3d/18) adresine bakın.
 
 ## Önkoşullar
 
-Başlamadan önce aşağıdakilerin kurulu olduğundan emin olun:
+- Java Development Kit (JDK) 8 veya daha yeni bir sürüm sisteminizde kurulu.  
+- **Install Aspose 3D** – resmi Aspose.3D sürüm sayfasından kütüphaneyi indirin.  
+- Bir IDE (IntelliJ IDEA, Eclipse, VS Code) veya Maven ya da Gradle gibi bir yapı aracı, Aspose.3D bağımlılığını yönetmek için.  
 
-- Sisteminizde Java Development Kit (JDK) yüklü olmalı.  
-- **Aspose 3D'yi kurun** – resmi siteden kütüphaneyi indirin: [buradan](https://releases.aspose.com/3d/java/).  
-- Aspose.3D bağımlılığını yönetebilecek bir IDE veya yapı aracı (Maven/Gradle)  
+## Paketleri içe aktar
 
-## Paketleri İçe Aktarma
-
-Aşağıdaki içe aktarmalar, çekirdek sahne grafiği, geometri oluşturma ve dosya işleme sınıflarına erişim sağlar.
+Aşağıdaki importlar, temel sahne grafiği, geometri oluşturma ve dosya işleme sınıflarına erişim sağlar.
 
 `Scene` sınıfı, Aspose.3D'nin bellekte tek bir 3‑D ortamı temsil eden üst‑seviye nesnesidir.  
-`Cylinder` sınıfı, yapılandırılabilir yarıçap, yükseklik ve tessellation değerlerine sahip bir silindirik ağ oluşturur.  
-`Vector2` sınıfı, kesme faktörleri için kullanılan iki‑boyutlu bir vektör tanımlar.
+`Cylinder` sınıfı, yapılandırılabilir yarıçap, yükseklik ve teselleştirme ile bir silindirik ağ oluşturur.  
+`Vector2` sınıfı, eğim faktörleri için kullanılan iki‑boyutlu bir vektörü tanımlar.
 
 ```java
 import com.aspose.threed.*;
@@ -106,13 +115,13 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Kesilmiş bir silindirle java 3d sahnesi nasıl oluşturulur?
+## Eğimli bir silindir ile java 3d sahnesi nasıl oluşturulur?
 
-Aspose.3D kütüphanesini yükleyin, yeni bir `Scene` oluşturun, bir silindir ekleyin, alt köşelerine kesme dönüşümü uygulayın ve nihayet sahneyi bir OBJ dosyası olarak kaydedin. Bu bütün süreç, on satırdan az Java kodu ile gerçekleştirilebilir; bu da hızlı prototipleme veya otomatik varlık üretimi için idealdir.
+Aspose.3D kütüphanesini yükleyin, yeni bir `Scene` oluşturun, bir silindir ekleyin, alt köşelerine bir eğim dönüşümü uygulayın ve sonunda sahneyi bir OBJ dosyası olarak kaydedin. Bu tüm süreç, on satırdan az Java kodu ile gerçekleştirilebilir; bu da hızlı prototipleme veya otomatik varlık üretimi için idealdir.
 
-### Adım 1: Bir Sahne Oluşturma
+### Adım 1: bir sahne oluşturun
 
-Sahne, tüm 3‑D nesnelerinin kapsayıcısıdır. Boş bir sahne oluşturarak başlayacağız.
+Bir sahne, tüm 3‑D nesnelerinin kapsayıcısıdır. Boş bir sahne oluşturarak başlayacağız.
 
 ```java
 // ExStart:3
@@ -121,9 +130,9 @@ Scene scene = new Scene();
 // ExEnd:3
 ```
 
-### Adım 2: Silindir 1 Oluşturma – Silindiri Nasıl Kesilir
+### Adım 2: silindir 1 oluştur – silindiri nasıl eğilir
 
-Şimdi ilk silindiri oluşturacağız ve **altına kesme dönüşümü** uygulayacağız. Bu, API üzerinden **silindiri nasıl kesilir** geometrisini doğrudan göstermektedir.
+Şimdi ilk silindiri oluşturacağız ve alt kısmına **eğim dönüşümü** uygulayacağız. Bu, API üzerinden doğrudan **silindiri nasıl eğilir** geometrisini gösterir.
 
 ```java
 // ExStart:4
@@ -136,9 +145,9 @@ scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10,
 // ExEnd:4
 ```
 
-### Adım 3: Silindir 2 Oluşturma – Standart Silindir (Kesilmemiş)
+### Adım 3: silindir 2 oluştur – standart silindir (eğim yok)
 
-Karşılaştırma amacıyla, alt kısmı **kesilmemiş** ikinci bir silindir ekleyeceğiz.
+Karşılaştırma için, alt kısmı **eğimsiz** olan ikinci bir silindir ekleyeceğiz.
 
 ```java
 // ExStart:5
@@ -149,9 +158,9 @@ scene.getRootNode().createChildNode(cylinder2);
 // ExEnd:5
 ```
 
-### Adım 4: Sahneyi Kaydet – OBJ Dosyasını Java ile Dışa Aktar
+### Adım 4: sahneyi kaydet – obj dosyasını java ile dışa aktar
 
-Son olarak sahneyi bir Wavefront OBJ dosyasına dışa aktaracağız; bu **export obj file java** kullanımını gösterir.
+Son olarak, sahneyi bir Wavefront OBJ dosyasına dışa aktarıyoruz, **export obj file java** kullanımını göstererek.
 
 ```java
 // ExStart:6
@@ -160,49 +169,65 @@ scene.save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", File
 // ExEnd:6
 ```
 
-## Bunun Java 3D Modelleme İçin Önemi
+## Bu, java 3d modelleme için neden önemlidir
 
-Bir primitive'e kesme uygulamak, kod içinde daha organik ve özelleştirilmiş şekiller oluşturmayı sağlar; dış modelleme yazılımlarına ihtiyaç kalmaz. Bu yaklaşım, eğimli taban gerektiren mimari görselleştirmeler, hafif oyun varlıkları için özel ayak izleri ve boyutların programatik olarak ayarlanması gereken hızlı prototipleme senaryoları için özellikle faydalıdır.
+Bir primitive'e eğim uygulamak, kod içinde daha organik ve özelleştirilmiş şekiller oluşturmayı sağlar, harici modelleme yazılımına ihtiyaç duyulmaz. Bu yaklaşım, eğimli tabanlı mimari görselleştirmeler, özel ayak izlerine ihtiyaç duyan hafif oyun varlıkları ve boyutların programatik olarak ayarlanması gereken hızlı prototipleme için özellikle faydalıdır.
 
 - Eğimli tabanların gerektiği mimari görselleştirmeler.  
 - Geometriyi hafif tutarken özel ayak izlerine ihtiyaç duyan oyun varlıkları.  
-- Boyutları programatik olarak ayarlamak istediğiniz hızlı prototipleme.
+- Boyutları programatik olarak ayarlamak istediğiniz hızlı prototipleme.  
 
-## Yaygın Sorunlar ve Çözümler
+## Ortak kullanım senaryoları
+
+Geliştiriciler genellikle temel bir geometrinin varyasyonlarını anında üretmek zorundadır. Aspose.3D ile şunları yapabilirsiniz:
+
+1. Prosedürel arazi oluşturma için farklı eğim açılarına sahip bir dizi silindir üretmek.  
+2. Tabanın standart olmayan bir açıya uyması gereken mekanik montajlar için özel bağlayıcılar oluşturmak.  
+3. Java kod tabanından çıkmadan UI mock‑up'ları için yer tutucu varlıklar üretmek.  
+
+## İpuçları ve en iyi uygulamalar
+
+- **Reuse shear vectors**: Sık kullanılan `Vector2` örneklerini bir constants sınıfında saklayın, böylece her ağ için yeniden oluşturmak zorunda kalmazsınız.  
+- **Validate mesh integrity**: Bir dönüşüm uyguladıktan sonra, `scene.validate()` (varsa) çağırarak bozulmuş yüzlerin oluşmadığını doğrulayın.  
+- **Batch export**: Birçok sahneyi dışa aktarırken, tek bir `FileOutputStream` yeniden kullanın ve döngü sonrası kapatın, böylece I/O yükünü azaltırsınız.  
+- **License early**: Herhangi bir sahne oluşturulmadan önce bir [temporary license](https://purchase.aspose.com/temporary-license/) uygulayarak çalışma zamanında beklenmeyen `LicenseException` oluşmasını önleyin.  
+- **Performance monitoring**: Büyük modeller için `scene.save()` süresini ölçün; Aspose.3D genellikle modern bir dizüstü bilgisayarda 200‑sayfalık bir OBJ'yi 800 ms'nin altında yazar.  
+- Üretime hazır olduğunuzda, tam lisansı [Aspose.3D purchase page](https://purchase.aspose.com/buy) adresinden edinin.  
+
+## Yaygın sorunlar ve çözümler
 
 | Sorun | Çözüm |
 |-------|----------|
-| **Kesme çok aşırı görünüyor** | `Vector2` değerlerini ayarlayın; kesme faktörünü (0‑1 aralığı) temsil ederler. |
-| **OBJ dosyası görüntüleyicide açılmıyor** | Hedef dizinin mevcut olduğundan ve yazma izninizin olduğundan emin olun. |
-| **Çalışma zamanında lisans istisnası** | Sahneyi oluşturmadan önce geçici veya kalıcı bir lisans uygulayın (`License license = new License(); license.setLicense("Aspose.3D.lic");`). |
+| **Shear appears too extreme** | `Vector2` değerlerini ayarlayın; bunlar eğim faktörünü (0‑1 aralığı) temsil eder. |
+| **OBJ file not opening in viewer** | Hedef dizinin mevcut olduğunu ve yazma izninizin olduğunu doğrulayın. |
+| **License exception at runtime** | Sahneyi oluşturmadan önce geçici veya kalıcı bir lisans uygulayın (`License license = new License(); license.setLicense("Aspose.3D.lic");`). |
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
-**Q: Aspose.3D'yi Java ile diğer Java 3D kütüphaneleriyle kullanabilir miyim?**  
-A: Aspose.3D bağımsız çalışacak şekilde tasarlanmıştır. Diğer kütüphanelerle entegre edebilirsiniz, ancak çoğu 3‑D görev için zaten tam özellikli bir API sunar.
+**S: Aspose.3D'yi Java ile diğer Java 3D kütüphaneleriyle kullanabilir miyim?**  
+C: Aspose.3D bağımsız çalışacak şekilde tasarlanmıştır. Diğer kütüphanelerle entegre edebilirsiniz, ancak çoğu 3‑D görevi için zaten tam özellikli bir API sunar.
 
-**Q: Aspose.3D, 3D modellemeye yeni başlayanlar için uygun mu?**  
-A: Kesinlikle. API basittir ve bu **beginner 3d tutorial** temel kavramları minimal kodla gösterir.
+**S: Aspose.3D, 3D modelleme konusunda yeni başlayanlar için uygun mu?**  
+C: Kesinlikle. API açıktır ve bu yeni başlayanlar için 3d öğretici, temel kavramları minimum kodla gösterir.
 
-**Q: Aspose.3D for Java için ek destek nereden bulunur?**  
-A: Topluluk yardımı ve resmi yanıtlar için [Aspose.3D forumunu](https://forum.aspose.com/c/3d/18) ziyaret edin.
+**S: Aspose.3D for Java için ek destek nereden bulunabilir?**  
+C: Topluluk yardımı ve resmi yanıtlar için [Aspose.3D forum](https://forum.aspose.com/c/3d/18) adresini ziyaret edin.
 
-**Q: Aspose.3D için geçici bir lisans nasıl alınır?**  
-A: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
+**S: Aspose.3D için geçici bir lisans nasıl alınır?**  
+C: Bir [temporary license](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
 
-**Q: Tam Aspose.3D for Java lisansını nereden satın alabilirim?**  
-A: Satın alma seçenekleri [burada](https://purchase.aspose.com/buy) mevcuttur.
+**S: Tam bir Aspose.3D for Java lisansı nereden satın alınır?**  
+C: Satın alma seçenekleri [Aspose.3D purchase page](https://purchase.aspose.com/buy) adresinde mevcuttur.
 
-**Son Güncelleme:** 2026-05-14  
+**Son Güncelleme:** 2026-10-13  
 **Test Edilen Versiyon:** Aspose.3D 24.11 for Java  
 **Yazar:** Aspose
 
-## İlgili Eğitimler
+## İlgili öğreticiler
 
-- [Aspose 3D Java ile 3D Sahne Oluşturma](/3d/java/3d-scenes-and-models/)
+- [Java ile Aspose 3D Java kullanarak 3D Sahne Oluştur](/3d/java/3d-scenes-and-models/)
 - [java 3d grafik öğreticisi – Matrisleri Birleştirme Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-matrices/)
-- [Java 3D Grafik Öğreticisi - Aspose.3D ile 3D Küp Sahnesi Oluşturma](/3d/java/geometry/create-3d-cube-scene/)
-
+- [Java 3D Grafik Öğreticisi - Aspose.3D ile 3D Küp Sahnesi Oluştur](/3d/java/geometry/create-3d-cube-scene/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

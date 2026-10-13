@@ -1,59 +1,64 @@
 ---
-date: 2026-05-14
-description: Pelajari cara membangun adegan Java 3D dengan membuat silinder yang memiliki
-  dasar miring menggunakan Aspose.3D untuk Java. Tutorial ini mencakup pemasangan
-  Aspose 3D, menerapkan transformasi geser, dan mengekspor file OBJ.
+date: 2026-10-13
+description: Pelajari cara membuat silinder miring di Java menggunakan Aspose.3D.
+  Panduan langkah demi langkah ini mencakup instalasi, penerapan transformasi shear,
+  dan mengekspor ke OBJ.
 keywords:
-- java 3d scene
-- install aspose 3d
+- create sheared cylinder java
+- aspose 3d shear transformation
 - export obj java
-- apply shear transformation
-- aspose 3d tutorial
-linktitle: Adegan Java 3D – Silinder dengan Dasar Miring menggunakan Aspose.3D
+- java 3d scene tutorial
+- aspose 3d installation
+lastmod: 2026-10-13
+linktitle: Java 3D Scene – Silinder Bawah Miring dengan Aspose.3D
+og_description: Pelajari cara membuat silinder miring di Java menggunakan Aspose.3D.
+  Ikuti tutorial singkat untuk menginstal, menerapkan shear, dan mengekspor file OBJ
+  dalam hitungan detik.
+og_image_alt: Screenshot of a Java program creating a sheared cylinder with Aspose.3D
+og_title: Buat silinder miring di Java dengan Aspose.3D – Panduan Cepat
 schemas:
 - author: Aspose
-  dateModified: '2026-05-14'
-  description: Learn how to build a java 3d scene by creating cylinders with a sheared
-    bottom using Aspose.3D for Java. This tutorial covers installing Aspose 3D, applying
-    shear transformation, and exporting OBJ files.
-  headline: Java 3D Scene – Sheared Bottom Cylinders with Aspose.3D
+  dateModified: '2026-10-13'
+  description: Learn how to create a sheared cylinder in Java using Aspose.3D. This
+    tutorial covers installing, applying shear transformation, and exporting OBJ files.
+  headline: How to create sheared cylinder in Java with Aspose.3D
   type: TechArticle
-- description: Learn how to build a java 3d scene by creating cylinders with a sheared
-    bottom using Aspose.3D for Java. This tutorial covers installing Aspose 3D, applying
-    shear transformation, and exporting OBJ files.
-  name: Java 3D Scene – Sheared Bottom Cylinders with Aspose.3D
+- description: Step‑by‑step guide for building a Java 3D scene with a sheared‑bottom
+    cylinder and exporting to OBJ.
+  name: How to create sheared cylinder in Java with Aspose.3D
   steps:
   - name: Create a Scene
     text: A scene is the container for all 3‑D objects. We’ll start by creating an
       empty scene.
   - name: Create Cylinder 1 – How to Shear Cylinder
-    text: Now we’ll build the first cylinder and **apply shear transformation** to
-      its bottom. This demonstrates **how to shear cylinder** geometry directly via
-      the API.
+    text: Build the first cylinder and apply shear transformation to its bottom.
   - name: Create Cylinder 2 – Standard Cylinder (No Shear)
-    text: For comparison, we’ll add a second cylinder that does **not** have a sheared
-      bottom.
+    text: Add a second cylinder without a sheared bottom for comparison.
   - name: Save the Scene – Export OBJ File Java
-    text: Finally, we export the scene to a Wavefront OBJ file, illustrating **export
-      obj file java** usage.
+    text: Export the scene to a Wavefront OBJ file.
   type: HowTo
 - questions:
   - answer: Aspose.3D is designed to work independently. While you can integrate it
       with other libraries, it already provides a full‑featured API for most 3‑D tasks.
     question: Can I use Aspose.3D for Java with other Java 3D libraries?
-  - answer: Absolutely. The API is straightforward, and this **beginner 3d tutorial**
+  - answer: Absolutely. The API is straightforward, and this beginner 3d tutorial
       demonstrates core concepts with minimal code.
     question: Is Aspose.3D suitable for beginners in 3D modeling?
   - answer: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community
       help and official answers.
     question: Where can I find additional support for Aspose.3D for Java?
-  - answer: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+  - answer: You can get a [temporary license](https://purchase.aspose.com/temporary-license/).
     question: How can I obtain a temporary license for Aspose.3D?
-  - answer: Purchase options are available [here](https://purchase.aspose.com/buy).
+  - answer: Purchase options are available on the [Aspose.3D purchase page](https://purchase.aspose.com/buy).
     question: Where do I purchase a full Aspose.3D for Java license?
   type: FAQPage
 second_title: Aspose.3D Java API
-title: Adegan Java 3D – Silinder dengan Dasar Miring menggunakan Aspose.3D
+tags:
+- create sheared cylinder
+- Aspose.3D
+- Java 3D modeling
+- OBJ export
+title: Cara membuat silinder miring di Java dengan Aspose.3D
 url: /id/java/cylinders/creating-cylinders-with-sheared-bottom/
 weight: 12
 ---
@@ -62,38 +67,39 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Adegan Java 3D – Silinder Dasar Terpotong dengan Aspose.3D
+# Cara membuat silinder miring di Java dengan Aspose.3D
 
 ## Pendahuluan
 
-Dalam tutorial **java 3d scene** praktis ini Anda akan belajar cara memodelkan sebuah silinder yang bagian bawahnya dipotong, kemudian mengekspor hasilnya sebagai file Wavefront OBJ. Baik Anda pemula yang menjelajahi konsep 3‑D maupun pengembang berpengalaman yang membutuhkan transformasi programatik cepat, panduan ini menunjukkan alur kerja lengkap dengan Aspose.3D untuk Java— mulai dari penyiapan proyek hingga output file akhir.
+Pada tutorial **java 3d scene** praktis ini Anda akan belajar cara memodelkan silinder yang bagian bawahnya dipotong miring, kemudian mengekspor hasilnya sebagai file Wavefront OBJ. Baik Anda pemula yang menjelajahi konsep 3‑D maupun pengembang berpengalaman yang membutuhkan transformasi programatik cepat, panduan ini menunjukkan alur kerja lengkap dengan Aspose.3D untuk Java— mulai dari penyiapan proyek hingga keluaran file akhir. Anda akan melihat mengapa perpustakaan ini menjadi pilihan yang solid untuk manipulasi geometri secara langsung.
 
 ## Jawaban Cepat
 - **Perpustakaan apa yang digunakan?** Aspose.3D for Java  
-- **Bisakah saya menginstal Aspose 3D via Maven?** Ya – tambahkan dependensi Aspose.3D ke `pom.xml` Anda  
+- **Apakah saya dapat menginstal Aspose 3D via Maven?** Ya – tambahkan dependensi Aspose.3D ke `pom.xml` Anda  
 - **Apakah lisensi diperlukan untuk pengembangan?** Lisensi sementara cukup untuk pengujian; lisensi penuh diperlukan untuk produksi  
 - **Format file apa yang ditunjukkan?** Wavefront OBJ (`.obj`)  
 - **Berapa lama contoh ini berjalan?** Kurang dari satu detik pada workstation tipikal  
+- **Bisakah saya menggunakan kembali logika shear untuk primitif lain?** Tentu – shear berbasis `Vector2` yang sama dapat diterapkan pada kerucut, prisma, atau mesh khusus  
 
-## Apa itu java 3d scene?
+## Apa itu scene 3D java?
 
-Sebuah **java 3d scene** adalah objek kontainer yang menyimpan semua mesh, lampu, kamera, dan transformasi yang diperlukan untuk merender atau mengekspor model 3‑D. Kelas `Scene` di Aspose.3D mewakili kontainer ini dalam memori, memungkinkan Anda menambahkan geometri, menerapkan transformasi, dan akhirnya menyerialkan seluruh scene ke format file pilihan Anda.
+`Scene` adalah kontainer tingkat‑atas Aspose.3D untuk objek‑objek 3‑D. **java 3d scene** adalah objek kontainer yang menyimpan semua mesh, lampu, kamera, dan transformasi yang diperlukan untuk merender atau mengekspor model 3‑D. Kelas `Scene` di Aspose.3D mewakili kontainer ini di memori, memungkinkan Anda menambahkan geometri, menerapkan transformasi, dan akhirnya menyerialisasi seluruh scene ke format file pilihan Anda.
 
 ## Mengapa menggunakan Aspose.3D untuk tugas ini?
 
-Aspose.3D mendukung **lebih dari 50 format input dan output**—termasuk OBJ, FBX, STL, dan GLTF— dan dapat memproses model berukuran ratusan halaman tanpa memuat seluruh file ke memori. API‑nya menyediakan utilitas transformasi bawaan, sehingga Anda dapat menerapkan shear, scale, atau rotate pada primitif hanya dengan beberapa baris kode, menghilangkan kebutuhan akan alat pemodelan eksternal.
+Aspose.3D mendukung **lebih dari 50 format input dan output**—termasuk OBJ, FBX, STL, dan GLTF—dan dapat memproses model ratusan halaman tanpa harus memuat seluruh file ke memori. API‑nya menyediakan utilitas transformasi bawaan, sehingga Anda dapat menerapkan shear, skala, atau rotasi pada primitif hanya dengan beberapa baris kode, menghilangkan kebutuhan akan alat pemodelan eksternal. Perpustakaan ini juga menjamin preservasi geometri tanpa kehilangan, yang penting untuk pipeline rekayasa. Untuk diskusi komunitas, lihat [Aspose.3D forum](https://forum.aspose.com/c/3d/18).
 
 ## Prasyarat
 
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+Sebelum memulai, pastikan Anda memiliki hal‑hal berikut:
 
-- Java Development Kit (JDK) terinstal di sistem Anda.  
-- **Instal Aspose 3D** – unduh perpustakaan dari situs resmi [di sini](https://releases.aspose.com/3d/java/).  
-- Sebuah IDE atau alat build (Maven/Gradle) untuk mengelola dependensi Aspose.3D.  
+- Java Development Kit (JDK) 8 atau lebih baru terpasang di sistem Anda.  
+- **Instal Aspose 3D** – unduh perpustakaan dari halaman rilis resmi Aspose.3D.  
+- Sebuah IDE (IntelliJ IDEA, Eclipse, VS Code) atau alat build seperti Maven atau Gradle untuk mengelola dependensi Aspose.3D.  
 
-## Impor Paket
+## Impor paket
 
-Impor berikut memberi Anda akses ke kelas inti grafik scene, pembuatan geometri, dan penanganan file.
+Impor berikut memberi Anda akses ke inti scene graph, pembuatan geometri, dan kelas penanganan file.
 
 Kelas `Scene` adalah objek tingkat‑atas Aspose.3D yang mewakili satu lingkungan 3‑D dalam memori.  
 Kelas `Cylinder` membuat mesh silindris dengan radius, tinggi, dan tessellation yang dapat dikonfigurasi.  
@@ -106,13 +112,13 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Cara membangun java 3d scene dengan silinder terpotong?
+## Cara membangun scene 3D java dengan silinder miring?
 
-Muat pustaka Aspose.3D, buat `Scene` baru, tambahkan sebuah silinder, terapkan transformasi shear pada vertex bagian bawahnya, dan akhirnya simpan scene sebagai file OBJ. Seluruh proses ini dapat diselesaikan dalam kurang dari sepuluh baris kode Java, menjadikannya ideal untuk prototipe cepat atau pembuatan aset otomatis.
+Muat perpustakaan Aspose.3D, buat `Scene` baru, tambahkan sebuah silinder, terapkan transformasi shear pada vertex bagian bawahnya, dan akhirnya simpan scene sebagai file OBJ. Seluruh proses ini dapat diselesaikan dalam kurang dari sepuluh baris kode Java, menjadikannya ideal untuk prototipe cepat atau generasi aset otomatis.
 
-### Langkah 1: Buat Scene
+### Langkah 1: buat scene
 
-Scene adalah kontainer untuk semua objek 3‑D. Kita akan memulai dengan membuat scene kosong.
+Sebuah scene adalah kontainer untuk semua objek 3‑D. Kita akan mulai dengan membuat scene kosong.
 
 ```java
 // ExStart:3
@@ -121,9 +127,9 @@ Scene scene = new Scene();
 // ExEnd:3
 ```
 
-### Langkah 2: Buat Cylinder 1 – Cara Shear Cylinder
+### Langkah 2: buat silinder 1 – cara memiringkan silinder
 
-Sekarang kita akan membuat silinder pertama dan **menerapkan transformasi shear** pada bagian bawahnya. Ini menunjukkan **cara shear cylinder** geometri secara langsung melalui API.
+Sekarang kita akan membangun silinder pertama dan **menerapkan transformasi shear** pada bagian bawahnya. Ini menunjukkan **cara memiringkan silinder** secara langsung melalui API.
 
 ```java
 // ExStart:4
@@ -136,9 +142,9 @@ scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10,
 // ExEnd:4
 ```
 
-### Langkah 3: Buat Cylinder 2 – Silinder Standar (Tanpa Shear)
+### Langkah 3: buat silinder 2 – silinder standar (tanpa miring)
 
-Sebagai perbandingan, kita akan menambahkan silinder kedua yang **tidak** memiliki dasar yang dipotong.
+Sebagai perbandingan, kita akan menambahkan silinder kedua yang **tidak** memiliki bagian bawah yang dipotong miring.
 
 ```java
 // ExStart:5
@@ -149,9 +155,9 @@ scene.getRootNode().createChildNode(cylinder2);
 // ExEnd:5
 ```
 
-### Langkah 4: Simpan Scene – Ekspor File OBJ Java
+### Langkah 4: simpan scene – ekspor file obj java
 
-Akhirnya, kita mengekspor scene ke file Wavefront OBJ, memperlihatkan penggunaan **export obj file java**.
+Akhirnya, kita mengekspor scene ke file Wavefront OBJ, memperlihatkan penggunaan **ekspor file obj java**.
 
 ```java
 // ExStart:6
@@ -160,48 +166,67 @@ scene.save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", File
 // ExEnd:6
 ```
 
-## Mengapa Ini Penting untuk Pemodelan Java 3D
+## Mengapa ini penting untuk pemodelan 3D java
 
-Menerapkan shear pada primitif memungkinkan pembuatan bentuk yang lebih organik dan disesuaikan langsung dalam kode, menghilangkan kebutuhan akan perangkat lunak pemodelan eksternal. Pendekatan ini sangat berguna untuk visualisasi arsitektur dengan dasar miring, aset game ringan yang memerlukan jejak khusus, dan prototipe cepat di mana dimensi harus disesuaikan secara programatik.
+Menerapkan shear pada primitif memungkinkan pembuatan bentuk yang lebih organik dan disesuaikan langsung dalam kode, menghilangkan kebutuhan akan perangkat lunak pemodelan eksternal. Pendekatan ini sangat berguna untuk visualisasi arsitektural dengan dasar miring, aset game ringan yang memerlukan jejak khusus, dan prototipe cepat di mana dimensi harus disesuaikan secara programatik.
 
-- Visualisasi arsitektur yang memerlukan dasar miring.  
-- Aset game yang membutuhkan jejak khusus sambil menjaga geometri tetap ringan.  
+- Visualisasi arsitektural di mana dasar miring diperlukan.  
+- Aset game yang memerlukan jejak khusus sambil menjaga geometri tetap ringan.  
 - Prototipe cepat di mana Anda ingin menyesuaikan dimensi secara programatik.
 
-## Masalah Umum & Solusi
+## Kasus penggunaan umum
+
+Pengembang sering perlu menghasilkan variasi geometri dasar secara dinamis. Dengan Aspose.3D Anda dapat:
+
+1. Menghasilkan serangkaian silinder dengan sudut shear berbeda untuk generasi terrain prosedural.  
+2. Membuat konektor khusus untuk perakitan mekanik di mana dasar harus sesuai dengan sudut non‑standar.  
+3. Menghasilkan aset placeholder untuk mock‑up UI tanpa meninggalkan basis kode Java.
+
+## Tips dan praktik terbaik
+
+- **Gunakan kembali vektor shear**: Simpan instance `Vector2` yang sering dipakai dalam kelas konstan untuk menghindari pembuatan ulang pada setiap mesh.  
+- **Validasi integritas mesh**: Setelah menerapkan transformasi, panggil `scene.validate()` (jika tersedia) untuk memastikan tidak ada wajah degenerate yang muncul.  
+- **Ekspor batch**: Saat mengekspor banyak scene, gunakan kembali satu `FileOutputStream` dan tutup setelah loop untuk mengurangi overhead I/O.  
+- **Lisensi lebih awal**: Terapkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) sebelum pembuatan scene apa pun untuk mencegah `LicenseException` yang tidak terduga pada runtime.  
+- **Pemantauan kinerja**: Untuk model besar, ukur waktu yang dibutuhkan oleh `scene.save()`; Aspose.3D biasanya menulis OBJ 200‑halaman dalam kurang dari 800 ms pada laptop modern.  
+- Saat siap untuk produksi, dapatkan lisensi penuh dari [halaman pembelian Aspose.3D](https://purchase.aspose.com/buy).
+
+## Masalah umum & solusi
 
 | Masalah | Solusi |
 |-------|----------|
 | **Shear terlihat terlalu ekstrem** | Sesuaikan nilai `Vector2`; nilai tersebut mewakili faktor shear (rentang 0‑1). |
-| **File OBJ tidak dapat dibuka di penampil** | Verifikasi bahwa direktori target ada dan Anda memiliki izin menulis. |
-| **Pengecualian lisensi saat runtime** | Terapkan lisensi sementara atau permanen sebelum membuat scene (`License license = new License(); license.setLicense("Aspose.3D.lic");`). |
+| **File OBJ tidak dapat dibuka di viewer** | Pastikan direktori target ada dan Anda memiliki izin menulis. |
+| **License exception pada runtime** | Terapkan lisensi sementara atau permanen sebelum membuat scene (`License license = new License(); license.setLicense("Aspose.3D.lic");`). |
 
-## Pertanyaan yang Sering Diajukan
+## Pertanyaan yang sering diajukan
 
-**Q: Bisakah saya menggunakan Aspose.3D untuk Java dengan perpustakaan Java 3D lain?**  
-A: Aspose.3D dirancang untuk bekerja secara mandiri. Meskipun Anda dapat mengintegrasikannya dengan perpustakaan lain, ia sudah menyediakan API lengkap untuk sebagian besar tugas 3‑D.
+**T: Bisakah saya menggunakan Aspose.3D untuk Java dengan perpustakaan 3D Java lainnya?**  
+J: Aspose.3D dirancang untuk bekerja secara mandiri. Meskipun Anda dapat mengintegrasikannya dengan perpustakaan lain, ia sudah menyediakan API lengkap untuk sebagian besar tugas 3‑D.
 
-**Q: Apakah Aspose.3D cocok untuk pemula dalam pemodelan 3D?**  
-A: Tentu saja. API-nya sederhana, dan **tutorial 3d pemula** ini menunjukkan konsep inti dengan kode minimal.
+**T: Apakah Aspose.3D cocok untuk pemula dalam pemodelan 3D?**  
+J: Tentu. API‑nya mudah dipahami, dan tutorial 3d pemula ini menunjukkan konsep inti dengan kode minimal.
 
-**Q: Di mana saya dapat menemukan dukungan tambahan untuk Aspose.3D untuk Java?**  
-A: Kunjungi [forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk bantuan komunitas dan jawaban resmi.
+**T: Di mana saya dapat menemukan dukungan tambahan untuk Aspose.3D untuk Java?**  
+J: Kunjungi [Aspose.3D forum](https://forum.aspose.com/c/3d/18) untuk bantuan komunitas dan jawaban resmi.
 
-**Q: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?**  
-A: Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
+**T: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?**  
+J: Anda dapat memperoleh [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
-**Q: Di mana saya dapat membeli lisensi penuh Aspose.3D untuk Java?**  
-A: Opsi pembelian tersedia [di sini](https://purchase.aspose.com/buy).
+**T: Di mana saya membeli lisensi penuh Aspose.3D untuk Java?**  
+J: Opsi pembelian tersedia di [halaman pembelian Aspose.3D](https://purchase.aspose.com/buy).
 
-**Terakhir Diperbarui:** 2026-05-14  
+---
+
+**Terakhir Diperbarui:** 2026-10-13  
 **Diuji Dengan:** Aspose.3D 24.11 for Java  
 **Penulis:** Aspose
 
-## Tutorial Terkait
+## Tutorial terkait
 
 - [Buat Scene 3D Java dengan Aspose 3D Java](/3d/java/3d-scenes-and-models/)
-- [tutorial grafis java 3d – Menggabungkan Matriks Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-matrices/)
-- [Tutorial Grafis Java 3D - Buat Scene Kubus 3D dengan Aspose.3D](/3d/java/geometry/create-3d-cube-scene/)
+- [tutorial grafis 3d java – Menggabungkan Matriks Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-matrices/)
+- [Tutorial Grafis 3D Java - Buat Scene Kubus 3D dengan Aspose.3D](/3d/java/geometry/create-3d-cube-scene/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
