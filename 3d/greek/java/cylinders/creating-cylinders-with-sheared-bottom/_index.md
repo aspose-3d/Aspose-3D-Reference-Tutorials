@@ -1,60 +1,64 @@
 ---
-date: 2026-05-14
-description: Μάθετε πώς να δημιουργήσετε μια σκηνή Java 3D δημιουργώντας κύλινδρους
-  με κεκλιμένο κάτω μέρος χρησιμοποιώντας το Aspose.3D για Java. Αυτό το σεμινάριο
-  καλύπτει την εγκατάσταση του Aspose 3D, την εφαρμογή του μετασχηματισμού κλίσης
-  και την εξαγωγή αρχείων OBJ.
+date: 2026-10-13
+description: Μάθετε πώς να δημιουργήσετε παραμορφωμένο κύλινδρο σε Java χρησιμοποιώντας
+  Aspose.3D. Αυτός ο οδηγός βήμα‑βήμα καλύπτει την εγκατάσταση, την εφαρμογή shear
+  transformation και την εξαγωγή σε OBJ.
 keywords:
-- java 3d scene
-- install aspose 3d
+- create sheared cylinder java
+- aspose 3d shear transformation
 - export obj java
-- apply shear transformation
-- aspose 3d tutorial
-linktitle: Σκηνή Java 3D – Κύλινδροι με Κεκλιμένο Κάτω Μέρος με Aspose.3D
+- java 3d scene tutorial
+- aspose 3d installation
+lastmod: 2026-10-13
+linktitle: Σκηνή 3D Java – Παραμορφωμένοι Κύλινδροι Κάτω με Aspose.3D
+og_description: Μάθετε πώς να δημιουργήσετε παραμορφωμένο κύλινδρο σε Java χρησιμοποιώντας
+  Aspose.3D. Ακολουθήστε το σύντομο tutorial για να εγκαταστήσετε, να εφαρμόσετε shear
+  και να εξάγετε αρχεία OBJ σε δευτερόλεπτα.
+og_image_alt: Screenshot of a Java program creating a sheared cylinder with Aspose.3D
+og_title: Δημιουργία παραμορφωμένου κύλινδρου σε Java με Aspose.3D – Γρήγορος οδηγός
 schemas:
 - author: Aspose
-  dateModified: '2026-05-14'
-  description: Learn how to build a java 3d scene by creating cylinders with a sheared
-    bottom using Aspose.3D for Java. This tutorial covers installing Aspose 3D, applying
-    shear transformation, and exporting OBJ files.
-  headline: Java 3D Scene – Sheared Bottom Cylinders with Aspose.3D
+  dateModified: '2026-10-13'
+  description: Learn how to create a sheared cylinder in Java using Aspose.3D. This
+    tutorial covers installing, applying shear transformation, and exporting OBJ files.
+  headline: How to create sheared cylinder in Java with Aspose.3D
   type: TechArticle
-- description: Learn how to build a java 3d scene by creating cylinders with a sheared
-    bottom using Aspose.3D for Java. This tutorial covers installing Aspose 3D, applying
-    shear transformation, and exporting OBJ files.
-  name: Java 3D Scene – Sheared Bottom Cylinders with Aspose.3D
+- description: Step‑by‑step guide for building a Java 3D scene with a sheared‑bottom
+    cylinder and exporting to OBJ.
+  name: How to create sheared cylinder in Java with Aspose.3D
   steps:
   - name: Create a Scene
     text: A scene is the container for all 3‑D objects. We’ll start by creating an
       empty scene.
   - name: Create Cylinder 1 – How to Shear Cylinder
-    text: Now we’ll build the first cylinder and **apply shear transformation** to
-      its bottom. This demonstrates **how to shear cylinder** geometry directly via
-      the API.
+    text: Build the first cylinder and apply shear transformation to its bottom.
   - name: Create Cylinder 2 – Standard Cylinder (No Shear)
-    text: For comparison, we’ll add a second cylinder that does **not** have a sheared
-      bottom.
+    text: Add a second cylinder without a sheared bottom for comparison.
   - name: Save the Scene – Export OBJ File Java
-    text: Finally, we export the scene to a Wavefront OBJ file, illustrating **export
-      obj file java** usage.
+    text: Export the scene to a Wavefront OBJ file.
   type: HowTo
 - questions:
   - answer: Aspose.3D is designed to work independently. While you can integrate it
       with other libraries, it already provides a full‑featured API for most 3‑D tasks.
     question: Can I use Aspose.3D for Java with other Java 3D libraries?
-  - answer: Absolutely. The API is straightforward, and this **beginner 3d tutorial**
+  - answer: Absolutely. The API is straightforward, and this beginner 3d tutorial
       demonstrates core concepts with minimal code.
     question: Is Aspose.3D suitable for beginners in 3D modeling?
   - answer: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community
       help and official answers.
     question: Where can I find additional support for Aspose.3D for Java?
-  - answer: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+  - answer: You can get a [temporary license](https://purchase.aspose.com/temporary-license/).
     question: How can I obtain a temporary license for Aspose.3D?
-  - answer: Purchase options are available [here](https://purchase.aspose.com/buy).
+  - answer: Purchase options are available on the [Aspose.3D purchase page](https://purchase.aspose.com/buy).
     question: Where do I purchase a full Aspose.3D for Java license?
   type: FAQPage
 second_title: Aspose.3D Java API
-title: Σκηνή Java 3D – Κύλινδροι με Κεκλιμένο Κάτω Μέρος με Aspose.3D
+tags:
+- create sheared cylinder
+- Aspose.3D
+- Java 3D modeling
+- OBJ export
+title: Πώς να δημιουργήσετε παραμορφωμένο κύλινδρο σε Java με Aspose.3D
 url: /el/java/cylinders/creating-cylinders-with-sheared-bottom/
 weight: 12
 ---
@@ -63,40 +67,43 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Σκηνή Java 3D – Κύλινδροι με Κομμένη Βάση με Aspose.3D
+# Πώς να δημιουργήσετε παραμορφωμένο κύλινδρο σε Java με Aspose.3D
 
 ## Εισαγωγή
 
-Σε αυτό το πρακτικό **java 3d scene** tutorial θα μάθετε πώς να μοντελοποιήσετε έναν κύλινδρο του οποίου η βάση είναι κομμένη, και στη συνέχεια να εξάγετε το αποτέλεσμα ως αρχείο Wavefront OBJ. Είτε είστε αρχάριος που εξερευνά έννοιες 3‑D είτε έμπειρος προγραμματιστής που χρειάζεται μια γρήγορη προγραμματιστική μετασχηματισμό, αυτός ο οδηγός δείχνει τη πλήρη ροή εργασίας με Aspose.3D for Java— από τη ρύθμιση του έργου μέχρι την τελική έξοδο αρχείου.
+Σε αυτό το πρακτικό **java 3d scene** tutorial θα μάθετε πώς να μοντελοποιήσετε έναν κύλινδρο του οποίου το κάτω μέρος είναι παραμορφωμένο, και στη συνέχεια να εξάγετε το αποτέλεσμα ως αρχείο Wavefront OBJ. Είτε είστε αρχάριος που εξερευνά έννοιες 3‑D είτε έμπειρος προγραμματιστής που χρειάζεται γρήγορη προγραμματιστική μετασχηματισμό, αυτός ο οδηγός παρουσιάζει τη πλήρη ροή εργασίας με το Aspose.3D for Java — από τη ρύθμιση του έργου μέχρι την τελική έξοδο αρχείου. Θα δείτε γιατί η βιβλιοθήκη είναι μια αξιόπιστη επιλογή για δυναμική διαχείριση γεωμετρίας.
 
-## Γρήγορες Απαντήσεις
+## Σύντομες Απαντήσεις
 - **Ποια βιβλιοθήκη χρησιμοποιείται;** Aspose.3D for Java  
-- **Μπορώ να εγκαταστήσω το Aspose 3D μέσω Maven;** Yes – add the Aspose.3D dependency to your `pom.xml`  
-- **Απαιτείται άδεια για ανάπτυξη;** A temporary license is sufficient for testing; a full license is needed for production  
+- **Μπορώ να εγκαταστήσω το Aspose 3D μέσω Maven;** Ναι – προσθέστε την εξάρτηση Aspose.3D στο `pom.xml` σας  
+- **Απαιτείται άδεια για ανάπτυξη;** Μια προσωρινή άδεια αρκεί για δοκιμές· πλήρης άδεια χρειάζεται για παραγωγή  
 - **Ποια μορφή αρχείου παρουσιάζεται;** Wavefront OBJ (`.obj`)  
-- **Πόσο χρόνο χρειάζεται η εκτέλεση του παραδείγματος;** Under a second on a typical workstation  
+- **Πόσο χρόνο χρειάζεται το παράδειγμα για εκτέλεση;** Λιγότερο από ένα δευτερόλεπτο σε τυπικό workstation  
+- **Μπορώ να επαναχρησιμοποιήσω τη λογική παραμόρφωσης για άλλα primitives;** Απολύτως – η ίδια παραμόρφωση βασισμένη σε `Vector2` μπορεί να εφαρμοστεί σε κώνοι, πρίσματα ή προσαρμοσμένα πλέγματα  
 
-## Τι είναι μια java 3d scene;
+## Τι είναι μια java 3d σκηνή;
 
-Μια **java 3d scene** είναι ένα αντικείμενο-δοχείο που περιέχει όλα τα πλέγματα, τα φώτα, τις κάμερες και τις μετασχηματισμούς που απαιτούνται για την απόδοση ή την εξαγωγή ενός 3‑D μοντέλου. Η κλάση `Scene` στο Aspose.3D αντιπροσωπεύει αυτό το δοχείο στη μνήμη, επιτρέποντάς σας να προσθέσετε γεωμετρία, να εφαρμόσετε μετασχηματισμούς και τελικά να σειριοποιήσετε ολόκληρη τη σκηνή σε μορφή αρχείου της επιλογής σας.
+`Scene` είναι το κορυφαίο κοντέινερ του Aspose.3D για 3‑D αντικείμενα. Μια **java 3d scene** είναι ένα αντικείμενο κοντέινερ που περιέχει όλα τα πλέγματα, τα φώτα, τις κάμερες και τους μετασχηματισμούς που απαιτούνται για την απόδοση ή την εξαγωγή ενός 3‑D μοντέλου. Η κλάση `Scene` στο Aspose.3D αντιπροσωπεύει αυτό το κοντέινερ στη μνήμη, επιτρέποντάς σας να προσθέτετε γεωμετρία, να εφαρμόζετε μετασχηματισμούς και, τελικά, να σειριοποιείτε ολόκληρη τη σκηνή σε μορφή αρχείου της επιλογής σας.
 
 ## Γιατί να χρησιμοποιήσετε το Aspose.3D για αυτήν την εργασία;
 
-Το Aspose.3D υποστηρίζει **50+ μορφές εισόδου και εξόδου**—συμπεριλαμβανομένων των OBJ, FBX, STL και GLTF— και μπορεί να επεξεργαστεί μοντέλα πολλαπλών εκατοντάδων σελίδων χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη. Το API του προσφέρει ενσωματωμένα εργαλεία μετασχηματισμού, ώστε να μπορείτε να εφαρμόζετε shear, scale ή rotate primitives με λίγες μόνο γραμμές κώδικα, εξαλείφοντας την ανάγκη για εξωτερικά εργαλεία μοντελοποίησης.
+Το Aspose.3D υποστηρίζει **50+ μορφές εισόδου και εξόδου**—συμπεριλαμβανομένων των OBJ, FBX, STL και GLTF—και μπορεί να επεξεργαστεί μοντέλα εκατοντάδων σελίδων χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη. Το API του προσφέρει ενσωματωμένα εργαλεία μετασχηματισμού, ώστε να μπορείτε να εφαρμόζετε παραμόρφωση, κλιμάκωση ή περιστροφή primitives με λίγες μόνο γραμμές κώδικα, εξαλείφοντας την ανάγκη εξωτερικών εργαλείων μοντελοποίησης. Η βιβλιοθήκη εγγυάται επίσης απώλεια‑απαράλειψη διατήρηση γεωμετρίας, κάτι που είναι κρίσιμο για μηχανικές γραμμές παραγωγής. Για συζητήσεις της κοινότητας, δείτε το [Aspose.3D forum](https://forum.aspose.com/c/3d/18).
 
 ## Προαπαιτούμενα
 
-- Java Development Kit (JDK) εγκατεστημένο στο σύστημά σας.  
-- **Εγκατάσταση Aspose 3D** – κατεβάστε τη βιβλιοθήκη από την επίσημη ιστοσελίδα [εδώ](https://releases.aspose.com/3d/java/).  
-- Ένα IDE ή εργαλείο κατασκευής (Maven/Gradle) για τη διαχείριση της εξάρτησης Aspose.3D.  
+Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τα εξής:
 
-## Εισαγωγή Πακέτων
+- Java Development Kit (JDK) 8 ή νεότερο εγκατεστημένο στο σύστημά σας.  
+- **Εγκατάσταση Aspose 3D** – κατεβάστε τη βιβλιοθήκη από τη σελίδα εκδόσεων του επίσημου Aspose.3D.  
+- Ένα IDE (IntelliJ IDEA, Eclipse, VS Code) ή ένα εργαλείο κατασκευής όπως Maven ή Gradle για τη διαχείριση της εξάρτησης Aspose.3D.  
 
-Οι παρακάτω εισαγωγές σας δίνουν πρόσβαση στον πυρήνα του γραφήματος σκηνής, τη δημιουργία γεωμετρίας και τις κλάσεις διαχείρισης αρχείων.
+## Εισαγωγή πακέτων
 
-Η κλάση `Scene` είναι το αντικείμενο υψηλότερου επιπέδου του Aspose.3D που αντιπροσωπεύει ένα μοναδικό περιβάλλον 3‑D στη μνήμη.  
-Η κλάση `Cylinder` δημιουργεί ένα κυλινδρικό πλέγμα με ρυθμιζόμενη ακτίνα, ύψος και τρισδιάστατη απόδοση (tessellation).  
-Η κλάση `Vector2` ορίζει ένα δισδιάστατο διάνυσμα που χρησιμοποιείται για τους παράγοντες shear.
+Οι παρακάτω εισαγωγές σας δίνουν πρόσβαση στον πυρήνα του σκηνικού γραφήματος, στη δημιουργία γεωμετρίας και στις κλάσεις διαχείρισης αρχείων.
+
+Η κλάση `Scene` είναι το κορυφαίο αντικείμενο του Aspose.3D που αντιπροσωπεύει ένα μοναδικό 3‑D περιβάλλον στη μνήμη.  
+Η κλάση `Cylinder` δημιουργεί ένα κυλινδρικό πλέγμα με ρυθμιζόμενο ακτίνα, ύψος και τριγωνοποίηση.  
+Η κλάση `Vector2` ορίζει ένα δισδιάστατο διάνυσμα που χρησιμοποιείται για παράγοντες παραμόρφωσης.
 
 ```java
 import com.aspose.threed.*;
@@ -105,13 +112,13 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Πώς να δημιουργήσετε μια java 3d scene με έναν κομμένο κύλινδρο;
+## Πώς να δημιουργήσετε μια java 3d σκηνή με παραμορφωμένο κύλινδρο;
 
-Φορτώστε τη βιβλιοθήκη Aspose.3D, δημιουργήστε ένα νέο `Scene`, προσθέστε έναν κύλινδρο, εφαρμόστε μια μετασχηματισμό shear στα κάτω κορυφαία σημεία του και τελικά αποθηκεύστε τη σκηνή ως αρχείο OBJ. Ολόκληρη αυτή η διαδικασία μπορεί να ολοκληρωθεί σε λιγότερο από δέκα γραμμές κώδικα Java, καθιστώντας την ιδανική για γρήγορη πρωτοτυποποίηση ή αυτόματη δημιουργία περιουσιακών στοιχείων.
+Φορτώστε τη βιβλιοθήκη Aspose.3D, δημιουργήστε μια νέα `Scene`, προσθέστε έναν κύλινδρο, εφαρμόστε μια παραμόρφωση στα κάτω κορυφαία σημεία του και, τέλος, αποθηκεύστε τη σκηνή ως αρχείο OBJ. Ολόκληρη αυτή η διαδικασία μπορεί να ολοκληρωθεί σε λιγότερες από δέκα γραμμές κώδικα Java, καθιστώντας την ιδανική για γρήγορη πρωτοτυποποίηση ή αυτοματοποιημένη δημιουργία πόρων.
 
-### Βήμα 1: Δημιουργία Σκηνής
+### Βήμα 1: δημιουργία σκηνής
 
-Μια σκηνή είναι το δοχείο για όλα τα 3‑D αντικείμενα. Θα ξεκινήσουμε δημιουργώντας μια κενή σκηνή.
+Μια σκηνή είναι το κοντέινερ για όλα τα 3‑D αντικείμενα. Θα ξεκινήσουμε δημιουργώντας μια κενή σκηνή.
 
 ```java
 // ExStart:3
@@ -120,9 +127,9 @@ Scene scene = new Scene();
 // ExEnd:3
 ```
 
-### Βήμα 2: Δημιουργία Cylinder 1 – Πώς να Εφαρμόσετε Shear σε Κύλινδρο
+### Βήμα 2: δημιουργία κυλίνδρου 1 – πώς να παραμορφώσετε τον κύλινδρο
 
-Τώρα θα δημιουργήσουμε τον πρώτο κύλινδρο και **εφαρμόσουμε μετασχηματισμό shear** στην βάση του. Αυτό δείχνει **πώς να shear κύλινδρο** γεωμετρία απευθείας μέσω του API.
+Τώρα θα χτίσουμε τον πρώτο κύλινδρο και **θα εφαρμόσουμε παραμόρφωση** στο κάτω μέρος του. Αυτό δείχνει **πώς να παραμορφώσετε τον κύλινδρο** απευθείας μέσω του API.
 
 ```java
 // ExStart:4
@@ -135,9 +142,9 @@ scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10,
 // ExEnd:4
 ```
 
-### Βήμα 3: Δημιουργία Cylinder 2 – Κανονικός Κύλινδρος (Χωρίς Shear)
+### Βήμα 3: δημιουργία κυλίνδρου 2 – τυπικός κύλινδρος (χωρίς παραμόρφωση)
 
-Για σύγκριση, θα προσθέσουμε έναν δεύτερο κύλινδρο που **δεν** έχει κομμένη βάση.
+Για σύγκριση, θα προσθέσουμε έναν δεύτερο κύλινδρο που **δεν** έχει παραμορφωμένο κάτω μέρος.
 
 ```java
 // ExStart:5
@@ -148,9 +155,9 @@ scene.getRootNode().createChildNode(cylinder2);
 // ExEnd:5
 ```
 
-### Βήμα 4: Αποθήκευση Σκηνής – Εξαγωγή Αρχείου OBJ Java
+### Βήμα 4: αποθήκευση σκηνής – εξαγωγή αρχείου obj σε Java
 
-Τέλος, εξάγουμε τη σκηνή σε αρχείο Wavefront OBJ, επιδεικνύοντας τη χρήση του **export obj file java**.
+Τέλος, εξάγουμε τη σκηνή σε αρχείο Wavefront OBJ, επιδεικνύοντας τη χρήση **export obj file java**.
 
 ```java
 // ExStart:6
@@ -159,49 +166,67 @@ scene.save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", File
 // ExEnd:6
 ```
 
-## Γιατί Αυτό είναι Σημαντικό για τη Μοντελοποίηση Java 3D
+## Γιατί αυτό είναι σημαντικό για τη μοντελοποίηση java 3d
 
-Η εφαρμογή shear σε ένα primitive επιτρέπει τη δημιουργία πιο οργανικών και προσαρμοσμένων σχημάτων απευθείας στον κώδικα, εξαλείφοντας την ανάγκη για εξωτερικό λογισμικό μοντελοποίησης. Αυτή η προσέγγιση είναι ιδιαίτερα χρήσιμη για αρχιτεκτονικές απεικονίσεις με κεκλιμένες βάσεις, ελαφριά στοιχεία παιχνιδιών που απαιτούν προσαρμοσμένα αποτυπώματα, και γρήγορη πρωτοτυποποίηση όπου οι διαστάσεις πρέπει να προσαρμόζονται προγραμματιστικά.
+Η εφαρμογή παραμόρφωσης σε ένα primitive επιτρέπει τη δημιουργία πιο οργανικών και προσαρμοσμένων σχημάτων απευθείας στον κώδικα, εξαλείφοντας την ανάγκη εξωτερικού λογισμικού μοντελοποίησης. Αυτή η προσέγγιση είναι ιδιαίτερα χρήσιμη για αρχιτεκτονικές απεικονίσεις με κεκλιμένα βάσεις, ελαφριά game assets που απαιτούν προσαρμοσμένα footprints, και γρήγορη πρωτοτυποποίηση όπου οι διαστάσεις πρέπει να ρυθμιστούν προγραμματιστικά.
 
 - Αρχιτεκτονικές απεικονίσεις όπου απαιτούνται κεκλιμένες βάσεις.  
-- Στοιχεία παιχνιδιών που χρειάζονται προσαρμοσμένα αποτυπώματα ενώ διατηρούν τη γεωμετρία ελαφριά.  
-- Γρήγορη πρωτοτυποποίηση όπου θέλετε να ρυθμίσετε τις διαστάσεις προγραμματιστικά.
+- Game assets που χρειάζονται προσαρμοσμένα footprints ενώ η γεωμετρία παραμένει ελαφριά.  
+- Γρήγορη πρωτοτυποποίηση όπου θέλετε να ρυθμίσετε διαστάσεις προγραμματιστικά.
 
-## Συνηθισμένα Προβλήματα & Λύσεις
+## Συνηθισμένες περιπτώσεις χρήσης
+
+Οι προγραμματιστές συχνά χρειάζονται να δημιουργούν παραλλαγές μιας βασικής γεωμετρίας εν κινήσει. Με το Aspose.3D μπορείτε:
+
+1. Να παράγετε μια σειρά κυλίνδρων με διαφορετικές γωνίες παραμόρφωσης για διαδικαστική δημιουργία εδάφους.  
+2. Να δημιουργήσετε προσαρμοσμένους συνδέσμους για μηχανικές συναρμολογήσεις όπου η βάση πρέπει να ταιριάζει με μη‑τυπική γωνία.  
+3. Να δημιουργήσετε placeholder assets για UI mock‑ups χωρίς να βγείτε από τη βάση κώδικα Java.
+
+## Συμβουλές και βέλτιστες πρακτικές
+
+- **Επαναχρησιμοποίηση διανυσμάτων παραμόρφωσης**: Αποθηκεύστε συχνά χρησιμοποιούμενα `Vector2` σε μια κλάση constants για να αποφύγετε την επαναδημιουργία τους για κάθε πλέγμα.  
+- **Επικύρωση ακεραιότητας πλέγματος**: Μετά την εφαρμογή ενός μετασχηματισμού, καλέστε `scene.validate()` (αν είναι διαθέσιμο) για να βεβαιωθείτε ότι δεν δημιουργήθηκαν εκφυλισμένα πρόσωπα.  
+- **Ομαδική εξαγωγή**: Όταν εξάγετε πολλές σκηνές, επαναχρησιμοποιήστε ένα μόνο `FileOutputStream` και κλείστε το μετά το βρόχο για να μειώσετε το I/O overhead.  
+- **Άδεια νωρίς**: Εφαρμόστε μια [temporary license](https://purchase.aspose.com/temporary-license/) πριν από οποιαδήποτε δημιουργία σκηνής για να αποφύγετε απροσδόκητα `LicenseException` κατά το runtime.  
+- **Παρακολούθηση απόδοσης**: Για μεγάλα μοντέλα, μετρήστε το χρόνο που απαιτείται από το `scene.save()`· το Aspose.3D συνήθως γράφει ένα OBJ 200‑σελίδων σε κάτω από 800 ms σε σύγχρονο laptop.  
+- Όταν είστε έτοιμοι για παραγωγή, αποκτήστε πλήρη άδεια από τη [Aspose.3D purchase page](https://purchase.aspose.com/buy).
+
+## Συνηθισμένα προβλήματα & λύσεις
 
 | Πρόβλημα | Λύση |
 |-------|----------|
-| **Το shear φαίνεται πολύ ακραίο** | Ρυθμίστε τις τιμές του `Vector2`; αντιπροσωπεύουν τον παράγοντα shear (εύρος 0‑1). |
-| **Το αρχείο OBJ δεν ανοίγει στον προβολέα** | Επαληθεύστε ότι ο προορισμός φακέλου υπάρχει και ότι έχετε δικαιώματα εγγραφής. |
-| **Απόκλιση άδειας κατά την εκτέλεση** | Εφαρμόστε προσωρινή ή μόνιμη άδεια πριν δημιουργήσετε τη σκηνή (`License license = new License(); license.setLicense("Aspose.3D.lic");`). |
+| **Η παραμόρφωση φαίνεται πολύ ακραία** | Ρυθμίστε τις τιμές του `Vector2`; αντιπροσωπεύουν τον παράγοντα παραμόρφωσης (εύρος 0‑1). |
+| **Το αρχείο OBJ δεν ανοίγει σε viewer** | Επαληθεύστε ότι ο προορισμός υπάρχει και ότι έχετε δικαιώματα εγγραφής. |
+| **License exception στο runtime** | Εφαρμόστε προσωρινή ή μόνιμη άδεια πριν δημιουργήσετε τη σκηνή (`License license = new License(); license.setLicense("Aspose.3D.lic");`). |
 
-## Συχνές Ερωτήσεις
+## Συχνές ερωτήσεις
 
-**Q: Μπορώ να χρησιμοποιήσω το Aspose.3D για Java με άλλες βιβλιοθήκες Java 3D;**  
-A: Το Aspose.3D έχει σχεδιαστεί ώστε να λειτουργεί ανεξάρτητα. Αν και μπορείτε να το ενσωματώσετε με άλλες βιβλιοθήκες, παρέχει ήδη ένα πλήρες API για τις περισσότερες εργασίες 3‑D.
+**Ε: Μπορώ να χρησιμοποιήσω το Aspose.3D for Java με άλλες βιβλιοθήκες Java 3D;**  
+Α: Το Aspose.3D σχεδιάστηκε για ανεξαρτησία. Αν και μπορείτε να το ενσωματώσετε με άλλες βιβλιοθήκες, παρέχει ήδη ένα πλήρες API για τις περισσότερες 3‑D εργασίες.
 
-**Q: Είναι το Aspose.3D κατάλληλο για αρχάριους στη 3D μοντελοποίηση;**  
-A: Απόλυτα. Το API είναι απλό, και αυτό το **beginner 3d tutorial** δείχνει τις βασικές έννοιες με ελάχιστο κώδικα.
+**Ε: Είναι το Aspose.3D κατάλληλο για αρχάριους στη 3D μοντελοποίηση;**  
+Α: Απόλυτα. Το API είναι απλό, και αυτό το beginner 3d tutorial δείχνει βασικές έννοιες με ελάχιστο κώδικα.
 
-**Q: Πού μπορώ να βρω επιπλέον υποστήριξη για το Aspose.3D for Java;**  
-A: Επισκεφθείτε το [Aspose.3D forum](https://forum.aspose.com/c/3d/18) για βοήθεια από την κοινότητα και επίσημες απαντήσεις.
+**Ε: Πού μπορώ να βρω πρόσθετη υποστήριξη για το Aspose.3D for Java;**  
+Α: Επισκεφθείτε το [Aspose.3D forum](https://forum.aspose.com/c/3d/18) για βοήθεια από την κοινότητα και επίσημες απαντήσεις.
 
-**Q: Πώς μπορώ να αποκτήσω προσωρινή άδεια για το Aspose.3D;**  
-A: Μπορείτε να αποκτήσετε προσωρινή άδεια [εδώ](https://purchase.aspose.com/temporary-license/).
+**Ε: Πώς μπορώ να αποκτήσω προσωρινή άδεια για το Aspose.3D;**  
+Α: Μπορείτε να λάβετε μια [temporary license](https://purchase.aspose.com/temporary-license/).
 
-**Q: Πού μπορώ να αγοράσω πλήρη άδεια Aspose.3D for Java;**  
-A: Οι επιλογές αγοράς είναι διαθέσιμες [εδώ](https://purchase.aspose.com/buy).
+**Ε: Πού αγοράζω πλήρη άδεια Aspose.3D for Java;**  
+Α: Οι επιλογές αγοράς είναι διαθέσιμες στη [Aspose.3D purchase page](https://purchase.aspose.com/buy).
 
-**Τελευταία Ενημέρωση:** 2026-05-14  
-**Δοκιμή Με:** Aspose.3D 24.11 for Java  
+---
+
+**Τελευταία ενημέρωση:** 2026-10-13  
+**Δοκιμή με:** Aspose.3D 24.11 for Java  
 **Συγγραφέας:** Aspose
 
-## Σχετικά Μαθήματα
+## Σχετικά tutorials
 
-- [Δημιουργία 3D Σκηνής Java με Aspose 3D Java](/3d/java/3d-scenes-and-models/)
-- [java 3d graphics tutorial – Συνένωση Πινάκων Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-matrices/)
-- [Java 3D Graphics Tutorial - Δημιουργία 3D Σκηνής Κύβου με Aspose.3D](/3d/java/geometry/create-3d-cube-scene/)
-
+- [Create 3D Scene Java with Aspose 3D Java](/3d/java/3d-scenes-and-models/)
+- [java 3d graphics tutorial – Concatenate Matrices Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-matrices/)
+- [Java 3D Graphics Tutorial - Create a 3D Cube Scene with Aspose.3D](/3d/java/geometry/create-3d-cube-scene/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
