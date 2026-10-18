@@ -9983,7 +9983,18 @@
       "creator": "ag-kkm1u47Q",
       "createdAt": "2026-10-18T22:57:28.7556574Z",
       "finishedAt": "2026-10-18T23:14:06.2817137Z"
+    },
+    {
+      "id": 833,
+      "title": "Verify API calls for Aspose.3D Java 26.6.0",
+      "description": "Verify the following API calls for Aspose.3D Java 26.6.0:\n\n1. Check if \u0060Common\u0060 class exists and what methods it has\n2. Check if \u0060Common.createMeshUsingPolygonBuilder()\u0060 exists\n3. Check if \u0060PointCloud\u0060 class exists\n4. Check if \u0060scene.convertToPointCloud()\u0060 exists on Scene class\n5. Check if \u0060FileFormat.WAVEFRONTOBJ\u0060 and \u0060FileFormat.PLY\u0060 exist\n\nUse \u0060aspose-cli api\u0060 commands to verify the API. Return a summary of findings.",
+      "priority": "normal",
+      "type": "task",
+      "assignee": "ag-kkm1u47Q",
+      "status": "working",
+      "creator": "ag-kkm1u47Q",
+      "createdAt": "2026-10-18T23:15:42.6287676Z"
     }
   ],
-  "nextId": 833
+  "nextId": 834
 }
