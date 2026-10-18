@@ -102,21 +102,30 @@ Create a `Polygon` or `Polyline` that represents the shape you want to extrude.
 *A `Polygon` represents a closed shape defined by vertices, while a `Polyline` is an open series of line segments.*  
 Ready to get started? [Perform Linear Extrusion Now](./performing-linear-extrusion/)  
 For a detailed tutorial, see [Performing Linear Extrusion in Aspose.3D for Java](./performing-linear-extrusion/).
+````java
+// Create a polygon profile using Line (polyline)
+import com.aspose.threed.Line;
+import com.aspose.threed.Vector4;
+import com.aspose.threed.LinearExtrusion;
+import com.aspose.threed.ArbitraryProfile;
 
-```java
-// Create a polygon profile
-Polygon profile = new Polygon();
-profile.addVertex(new Vector3(0, 0, 0));
-profile.addVertex(new Vector3(10, 0, 0));
-profile.addVertex(new Vector3(10, 5, 0));
-profile.addVertex(new Vector3(0, 5, 0));
+Line line = new Line();
+line.getControlPoints().add(new Vector4(0, 0, 0));
+line.getControlPoints().add(new Vector4(10, 0, 0));
+line.getControlPoints().add(new Vector4(10, 5, 0));
+line.getControlPoints().add(new Vector4(0, 5, 0));
+line.getControlPoints().add(new Vector4(0, 0, 0)); // Close the loop
+line.makeDefaultIndices();
+
+// Create profile from the line
+ArbitraryProfile profile = new ArbitraryProfile(line);
 
 // Create extrusion
-Extrusion extrusion = new Extrusion(profile);
+LinearExtrusion extrusion = new LinearExtrusion();
+extrusion.setShape(profile);
 extrusion.setDirection(new Vector3(0, 0, 20));
 extrusion.setSlices(20);
-```
-
+````
 ### Step 2: Configure extrusion options
 Set the center, direction, slices, twist, and twist offset on an `Extrusion` object.  
 *The `Extrusion` class encapsulates all parameters needed to generate a 3‑D mesh from a 2‑D profile.*  
@@ -128,14 +137,15 @@ Instantiate a `Scene`, attach the extrusion mesh, and export to your desired for
 *`Scene` is the container that holds all 3‑D objects and handles exporting to various file formats.*  
 Ready to set the direction? [Explore Now](./setting-direction/)  
 Learn more about direction: [Setting Direction in Linear Extrusion with Aspose.3D for Java](./setting-direction/)
-
-```java
+````java
 // Add extrusion to scene and save
-Scene scene = new Scene();
-scene.getRootNode().addChild(extrusion);
-scene.save("extrudedShape.obj");
-```
+import com.aspose.threed.Scene;
+import com.aspose.threed.FileFormat;
 
+Scene scene = new Scene();
+scene.getRootNode().createChildNode(extrusion);
+scene.save("extrudedShape.obj", FileFormat.WAVEFRONTOBJ);
+````
 ### Step 4: Export or render
 Use `Scene.save()` to write the model to OBJ, STL, or any supported format.  
 *`Scene.save()` writes the entire scene to the specified file format, applying any necessary post‑processing.*  

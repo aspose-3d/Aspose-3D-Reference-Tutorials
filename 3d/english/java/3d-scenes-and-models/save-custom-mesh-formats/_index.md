@@ -155,8 +155,13 @@ import java.io.*;
 import java.util.List;
 import com.aspose.threed.*;
 
-````java
-try (DataOutputStream writer = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("Your Document Directory" + "Save3DMeshesInCustomBinaryFormat_out")))) {    scene.getRootNode().accept(new NodeVisitor() {
+```
+Scene scene = new Scene();
+scene.open("Your Document Directory" + "test.fbx");
+
+```java
+try (DataOutputStream writer = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("Your Document Directory" + "Save3DMeshesInCustomBinaryFormat_out")))) {
+    scene.getRootNode().accept(new NodeVisitor() {
         @Override
         public boolean call(Node node) {
             try {
