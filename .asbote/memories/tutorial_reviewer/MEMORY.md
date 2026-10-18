@@ -1,31 +1,38 @@
-﻿Based on the recent conversation history, here's the crafted memory:
+﻿Based on the daily memory contents, here are the key synthesized lessons and important information:
 
-## Summary of Tutorial Review Workflow
+## Repository State & Workflow
 
-### Current State (as of 2026-08-15)
-- **Last reviewed commit**: `07f49b32` (merge of `optimize/3d/java/20260817050925`)
-- **Repository state**: Branch `main` at `07f49b32` with recent pull from origin
-- **English Java tutorials**: 78 files
-- **English .NET tutorials**: 86 files
+**Latest Reviewed Commit:** `9df472478` (a self-commit for progress tracking)
 
-### Workflow Process
-1. **Stash local changes** → **`git pull --rebase`** → **Restore stashed changes**
-2. **Check commits since last reviewed** using `git log --reverse --format='%H' <last-reviewed>..HEAD -- 3d/english/java/ 3d/english/net/`
-3. **Identify modified tutorials** using `git show --name-status --format='' <sha> | grep -E '3d/english/(java|net)/.*_index\.md'`
-4. **Verify code snippets** using `aspose-cli verify java 26.6.0` or `aspose-cli verify csharp 26.6.0`
-5. **Fix any errors** using `aspose-cli api show` or `aspose-cli api search` to confirm correct signatures
-6. **Propagate fixes to translations** - English is source of truth, translations mirror code blocks
-7. **Update progress** in `.claude/progress.md` with the last reviewed commit SHA
+**All Commits Up to HEAD Have Been Reviewed:** Commits processed include `7be1e2b` (build-node-hierarchies Java tutorial - verified, compiles correctly) and subsequent progress tracking updates.
 
-### Key Findings
-- Commit `07f49b32` modified 5 English tutorials in load-and-save and point-clouds categories
-- Recent commits bring in optimization work from `optimize/3d/java/20260817050925` branch
-- All verification uses **Aspose.3D 26.6.0** as the version pin
-- No new commits with English tutorial changes since `07f49b32`
+## Key Workflows Confirmed
 
-### Critical Workflow Rules
-- Always update `.claude/progress.md` after each commit's review
-- Process commits in oldest-first order
-- Only review English tutorials - translations mirror the English code blocks
-- Use `aspose-cli` for both verification and API lookup
-- Never commit/push until the queue is fully processed and progress is up to date
+**Progress Tracking Workflow:**
+- Always read `.claude/progress.md` at session start to find last reviewed commit
+- Use `git stash && git pull --rebase && git stash pop` when uncommitted changes block pull
+- Process commits in order (oldest first) using `git log --reverse --format='%H' <last-reviewed>..HEAD`
+- For each commit, check if tutorial files were modified with: `git show --name-status --format='' <sha> | grep -E '3d/english/(java|net)/.*_index\.md'`
+- If no tutorial files changed, it's a self-commit (progress tracking) - update progress and commit
+- If tutorial files changed, verify all code snippets against Aspose.3D 26.6.0
+- Update `.claude/progress.md` with the commit SHA after review is complete
+
+**Verification Commands:**
+- Java code: `aspose-cli verify java 26.6.0 -` (stdin)
+- .NET code: `aspose-cli verify csharp 26.6.0 -` (stdin)
+- API lookup: `aspose-cli api show` or `aspose-cli api search`
+
+**Code Fixes Verified:**
+- `LinearExtrusion` class is the correct class name (not `Extrusion`, `Polygon`, or `Polyline`)
+- `Line` and `ArbitraryProfile` classes work correctly with `LinearExtrusion`
+- Scene object instantiation and `scene.open()` calls are required for file loading
+- Import paths must use correct case (`com.aspose.threed.Scene`, not `com.aspose.threed.scene`)
+
+## Lessons Learned
+
+1. **Self-commits are common:** Many commits only update `.claude/progress.md` - no code verification needed
+2. **Always stash first:** When `git pull --rebase` fails, stash → pull → pop is the reliable pattern
+3. **Commit by commit:** Never batch multiple commits in progress tracking - each commit records one review step
+4. **Push after each commit:** Keep remote synchronized to avoid conflicts
+5. **Class name matters:** `LinearExtrusion` is correct, others are invalid in Aspose.3D 26.6.0
+6. **Example markers:** Keep `ExStart`/`ExEnd` markers in files but strip them when assembling verification units
