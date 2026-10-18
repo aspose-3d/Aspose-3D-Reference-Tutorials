@@ -95,16 +95,14 @@ Before you start, ensure you have:
 ## Import Packages
 
 Add the required Aspose.3D imports to your Java class:
+The `FileOutputStream` class provides a stream for writing binary data to a file.
 
-The `MemoryStream` class provides an in‑memory stream for reading and writing binary data without touching the file system.  
-
-```java
+````java
 import com.aspose.threed.*;
-import com.aspose.threed.utils.MemoryStream;
-```
+import java.io.FileOutputStream;
+````
 
 ## How to convert 3d file java using Aspose.3D
-
 Using Aspose.3D, you load the source file into a `Scene`, optionally adjust geometry or materials, and then save the scene in the desired output format. The library handles format detection, memory management, and conversion details, allowing you to perform the entire workflow with just a few API calls.
 
 The `Scene` class is Aspose.3D’s core object that represents a complete 3‑D model, including geometry, materials, lights, and animation. All loading and saving operations flow through this class.
@@ -137,37 +135,35 @@ The `FileFormat` enumeration lists all supported input and output file types rec
 ### Step 3: Save Scene to a Stream
 
 Saving to a `MemoryStream` is handy when you want to send the converted file over a network or store it in a database without touching the file system.
-
-```java
+````java
 // ExStart:SaveSceneToStream
-try (MemoryStream dstStream = new MemoryStream()) {
+try (FileOutputStream dstStream = new FileOutputStream("Your Document Directory" + "output_out.fbx")) {
     scene.save(dstStream, FileFormat.FBX7500ASCII);
 }
 // ExEnd:SaveSceneToStream
-```
+````
 
 ### Step 4: Save Scene to a Local Path
 
-For a traditional file‑system write, specify the output path and desired format.
+For a traditional file\u2011system write, specify the output path and desired format.
 
-```java
+\u0060\u0060\u0060java
 // ExStart:SaveSceneToLocalPath
-scene.save(myDir + "output_out.fbx", FileFormat.FBX7500ASCII);
+scene.save(myDir \u002B \u0022output_out.fbx\u0022, FileFormat.FBX7500ASCII);
 // ExEnd:SaveSceneToLocalPath
-```
+\u0060\u0060\u0060
 
-You can replace `FileFormat.FBX7500ASCII` with any other supported format such as `FileFormat.OBJ`, `FileFormat.STL`, or `FileFormat.GLTF2`.
+You can replace \u0060FileFormat.FBX7500ASCII\u0060 with any other supported format such as \u0060FileFormat.OBJ\u0060, \u0060FileFormat.STL\u0060, or \u0060FileFormat.GLTF2\u0060.
 
 ### Step 5: print success message
 
 A simple console message confirms that the conversion finished without errors.
 
-```java
+\u0060\u0060\u0060java
 // ExStart:PrintSuccessMessage
-System.out.println("\nConverted 3D document to stream successfully.");
+System.out.println(\u0022\nConverted 3D document to stream successfully.\u0022);
 // ExEnd:PrintSuccessMessage
-```
-
+\u0060\u0060\u0060
 > **Common Pitfall:** Forgetting to close the `MemoryStream`. Using the try‑with‑resources block (as shown) ensures proper disposal.
 
 ## Common Use Cases (java convert obj to stl)

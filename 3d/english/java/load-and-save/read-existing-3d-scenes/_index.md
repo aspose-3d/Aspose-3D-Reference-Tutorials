@@ -81,35 +81,33 @@ import com.aspose.threed.Scene;
 
 import java.io.IOException;
 ```
+| ## Step 1: set up your document directory
 
-## Step 1: set up your document directory
+\u0060\u0060\u0060java
+String MyDir1 = \u0022Your Document Directory\u0022;
+\u0060\u0060\u0060
 
-```java
-String MyDir = "Your Document Directory";
-```
-
-Replace `"Your Document Directory"` with the absolute or relative path where your 3D assets live.
+Replace \u0060\u0022Your Document Directory\u0022\u0060 with the absolute or relative path where your 3D assets live.
 
 ## Step 2: initialize a scene object
 
-The `Scene` class is Aspose.3D's core container that represents a complete 3‑D file in memory. After creating a `Scene` instance you gain access to nodes, meshes, materials, and animation data.
+The \u0060Scene\u0060 class is Aspose.3D\u0027s core container that represents a complete 3\u2011D file in memory. After creating a \u0060Scene\u0060 instance you gain access to nodes, meshes, materials, and animation data.
 
-```java
-Scene scene = new Scene();
-```
+\u0060\u0060\u0060java
+Scene scene1 = new Scene();
+\u0060\u0060\u0060
 
-Creating a `Scene` instance gives you a container for all geometry, materials, and metadata.
+Creating a \u0060Scene\u0060 instance gives you a container for all geometry, materials, and metadata.
 
 ## Step 3: load an existing 3D document
 
-Load your file with a single call—Aspose.3D parses the format and populates the `Scene` object automatically. This step handles geometry, textures, and hierarchy in one go.
+Load your file with a single call\u2014Aspose.3D parses the format and populates the \u0060Scene\u0060 object automatically. This step handles geometry, textures, and hierarchy in one go.
 
-```java
-scene.open(MyDir + "document.fbx");
-```
+\u0060\u0060\u0060java
+scene1.open(MyDir1 \u002B \u0022document.fbx\u0022);
+\u0060\u0060\u0060
 
-This line **reads the 3D scene** (`document.fbx`) and populates the `scene` object. Swap `"document.fbx"` for any supported file such as `.obj`, `.3mf`, or `.rvm`.
-
+This line **reads the 3D scene** (\u0060document.fbx\u0060) and populates the \u0060scene1\u0060 object. Swap \u0060\u0022document.fbx\u0022\u0060 for any supported file such as \u0060.obj\u0060, \u0060.3mf\u0060, or \u0060.rvm\u0060.
 ## Step 4: print confirmation
 
 A simple console message lets you know the load succeeded.
@@ -117,20 +115,18 @@ A simple console message lets you know the load succeeded.
 ```java
 System.out.println("\n3D Scene is ready for modification, addition, or processing purposes.");
 ```
-
-## Additional example: read RVM with attributes
+| ## Additional example: read RVM with attributes
 
 If you have an RVM file that stores extra attribute data, you can import both the geometry and its attributes like this:
 
-```java
-String dataDir = "Your Document Directory";
-Scene scene = new Scene();
-scene.open(dataDir + "att-test.rvm");
-FileFormat.RVM_BINARY.loadAttributes(scene, dataDir + "att-test.att");
-```
+\u0060\u0060\u0060java
+String dataDir1 = \u0022Your Document Directory\u0022;
+Scene scene2 = new Scene();
+scene2.open(dataDir1 \u002B \u0022att-test.rvm\u0022);
+FileFormat.RVM_BINARY.loadAttributes(scene2, dataDir1 \u002B \u0022att-test.att\u0022);
+\u0060\u0060\u0060
 
-This snippet demonstrates how to **import 3d model java** files that come with ancillary `.att` files.
-
+This snippet demonstrates how to **import 3d model java** files that come with ancillary \u0060.att\u0060 files.
 ## Common issues & tips
 
 | Issue | Why It Happens | How to Fix |

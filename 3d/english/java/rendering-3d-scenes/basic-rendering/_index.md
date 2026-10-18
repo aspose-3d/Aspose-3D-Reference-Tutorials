@@ -100,15 +100,9 @@ Aspose.3D provides a pure‑Java API that eliminates native dependencies, suppor
 - Familiarity with fundamental 3D graphics concepts (meshes, lights, cameras).  
 
 ## How do you set up a basic 3d rendering scene in Java?
-### Step 1: Setting up the Scene (how to apply material - camera & lighting)
 
-We create a `Scene` object, add a camera, and configure basic lighting. The `Camera` class defines the eye position, target, and projection parameters for rendering.
+Create a `Scene` object, add a camera, and configure a light source. The `Scene` class is the top‑level container that holds all geometry, lights, and cameras. After you instantiate the scene, you can attach a `Camera` (which defines the viewpoint) and a `DirectionalLight` (which illuminates the objects). This three‑step setup gives you a ready‑to‑render environment in just a few lines of code.
 
-` ```java
-// Add a light source
-Node lightNode = scene.getRootNode().createChildNode("light", new Light());
-lightNode.getTransform().setTranslation(10, 10, 10);
-` ```
 ### Import Packages
 
 First, import the Aspose.3D classes and the standard `java.awt` package for color handling.
@@ -128,51 +122,59 @@ Below is the complete step‑by‑step guide. Each step includes a short explana
 We create a `Scene` object, add a camera, and configure basic lighting. The helper method returns the configured `Camera` instance. The `Camera` class defines the eye position, target, and projection parameters for rendering.
 
 ```java
-protected static Camera setupScene(Scene scene) {
-    // Code for setting up camera and lighting
-    // ...
-    return camera;
-}
+Scene scene = new Scene();
+Node lightNode = scene.getRootNode().createChildNode("light", new Light());
+lightNode.getTransform().setTranslation(10, 10, 10);
+
+Camera camera = new Camera();
+scene.getRootNode().createChildNode(camera);
+camera.setNearPlane(0.1);
+camera.getParentNode().getTransform().setTranslation(10, 5, 10);
+camera.setLookAt(Vector3.getZero());
 ```
+
 ### Step 2: Creating a Plane (java 3d graphics basics)
 
-A simple plane gives us a ground reference. We also set material properties on the node to apply color.
+A simple plane gives us a ground reference. We also **apply material** by setting a solid color. The `Material` class stores surface properties such as diffuse color, specular highlights, and transparency.
 
-` ```java
+```java
 Node plane = scene.getRootNode().createChildNode("plane", new Plane().toMesh());
 plane.setProperty("Color", new Vector3(1.0, 0.55, 0.0));
 plane.getTransform().setTranslation(0, 0, 0);
 ((Mesh)plane.getEntity()).setReceiveShadows(true);
-` ```### Step 3: Adding a Torus (how to add torus)
+```
 
-A torus demonstrates how to work with more complex geometry and transparent materials. The `Torus` primitive is generated with inner and outer radii, then a semi-transparent material is applied.
+### Step 3: Adding a Torus (how to add torus)
 
-` ```java
+A torus demonstrates how to work with more complex geometry and transparent materials. The `Torus` primitive is generated with inner and outer radii, then a semi‑transparent material is applied.
+
+```java
 Mesh torusMesh = (new Torus("", 1, 0.4, 50, 50, Math.PI*2)).toMesh();
 Node torus = scene.getRootNode().createChildNode("torus", torusMesh);
 torus.setProperty("Color", new Vector3(0.2, 0.047, 0.576));
 torus.setProperty("Transparency", 0.3);
 torus.getTransform().setTranslation(2, 1, 1);
-` ```### Step 4: Incorporating Cylinders (additional shapes)
+```
 
-Here we add a few cylinders with different rotations and materials to enrich the scene.
+### Step 4: Incorporating Cylinders (additional shapes)
 
-` ```java
+Here we add a few cylinders with different rotations and materials to enrich the scene. Each `Cylinder` receives its own `Material` instance, allowing distinct colors and shading.
+
+```java
 Node cylinder = scene.getRootNode().createChildNode("cylinder", new Cylinder().toMesh());
 cylinder.getTransform().setTranslation(0, 1, 0);
 cylinder.setProperty("Color", new Vector3(0.1, 0.5, 0.9));
-` ```
+```
+
 ### Step 5: Configuring the Camera (final view)
 
 The camera determines the viewpoint from which the scene is rendered. By adjusting its position, look‑at target, and field of view you control the final composition.
 
 ```java
-Camera camera = new Camera();
 scene.getRootNode().createChildNode(camera);
 camera.setNearPlane(0.1);
 camera.getParentNode().getTransform().setTranslation(10, 5, 10);
-camera.setLookAt(Vector3.ORIGIN);
-return camera;
+camera.setLookAt(Vector3.getZero());
 ```
 
 ## Common Issues and Solutions

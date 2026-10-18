@@ -65,31 +65,29 @@ import java.io.IOException;
 `LoadOptions` is Aspose.3D's configuration object that controls how a 3D file is parsed and loaded. By setting its properties you can dictate whether axes are flipped, materials are imported, animation data is applied, and which auxiliary resources are searched for during loading.
 
 Below are step‑by‑step code snippets that demonstrate how to enable the **flip coordinate system** option for each supported format. The snippets are ready to copy into your project; just replace `"Your Document Directory"` with the actual path to your assets.
+| ### Step 1: Customize 3DS File Loading
 
-### Step 1: Customize 3DS File Loading
-
-```java
+\u0060\u0060\u0060java
 // ExStart:discreet3DSLoadOption
-String MyDir = "Your Document Directory";
-Discreet3dsLoadOptions loadOpts = new Discreet3dsLoadOptions();
-loadOpts.setApplyAnimationTransform(true);
-loadOpts.setFlipCoordinateSystem(true);
-loadOpts.setGammaCorrectedColor(true);
-loadOpts.getLookupPaths().add(MyDir);
+String MyDir1 = \u0022Your Document Directory\u0022;
+Discreet3dsLoadOptions loadOpts1 = new Discreet3dsLoadOptions();
+loadOpts1.setApplyAnimationTransform(true);
+loadOpts1.setFlipCoordinateSystem(true);
+loadOpts1.setGammaCorrectedColor(true);
+loadOpts1.getLookupPaths().add(MyDir1);
 // ExEnd:discreet3DSLoadOption
-````
-### Step 2: Customize OBJ File Loading
+\u0060\u0060\u0060\u0060
+| ### Step 2: Customize OBJ File Loading
 
-```java
+\u0060\u0060\u0060java
 // ExStart:objLoadOption
-String MyDir = "Your Document Directory";
+String MyDir2 = \u0022Your Document Directory\u0022;
 ObjLoadOptions loadObjOpts = new ObjLoadOptions();
 loadObjOpts.setEnableMaterials(true);
 loadObjOpts.setFlipCoordinateSystem(true);
-loadObjOpts.getLookupPaths().add(MyDir);
+loadObjOpts.getLookupPaths().add(MyDir2);
 // ExEnd:objLoadOption
-````
-
+\u0060\u0060\u0060\u0060
 ## How to load OBJ with materials?
 When loading an OBJ model you can ask Aspose.3D to read the associated material library automatically. Enabling material loading ensures that textures, colours and shading information defined in the .mtl file are attached to the geometry during import, so the model appears correctly in your scene.
 
@@ -97,80 +95,76 @@ When loading an OBJ model you can ask Aspose.3D to read the associated material 
 - Call `setFlipCoordinateSystem(true)` to handle right‑to‑left handed conversion.  
 - Enable material loading with `setEnableMaterials(true)`.  
 - Add the folder that holds the OBJ and MTL files to `loadOpts.getLookupPaths()`.  
+| ### Step 3: customize STL file loading
 
-### Step 3: customize STL file loading
-
-```java
+\u0060\u0060\u0060java
 // ExStart:stlLoadOption
-String MyDir = "Your Document Directory";
+String MyDir3 = \u0022Your Document Directory\u0022;
 StlLoadOptions loadSTLOpts = new StlLoadOptions();
 loadSTLOpts.setFlipCoordinateSystem(true);
-loadSTLOpts.getLookupPaths().add(MyDir);
+loadSTLOpts.getLookupPaths().add(MyDir3);
 // ExEnd:stlLoadOption
-````
+\u0060\u0060\u0060\u0060
 
-### Step 4: customize U3D file loading
+| ### Step 4: customize U3D file loading
 
-```java
+\u0060\u0060\u0060java
 // ExStart:u3dLoadOption
-String MyDir = "Your Document Directory";
+String MyDir4 = \u0022Your Document Directory\u0022;
 U3dLoadOptions loadU3DOpts = new U3dLoadOptions();
 loadU3DOpts.setFlipCoordinateSystem(true);
-loadU3DOpts.getLookupPaths().add(MyDir);
+loadU3DOpts.getLookupPaths().add(MyDir4);
 // ExEnd:u3dLoadOption
-````
+\u0060\u0060\u0060\u0060| ### Step 5: customize glTF file loading
 
-### Step 5: customize glTF file loading
-
-```java
+\u0060\u0060\u0060java
 // ExStart:gltfLoadOptions
-String MyDir = "Your Document Directory";
-Scene scene = new Scene();
-GltfLoadOptions loadOpt = new GltfLoadOptions();
-loadOpt.setFlipTexCoordV(true);
-scene.open(MyDir + "Duck.gltf", loadOpt);
+String MyDir5 = \u0022Your Document Directory\u0022;
+Scene scene5 = new Scene();
+GltfLoadOptions loadOpt5 = new GltfLoadOptions();
+loadOpt5.setFlipTexCoordV(true);
+scene5.open(MyDir5 \u002B \u0022Duck.gltf\u0022, loadOpt5);
 // ExEnd:gltfLoadOptions
-````
+\u0060\u0060\u0060\u0060
 
-### Step 6: customize PLY file loading
+| ### Step 6: customize PLY file loading
 
-```java
+\u0060\u0060\u0060java
 // ExStart:plyLoadOptions
-String MyDir = "Your Document Directory";
-Scene scene = new Scene();
+String MyDir6 = \u0022Your Document Directory\u0022;
+Scene scene6 = new Scene();
 PlyLoadOptions loadPLYOpts = new PlyLoadOptions();
 loadPLYOpts.setFlipCoordinateSystem(true);
-scene.open(MyDir + "vase-v2.ply", loadPLYOpts);
+scene6.open(MyDir6 \u002B \u0022vase-v2.ply\u0022, loadPLYOpts);
 // ExEnd:plyLoadOptions
-````
+\u0060\u0060\u0060\u0060
 
-### Step 7: customize x file loading
+| ### Step 7: customize x file loading
 
-```java
+\u0060\u0060\u0060java
 // ExStart:xLoadOptions
-String MyDir = "Your Document Directory";
-Scene scene = new Scene();
+String MyDir7 = \u0022Your Document Directory\u0022;
+Scene scene7 = new Scene();
 XLoadOptions loadXOpts = new XLoadOptions(FileContentType.ASCII);
 loadXOpts.setFlipCoordinateSystem(true);
-scene.open(MyDir + "warrior.x", loadXOpts);
+scene7.open(MyDir7 \u002B \u0022warrior.x\u0022, loadXOpts);
 // ExEnd:xLoadOptions
-````
+\u0060\u0060\u0060\u0060
 
-### Step 8: Customize FBX File Loading (Optional)
+| ### Step 8: Customize FBX File Loading (Optional)
 
-```java
+\u0060\u0060\u0060java
 // ExStart:FBXLoadOptions
-String dataDir = "Your Document Directory";
-Scene scene = new Scene();
+String MyDir8 = \u0022Your Document Directory\u0022;
+Scene scene8 = new Scene();
 FbxLoadOptions opt = new FbxLoadOptions();
 opt.setKeepBuiltinGlobalSettings(true);
-scene.open(dataDir + "test.FBX", opt);
-for(Property property:scene.getRootNode().getAssetInfo().getProperties()) {
+scene8.open(MyDir8 \u002B \u0022test.FBX\u0022, opt);
+for(Property property:scene8.getRootNode().getAssetInfo().getProperties()) {
     System.out.println(property);
 }
 // ExEnd:FBXLoadOptions
-````
-## Common Issues and Solutions
+\u0060\u0060\u0060\u0060## Common Issues and Solutions
 - **Model appears mirrored after loading** – Verify that `setFlipCoordinateSystem(true)` is set for the correct format.  
 - **Materials are missing** – For OBJ files, ensure `setEnableMaterials(true)` and that the material files (.mtl) are located in one of the lookup paths.  
 - **Texture coordinates are upside‑down** – For glTF, you may need `setFlipTexCoordV(true)` in addition to flipping the axes.  
