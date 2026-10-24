@@ -1,89 +1,159 @@
 ---
-title: "How to Change Plane Orientation and Export OBJ in Java"
-linktitle: "How to Change Plane Orientation and Export OBJ in Java"
-second_title: "Aspose.3D Java API"
-description: "Learn how to change plane orientation and export OBJ in Java using Aspose.3D. Step‑by‑step guide to export 3D model OBJ files."
-weight: 10
-url: /java/3d-scenes-and-models/change-plane-orientation/
-date: 2026-04-29
+date: 2026-10-24
+description: Tìm hiểu cách xuất tệp OBJ và thay đổi hướng mặt phẳng trong Java bằng
+  Aspose.3D. Hướng dẫn chi tiết này trình bày cách tạo một mặt phẳng nghiêng và xuất
+  mô hình 3D OBJ.
 keywords:
-- change plane orientation
+- how to export obj
 - create sloped plane
-- export obj java
-- aspose 3d export obj
+- export 3d model obj
+- adjust plane orientation
+lastmod: 2026-10-24
+linktitle: Cách xuất OBJ và thay đổi hướng mặt phẳng trong Java
+og_description: Tìm hiểu cách xuất OBJ và thay đổi hướng mặt phẳng trong Java với
+  Aspose.3D. Thực hiện theo hướng dẫn này để tạo một mặt phẳng nghiêng và xuất mô
+  hình 3D OBJ một cách hiệu quả.
+og_image_alt: 'Tutorial: export OBJ and adjust plane orientation in Java with Aspose.3D'
+og_title: Cách xuất OBJ và thay đổi hướng mặt phẳng trong Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-24'
+  description: Learn how to export OBJ files and change plane orientation in Java
+    using Aspose.3D. This step‑by‑step guide shows creating a sloped plane and exporting
+    a 3D model OBJ.
+  headline: How to export OBJ and change plane orientation in Java
+  type: TechArticle
+- description: Learn how to export OBJ files and change plane orientation in Java
+    using Aspose.3D. This step‑by‑step guide shows creating a sloped plane and exporting
+    a 3D model OBJ.
+  name: How to export OBJ and change plane orientation in Java
+  steps:
+  - name: set document directory path
+    text: Define where the exported OBJ file will be saved. ` Replace `"Your Document
+      Directory"` with the absolute path on your machine (e.g., `C:/3DOutputs/`).
+  - name: initialize the scene – create 3D scene
+    text: Create a fresh `Scene` object that will hold all geometry. `
+  - name: initialize the plane – how to modify plane
+    text: Instantiate a `Plane` object that we will later orient. `
+  - name: set vector – how to set plane up
+    text: Define a custom up‑vector for the plane. This is the core of **change plane
+      orientation**. The vector `(1, 1, 3)` tilts the plane away from the default
+      XY‑plane, giving you a sloped surface you can later **export OBJ**.
+  - name: complete the plane orientation and export
+    text: After this call, you’ll find `ChangePlaneOrientation.obj` in the directory
+      you specified, ready for any **Aspose.3D export OBJ** workflow. Aspose.3D supports
+      over 30 output formats—including OBJ, FBX, STL, and more—so you can switch formats
+      with a single enum change.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.3D provides APIs for Java, .NET, and other platforms, each
+      offering the same feature set.
+    question: Can I use Aspose.3D for Java with other programming languages?
+  - answer: Certainly! You can explore the features of Aspose.3D by accessing the
+      free trial [here](https://releases.aspose.com/).
+    question: Is a free trial available for Aspose.3D?
+  - answer: For any queries or assistance, visit our [support forum](https://forum.aspose.com/c/3d/18).
+    question: Where can I find support for Aspose.3D?
+  - answer: To purchase Aspose.3D, visit our [buy page](https://purchase.aspose.com/buy).
+    question: How can I purchase Aspose.3D?
+  - answer: Yes, if you need a temporary license, you can obtain one [here](https://purchase.aspose.com/temporary-license/).
+    question: Is there a temporary license option?
+  type: FAQPage
+second_title: Aspose.3D Java API
+tags:
+- export obj
+- Aspose.3D
+- Java 3D
+- plane orientation
+- 3D modeling
+title: Cách xuất OBJ và thay đổi hướng mặt phẳng trong Java
+url: /vi/java/3d-scenes-and-models/change-plane-orientation/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Change Plane Orientation and Export OBJ in Java
+# Cách xuất OBJ và thay đổi hướng mặt phẳng trong Java
 
-## Introduction
+## Giới thiệu
 
-In this tutorial you’ll discover **how to change plane orientation** and **export OBJ** files from Java using the Aspose.3D Java API. Adjusting a plane’s up‑vector gives you fine‑grained control over object placement inside a **create 3D scene** workflow—perfect for games, simulations, and architectural visualizations where exact positioning matters.
+Trong hướng dẫn này, bạn sẽ học **cách xuất OBJ** và thay đổi hướng mặt phẳng trong Java bằng cách sử dụng API Aspose.3D. Điều chỉnh up‑vector của mặt phẳng cho phép bạn kiểm soát chi tiết vị trí đối tượng trong quy trình **tạo cảnh 3D** — hoàn hảo cho trò chơi, mô phỏng và trực quan kiến trúc nơi vị trí chính xác rất quan trọng. API Aspose.3D cho Java có sẵn trên trang tải xuống chính của Aspose [here](https://releases.aspose.com/).
 
-## Quick Answers
-- **What does “export OBJ” mean?** It means converting a 3‑D scene into the Wavefront OBJ format, a universally supported mesh file type.  
-- **Why adjust plane orientation?** Changing the plane’s up‑vector lets you align geometry exactly where you need it in the scene.  
-- **Do I need a license to run the code?** A free trial works for development; a commercial license is required for production.  
-- **Which Java version is supported?** Aspose.3D works with Java 8 and newer.  
-- **Can I export other formats?** Yes – the API also supports FBX, STL, and more.
+## Câu trả lời nhanh
 
-## What is “change plane orientation”?
-Changing plane orientation is the process of redefining a plane’s **up‑vector** so that the plane tilts away from the default XY‑plane. This lets you **create sloped plane** geometry such as ramps, roofs, or custom reference planes before exporting the model.
+- **Câu hỏi “xuất OBJ” có nghĩa là gì?** Nó có nghĩa là chuyển đổi một cảnh 3‑D sang định dạng Wavefront OBJ, một loại tệp lưới được hỗ trợ rộng rãi.  
+- **Tại sao cần điều chỉnh hướng mặt phẳng?** Việc thay đổi up‑vector của mặt phẳng cho phép bạn căn chỉnh hình học chính xác tại vị trí bạn cần trong cảnh.  
+- **Tôi có cần giấy phép để chạy mã không?** Bản dùng thử miễn phí hoạt động cho việc phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Phiên bản Java nào được hỗ trợ?** Aspose.3D hoạt động với Java 8 và các phiên bản mới hơn.  
+- **Tôi có thể xuất sang các định dạng khác không?** Có – API cũng hỗ trợ FBX, STL và các định dạng khác.
 
-## Why modify plane orientation?
-Altering the plane’s orientation (using **how to set plane up**) lets you:
+## “Thay đổi hướng mặt phẳng” là gì?
 
-* Align objects with custom axes instead of the default world axes.  
-* Simulate tilted surfaces such as ramps, roofs, or camera reference planes.  
-* Ensure that exported OBJ meshes match the visual intent of your design, making the **export 3d model obj** step reliable.
+Thay đổi hướng mặt phẳng có nghĩa là điều chỉnh up‑vector của mặt phẳng sao cho mặt phẳng nghiêng ra khỏi XY‑plane mặc định, cho phép bạn tạo các bề mặt dốc như dốc lên, mái nhà, hoặc các mặt phẳng tham chiếu tùy chỉnh. Thao tác này ảnh hưởng trực tiếp đến cách đặt hình học trước khi bạn **xuất OBJ**.
 
-## Prerequisites
+## Tại sao cần sửa đổi hướng mặt phẳng?
 
-Before we start, make sure you have:
+Việc sửa đổi hướng mặt phẳng cho phép bạn căn chỉnh các đối tượng với các trục tùy chỉnh, mô phỏng các bề mặt nghiêng, và đảm bảo rằng lưới OBJ đã xuất phản ánh đúng ý định trực quan của thiết kế. Sử dụng up‑vector tùy chỉnh cải thiện độ chính xác của việc đặt vị trí và giảm đáng kể thời gian chỉnh sửa sau khi xuất cho các nhà phát triển.
 
-- A basic understanding of Java programming.  
-- Aspose.3D for Java installed – download it [here](https://releases.aspose.com/3d/java/).  
-- A Java IDE or build tool (e.g., IntelliJ IDEA, Maven, or Gradle) ready for coding.
+## Yêu cầu trước
 
-## Import Packages
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
 
-First, import the classes that give you access to the Aspose.3D functionality.\u0060\u0060\u0060javaimport com.aspose.threed.FileFormat;
+- Kiến thức cơ bản về lập trình Java.  
+- Aspose.3D cho Java đã được cài đặt – tải xuống [here](https://releases.aspose.com/3d/java/).  
+- Một IDE Java hoặc công cụ xây dựng (ví dụ: IntelliJ IDEA, Maven, hoặc Gradle) sẵn sàng để lập trình.
+
+## Nhập các gói
+
+Các lệnh import sau cung cấp cho bạn quyền truy cập vào các lớp cốt lõi của Aspose.3D.
+
+```java
+import com.aspose.threed.FileFormat;
 import com.aspose.threed.Plane;
 import com.aspose.threed.Scene;
 import com.aspose.threed.Vector3;
 
-import java.io.IOException;\u0060\u0060\u0060
+import java.io.IOException;
+```
 
-## Step-by-Step Guide### Step 1: Set Document Directory Path  
-Define where the exported OBJ file will be saved.
+Lớp `Plane` đại diện cho một mặt phẳng hình học có thể được đặt vị trí và định hướng trong không gian 3D.  
+Lớp `Vector3` định nghĩa một vector ba chiều dùng cho hướng và vị trí.  
+Lớp `Scene` là một container chứa tất cả các đối tượng 3D, ánh sáng và camera trong một mô hình.  
+Enum `FileFormat` chỉ định định dạng tệp đầu ra khi lưu một cảnh.
+
+## Hướng dẫn từng bước
+
+### Bước 1: đặt đường dẫn thư mục tài liệu  
+Xác định nơi tệp OBJ sẽ được lưu.
 
 ````java
 String MyDir = "Your Document Directory";
 ````
 
-Replace `"Your Document Directory"` with the absolute path on your machine (e.g., `C:/3DOutputs/`).
+Thay thế `"Your Document Directory"` bằng đường dẫn tuyệt đối trên máy của bạn (ví dụ: `C:/3DOutputs/`).
 
-### Step 2: Initialize the Scene – create 3D scene  
-Create a fresh scene object that will hold all geometry.
+### Bước 2: khởi tạo cảnh – tạo cảnh 3D  
+Tạo một đối tượng `Scene` mới sẽ chứa tất cả hình học.
 
 ````java
 Scene scene = new Scene();
 ````
 
-### Step 3: Initialize the Plane – how to modify plane  
-Instantiate a `Plane` object that we will later orient.
+### Bước 3: khởi tạo mặt phẳng – cách sửa đổi mặt phẳng  
+Khởi tạo một đối tượng `Plane` mà chúng ta sẽ định hướng sau.
 
 ````java
 Plane plane = new Plane();
 ````
 
-### Step 4: Set Vector – how to set plane up  
-Define a custom up-vector for the plane. This is the core of **change plane orientation**.
-The vector `(1, 1, 3)` tilts the plane away from the default XY-plane, giving you a sloped surface you can later **export obj java**.### Step 5: Complete the Plane Orientation and Export  
- Define a custom up-vector for the plane. This is the core of **change plane orientation**.\u0060\u0060\u0060\u0060java
+### Bước 4: đặt vector – cách đặt up cho mặt phẳng  
+Xác định một up‑vector tùy chỉnh cho mặt phẳng. Đây là cốt lõi của **thay đổi hướng mặt phẳng**.  
+Vector `(1, 1, 3)` làm mặt phẳng nghiêng ra khỏi XY‑plane mặc định, cung cấp cho bạn một bề mặt dốc mà sau này bạn có thể **xuất OBJ**.
+
+### Bước 5: hoàn thiện hướng mặt phẳng và xuất  
+```java
 // ExStart:ChangePlaneOrientation
 try {
     plane.setUp(new Vector3(1, 1, 3));
@@ -93,48 +163,55 @@ try {
     scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
 } catch (IOException e) {
     e.printStackTrace();
-}// ExEnd:ChangePlaneOrientation
-\u0060\u0060\u0060
+}
+// ExEnd:ChangePlaneOrientation
+```
 
-After this call, you'll find \u0060ChangePlaneOrientation.obj\u0060 in the directory you specified, ready for any **aspose 3d export obj** workflow.## Common Issues and Solutions
+Sau lệnh này, bạn sẽ thấy tệp `ChangePlaneOrientation.obj` trong thư mục bạn đã chỉ định, sẵn sàng cho bất kỳ quy trình **Aspose.3D export OBJ** nào. Aspose.3D hỗ trợ hơn 30 định dạng đầu ra — bao gồm OBJ, FBX, STL và nhiều hơn nữa — vì vậy bạn có thể chuyển đổi định dạng chỉ bằng một thay đổi enum.
 
-| Issue | Why It Happens | Fix |
+## Các vấn đề thường gặp và giải pháp
+
+| Vấn đề | Nguyên nhân | Giải pháp |
 |-------|----------------|-----|
-| **File not found** error when saving | `MyDir` does not exist or lacks write permission | Create the folder beforehand or use an absolute path with proper permissions. |
-| Plane appears flat in the viewer | Vector is collinear with default up‑vector | Choose a non‑parallel vector (e.g., `(1, 0, 1)`) to see a visible tilt. |
-| OBJ file loads with missing textures | Textures were never added to the scene | Attach material/texture to geometry before exporting if needed. |
+| **File not found** lỗi khi lưu | `MyDir` không tồn tại hoặc thiếu quyền ghi | Tạo thư mục trước hoặc sử dụng đường dẫn tuyệt đối có quyền phù hợp. |
+| Mặt phẳng hiển thị phẳng trong trình xem | Vector đồng tuyến với up‑vector mặc định | Chọn một vector không song song (ví dụ: `(1, 0, 1)`) để thấy độ nghiêng rõ ràng. |
+| Tệp OBJ tải lên thiếu texture | Texture chưa được thêm vào cảnh | Gắn vật liệu/texture vào hình học trước khi xuất nếu cần. |
 
-## Frequently Asked Questions
+## Câu hỏi thường gặp
 
-**Q: Can I use Aspose.3D for Java with other programming languages?**  
-A: Yes, Aspose.3D supports Java, .NET, and other platforms via language‑specific APIs.
+**H: Tôi có thể sử dụng Aspose.3D cho Java với các ngôn ngữ lập trình khác không?**  
+Có, Aspose.3D cung cấp API cho Java, .NET và các nền tảng khác, mỗi nền tảng đều cung cấp cùng một bộ tính năng.
 
-**Q: Is a free trial available for Aspose.3D?**  
-A: Certainly! You can explore the features of Aspose.3D by accessing the free trial [here](https://releases.aspose.com/).
+**H: Có bản dùng thử miễn phí cho Aspose.3D không?**  
+Chắc chắn! Bạn có thể khám phá các tính năng của Aspose.3D bằng cách truy cập bản dùng thử miễn phí [here](https://releases.aspose.com/).
 
-**Q: Where can I find support for Aspose.3D?**  
-A: For any queries or assistance, visit our [support forum](https://forum.aspose.com/c/3d/18).
+**H: Tôi có thể tìm hỗ trợ cho Aspose.3D ở đâu?**  
+Đối với bất kỳ câu hỏi hoặc hỗ trợ nào, hãy truy cập [support forum](https://forum.aspose.com/c/3d/18).
 
-**Q: How can I purchase Aspose.3D?**  
-A: To purchase Aspose.3D, visit our [buy page](https://purchase.aspose.com/buy).
+**H: Làm thế nào để mua Aspose.3D?**  
+Để mua Aspose.3D, hãy truy cập [buy page](https://purchase.aspose.com/buy).
 
-**Q: Is there a temporary license option?**  
-A: Yes, if you need a temporary license, you can obtain one [here](https://purchase.aspose.com/temporary-license/).
+**H: Có tùy chọn giấy phép tạm thời không?**  
+Có, nếu bạn cần giấy phép tạm thời, bạn có thể nhận một giấy phép [here](https://purchase.aspose.com/temporary-license/).
 
-**Q: Can I export the scene to formats other than OBJ?**  
-A: Absolutely. The `Scene.save` method supports FBX, STL, and several other formats – just change the `FileFormat` enum.
+**H: Tôi có thể xuất cảnh sang các định dạng khác ngoài OBJ không?**  
+Chắc chắn. Phương thức `Scene.save` hỗ trợ FBX, STL và một số định dạng khác – chỉ cần thay đổi enum `FileFormat`.
 
-## Conclusion
-### Step 4: Set Vector \u2013 how to set plane up  \nDefine a custom up-vector for the plane. This is the core of **change plane orientation**.\nThe vector \u0060(1, 1, 3)\u0060 tilts the plane away from the default XY-plane, giving you a sloped surface you can later **export obj java**.
+## Kết luận
 
-### Step 5: Complete the Plane Orientation and Export  \nDefine a custom up-vector for the plane. This is the core of **change plane orientation**.
+Thông qua việc đặt up‑vector tùy chỉnh, bạn có thể thay đổi hướng mặt phẳng để tạo hình học dốc và sau đó xuất kết quả dưới dạng tệp OBJ chỉ với vài dòng mã. Cách tiếp cận này đảm bảo mô hình 3D của bạn giữ được độ nghiêng mong muốn và sẵn sàng cho các pipeline downstream như engine trò chơi, công cụ CAD, hoặc trình hiển thị web.
 
-\u0060\u0060\u0060\u0060java
 ---
 
-**Last Updated:** 2026-04-29  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose  
+**Cập nhật lần cuối:** 2026-10-24  
+**Kiểm tra với:** Aspose.3D for Java 24.11  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Xuất mô hình sang FBX với Quaternion trong Java bằng Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-quaternions/)
+- [Học cách xuất tệp PLY trong Java với Aspose.3D – cách xuất ply](/3d/java/point-clouds/ply-export-point-clouds-java/)
+- [Lưu cảnh 3D trong Java với Aspose.3D – Chuyển đổi tệp 3D hiệu quả](/3d/java/load-and-save/save-3d-scenes/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
