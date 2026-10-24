@@ -1,89 +1,157 @@
 ---
-title: "How to Change Plane Orientation and Export OBJ in Java"
-linktitle: "How to Change Plane Orientation and Export OBJ in Java"
-second_title: "Aspose.3D Java API"
-description: "Learn how to change plane orientation and export OBJ in Java using Aspose.3D. Step‑by‑step guide to export 3D model OBJ files."
-weight: 10
-url: /java/3d-scenes-and-models/change-plane-orientation/
-date: 2026-04-29
+date: 2026-10-24
+description: Ismerje meg, hogyan exportálhat OBJ fájlokat és változtathatja meg a
+  sík tájolását Java-ban az Aspose.3D használatával. Ez a lépésről‑lépésre útmutató
+  bemutatja a ferde sík létrehozását és egy 3D modell OBJ exportálását.
 keywords:
-- change plane orientation
+- how to export obj
 - create sloped plane
-- export obj java
-- aspose 3d export obj
+- export 3d model obj
+- adjust plane orientation
+lastmod: 2026-10-24
+linktitle: Hogyan exportáljunk OBJ-t és változtassuk meg a sík tájolását Java-ban
+og_description: Ismerje meg, hogyan exportálhat OBJ-t és változtathatja meg a sík
+  tájolását Java-ban az Aspose.3D-vel. Kövesse ezt az útmutatót a ferde sík létrehozásához
+  és egy 3D modell OBJ hatékony exportálásához.
+og_image_alt: 'Tutorial: export OBJ and adjust plane orientation in Java with Aspose.3D'
+og_title: Hogyan exportáljunk OBJ-t és változtassuk meg a sík tájolását Java-ban
+schemas:
+- author: Aspose
+  dateModified: '2026-10-24'
+  description: Learn how to export OBJ files and change plane orientation in Java
+    using Aspose.3D. This step‑by‑step guide shows creating a sloped plane and exporting
+    a 3D model OBJ.
+  headline: How to export OBJ and change plane orientation in Java
+  type: TechArticle
+- description: Learn how to export OBJ files and change plane orientation in Java
+    using Aspose.3D. This step‑by‑step guide shows creating a sloped plane and exporting
+    a 3D model OBJ.
+  name: How to export OBJ and change plane orientation in Java
+  steps:
+  - name: set document directory path
+    text: Define where the exported OBJ file will be saved. ` Replace `"Your Document
+      Directory"` with the absolute path on your machine (e.g., `C:/3DOutputs/`).
+  - name: initialize the scene – create 3D scene
+    text: Create a fresh `Scene` object that will hold all geometry. `
+  - name: initialize the plane – how to modify plane
+    text: Instantiate a `Plane` object that we will later orient. `
+  - name: set vector – how to set plane up
+    text: Define a custom up‑vector for the plane. This is the core of **change plane
+      orientation**. The vector `(1, 1, 3)` tilts the plane away from the default
+      XY‑plane, giving you a sloped surface you can later **export OBJ**.
+  - name: complete the plane orientation and export
+    text: After this call, you’ll find `ChangePlaneOrientation.obj` in the directory
+      you specified, ready for any **Aspose.3D export OBJ** workflow. Aspose.3D supports
+      over 30 output formats—including OBJ, FBX, STL, and more—so you can switch formats
+      with a single enum change.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.3D provides APIs for Java, .NET, and other platforms, each
+      offering the same feature set.
+    question: Can I use Aspose.3D for Java with other programming languages?
+  - answer: Certainly! You can explore the features of Aspose.3D by accessing the
+      free trial [here](https://releases.aspose.com/).
+    question: Is a free trial available for Aspose.3D?
+  - answer: For any queries or assistance, visit our [support forum](https://forum.aspose.com/c/3d/18).
+    question: Where can I find support for Aspose.3D?
+  - answer: To purchase Aspose.3D, visit our [buy page](https://purchase.aspose.com/buy).
+    question: How can I purchase Aspose.3D?
+  - answer: Yes, if you need a temporary license, you can obtain one [here](https://purchase.aspose.com/temporary-license/).
+    question: Is there a temporary license option?
+  type: FAQPage
+second_title: Aspose.3D Java API
+tags:
+- export obj
+- Aspose.3D
+- Java 3D
+- plane orientation
+- 3D modeling
+title: Hogyan exportáljunk OBJ-t és változtassuk meg a sík tájolását Java-ban
+url: /hu/java/3d-scenes-and-models/change-plane-orientation/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Change Plane Orientation and Export OBJ in Java
+# Hogyan exportáljunk OBJ-t és módosítsuk a sík tájolását Java-ban
 
-## Introduction
+## Bevezetés
 
-In this tutorial you’ll discover **how to change plane orientation** and **export OBJ** files from Java using the Aspose.3D Java API. Adjusting a plane’s up‑vector gives you fine‑grained control over object placement inside a **create 3D scene** workflow—perfect for games, simulations, and architectural visualizations where exact positioning matters.
+Ebben az útmutatóban megtanulja, **hogyan exportáljon OBJ-t**, és hogyan módosítsa a sík tájolását Java-ban az Aspose.3D API használatával. A sík up‑vektorának beállítása finomhangolt vezérlést biztosít az objektumok elhelyezéséhez egy **3D jelenet létrehozása** munkafolyamatban – tökéletes játékokhoz, szimulációkhoz és építészeti vizualizációkhoz, ahol a pontos pozicionálás fontos. Az Aspose.3D Java API elérhető az Aspose fő letöltési oldalán [itt](https://releases.aspose.com/).
 
-## Quick Answers
-- **What does “export OBJ” mean?** It means converting a 3‑D scene into the Wavefront OBJ format, a universally supported mesh file type.  
-- **Why adjust plane orientation?** Changing the plane’s up‑vector lets you align geometry exactly where you need it in the scene.  
-- **Do I need a license to run the code?** A free trial works for development; a commercial license is required for production.  
-- **Which Java version is supported?** Aspose.3D works with Java 8 and newer.  
-- **Can I export other formats?** Yes – the API also supports FBX, STL, and more.
+## Gyors válaszok
+- **Mi a “export OBJ” jelentése?** A 3‑D jelenet Wavefront OBJ formátumba való konvertálását jelenti, amely egy univerzálisan támogatott hálófájl típus.  
+- **Miért állítsuk be a sík tájolását?** A sík up‑vektorának módosítása lehetővé teszi, hogy a geometriát pontosan oda igazítsa, ahol a jelenetben szükség van rá.  
+- **Szükségem van licencre a kód futtatásához?** A ingyenes próba verzió fejlesztéshez megfelelő; a termeléshez kereskedelmi licenc szükséges.  
+- **Melyik Java verzió támogatott?** Az Aspose.3D a Java 8-as és újabb verziókkal működik.  
+- **Exportálhatok más formátumokat is?** Igen – az API támogatja az FBX, STL és további formátumokat is.
 
-## What is “change plane orientation”?
-Changing plane orientation is the process of redefining a plane’s **up‑vector** so that the plane tilts away from the default XY‑plane. This lets you **create sloped plane** geometry such as ramps, roofs, or custom reference planes before exporting the model.
+## Mi a “sík tájolás módosítása”?
 
-## Why modify plane orientation?
-Altering the plane’s orientation (using **how to set plane up**) lets you:
+A sík tájolás módosítása azt jelenti, hogy a sík up‑vektorát úgy állítjuk be, hogy a sík eltérjen az alapértelmezett XY‑síkból, lehetővé téve lejtős felületek, például rámpák, tetők vagy egyedi referenciasíkok létrehozását. Ez a művelet közvetlenül befolyásolja, hogyan helyezkedik el a geometria, mielőtt **OBJ-t exportálnánk**.
 
-* Align objects with custom axes instead of the default world axes.  
-* Simulate tilted surfaces such as ramps, roofs, or camera reference planes.  
-* Ensure that exported OBJ meshes match the visual intent of your design, making the **export 3d model obj** step reliable.
+## Miért módosítsuk a sík tájolását?
 
-## Prerequisites
+A sík tájolás módosítása lehetővé teszi, hogy az objektumokat egyedi tengelyekhez igazítsuk, szimuláljunk döntött felületeket, és biztosítsuk, hogy az exportált OBJ háló a tervezés vizuális szándékát tükrözze. Egy egyedi up‑vektor használata javítja a elhelyezés pontosságát, és jelentősen csökkenti a post‑export szerkesztési időt a fejlesztők számára.
 
-Before we start, make sure you have:
+## Előfeltételek
 
-- A basic understanding of Java programming.  
-- Aspose.3D for Java installed – download it [here](https://releases.aspose.com/3d/java/).  
-- A Java IDE or build tool (e.g., IntelliJ IDEA, Maven, or Gradle) ready for coding.
+- Alapvető Java programozási ismeretek.  
+- Az Aspose.3D for Java telepítve van – töltsd le [itt](https://releases.aspose.com/3d/java/).  
+- Java IDE vagy build eszköz (pl. IntelliJ IDEA, Maven vagy Gradle) készen áll a kódoláshoz.
 
-## Import Packages
+## Csomagok importálása
 
-First, import the classes that give you access to the Aspose.3D functionality.\u0060\u0060\u0060javaimport com.aspose.threed.FileFormat;
+Az alábbi importok hozzáférést biztosítanak az Aspose.3D alapvető osztályaihoz.
+
+```java
+import com.aspose.threed.FileFormat;
 import com.aspose.threed.Plane;
 import com.aspose.threed.Scene;
 import com.aspose.threed.Vector3;
 
-import java.io.IOException;\u0060\u0060\u0060
+import java.io.IOException;
+```
 
-## Step-by-Step Guide### Step 1: Set Document Directory Path  
-Define where the exported OBJ file will be saved.
+A `Plane` osztály egy geometriai síkot reprezentál, amely elhelyezhető és tájolható a 3D térben.  
+A `Vector3` osztály háromdimenziós vektort definiál irányokhoz és pozíciókhoz.  
+A `Scene` osztály egy tároló, amely a modell összes 3D objektumát, fényét és kameráját tartalmazza.  
+A `FileFormat` enum határozza meg a kimeneti fájlformátumot a jelenet mentéséhez.
+
+## Lépésről‑lépésre útmutató
+
+### 1. lépés: dokumentum könyvtár útvonal beállítása  
+Határozza meg, hogy hová mentse az exportált OBJ fájlt.
 
 ````java
 String MyDir = "Your Document Directory";
 ````
 
-Replace `"Your Document Directory"` with the absolute path on your machine (e.g., `C:/3DOutputs/`).
+Cserélje le a `"Your Document Directory"` értéket a gépén lévő abszolút útvonalra (pl. `C:/3DOutputs/`).
 
-### Step 2: Initialize the Scene – create 3D scene  
-Create a fresh scene object that will hold all geometry.
+### 2. lépés: a jelenet inicializálása – 3D jelenet létrehozása  
+Hozzon létre egy új `Scene` objektumot, amely a teljes geometriát tartalmazza.
 
 ````java
 Scene scene = new Scene();
 ````
 
-### Step 3: Initialize the Plane – how to modify plane  
-Instantiate a `Plane` object that we will later orient.
+### 3. lépés: a sík inicializálása – hogyan módosítsuk a síkot  
+Példányosítson egy `Plane` objektumot, amelyet később tájolni fogunk.
 
 ````java
 Plane plane = new Plane();
 ````
 
-### Step 4: Set Vector – how to set plane up  
-Define a custom up-vector for the plane. This is the core of **change plane orientation**.
-The vector `(1, 1, 3)` tilts the plane away from the default XY-plane, giving you a sloped surface you can later **export obj java**.### Step 5: Complete the Plane Orientation and Export  
- Define a custom up-vector for the plane. This is the core of **change plane orientation**.\u0060\u0060\u0060\u0060java
+### 4. lépés: vektor beállítása – hogyan állítsuk be a sík up‑vektorát  
+Definiáljon egy egyedi up‑vektort a síkhoz. Ez a **sík tájolás módosítása** lényege.  
+A `(1, 1, 3)` vektor a síkot elfordítja az alapértelmezett XY‑síkból, így egy lejtős felületet kap, amelyet később **OBJ‑ként exportálhat**.
+
+### 5. lépés: a sík tájolás befejezése és exportálás  
+
+```java
 // ExStart:ChangePlaneOrientation
 try {
     plane.setUp(new Vector3(1, 1, 3));
@@ -93,48 +161,56 @@ try {
     scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
 } catch (IOException e) {
     e.printStackTrace();
-}// ExEnd:ChangePlaneOrientation
-\u0060\u0060\u0060
+}
+// ExEnd:ChangePlaneOrientation
+```
 
-After this call, you'll find \u0060ChangePlaneOrientation.obj\u0060 in the directory you specified, ready for any **aspose 3d export obj** workflow.## Common Issues and Solutions
+Ez a hívás után megtalálja a `ChangePlaneOrientation.obj` fájlt a megadott könyvtárban, készen állva bármely **Aspose.3D export OBJ** munkafolyamathoz. Az Aspose.3D több mint 30 kimeneti formátumot támogat – köztük OBJ, FBX, STL és továbbiakat – így egyetlen enum módosítással válthat formátumot.
 
-| Issue | Why It Happens | Fix |
-|-------|----------------|-----|
-| **File not found** error when saving | `MyDir` does not exist or lacks write permission | Create the folder beforehand or use an absolute path with proper permissions. |
-| Plane appears flat in the viewer | Vector is collinear with default up‑vector | Choose a non‑parallel vector (e.g., `(1, 0, 1)`) to see a visible tilt. |
-| OBJ file loads with missing textures | Textures were never added to the scene | Attach material/texture to geometry before exporting if needed. |
+## Gyakori problémák és megoldások
 
-## Frequently Asked Questions
+| Probléma | Miért fordul elő | Megoldás |
+|----------|------------------|----------|
+| **File not found** hiba mentéskor | `MyDir` nem létezik vagy nincs írási jogosultsága | Hozza létre a mappát előre, vagy használjon abszolút útvonalat megfelelő jogosultságokkal. |
+| A sík laposnak jelenik meg a megjelenítőben | A vektor kollineáris az alapértelmezett up‑vektorral | Válasszon nem párhuzamos vektort (pl. `(1, 0, 1)`), hogy látható legyen a dőlésszög. |
+| Az OBJ fájl hiányzó textúrákkal töltődik be | A textúrák soha nem lettek hozzáadva a jelenethez | Szükség esetén csatolja a anyagot/textúrát a geometriához exportálás előtt. |
 
-**Q: Can I use Aspose.3D for Java with other programming languages?**  
-A: Yes, Aspose.3D supports Java, .NET, and other platforms via language‑specific APIs.
+## Gyakran ismételt kérdések
 
-**Q: Is a free trial available for Aspose.3D?**  
-A: Certainly! You can explore the features of Aspose.3D by accessing the free trial [here](https://releases.aspose.com/).
+**Q: Használhatom az Aspose.3D for Java-t más programozási nyelvekkel?**  
+A: Igen, az Aspose.3D API-kat kínál Java, .NET és más platformok számára, mindegyik ugyanazt a funkciókészletet biztosítja.
 
-**Q: Where can I find support for Aspose.3D?**  
-A: For any queries or assistance, visit our [support forum](https://forum.aspose.com/c/3d/18).
+**Q: Elérhető ingyenes próba verzió az Aspose.3D-hez?**  
+A: Természetesen! Az Aspose.3D funkcióit megtekintheti az ingyenes próba verzióval [itt](https://releases.aspose.com/).
 
-**Q: How can I purchase Aspose.3D?**  
-A: To purchase Aspose.3D, visit our [buy page](https://purchase.aspose.com/buy).
+**Q: Hol találok támogatást az Aspose.3D-hez?**  
+A: Bármilyen kérdés vagy segítség esetén látogasson el a [support fórumunkra](https://forum.aspose.com/c/3d/18).
 
-**Q: Is there a temporary license option?**  
-A: Yes, if you need a temporary license, you can obtain one [here](https://purchase.aspose.com/temporary-license/).
+**Q: Hogyan vásárolhatom meg az Aspose.3D-t?**  
+A: Az Aspose.3D megvásárlásához látogasson el a [vásárlási oldalunkra](https://purchase.aspose.com/buy).
 
-**Q: Can I export the scene to formats other than OBJ?**  
-A: Absolutely. The `Scene.save` method supports FBX, STL, and several other formats – just change the `FileFormat` enum.
+**Q: Van ideiglenes licenc opció?**  
+A: Igen, ha ideiglenes licencre van szüksége, azt [itt](https://purchase.aspose.com/temporary-license/) szerezheti be.
 
-## Conclusion
-### Step 4: Set Vector \u2013 how to set plane up  \nDefine a custom up-vector for the plane. This is the core of **change plane orientation**.\nThe vector \u0060(1, 1, 3)\u0060 tilts the plane away from the default XY-plane, giving you a sloped surface you can later **export obj java**.
+**Q: Exportálhatom a jelenetet az OBJ-n kívül más formátumokba?**  
+A: Természetesen. A `Scene.save` metódus támogatja az FBX, STL és több más formátumot – csak módosítsa a `FileFormat` enumot.
 
-### Step 5: Complete the Plane Orientation and Export  \nDefine a custom up-vector for the plane. This is the core of **change plane orientation**.
+## Összegzés
 
-\u0060\u0060\u0060\u0060java
+Egy egyedi up‑vektor beállításával módosíthatja a sík tájolását, lejtős geometriát hozhat létre, majd néhány sor kóddal exportálhatja az eredményt OBJ fájlként. Ez a megközelítés biztosítja, hogy 3D modelljei megtartják a kívánt dőlést, és készen állnak a downstream csővezetékekhez, például játék motorokhoz, CAD eszközökhöz vagy webes megjelenítőkhez.
+
 ---
 
-**Last Updated:** 2026-04-29  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose  
+**Legutóbb frissítve:** 2026-10-24  
+**Tesztelve a következővel:** Aspose.3D for Java 24.11  
+**Szerző:** Aspose
+
+## Kapcsolódó útmutatók
+
+- [Modell exportálása FBX-be kvaterniókkal Java-ban az Aspose.3D használatával](/3d/java/geometry/transform-3d-nodes-with-quaternions/)
+- [PLY fájlok exportálásának megtanulása Java-ban az Aspose.3D‑vel – hogyan exportáljunk ply](/3d/java/point-clouds/ply-export-point-clouds-java/)
+- [3D jelenetek mentése Java-ban az Aspose.3D‑vel – 3D fájlok hatékony konvertálása](/3d/java/load-and-save/save-3d-scenes/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
