@@ -1,22 +1,26 @@
 ---
-date: 2026-08-22
+date: 2026-10-29
 description: Scopri come posizionare la camera e inizializzare una scena 3D in Java,
   configurare il target della camera e animare la camera usando Aspose.3D. Guida passo‑passo
   con esempi di codice.
+images:
+- /java/animations/set-up-target-camera/og-image.png
 keywords:
-- create 3d scene java
+- how to position camera
 - animate camera java
+- create 3d scene java
 - configure camera target
-lastmod: 2026-08-22
-linktitle: Come posizionare la camera e inizializzare una scena 3D in Java | Aspose.3D
+- Aspose.3D Java
+lastmod: 2026-10-29
+linktitle: Come posizionare la camera e inizializzare la scena 3D in Java | Aspose.3D
   Tutorial
-og_description: Crea una scena 3D in Java e scopri come posizionare una camera, impostare
-  un target e animarla usando Aspose.3D. Guida passo‑passo per gli sviluppatori Java.
+og_description: Scopri come posizionare una camera, impostare un target e animarla
+  mentre crei una scena 3D in Java con Aspose.3D. Guida dettagliata per gli sviluppatori.
 og_image_alt: Aspose.3D Java tutorial showing camera positioning and scene initialization
-og_title: Crea una scena 3D in Java e posiziona la camera con Aspose.3D
+og_title: Come posizionare la camera e creare una scena 3D in Java
 schemas:
 - author: Aspose
-  dateModified: '2026-08-22'
+  dateModified: '2026-10-29'
   description: Learn how to position camera and initialize a 3D scene in Java, configure
     camera target, and animate camera using Aspose.3D. Step‑by‑step guide with code
     samples.
@@ -40,7 +44,7 @@ tags:
 - camera positioning
 - Aspose.3D
 - Java 3D graphics
-title: Come posizionare la camera e inizializzare una scena 3D in Java | Aspose.3D
+title: Come posizionare la camera e inizializzare la scena 3D in Java | Aspose.3D
   Tutorial
 url: /it/java/animations/set-up-target-camera/
 weight: 11
@@ -50,97 +54,94 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Come posizionare la fotocamera e inizializzare una scena 3D in Java | Tutorial Aspose.3D
+# Come posizionare la fotocamera e inizializzare la scena 3D in Java | Aspose.3D Tutorial
 
 ## Introduzione
 
-Benvenuto! In questo tutorial imparerai **come posizionare la fotocamera** mentre **inizializzi una scena 3D in Java** con Aspose.3D e poi collegherai una fotocamera target così da poter animare i tuoi modelli con pieno controllo. Che tu stia creando un gioco, un visualizzatore di prodotti o una simulazione scientifica, padroneggiare il posizionamento della fotocamera è la chiave per offrire un'esperienza visiva coinvolgente.
-
-La classe `Scene` è il contenitore radice che contiene tutti gli oggetti in un modello 3‑D. La classe `Camera` definisce un punto di vista per il rendering della scena. Il metodo `setTarget(Node)` assegna un nodo target verso cui la fotocamera deve guardare.
+In questa guida scoprirai **come posizionare la fotocamera** mentre **inizializzi una scena 3D in Java** usando Aspose.3D. Una corretta posizione della fotocamera ti dà il pieno controllo sulla prospettiva dell'osservatore, fondamentale per giochi, visualizzatori di prodotti o simulazioni scientifiche. Ti guideremo nella creazione di una scena, nell'aggiunta di una fotocamera orientata verso un target e nella sua animazione affinché i tuoi modelli si muovano fluidamente.
 
 ## Risposte rapide
 - **Qual è il primo passo?** Inizializza la scena 3D usando `new Scene()`.  
 - **Quale classe rappresenta la fotocamera?** `com.aspose.threed.Camera`.  
-- **Come puntare la fotocamera verso un bersaglio?** Usa `Camera.setTarget(Node)`.  
+- **Come punto la fotocamera verso un target?** Usa `Camera.setTarget(Node)`.  
 - **Quale formato file è usato nell'esempio?** DISCREET3DS (`.3ds`).  
-- **È necessaria una licenza per lo sviluppo?** Una versione di prova gratuita è sufficiente per i test; è richiesta una licenza commerciale per la produzione.
+- **Ho bisogno di una licenza per lo sviluppo?** Una versione di prova gratuita funziona per i test; è necessaria una licenza commerciale per la produzione.
 
 ## Cosa significa “initialize 3d scene java”?
 
-Inizializzare una scena 3D in Java crea un oggetto `Scene` che funge da contenitore di livello superiore per mesh, luci, fotocamere e trasformazioni, consentendoti di costruire e manipolare un ambiente virtuale completo prima di esportarlo. Dopo aver creato la `Scene`, puoi aggiungere mesh, luci e fotocamere, quindi esportare la scena in formati come OBJ, FBX o 3DS per l'uso in altre applicazioni.
+Creare un oggetto `Scene` alloca il contenitore di livello superiore che memorizza mesh, luci, fotocamere e trasformazioni. **La classe `Scene` è il contenitore di livello superiore di Aspose.3D che contiene tutti gli oggetti 3‑D, come mesh, luci e fotocamere.** Una volta istanziata, puoi aggiungere qualsiasi elemento 3‑D e successivamente esportare l'intero ambiente in formati come OBJ, FBX o 3DS.
 
 ## Perché impostare una fotocamera target?
 
-Una fotocamera target orienta automaticamente la sua visuale verso un nodo designato, garantendo che il punto focale rimanga centrato mentre la fotocamera si muove, semplificando le animazioni orbitanti e la navigazione controllata dall'utente senza calcoli manuali di look‑at. Questo approccio semplifica anche l'implementazione di controlli interattivi in cui l'utente ruota attorno all'oggetto senza doversi preoccupare dei calcoli di orientamento della fotocamera.
+Una fotocamera target orienta automaticamente la sua visuale verso un nodo designato, mantenendo il punto focale centrato mentre la fotocamera si muove. **Elimina i calcoli manuali di look‑at, consentendo animazioni di orbita fluide e una navigazione utente intuitiva senza codice aggiuntivo.** Questo approccio riduce i tempi di sviluppo fino al 40 % nella creazione di visualizzatori interattivi.
 
-## Configurare il target della fotocamera
+## Configura il target della fotocamera
 
-Il passaggio **configurare il target della fotocamera** indica alla fotocamera quale nodo guardare. Configurando il target della fotocamera eviti calcoli manuali di look‑at e garantisci che la fotocamera rimanga sempre focalizzata sull'oggetto di interesse.
+Il passaggio **configura il target della fotocamera** indica alla fotocamera quale nodo guardare. Configurando il target della fotocamera eviti i calcoli manuali di look‑at e garantisci che la fotocamera rimanga sempre focalizzata sull'oggetto di interesse.
 
 ## Prerequisiti
-
-Prima di immergerci nel tutorial, assicurati di avere i seguenti prerequisiti:
 
 - Conoscenza di base della programmazione Java.  
 - Java Development Kit (JDK) installato sulla tua macchina.  
 - Libreria Aspose.3D scaricata e aggiunta al tuo progetto. Puoi scaricarla dalla [pagina di download di Aspose.3D Java](https://releases.aspose.com/3d/java/).
 
-## Importare i pacchetti
+## Importa i pacchetti
 
 Inizia importando i pacchetti necessari per garantire un'esecuzione fluida del codice. Nel tuo progetto Java, includi quanto segue:
 
-*(le istruzioni di importazione sono omesse per brevità; consulta la documentazione ufficiale per l'elenco completo)*
+*(le dichiarazioni di importazione sono omesse per brevità; consulta la documentazione ufficiale per l'elenco completo)*
 
-## Inizializzare una scena 3D in Java
+## Inizializza la scena 3D java
 
-Il fondamento di qualsiasi flusso di lavoro 3D è l'oggetto scena. Qui lo creiamo e impostiamo una directory per il file di output.
+La base di qualsiasi workflow 3D è l'oggetto scena. Qui lo creiamo e impostiamo una directory per il file di output.
 
-## Passo 1: creare il nodo della fotocamera
+## Passo 1: crea il nodo fotocamera
 
-Successivamente, crea un nodo della fotocamera all'interno della scena per catturare l'ambiente 3D.
+La classe `Camera` rappresenta un punto di vista per il rendering della scena. **La classe `Camera` è l'oggetto di Aspose.3D che definisce posizione, orientamento e impostazioni di proiezione per il rendering.** Crea un nuovo nodo fotocamera e collegalo alla radice della scena.
 
-## Passo 2: impostare la traslazione del nodo della fotocamera
+## Passo 2: imposta la traslazione del nodo fotocamera
 
-Regola la traslazione del nodo della fotocamera per posizionarlo correttamente nello spazio 3D.
+Regola la traslazione del nodo fotocamera per posizionarlo correttamente nello spazio 3D.
 
-## Passo 3: impostare il target della fotocamera
+## Passo 3: imposta il target della fotocamera
 
-Specifica il target per la fotocamera creando un nodo figlio per il nodo radice. La fotocamera guarderà automaticamente questo nodo.
+Specifica il target per la fotocamera creando un nodo figlio per il nodo radice. **Il metodo `Camera.setTarget(Node)` indica alla fotocamera quale nodo guardare, allineando automaticamente la direzione della visuale.** La fotocamera guarderà automaticamente questo nodo.
 
-## Passo 4: salvare la scena
+## Passo 4: salva la scena
 
 Salva la scena configurata in un file nel formato desiderato (in questo esempio, DISCREET3DS).
 
 ## Come animare la fotocamera
 
-Animi la fotocamera modificando la sua trasformazione nel tempo — ad esempio ruotando attorno al nodo target o muovendola lungo una spline — usando l'API di animazione di Aspose.3D, che interpola i fotogrammi chiave per produrre un movimento fluido mentre la fotocamera continua a tracciare il suo target. Puoi anche combinare fotogrammi chiave di traslazione e rotazione per creare percorsi di movimento complessi che seguono il target in modo fluido.
+Carica i nodi della fotocamera e del target, quindi applica un'animazione a fotogrammi chiave alla matrice di trasformazione della fotocamera. **Animi la fotocamera aggiungendo fotogrammi chiave di rotazione o traslazione che spostano la fotocamera attorno al target mentre la relazione `setTarget` la mantiene focalizzata.** Aspose.3D interpola i fotogrammi chiave per produrre un movimento fluido.
 
-## Problemi comuni e consigli
-- **Hai dimenticato di aggiungere il nodo target?** La fotocamera, per impostazione predefinita, guarderà lungo l'asse Z negativo, il che potrebbe non fornire la visuale prevista. Crea sempre un nodo target o imposta manualmente la direzione di look‑at.  
+## Errori comuni e consigli
+
+- **Hai dimenticato di aggiungere il nodo target?** La fotocamera di default guarderà lungo l'asse Z negativo, il che potrebbe non fornire la visuale attesa. Crea sempre un nodo target o imposta manualmente la direzione di look‑at.  
 - **Percorso file errato?** Assicurati che `MyDir` termini con un separatore di percorso (`/` o `\\`) prima di aggiungere il nome del file.  
 - **Licenza non impostata?** Eseguire il codice senza una licenza valida inserirà una filigrana nel file esportato.
 
 ## Domande frequenti
 
 **Q1: Come scarico Aspose.3D per Java?**  
-A: Puoi scaricare la libreria dalla [pagina di download di Aspose.3D Java](https://releases.aspose.com/3d/java/).
+R: Puoi scaricare la libreria dalla [pagina di download di Aspose.3D Java](https://releases.aspose.com/3d/java/).
 
-**Q2: Dove posso trovare la documentazione di Aspose.3D?**  
-A: Consulta la [documentazione di Aspose.3D Java](https://reference.aspose.com/3d/java/) per una guida completa.
+**Q2: Dove posso trovare la documentazione per Aspose.3D?**  
+R: Riferisciti alla [documentazione di Aspose.3D Java](https://reference.aspose.com/3d/java/) per una guida completa.
 
 **Q3: È disponibile una versione di prova gratuita?**  
-A: Puoi esplorare una versione di prova gratuita di Aspose.3D nella [pagina di rilascio di Aspose.3D](https://releases.aspose.com/).
+R: Puoi esplorare una versione di prova gratuita di Aspose.3D sulla [pagina dei rilasci di Aspose.3D](https://releases.aspose.com/).
 
 **Q4: Hai bisogno di supporto o hai domande?**  
-A: Visita il [forum di Aspose.3D](https://forum.aspose.com/c/3d/18) per ottenere assistenza dalla community e dagli esperti.
+R: Visita il [forum di Aspose.3D](https://forum.aspose.com/c/3d/18) per ottenere assistenza dalla community e dagli esperti.
 
 **Q5: Come posso ottenere una licenza temporanea?**  
-A: Puoi acquisire una licenza temporanea dalla [pagina di licenza temporanea](https://purchase.aspose.com/temporary-license/).
+R: Puoi acquisire una licenza temporanea dalla [pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Ultimo aggiornamento:** 2026-08-22  
-**Testato con:** Aspose.3D per Java 24.11  
+**Ultimo aggiornamento:** 2026-10-29  
+**Testato con:** Aspose.3D for Java 24.11  
 **Autore:** Aspose  
 
 ```java
@@ -175,8 +176,8 @@ scene.save(MyDir, FileFormat.DISCREET3DS);
 
 ## Tutorial correlati
 
-- [Creare una scena 3D Java con Aspose 3D Java](/3d/java/3d-scenes-and-models/)
-- [Tutorial di animazione keyframe – Scena 3D animata in Java](/3d/java/animations/)
+- [Crea scena 3D Java con Aspose 3D Java](/3d/java/3d-scenes-and-models/)
+- [Tutorial animazione a fotogrammi chiave – Scena 3D animata in Java](/3d/java/animations/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

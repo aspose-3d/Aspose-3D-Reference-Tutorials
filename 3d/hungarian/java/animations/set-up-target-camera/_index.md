@@ -1,23 +1,27 @@
 ---
-date: 2026-08-22
-description: Ismerje meg, hogyan helyezze el a kamerát és inicializálja a 3D jelenetet
-  Java-ban, konfigurálja a kamera célpontját, és animálja a kamerát az Aspose.3D segítségével.
+date: 2026-10-29
+description: Ismerje meg, hogyan helyezze el a Camera-t és inicializálja a 3D Scene-et
+  Java-ban, konfigurálja a Camera target-et, és animálja a Camera-t az Aspose.3D segítségével.
   Lépésről‑lépésre útmutató kódrészletekkel.
+images:
+- /java/animations/set-up-target-camera/og-image.png
 keywords:
-- create 3d scene java
+- how to position camera
 - animate camera java
+- create 3d scene java
 - configure camera target
-lastmod: 2026-08-22
-linktitle: Hogyan helyezzük el a kamerát és inicializáljuk a 3D jelenetet Java-ban
+- Aspose.3D Java
+lastmod: 2026-10-29
+linktitle: Hogyan helyezzük el a Camera-t és inicializáljuk a 3D Scene-et Java-ban
   | Aspose.3D útmutató
-og_description: Hozzon létre 3D jelenetet Java-ban, és ismerje meg, hogyan helyezze
-  el a kamerát, állítsa be a célpontot, és animálja azt az Aspose.3D segítségével.
-  Lépésről‑lépésre útmutató Java fejlesztőknek.
+og_description: Ismerje meg, hogyan helyezze el a Camera-t, állítson be egy target-et,
+  és animálja azt, miközben 3D Scene-et hoz létre Java-ban az Aspose.3D segítségével.
+  Részletes útmutató fejlesztőknek.
 og_image_alt: Aspose.3D Java tutorial showing camera positioning and scene initialization
-og_title: 3D jelenet létrehozása Java-ban és a kamera elhelyezése az Aspose.3D segítségével
+og_title: Hogyan helyezzük el a Camera-t és hozzunk létre 3D Scene-et Java-ban
 schemas:
 - author: Aspose
-  dateModified: '2026-08-22'
+  dateModified: '2026-10-29'
   description: Learn how to position camera and initialize a 3D scene in Java, configure
     camera target, and animate camera using Aspose.3D. Step‑by‑step guide with code
     samples.
@@ -41,7 +45,7 @@ tags:
 - camera positioning
 - Aspose.3D
 - Java 3D graphics
-title: Hogyan helyezzük el a kamerát és inicializáljuk a 3D jelenetet Java-ban | Aspose.3D
+title: Hogyan helyezzük el a Camera-t és inicializáljuk a 3D Scene-et Java-ban | Aspose.3D
   útmutató
 url: /hu/java/animations/set-up-target-camera/
 weight: 11
@@ -55,70 +59,68 @@ weight: 11
 
 ## Bevezetés
 
-Üdvözöljük! Ebben az útmutatóban megtanulja, hogyan **helyezze el a kamerát**, miközben **Java-ban inicializál egy 3D jelenetet** az Aspose.3D segítségével, majd csatlakoztasson egy célkamerát, hogy teljes irányítással animálhassa modelljeit. Legyen szó játékfejlesztésről, termékvizualizációról vagy tudományos szimulációról, a kamera elhelyezésének elsajátítása a lenyűgöző megtekintői élmény kulcsa.
-
-A `Scene` osztály a gyökérkonténer, amely a 3‑D modell összes objektumát tartalmazza. A `Camera` osztály egy nézőpontot definiál a jelenet rendereléséhez. A `setTarget(Node)` metódus egy célcsomópontot rendel a kamerához, amelyre a kamera néz.
+Ebben az útmutatóban megtudja, **hogyan helyezzük el a kamerát**, miközben **Java-ban inicializál egy 3D jelenetet** az Aspose.3D segítségével. A megfelelő kamera elhelyezés teljes irányítást ad a néző perspektívája felett, ami elengedhetetlen játékokhoz, termékmegjelenítőkhez vagy tudományos szimulációkhoz. Lépésről lépésre végigvezetjük a jelenet létrehozását, egy célorientált kamera hozzáadását és annak animálását, hogy a modellek simán mozogjanak.
 
 ## Gyors válaszok
 - **Mi az első lépés?** Inicializálja a 3D jelenetet a `new Scene()` használatával.  
 - **Melyik osztály képviseli a kamerát?** `com.aspose.threed.Camera`.  
-- **Hogyan irányítsam a kamerát egy célra?** Használja a `Camera.setTarget(Node)`-t.  
-- **Milyen fájlformátumot használ a példában?** DISCREET3DS (`.3ds`).  
+- **Hogyan irányítsam a kamerát egy célpontra?** Használja a `Camera.setTarget(Node)` metódust.  
+- **Melyik fájlformátumot használja a példában?** DISCREET3DS (`.3ds`).  
 - **Szükségem van licencre a fejlesztéshez?** Egy ingyenes próba verzió teszteléshez elegendő; a termeléshez kereskedelmi licenc szükséges.
 
 ## Mit jelent a „initialize 3d scene java”?
-Egy 3D jelenet Java-ban történő inicializálása létrehoz egy `Scene` objektumot, amely a felső szintű konténerként szolgál a hálók, fények, kamerák és transzformációk számára, lehetővé téve egy teljes virtuális környezet felépítését és manipulálását a exportálás előtt. A `Scene` létrehozása után hozzáadhat hálókat, fényeket és kamerákat, majd exportálhatja a jelenetet olyan formátumokba, mint az OBJ, FBX vagy 3DS, hogy más alkalmazásokban használhassa.
+A `Scene` objektum létrehozása lefoglalja a legfelső szintű tárolót, amely a hálókat, fényeket, kamerákat és transzformációkat tárolja. **A `Scene` osztály az Aspose.3D legfelső szintű tárolója, amely minden 3‑D objektumot, például hálókat, fényeket és kamerákat tartalmaz.** Miután példányosította, bármely 3‑D elemet hozzáadhat, és később exportálhatja az egész környezetet olyan formátumokba, mint OBJ, FBX vagy 3DS.
 
-## Miért állítsunk be egy célkamerát?
-A célkamera automatikusan a kijelölt csomópontra irányítja a nézetet, biztosítva, hogy a fókuszpont középen maradjon a kamera mozgása közben, ami leegyszerűsíti az orbit animációkat és a felhasználó által vezérelt navigációt manuális nézési számítások nélkül. Ez a megközelítés megkönnyíti az interaktív vezérlők megvalósítását is, ahol a felhasználó az objektum körül forgathat anélkül, hogy a kamera orientációjának számításával kellene foglalkoznia.
+## Miért állítsunk be célkamerát?
+A célkamera automatikusan a nézetét egy kijelölt csomó felé irányítja, középre helyezve a fókuszpontot, miközben a kamera mozog. **Ez megszünteti a kézi nézési számításokat, lehetővé téve a sima körkörös animációkat és az intuitív felhasználói navigációt extra kód nélkül.** Ez a megközelítés akár 40 %-kal csökkentheti a fejlesztési időt interaktív megjelenítők építésekor.
 
 ## Kamera cél beállítása
-A **kamera cél beállítása** lépés megmondja a kamerának, melyik csomópontra nézzen. A kamera cél konfigurálásával elkerülheti a manuális nézési számításokat, és biztosíthatja, hogy a kamera mindig az érdeklődés középpontjában lévő objektumra fókuszáljon.
+A **kamera cél beállítása** lépés megmondja a kamerának, melyik csomóra nézzen. A kamera cél beállításával elkerülheti a kézi nézési számításokat, és biztosíthatja, hogy a kamera mindig az érdeklődés tárgyára fókuszáljon.
 
 ## Előfeltételek
-Mielőtt belemerülnénk az útmutatóba, győződjön meg róla, hogy a következő előfeltételek rendelkezésre állnak:
+Mielőtt elkezdenénk a tutorialt, győződjön meg róla, hogy az alábbi előfeltételek rendelkezésre állnak:
 
 - Alapvető Java programozási ismeretek.  
 - Java Development Kit (JDK) telepítve a gépén.  
-- Aspose.3D könyvtár letöltve és hozzáadva a projektjéhez. Letöltheti a [Aspose.3D Java letöltési oldalról](https://releases.aspose.com/3d/java/).
+- Aspose.3D könyvtár letöltve és a projektjéhez hozzáadva. Letöltheti a [Aspose.3D Java letöltési oldalról](https://releases.aspose.com/3d/java/).
 
 ## Csomagok importálása
-Kezdje a szükséges csomagok importálásával, hogy a kód zökkenőmentesen fusson. A Java projektjében tartalmazza a következőket:
+Kezdje a szükséges csomagok importálásával a kód zökkenőmentes futtatása érdekében. A Java projektjében tartalmazza a következőket:
 
 *(az importálási utasítások a rövidség kedvéért kihagyva; a pontos listáért tekintse meg a hivatalos dokumentációt)*
 
 ## 3D jelenet inicializálása Java-ban
-Bármely 3D munkafolyamat alapja a scene objektum. Itt létrehozzuk, és beállítunk egy könyvtárat a kimeneti fájl számára.
+Bármely 3D munkafolyamat alapja a jelenet objektum. Itt létrehozzuk, és beállítunk egy könyvtárat a kimeneti fájl számára.
 
-## 1. lépés: kamera csomópont létrehozása
-Ezután hozzon létre egy kamera csomópontot a jelenetben a 3D környezet rögzítéséhez.
+## 1. lépés: kamera csomó létrehozása
+A `Camera` osztály a jelenet rendereléséhez egy nézőpontot képviseli. **A `Camera` osztály az Aspose.3D objektuma, amely meghatározza a pozíciót, orientációt és a projekció beállításait a rendereléshez.** Hozzon létre egy új kamera csomót, és csatolja a jelenet gyökeréhez.
 
-## 2. lépés: kamera csomópont eltolásának beállítása
-Állítsa be a kamera csomópont eltolását, hogy megfelelően helyezze el a 3D térben.
+## 2. lépés: kamera csomó eltolásának beállítása
+Állítsa be a kamera csomó eltolását, hogy megfelelően helyezze el a 3D térben.
 
 ## 3. lépés: kamera cél beállítása
-Adja meg a kamera célját úgy, hogy a gyökér csomóponthoz egy gyermek csomópontot hoz létre. A kamera automatikusan erre a csomópontra fog nézni.
+Adja meg a kamera célját egy gyermek csomó létrehozásával a gyökér csomóhoz. **A `Camera.setTarget(Node)` metódus megmondja a kamerának, melyik csomóra nézzen, automatikusan igazítva a nézési irányt.** A kamera automatikusan erre a csomóra fog nézni.
 
 ## 4. lépés: jelenet mentése
 Mentse a konfigurált jelenetet egy fájlba a kívánt formátumban (ebben a példában DISCREET3DS).
 
 ## Hogyan animáljuk a kamerát
-A kamerát az időbeli transzformáció módosításával animálja – például a célcsomópont körül forgatva vagy egy spline mentén mozgatva – az Aspose.3D animációs API-jának használatával, amely interpolálja a kulcsképkockákat a sima mozgás érdekében, miközben a kamera továbbra is követi a célját. Emellett kombinálhatja a transzlációs és rotációs kulcsképkockákat, hogy összetett mozgáspályákat hozzon létre, amelyek simán követik a célt.
+Töltse be a kamera és a cél csomókat, majd alkalmazzon kulcskocka animációt a kamera transzformációs mátrixára. **A kamerát úgy animálja, hogy forgási vagy eltolási kulcskockákat ad hozzá, amelyek a kamerát a cél körül mozgatják, miközben a `setTarget` kapcsolat fókuszban tartja.** Az Aspose.3D interpolálja a kulcskockákat, hogy sima mozgást hozzon létre.
 
-## Gyakori buktatók és tippek
-- **Elfelejtette hozzáadni a célcsomópontot?** A kamera alapértelmezés szerint a negatív Z‑tengely mentén néz, ami nem biztos, hogy a várt nézetet adja. Mindig hozzon létre egy célcsomópontot, vagy állítsa be manuálisan a nézési irányt.  
-- **Helytelen fájlútvonal?** Győződjön meg arról, hogy a `MyDir` útvonalelválasztóval (`/` vagy `\\`) végződik, mielőtt a fájlnevet hozzáadná.  
+## Gyakori hibák és tippek
+- **Elfelejtette hozzáadni a cél csomót?** A kamera alapértelmezés szerint a negatív Z‑tengely mentén néz, ami nem biztos, hogy a várt nézetet adja. Mindig hozzon létre egy cél csomót, vagy állítsa be kézzel a nézési irányt.  
+- **Helytelen fájlútvonal?** Győződjön meg róla, hogy a `MyDir` útvonal elválasztóval (`/` vagy `\\`) végződik, mielőtt a fájlnevet hozzáadná.  
 - **Licenc nincs beállítva?** A kód érvényes licenc nélkül történő futtatása vízjelet ágyaz be az exportált fájlba.
 
-## Gyakran Ismételt Kérdések
+## Gyakran ismételt kérdések
 
-**Q1: Hogyan tölthetem le az Aspose.3D for Java-t?**  
+**Q1: Hogyan tölthetem le az Aspose.3D-t Java-hoz?**  
 A: Letöltheti a könyvtárat a [Aspose.3D Java letöltési oldalról](https://releases.aspose.com/3d/java/).
 
 **Q2: Hol találom az Aspose.3D dokumentációját?**  
 A: Tekintse meg a [Aspose.3D Java dokumentációt](https://reference.aspose.com/3d/java/) a részletes útmutatásért.
 
-**Q3: Elérhető ingyenes próba?**  
+**Q3: Van elérhető ingyenes próba?**  
 A: Felfedezheti az Aspose.3D ingyenes próba verzióját a [Aspose.3D kiadási oldalon](https://releases.aspose.com/).
 
 **Q4: Támogatásra van szüksége vagy kérdései vannak?**  
@@ -127,9 +129,7 @@ A: Látogassa meg az [Aspose.3D fórumot](https://forum.aspose.com/c/3d/18), hog
 **Q5: Hogyan szerezhetek ideiglenes licencet?**  
 A: Ideiglenes licencet szerezhet a [temporary license page](https://purchase.aspose.com/temporary-license/) oldalról.
 
----
-
-**Utolsó frissítés:** 2026-08-22  
+**Utoljára frissítve:** 2026-10-29  
 **Tesztelve a következővel:** Aspose.3D for Java 24.11  
 **Szerző:** Aspose  
 
@@ -163,10 +163,10 @@ MyDir = MyDir + "camera-test.3ds";
 scene.save(MyDir, FileFormat.DISCREET3DS);
 ```
 
-## Kapcsolódó útmutatók
+## Kapcsolódó tutorialok
 
-- [3D jelenet létrehozása Java-ban az Aspose 3D Java-val](/3d/java/3d-scenes-and-models/)
-- [Kulcsképkocka animáció útmutató – Animált 3D jelenet Java-ban](/3d/java/animations/)
+- [Create 3D Scene Java with Aspose 3D Java](/3d/java/3d-scenes-and-models/)
+- [Keyframe Animation Tutorial – Animated 3D Scene in Java](/3d/java/animations/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
