@@ -1,34 +1,39 @@
 ---
-date: 2026-07-04
-description: Naučte se, jak pomocí Aspose.3D a dotazů podobných XPath upravit poloměr
-  koule v Javě. Tento podrobný návod vám ukáže, jak změnit velikost koulí, dotazovat
-  objekty a exportovat aktualizované scény.
+date: 2026-10-29
+description: Zjistěte, jak použít Aspose k úpravě poloměru koule v Java pomocí XPath‑like
+  dotazů, uložit scénu jako FBX a efektivně exportovat aktualizované 3D modely.
 keywords:
+- how to use aspose
+- save scene as fbx
 - modify sphere radius java
-- Aspose 3D XPath
-- Java 3D sphere manipulation
-linktitle: Manipulace s 3D objekty a scénami v Javě
+- aspose 3d xpath
+- java 3d sphere manipulation
+lastmod: 2026-10-29
+linktitle: Manipulace s 3D objekty a scénami v Java
+og_description: Zjistěte, jak použít Aspose k úpravě poloměru koule v Java, aplikovat
+  XPath‑like dotazy a uložit scénu jako FBX — vše v stručném průvodci krok za krokem.
+og_image_alt: Developer guide showing Aspose 3D Java code to change sphere radius
+  and export FBX
+og_title: Jak použít Aspose k úpravě poloměru koule v Java pomocí XPath
 schemas:
 - author: Aspose
-  dateModified: '2026-07-04'
-  description: Learn how to modify sphere radius java using Aspose.3D with XPath‑like
-    queries. This step‑by‑step guide shows you how to resize spheres, query objects,
-    and export updated scenes.
-  headline: How to Use XPath – Modify Sphere Radius Java with Aspose.3D
+  dateModified: '2026-10-29'
+  description: Learn how to use Aspose to modify sphere radius in Java, apply XPath‑like
+    queries, and export updated scenes.
+  headline: How to use Aspose to modify sphere radius in Java with XPath
   type: TechArticle
-- description: Learn how to modify sphere radius java using Aspose.3D with XPath‑like
-    queries. This step‑by‑step guide shows you how to resize spheres, query objects,
-    and export updated scenes.
-  name: How to Use XPath – Modify Sphere Radius Java with Aspose.3D
+- description: Learn how to use Aspose to modify sphere radius in Java, apply XPath‑like
+    queries, and export updated scenes.
+  name: How to use Aspose to modify sphere radius in Java with XPath
   steps:
   - name: '**Set up your project** – Add the Aspose.3D Maven/Gradle dependency and
       import the necessary classes.'
     text: '**Set up your project** – Add the Aspose.3D Maven/Gradle dependency and
       import the necessary classes.'
   - name: '**Load or create a scene** – Use `Scene scene = new Scene();` or load an
-      existing file with `scene.load("model.fbx");`.'
+      existing file with `scene.open("model.fbx");`.'
     text: '**Load or create a scene** – Use `Scene scene = new Scene();` or load an
-      existing file with `scene.load("model.fbx");`.'
+      existing file with `scene.open("model.fbx");`.'
   - name: '**Locate the sphere node** – Apply an XPath‑like query such as `scene.selectNodes("//Sphere[@name=''MySphere'']")`.'
     text: '**Locate the sphere node** – Apply an XPath‑like query such as `scene.selectNodes("//Sphere[@name=''MySphere'']")`.'
   - name: '**Modify the radius** – Iterate over the returned nodes and call `sphere.setRadius(newRadius);`.'
@@ -60,7 +65,13 @@ schemas:
     question: Can I export the modified scene to other formats?
   type: FAQPage
 second_title: Aspose.3D Java API
-title: Jak používat XPath – Úprava poloměru koule v Javě s Aspose.3D
+tags:
+- aspose 3d
+- java 3d
+- xpath queries
+- sphere radius
+- fbx export
+title: Jak použít Aspose k úpravě poloměru koule v Java pomocí XPath
 url: /cs/java/3d-objects-and-scenes/
 weight: 33
 ---
@@ -69,120 +80,119 @@ weight: 33
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak používat XPath – Modifikace poloměru koule v Javě s Aspose.3D
+# Jak použít Aspose k úpravě poloměru koule v Javě pomocí XPath
 
 ## Úvod
 
-Pokud se ptáte, **jak používat XPath** při práci s 3D scénami v Javě, jste na správném místě. V tomto tutoriálu vám ukážeme, jak **modifikovat poloměr koule v Javě** pomocí Aspose.3D a zároveň využít dotazy podobné XPath k nalezení přesně těch objektů, které potřebujete. Na konci tohoto průvodce pochopíte, proč je XPath výkonný nástroj pro 3D manipulaci, jak jej použít v reálných scénářích a jaké kroky jsou potřeba k okamžitému zobrazení změn ve vaší scéně.
+Pokud hledáte **how to use Aspose** pro dynamické změny 3D geometrie, tento průvodce vám přesně ukáže, jak v Javě pomocí XPath‑like dotazů Aspose.3D upravit poloměr koule. během několika minut budete schopni najít libovolný uzel koule, změnit jeho velikost, obnovit viewport a **save the scene as FBX** nebo jiné formáty. Kroky jsou stručné, API je plynulé a automaticky se postará o regeneraci sítě, takže se můžete soustředit na logiku aplikace.
 
 ## Rychlé odpovědi
-- **Co dosahuje „modify sphere radius java“?** Změní velikost primitivní koule za běhu, což vám umožní vytvářet dynamické 3D modely.  
-- **Která knihovna to zajišťuje?** Aspose.3D pro Java poskytuje plynulé API pro manipulaci s geometrií.  
-- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro hodnocení; pro produkci je vyžadována komerční licence.  
-- **Jaké IDE je nejlepší?** Jakékoli Java IDE (IntelliJ IDEA, Eclipse, VS Code), které podporuje Maven/Gradle.  
-- **Mohu to kombinovat s dotazy podobnými XPath?** Rozhodně – můžete nejprve dotazovat objekty a poté upravovat jejich vlastnosti.
+- **What does “modify sphere radius java” achieve?** Změní velikost primitivní koule za běhu, což umožňuje dynamické vizuální efekty bez nutnosti přestavování sítě.  
+- **Which library handles this?** Aspose.3D for Java poskytuje plynulé, vysoce‑úrovňové API pro manipulaci s geometrií.  
+- **Do I need a license?** Bezplatná zkušební verze funguje pro hodnocení; pro produkční nasazení je vyžadována komerční licence.  
+- **What IDE works best?** Jakékoli Java IDE (IntelliJ IDEA, Eclipse, VS Code), které podporuje Maven nebo Gradle.  
+- **Can I combine this with XPath‑like queries?** Rozhodně – můžete nejprve dotazovat objekty a poté v jednom průchodu upravit jejich vlastnosti.  
 
-## Co je „modify sphere radius java“?
-Změna poloměru koule v Javě znamená úpravu geometrických parametrů uzlu `Sphere` v grafu scény Aspose.3D. Uzlu `Sphere` ukládá informaci o poloměru, která určuje velikost vykresleného objektu. Tato operace je užitečná pro vytváření animovaných efektů, škálování objektů na základě vstupu uživatele nebo procedurální generování modelů.
+## Co je Aspose.3D?
+`Aspose.3D` je Java knihovna, která představuje 3D scénu jako hierarchický graf uzlů, geometrie, materiálů a animací. Abstrahuje nízko‑úrovňové parsování souborů a generování sítí, což vám umožňuje pracovat s objekty jako `Scene`, `Node` a `Sphere` přímo z Java kódu.
 
-## Proč je důležité modifikovat poloměr koule v Javě?
-Úprava poloměru přímo ovlivňuje vizuální a fyzické charakteristiky koule, umožňuje tvorbu dynamického obsahu a zjednodušuje složité výpočty. Změnou poloměru mohou vývojáři reagovat na data za běhu, vytvářet interaktivní zážitky a vyhnout se ruční rekonstrukci meshe.
+## Proč je úprava poloměru koule v Javě důležitá?
+Změna poloměru koule přímo ovlivňuje jak její vizuální velikost, tak kolizní geometrii, což je nezbytné pro interaktivní simulace, procedurální generování obsahu a real‑time vizuální efekty. Delegováním regenerace sítě na Aspose.3D se vyhnete ručním výpočtům vrcholů a udržíte svůj kód čistý.
 
-- **Dynamický obsah:** Upravit poloměr za běhu tak, aby odrážel data ze senzorů nebo herní události.  
-- **Zjednodušená matematika:** Aspose.3D se stará o regeneraci podkladového meshe, takže není potřeba ručně přepočítávat vrcholy.  
-- **Bezproblémová integrace:** Kombinujte změny poloměru s materiály, texturami a animačními křivkami, aniž byste narušili hierarchii scény.
+## Proč použít Aspose.3D pro úpravu poloměru koule v Javě?
+Aspose.3D nabízí vysoce‑úrovňovou abstrakci, která eliminuje potřebu nízko‑úrovňové manipulace s geometrií. Jeho podpora napříč platformami, rozsáhlý seznam formátů a vestavěné XPath‑like dotazování z něj činí nejefektivnější volbu pro Java vývojáře. Poskytuje také komplexní dokumentaci, ukázkové projekty a rychle reagující tým podpory, což umožňuje rychlý vývoj a snadné řešení problémů. Výkonnostně optimalizované streamování I/O zajišťuje rychlé načítání a ukládání i u velkých scén, přičemž API zůstává intuitivní pro začátečníky i experty.
 
-## Proč použít Aspose.3D pro modifikaci poloměru koule v Javě?
-Aspose.3D poskytuje vysoceúrovňové API, které abstrahuje nízkoúrovňové zpracování geometrie, což vývojářům umožňuje soustředit se na logiku aplikace. Jeho robustní sadu funkcí, podporu napříč platformami a rozsáhlou kompatibilitu formátů z něj činí ideální volbu pro efektivní úpravy poloměru koule.
+## Jak upravit poloměr koule v Javě pomocí XPath?
+Načtěte scénu, spusťte XPath‑like dotaz pro získání cílových uzlů koule a zavolejte `setRadius()` na každý uzel – vše během několika jednoduchých řádků. Metoda `selectNodes` vyhodnotí XPath‑like výraz a vrátí odpovídající uzly, poté zavoláte `sphere.setRadius(newRadius)` a obnovíte scénu.
 
-- **Vysoceúrovňová abstrakce:** Není potřeba se ponořovat do nízkoúrovňových výpočtů meshe.  
-- **Cross‑platform:** Funguje na Windows, Linuxu a macOS.  
-- **Bohatá sada funkcí:** Podporuje textury, materiály, animace a dotazy na objekty podobné XPath.  
-- **Měřená schopnost:** Aspose.3D podporuje **více než 60 formátů pro import a export** a dokáže zpracovat scény obsahující **až 10 000 uzlů** bez načítání celého souboru do paměti, což poskytuje načítání pod sekundu na typickém hardware.  
-- **Vynikající dokumentace a příklady:** Rychle se rozjedete.
+## Jak upravit poloměr koule v Javě?
+Pro úpravu poloměru koule v Javě načtěte scénu, použijte XPath‑like dotaz jako `scene.selectNodes("//Sphere[@name='MySphere']")` k získání cílových uzlů, zavolejte `sphere.setRadius(newRadius)` na každý z nich, vyvolejte `scene.update()` k obnovení viewportu a nakonec exportujte změny pomocí `scene.save("updated.fbx")`. Tento end‑to‑end proces obvykle trvá méně než minutu u standardních modelů.
 
-## Jak používat XPath v Aspose.3D Java?
-Dotazy podobné XPath vám umožňují prohledávat graf scény pomocí stručné, výmluvné syntaxe. Metoda `selectNodes` provádí dotaz podobný XPath na graf scény a vrací kolekci odpovídajících uzlů. Můžete najít každou kouli, filtrovat podle názvu nebo vybrat objekty na základě vlastních atributů a poté zavolat `setRadius()` na každém výsledku. Tento přístup udržuje váš kód čistý a dramaticky snižuje množství ručního procházení, které musíte napsat.
+### Krok 1: nastavení projektu
+Třída `Scene` je vstupním bodem pro jakoukoli operaci Aspose.3D; představuje kořen grafu scény. Přidejte závislost Aspose.3D pro Maven nebo Gradle do vašeho `pom.xml` nebo `build.gradle` a poté importujte požadované jmenné prostory ve vašem Java zdrojovém souboru.
 
-## Jak modifikovat poloměr koule v Javě pomocí XPath?
-Nahrajte svou scénu, spusťte dotaz podobný XPath pro získání cílových uzlů koule a zavolejte `setRadius()` na každém uzlu — vše během několika jednoduchých řádků. Metoda `selectNodes` spustí výraz podobný XPath a vrátí odpovídající uzly koule. Například `scene.selectNodes("//Sphere[@name='MySphere']")` vrátí kolekci odpovídajících koulí; iterací přes tuto kolekci a voláním `sphere.setRadius(5.0)` okamžitě změní velikost každé koule. Po změně zavolejte `scene.update()`, aby se aktualizoval pohled, a poté scénu uložte v požadovaném formátu.
+### Krok 2: načtení nebo vytvoření scény
+Třída `Scene` může buď vytvořit novou prázdnou scénu (`new Scene()`) nebo otevřít existující soubor (`scene.open("model.fbx")`). Když zavoláte `open`, Aspose.3D parsuje soubor a naplní interní hierarchii uzlů, aniž by načítal celou geometrii do paměti, což udržuje nízkou spotřebu paměti i u velkých aktiv.
 
-## Jak modifikovat poloměr koule v Javě?
-Níže najdete dva zaměřené tutoriály, které vás provedou přesnými kroky.
+### Krok 3: nalezení uzlu koule
+Metoda `selectNodes` implementuje XPath‑like syntaxi pro navigaci grafem scény. Například `scene.selectNodes("//Sphere[@name='MySphere']")` vrátí kolekci všech uzlů `Sphere`, jejichž atribut `name` odpovídá *MySphere*. Třída `Sphere` je geometrický objekt Aspose.3D, který ukládá poloměr, segmenty a další specifické parametry koule.
 
-### Modifikace 3D poloměru koule v Javě s Aspose.3D
-Vydejte se na vzrušující výpravu do oblasti manipulace s 3D koulí pomocí Aspose.3D. Tento tutoriál vás provádí krok za krokem a učí, jak snadno upravit poloměr 3D koule v Javě. Ať už jste zkušený vývojář nebo začátečník, tento tutoriál zajišťuje plynulý učební zážitek.
+### Krok 4: úprava poloměru
+Metoda `setRadius` patří do třídy `Sphere` a mění velikost koule. Volání `sphere.setRadius(7.5)` automaticky přestaví síť tak, aby vizuální reprezentace odpovídala novému poloměru. Žádné další zpracování geometrie není potřeba.
 
-Chtěli byste se ponořit? Klikněte [zde](./modify-sphere-radius/) pro přístup k úplnému tutoriálu a stažení potřebných zdrojů. Zvyšte svou odbornost v programování Java 3D tím, že ovládnete umění modifikace 3D poloměru koule s Aspose.3D.
+### Krok 5: obnovení zobrazení
+Po změnách geometrie vyvolejte `scene.update()`, aby se viewport vynutil překreslit. Tato metoda propaguje všechny čekající změny skrze renderovací pipeline, což zajišťuje, že další snímek zobrazí aktualizovanou velikost koule.
 
-### Použití dotazů podobných XPath na 3D objekty v Javě
-Odhalte sílu dotazů podobných XPath v programování Java 3D s Aspose.3D. Tento tutoriál poskytuje komplexní pohled na aplikaci sofistikovaných dotazů pro bezproblémovou manipulaci s 3D objekty. Zvyšte své dovednosti ve vývoji 3D, jak prozkoumáváte svět dotazů podobných XPath a zlepšujete svou schopnost snadno interagovat se 3D scénami.
+### Krok 6: uložení aktualizované scény
+Použijte `scene.save("updated.fbx")` k exportu upravené scény. Metoda `save` podporuje sekundární klíčové slovo **save scene as fbx** stejně jako OBJ, GLTF a mnoho dalších formátů. Aspose.3D zapisuje soubor pomocí stejného vysoce výkonného streamovacího přístupu, jaký použil při načítání.
 
-Připraveni posunout své dovednosti v programování Java 3D na další úroveň? Ponořte se do tutoriálu [zde](./xpath-like-object-queries/) a získejte znalosti pro efektivní použití dotazů podobných XPath. Aspose.3D zajišťuje uživatelsky přívětivý a efektivní učební zážitek, který dělá komplexní manipulaci s 3D objekty přístupnou všem.
-
-## Běžné případy použití pro modifikaci poloměru koule v Javě
-- **Interaktivní simulace:** Upravit velikost koule na základě dat ze senzorů nebo vstupu uživatele.  
-- **Procedurální generování:** Vytvořit planety nebo bubliny s různými poloměry v jednom průchodu.  
-- **Animace:** Animovat změny poloměru pro simulaci růstu, pulsace nebo dopadových efektů.  
+## Běžné případy použití úpravy poloměru koule v Javě
+- **Interaktivní simulace:** Přizpůsobte velikost koule na základě živých senzorových dat nebo akcí hráče.  
+- **Procedurální generování:** Vytvořte planety, bubliny nebo částice s různými poloměry v jednom průchodu.  
+- **Animace:** Animujte změny poloměru pro simulaci růstu, pulzování nebo dopadových efektů.  
 
 ## Požadavky
-- Java 8 nebo vyšší nainstalováno.  
+- Java 8 nebo vyšší nainstalována.  
 - Maven nebo Gradle pro správu závislostí.  
 - Knihovna Aspose.3D pro Java (stáhněte z webu Aspose).  
-- Základní znalost 3D grafů scén.  
-
-## Průvodce krok za krokem (žádné bloky kódu nejsou vyžadovány)
-
-Třída `Scene` představuje kořen grafu 3D scény, obsahuje uzly, geometrii a materiály.
-
-1. **Nastavte svůj projekt** – Přidejte závislost Aspose.3D pro Maven/Gradle a importujte potřebné třídy.  
-2. **Načtěte nebo vytvořte scénu** – Použijte `Scene scene = new Scene();` nebo načtěte existující soubor pomocí `scene.load("model.fbx");`.  
-3. **Najděte uzel koule** – Použijte dotaz podobný XPath, například `scene.selectNodes("//Sphere[@name='MySphere']")`.  
-4. **Upravte poloměr** – Projděte vrácené uzly a zavolejte `sphere.setRadius(newRadius);`.  
-5. **Obnovte zobrazení** – Zavolejte `scene.update();`, aby se změna projevila ve viewportu.  
-6. **Uložte aktualizovanou scénu** – Exportujte do požadovaného formátu (OBJ, FBX, GLTF) pomocí `scene.save("updated.fbx");`.  
+- Základní znalost 3D scénových grafů.
 
 ## Tipy pro řešení problémů
-- **Chyby nulových odkazů:** Ujistěte se, že uzel koule byl získán před voláním `setRadius()`.  
-- **Scéna se neaktualizuje:** Zavolejte `scene.update()` po úpravě geometrie, aby se obnovil viewport.  
-- **Problémy s licencí:** Ověřte, že soubor licence Aspose.3D je správně načten; jinak se zobrazí vodoznak z trial verze.  
+- **Chyby nulových odkazů:** Ověřte, že `scene.selectNodes` skutečně vrací neprázdnou kolekci před voláním `setRadius()`.  
+- **Scéna se neaktualizuje:** Po úpravě geometrie musíte zavolat `scene.update()` a poté znovu vykreslit nebo uložit scénu, aby se změny projevily.  
+- **Problémy s licencí:** Ujistěte se, že soubor licence Aspose.3D je načten správně; jinak se na exportovaných souborech objeví vodotisk z trial verze.  
 
 ## Často kladené otázky
 
-**Q: Mohu upravit poloměr více koulí najednou?**  
-A: Ano. Použijte dotaz podobný XPath v Aspose.3D k výběru všech uzlů koule, poté iterujte a nastavte každý poloměr.
+**Q: Can I modify the radius of multiple spheres at once?**  
+A: Ano. Použijte XPath‑like dotaz Aspose.3D k výběru všech uzlů koule, poté iterujte a nastavte každý poloměr.
 
-**Q: Ovlivní změna poloměru texturové souřadnice koule?**  
+**Q: Does changing the radius affect the sphere’s texture coordinates?**  
 A: Mapování textury se automaticky škáluje s poloměrem, zachovává konzistenci UV.
 
-**Q: Je možné animovat změny poloměru v čase?**  
+**Q: Is it possible to animate radius changes over time?**  
 A: Rozhodně. Kombinujte `setRadius()` s časovačem nebo animační smyčkou pro vytvoření plynulých přechodů.
 
-**Q: Jaká verze Aspose.3D je vyžadována?**  
+**Q: What version of Aspose.3D is required?**  
 A: Jakákoli recentní verze (vydání 2024‑2025) podporuje tyto funkce; vždy zkontrolujte poznámky k vydání pro změny API.
 
-**Q: Mohu exportovat upravenou scénu do jiných formátů?**  
+**Q: Can I export the modified scene to other formats?**  
 A: Ano. Aspose.3D může po úpravě geometrie uložit do OBJ, FBX, GLTF a dalších formátů.
 
 ## Závěr
-Na závěr, tyto tutoriály jsou vaším vstupem k ovládnutí programování Java 3D s Aspose.3D. Ať už **modifikujete poloměr koule v Javě** nebo používáte dotazy podobné XPath, každý tutoriál je navržen tak, aby rozšířil vaše dovednosti a přispěl k plynulému vývoji 3D. Stáhněte si zdroje, postupujte podle krok‑za‑krokem instrukcí a odemkněte nekonečné možnosti programování Java 3D ještě dnes!
-
-## Manipulace s 3D objekty a scénami v Java tutoriálech
-### [Modifikace 3D poloměru koule v Javě s Aspose.3D](./modify-sphere-radius/)
-Prozkoumejte programování Java 3D s Aspose.3D, snadno upravujte poloměr koule. Stáhněte nyní pro plynulý vývoj 3D.
-### [Použití dotazů podobných XPath na 3D objekty v Javě](./xpath-like-object-queries/)
-Ovládněte dotazy na 3D objekty v Javě snadno s Aspose.3D. Používejte dotazy podobné XPath, manipulujte se scénami a zvyšte úroveň svého 3D vývoje.
+Nyní máte kompletní, produkčně připravený workflow pro **how to use Aspose** k úpravě poloměru koule v Javě, dotazování objektů pomocí XPath‑like syntaxe a **save the scene as FBX**. Použijte tyto kroky k vytvoření interaktivních vizualizací, procedurálních světů nebo real‑time simulací s minimálním kódem a maximální spolehlivostí.
 
 ---
 
-**Poslední aktualizace:** 2026-07-04  
-**Testováno s:** Aspose.3D for Java 24.11 (2025)  
-**Autor:** Aspose
+**Last Updated:** 2026-10-29  
+**Tested With:** Aspose.3D for Java 24.11 (2025)  
+**Author:** Aspose  
 
 ## Související tutoriály
-- [Výběr objektů podle názvu v Java 3D scéně – dotazy podobné XPath s Aspose.3D](/3d/java/3d-objects-and-scenes/xpath-like-object-queries/)
-- [Krok za krokem průvodce licencí pro Aspose.3D Java](/3d/java/licensing/)
-- [Uložení renderovaných 3D scén do souborů obrázků s Aspose.3D pro Java](/3d/java/rendering-3d-scenes/render-to-file/)
+
+- [Upravit 3D poloměr koule v Javě s aspose.3D](./modify-sphere-radius/)
+- [Použít XPath‑Like dotazy na 3D objekty v Javě](./xpath-like-object-queries/)
+
+- [Vybrat objekty podle názvu v Java 3D scéně – XPath‑Like Queries with Aspose.3D](/3d/java/3d-objects-and-scenes/xpath-like-object-queries/)
+- [Průvodce licencí krok za krokem pro Aspose.3D Java](/3d/java/licensing/)
+- [Uložit renderované 3D scény do souborů obrázků s Aspose.3D pro Java](/3d/java/rendering-3d-scenes/render-to-file/)
+
+```java
+// Example: modify sphere radius by traversing the scene graph
+Scene scene = new Scene();
+scene.open("model.fbx");
+
+// Find spheres named 'MySphere' by traversing the scene graph
+for (Node childNode : scene.getRootNode().getChildNodes()) {
+    Sphere sphere = (Sphere) childNode.getEntity();
+    if (sphere != null && "MySphere".equals(childNode.getName())) {
+        sphere.setRadius(5.0);
+    }
+}
+
+// Save the updated scene
+scene.save("updated.fbx");
+```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

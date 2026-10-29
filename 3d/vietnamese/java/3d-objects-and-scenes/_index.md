@@ -1,34 +1,41 @@
 ---
-date: 2026-07-04
-description: Tìm hiểu cách thay đổi bán kính hình cầu trong Java bằng Aspose.3D với
-  các truy vấn kiểu XPath. Hướng dẫn chi tiết này chỉ cho bạn cách thay đổi kích thước
-  các hình cầu, truy vấn các đối tượng và xuất các cảnh đã cập nhật.
+date: 2026-10-29
+description: Tìm hiểu cách sử dụng Aspose để chỉnh sửa bán kính hình cầu trong Java
+  bằng các truy vấn kiểu XPath, lưu cảnh dưới dạng FBX và xuất mô hình 3D đã cập nhật
+  một cách hiệu quả.
 keywords:
+- how to use aspose
+- save scene as fbx
 - modify sphere radius java
-- Aspose 3D XPath
-- Java 3D sphere manipulation
+- aspose 3d xpath
+- java 3d sphere manipulation
+lastmod: 2026-10-29
 linktitle: Thao tác với các đối tượng và cảnh 3D trong Java
+og_description: Tìm hiểu cách sử dụng Aspose để chỉnh sửa bán kính hình cầu trong
+  Java, áp dụng các truy vấn kiểu XPath và lưu cảnh dưới dạng FBX—tất cả trong một
+  hướng dẫn ngắn gọn, từng bước.
+og_image_alt: Developer guide showing Aspose 3D Java code to change sphere radius
+  and export FBX
+og_title: Cách sử dụng Aspose để chỉnh sửa bán kính hình cầu trong Java bằng XPath
 schemas:
 - author: Aspose
-  dateModified: '2026-07-04'
-  description: Learn how to modify sphere radius java using Aspose.3D with XPath‑like
-    queries. This step‑by‑step guide shows you how to resize spheres, query objects,
-    and export updated scenes.
-  headline: How to Use XPath – Modify Sphere Radius Java with Aspose.3D
+  dateModified: '2026-10-29'
+  description: Learn how to use Aspose to modify sphere radius in Java, apply XPath‑like
+    queries, and export updated scenes.
+  headline: How to use Aspose to modify sphere radius in Java with XPath
   type: TechArticle
-- description: Learn how to modify sphere radius java using Aspose.3D with XPath‑like
-    queries. This step‑by‑step guide shows you how to resize spheres, query objects,
-    and export updated scenes.
-  name: How to Use XPath – Modify Sphere Radius Java with Aspose.3D
+- description: Learn how to use Aspose to modify sphere radius in Java, apply XPath‑like
+    queries, and export updated scenes.
+  name: How to use Aspose to modify sphere radius in Java with XPath
   steps:
   - name: '**Set up your project** – Add the Aspose.3D Maven/Gradle dependency and
       import the necessary classes.'
     text: '**Set up your project** – Add the Aspose.3D Maven/Gradle dependency and
       import the necessary classes.'
   - name: '**Load or create a scene** – Use `Scene scene = new Scene();` or load an
-      existing file with `scene.load("model.fbx");`.'
+      existing file with `scene.open("model.fbx");`.'
     text: '**Load or create a scene** – Use `Scene scene = new Scene();` or load an
-      existing file with `scene.load("model.fbx");`.'
+      existing file with `scene.open("model.fbx");`.'
   - name: '**Locate the sphere node** – Apply an XPath‑like query such as `scene.selectNodes("//Sphere[@name=''MySphere'']")`.'
     text: '**Locate the sphere node** – Apply an XPath‑like query such as `scene.selectNodes("//Sphere[@name=''MySphere'']")`.'
   - name: '**Modify the radius** – Iterate over the returned nodes and call `sphere.setRadius(newRadius);`.'
@@ -60,7 +67,13 @@ schemas:
     question: Can I export the modified scene to other formats?
   type: FAQPage
 second_title: Aspose.3D Java API
-title: Cách sử dụng XPath – Thay đổi bán kính hình cầu trong Java với Aspose.3D
+tags:
+- aspose 3d
+- java 3d
+- xpath queries
+- sphere radius
+- fbx export
+title: Cách sử dụng Aspose để chỉnh sửa bán kính hình cầu trong Java bằng XPath
 url: /vi/java/3d-objects-and-scenes/
 weight: 33
 ---
@@ -69,121 +82,119 @@ weight: 33
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Sử Dụng XPath – Thay Đổi Bán Kính Hình Cầu Java với Aspose.3D
+# Cách sử dụng Aspose để sửa đổi bán kính hình cầu trong Java bằng XPath
 
 ## Giới thiệu
 
-Nếu bạn đang tự hỏi **how to use XPath** khi làm việc với các cảnh 3D trong Java, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ chỉ cho bạn cách **modify sphere radius java** bằng cách sử dụng Aspose.3D và đồng thời tận dụng các truy vấn kiểu XPath để tìm các đối tượng chính xác mà bạn cần. Khi kết thúc hướng dẫn, bạn sẽ hiểu tại sao XPath là một công cụ mạnh mẽ cho việc thao tác 3D, cách áp dụng nó trong các tình huống thực tế, và những bước cần thực hiện để thấy các thay đổi ngay lập tức trong cảnh của bạn.
+Nếu bạn đang tìm cách **how to use Aspose** cho các thay đổi hình học 3D động, hướng dẫn này cho bạn biết chính xác cách sửa đổi bán kính của một hình cầu trong Java bằng các truy vấn XPath‑like của Aspose.3D. Chỉ trong vài phút, bạn sẽ có thể xác định bất kỳ nút hình cầu nào, thay đổi kích thước của nó, làm mới viewport và **save the scene as FBX** hoặc các định dạng khác. Các bước ngắn gọn, API mượt mà, và việc tái tạo lưới bên dưới được xử lý tự động, vì vậy bạn có thể tập trung vào logic ứng dụng của mình.
 
 ## Câu trả lời nhanh
-- **What does “modify sphere radius java” achieve?** Nó thay đổi kích thước của một hình cầu nguyên thủy tại thời gian chạy, cho phép bạn tạo các mô hình 3D động.  
-- **Which library handles this?** Thư viện Aspose.3D for Java cung cấp một API linh hoạt cho việc thao tác hình học.  
-- **Do I need a license?** Bản dùng thử miễn phí đủ cho việc đánh giá; cần giấy phép thương mại cho môi trường sản xuất.  
-- **What IDE works best?** Bất kỳ IDE Java nào (IntelliJ IDEA, Eclipse, VS Code) hỗ trợ Maven/Gradle.  
-- **Can I combine this with XPath‑like queries?** Chắc chắn – bạn có thể truy vấn các đối tượng trước, sau đó thay đổi thuộc tính của chúng.
+- **What does “modify sphere radius java” achieve?** Nó thay đổi kích thước một primitive hình cầu tại thời gian chạy, cho phép hiệu ứng hình ảnh động mà không cần xây dựng lại lưới.  
+- **Which library handles this?** Aspose.3D for Java cung cấp một API mượt mà, cấp cao cho việc thao tác hình học.  
+- **Do I need a license?** Bản dùng thử miễn phí hoạt động cho việc đánh giá; giấy phép thương mại là bắt buộc cho triển khai sản xuất.  
+- **What IDE works best?** Bất kỳ IDE Java nào (IntelliJ IDEA, Eclipse, VS Code) hỗ trợ Maven hoặc Gradle.  
+- **Can I combine this with XPath‑like queries?** Chắc chắn – bạn có thể truy vấn các đối tượng trước, sau đó sửa đổi thuộc tính của chúng trong một lần duy nhất.  
 
-## “modify sphere radius java” là gì?
-Thay đổi bán kính của một hình cầu trong Java có nghĩa là điều chỉnh các tham số hình học của một nút `Sphere` trong đồ thị cảnh Aspose.3D. Nút `Sphere` lưu trữ thông tin bán kính quyết định kích thước của đối tượng được render. Thao tác này hữu ích cho việc tạo hiệu ứng hoạt hình, thu phóng đối tượng dựa trên đầu vào của người dùng, hoặc tạo mô hình một cách tự động.
+## Aspose.3D là gì?
+`Aspose.3D` là một thư viện Java đại diện cho một cảnh 3D dưới dạng đồ thị phân cấp các nút, hình học, vật liệu và hoạt ảnh. Nó trừu tượng hoá việc phân tích tệp cấp thấp và tạo lưới, cho phép bạn làm việc với các đối tượng như `Scene`, `Node`, và `Sphere` trực tiếp từ mã Java.
 
-## Tại sao việc modify sphere radius java lại quan trọng?
-Việc thay đổi bán kính trực tiếp ảnh hưởng đến các đặc tính hình ảnh và vật lý của hình cầu, cho phép tạo nội dung động và đơn giản hoá các phép tính phức tạp. Bằng cách thay đổi bán kính, các nhà phát triển có thể phản hồi dữ liệu thời gian chạy, tạo trải nghiệm tương tác, và tránh việc tái tạo lưới thủ công.
+## Tại sao việc sửa đổi bán kính hình cầu trong Java lại quan trọng?
+Thay đổi bán kính của một hình cầu trực tiếp ảnh hưởng đến cả kích thước hình ảnh và hình học va chạm của nó, điều này thiết yếu cho các mô phỏng tương tác, tạo nội dung thủ tục và hiệu ứng hình ảnh thời gian thực. Bằng cách giao việc tái tạo lưới cho Aspose.3D, bạn tránh các tính toán đỉnh thủ công và giữ cho mã nguồn của mình sạch sẽ.
 
-- **Dynamic content:** Điều chỉnh bán kính ngay lập tức để phản ánh dữ liệu cảm biến hoặc sự kiện trong trò chơi.  
-- **Simplified math:** Aspose.3D xử lý việc tái tạo lưới bên dưới, vì vậy bạn không cần tính lại các đỉnh một cách thủ công.  
-- **Seamless integration:** Kết hợp việc thay đổi bán kính với vật liệu, texture và đường cong hoạt hình mà không làm phá vỡ cấu trúc cây cảnh.
+## Tại sao nên sử dụng Aspose.3D để sửa đổi bán kính hình cầu trong Java?
+Aspose.3D cung cấp một lớp trừu tượng cấp cao loại bỏ nhu cầu xử lý hình học cấp thấp. Hỗ trợ đa nền tảng, danh sách định dạng phong phú và khả năng truy vấn XPath‑like tích hợp khiến nó trở thành lựa chọn hiệu quả nhất cho các nhà phát triển Java. Nó cũng cung cấp tài liệu đầy đủ, dự án mẫu và đội ngũ hỗ trợ nhanh nhạy, giúp phát triển nhanh và dễ dàng khắc phục sự cố. I/O streaming tối ưu hiệu năng đảm bảo thời gian tải và lưu nhanh ngay cả với các cảnh lớn, trong khi API vẫn trực quan cho cả người mới và chuyên gia.
 
-## Tại sao sử dụng Aspose.3D cho modify sphere radius java?
-Aspose.3D cung cấp một API cấp cao trừu tượng hoá việc xử lý hình học cấp thấp, cho phép các nhà phát triển tập trung vào logic ứng dụng. Bộ tính năng mạnh mẽ, hỗ trợ đa nền tảng và khả năng tương thích định dạng rộng rãi khiến nó trở thành lựa chọn lý tưởng cho việc thay đổi bán kính hình cầu một cách hiệu quả.
+## Làm thế nào để tôi sửa đổi bán kính hình cầu trong Java bằng XPath?
+Tải cảnh của bạn, chạy một truy vấn XPath‑like để lấy các nút hình cầu mục tiêu, và gọi `setRadius()` trên mỗi nút — tất cả trong vài dòng đơn giản. Phương thức `selectNodes` đánh giá biểu thức XPath‑like và trả về các nút phù hợp, sau đó bạn gọi `sphere.setRadius(newRadius)` và làm mới cảnh.
 
-- **High‑level abstraction:** Không cần đi sâu vào các phép tính lưới cấp thấp.  
-- **Cross‑platform:** Hoạt động trên Windows, Linux và macOS.  
-- **Rich feature set:** Hỗ trợ texture, vật liệu, hoạt hình và các truy vấn đối tượng kiểu XPath.  
-- **Quantified capability:** Aspose.3D hỗ trợ **hơn 60 định dạng nhập và xuất** và có thể xử lý các cảnh chứa **tối đa 10.000 nút** mà không cần tải toàn bộ tệp vào bộ nhớ, mang lại thời gian tải dưới một giây trên phần cứng thông thường.  
-- **Excellent documentation & samples:** Nhanh chóng bắt đầu làm việc.
+## Cách sửa đổi bán kính hình cầu trong Java?
+Để sửa đổi bán kính của một hình cầu trong Java, tải cảnh, sử dụng truy vấn XPath‑like như `scene.selectNodes("//Sphere[@name='MySphere']")` để lấy các nút mục tiêu, gọi `sphere.setRadius(newRadius)` trên mỗi nút, gọi `scene.update()` để làm mới viewport, và cuối cùng xuất các thay đổi bằng `scene.save("updated.fbx")`. Quy trình toàn diện này thường hoàn thành trong chưa đầy một phút cho các mô hình tiêu chuẩn.
 
-## Cách sử dụng XPath trong Aspose.3D Java?
-Các truy vấn kiểu XPath cho phép bạn tìm kiếm trong đồ thị cảnh bằng một cú pháp ngắn gọn, biểu đạt. Phương thức `selectNodes` thực thi một truy vấn kiểu XPath trên đồ thị cảnh và trả về một tập hợp các nút phù hợp. Bạn có thể xác định mọi hình cầu, lọc theo tên, hoặc chọn các đối tượng dựa trên thuộc tính tùy chỉnh, sau đó gọi `setRadius()` cho mỗi kết quả. Cách tiếp cận này giữ cho mã của bạn sạch sẽ và giảm đáng kể lượng duyệt thủ công bạn phải viết.
+### Bước 1: thiết lập dự án của bạn
+Lớp `Scene` là điểm vào cho bất kỳ thao tác nào của Aspose.3D; nó đại diện cho gốc của đồ thị cảnh. Thêm phụ thuộc Aspose.3D Maven hoặc Gradle vào `pom.xml` hoặc `build.gradle` của bạn, sau đó nhập các không gian tên cần thiết trong tệp nguồn Java.
 
-## Làm thế nào để modify sphere radius java với XPath?
-Tải cảnh của bạn, chạy một truy vấn kiểu XPath để lấy các nút hình cầu mục tiêu, và gọi `setRadius()` trên mỗi nút — tất cả trong vài dòng đơn giản. Phương thức `selectNodes` thực thi biểu thức kiểu XPath và trả về các nút hình cầu phù hợp. Ví dụ, `scene.selectNodes("//Sphere[@name='MySphere']")` trả về một tập hợp các hình cầu khớp; lặp qua tập hợp đó và gọi `sphere.setRadius(5.0)` sẽ ngay lập tức thay đổi kích thước mỗi hình cầu. Sau khi thay đổi, gọi `scene.update()` để làm mới viewport và sau đó lưu cảnh ở định dạng bạn muốn.
+### Bước 2: tải hoặc tạo một cảnh
+Lớp `Scene` có thể tạo một cảnh trống mới (`new Scene()`) hoặc mở một tệp hiện có (`scene.open("model.fbx")`). Khi bạn gọi `open`, Aspose.3D phân tích tệp và điền vào cấu trúc nút nội bộ mà không tải toàn bộ hình học vào bộ nhớ, giúp sử dụng bộ nhớ thấp ngay cả với tài sản lớn.
 
-## Cách modify sphere radius java?
-Dưới đây bạn sẽ tìm thấy hai hướng dẫn tập trung giúp bạn thực hiện các bước chính xác.
+### Bước 3: xác định nút hình cầu
+Phương thức `selectNodes` triển khai cú pháp XPath‑like để điều hướng đồ thị cảnh. Ví dụ, `scene.selectNodes("//Sphere[@name='MySphere']")` trả về một tập hợp các nút `Sphere` có thuộc tính `name` khớp với *MySphere*. Lớp `Sphere` là đối tượng hình học của Aspose.3D lưu trữ bán kính, phân đoạn và các tham số đặc thù của hình cầu.
 
-### Thay Đổi Bán Kính Hình Cầu 3D trong Java với Aspose.3D
-Bắt đầu một hành trình thú vị vào lĩnh vực thao tác hình cầu 3D bằng Aspose.3D. Hướng dẫn này sẽ dẫn bạn từng bước, dạy bạn cách dễ dàng thay đổi bán kính của một hình cầu 3D trong Java. Dù bạn là nhà phát triển dày dặn kinh nghiệm hay mới bắt đầu, hướng dẫn này đảm bảo trải nghiệm học tập suôn sẻ.  
-Bạn đã sẵn sàng chưa? Nhấp vào [đây](./modify-sphere-radius/) để truy cập toàn bộ hướng dẫn và tải về các tài nguyên cần thiết. Nâng cao khả năng lập trình Java 3D của bạn bằng cách thành thạo nghệ thuật thay đổi bán kính hình cầu 3D với Aspose.3D.
+### Bước 4: sửa đổi bán kính
+Phương thức `setRadius` thuộc lớp `Sphere` và thay đổi kích thước của hình cầu. Gọi `sphere.setRadius(7.5)` tự động xây dựng lại lưới sao cho biểu diễn hình ảnh khớp với bán kính mới. Không cần xử lý hình học bổ sung.
 
-### Áp Dụng Các Truy Vấn Kiểu XPath vào Đối Tượng 3D trong Java
-Khám phá sức mạnh của các truy vấn kiểu XPath trong lập trình Java 3D với Aspose.3D. Hướng dẫn này cung cấp những hiểu biết toàn diện về việc áp dụng các truy vấn tinh vi để thao tác đối tượng 3D một cách liền mạch. Nâng cao kỹ năng phát triển 3D của bạn khi khám phá thế giới các truy vấn kiểu XPath và cải thiện khả năng tương tác với các cảnh 3D một cách dễ dàng.  
-Sẵn sàng nâng cao kỹ năng lập trình Java 3D của bạn lên một tầm cao mới? Khám phá hướng dẫn [tại đây](./xpath-like-object-queries/) và trang bị cho mình kiến thức để áp dụng các truy vấn kiểu XPath một cách hiệu quả. Aspose.3D mang lại trải nghiệm học tập thân thiện và hiệu quả, giúp việc thao tác đối tượng 3D phức tạp trở nên dễ tiếp cận cho mọi người.
+### Bước 5: làm mới giao diện
+Sau khi thay đổi hình học, gọi `scene.update()` để buộc viewport vẽ lại. Phương thức này truyền tất cả các thay đổi đang chờ qua pipeline render, đảm bảo khung hình tiếp theo hiển thị kích thước hình cầu đã cập nhật.
 
-## Các Trường Hợp Sử Dụng Thông Thường cho modify sphere radius java
-- **Interactive simulations:** Điều chỉnh kích thước hình cầu dựa trên dữ liệu cảm biến hoặc đầu vào của người dùng.  
-- **Procedural generation:** Tạo hành tinh hoặc bong bóng với bán kính đa dạng trong một lần thực hiện.  
-- **Animation:** Hoạt hình thay đổi bán kính để mô phỏng sự phát triển, rung động hoặc hiệu ứng va chạm.  
+### Bước 6: lưu cảnh đã cập nhật
+Sử dụng `scene.save("updated.fbx")` để xuất cảnh đã sửa đổi. Phương thức `save` hỗ trợ từ khóa phụ **save scene as fbx** cũng như OBJ, GLTF và nhiều định dạng khác. Aspose.3D ghi tệp bằng cùng cách tiếp cận streaming hiệu năng cao như khi tải.
+
+## Các trường hợp sử dụng phổ biến cho việc sửa đổi bán kính hình cầu trong Java
+- **Interactive simulations:** Điều chỉnh kích thước hình cầu dựa trên dữ liệu cảm biến trực tiếp hoặc hành động của người chơi.  
+- **Procedural generation:** Tạo hành tinh, bong bóng hoặc hạt với bán kính đa dạng trong một lần duy nhất.  
+- **Animation:** Tạo hoạt ảnh thay đổi bán kính để mô phỏng sự phát triển, nhịp đập hoặc hiệu ứng va chạm.  
 
 ## Yêu cầu trước
-- Java 8 hoặc cao hơn đã được cài đặt.  
+- Java 8 hoặc cao hơn đã được cài đặt.  
 - Maven hoặc Gradle để quản lý phụ thuộc.  
-- Thư viện Aspose.3D cho Java (tải về từ trang web Aspose).  
-- Hiểu biết cơ bản về đồ thị cảnh 3D.  
+- Thư viện Aspose.3D cho Java (tải xuống từ trang web Aspose).  
+- Kiến thức cơ bản về đồ thị cảnh 3D.  
 
-## Hướng Dẫn Từng Bước (Không cần khối mã)
+## Mẹo khắc phục sự cố
+- **Null reference errors:** Xác minh rằng `scene.selectNodes` thực sự trả về một bộ sưu tập không rỗng trước khi gọi `setRadius()`.  
+- **Scene not updating:** Sau khi sửa đổi hình học, bạn phải gọi `scene.update()` và sau đó render lại hoặc lưu cảnh để thấy các thay đổi.  
+- **License issues:** Đảm bảo tệp giấy phép Aspose.3D được tải đúng; nếu không, một watermark dùng thử sẽ xuất hiện trên các tệp đã xuất.  
 
-Lớp `Scene` đại diện cho gốc của đồ thị cảnh 3D, chứa các nút, hình học và vật liệu.
+## Câu hỏi thường gặp
 
-1. **Set up your project** – Thêm phụ thuộc Aspose.3D Maven/Gradle và nhập các lớp cần thiết.  
-2. **Load or create a scene** – Sử dụng `Scene scene = new Scene();` hoặc tải một tệp hiện có bằng `scene.load("model.fbx");`.  
-3. **Locate the sphere node** – Áp dụng một truy vấn kiểu XPath như `scene.selectNodes("//Sphere[@name='MySphere']")`.  
-4. **Modify the radius** – Lặp qua các nút trả về và gọi `sphere.setRadius(newRadius);`.  
-5. **Refresh the view** – Gọi `scene.update();` để đảm bảo viewport phản ánh sự thay đổi.  
-6. **Save the updated scene** – Xuất ra định dạng mong muốn (OBJ, FBX, GLTF) bằng cách sử dụng `scene.save("updated.fbx");`.  
+**Q: Tôi có thể sửa đổi bán kính của nhiều hình cầu cùng lúc không?**  
+A: Có. Sử dụng truy vấn XPath‑like của Aspose.3D để chọn tất cả các nút hình cầu, sau đó lặp và đặt mỗi bán kính.
 
-## Mẹo Khắc Phục Sự Cố
-- **Null reference errors:** Đảm bảo nút hình cầu đã được lấy trước khi gọi `setRadius()`.  
-- **Scene not updating:** Gọi `scene.update()` sau khi thay đổi hình học để làm mới viewport.  
-- **License issues:** Kiểm tra xem tệp giấy phép Aspose.3D đã được tải đúng chưa; nếu không, sẽ xuất hiện watermark bản dùng thử.  
+**Q: Việc thay đổi bán kính có ảnh hưởng đến tọa độ texture của hình cầu không?**  
+A: Ánh xạ texture tự động mở rộng cùng với bán kính, giữ nguyên tính nhất quán UV.
 
-## Câu Hỏi Thường Gặp
+**Q: Có thể tạo hoạt ảnh thay đổi bán kính theo thời gian không?**  
+A: Chắc chắn. Kết hợp `setRadius()` với bộ hẹn giờ hoặc vòng lặp hoạt ảnh để tạo chuyển đổi mượt mà.
 
-**Q: Can I modify the radius of multiple spheres at once?**  
-A: Có. Sử dụng truy vấn kiểu XPath của Aspose.3D để chọn tất cả các nút hình cầu, sau đó lặp và đặt mỗi bán kính.
+**Q: Yêu cầu phiên bản Aspose.3D nào?**  
+A: Bất kỳ phiên bản gần đây nào (bản phát hành 2024‑2025) đều hỗ trợ các tính năng này; luôn kiểm tra ghi chú phát hành để biết thay đổi API.
 
-**Q: Does changing the radius affect the sphere’s texture coordinates?**  
-A: Việc ánh xạ texture tự động mở rộng cùng với bán kính, duy trì tính nhất quán UV.
+**Q: Tôi có thể xuất cảnh đã sửa đổi sang các định dạng khác không?**  
+A: Có. Aspose.3D có thể lưu sang OBJ, FBX, GLTF và nhiều định dạng khác sau khi bạn điều chỉnh hình học.
 
-**Q: Is it possible to animate radius changes over time?**  
-A: Chắc chắn. Kết hợp `setRadius()` với bộ hẹn giờ hoặc vòng lặp hoạt hình để tạo chuyển đổi mượt mà.
-
-**Q: What version of Aspose.3D is required?**  
-A: Bất kỳ phiên bản gần đây nào (phát hành 2024‑2025) đều hỗ trợ các tính năng này; luôn kiểm tra ghi chú phát hành để biết thay đổi API.
-
-**Q: Can I export the modified scene to other formats?**  
-A: Có. Aspose.3D có thể lưu dưới dạng OBJ, FBX, GLTF và nhiều định dạng khác sau khi bạn điều chỉnh hình học.
-
-## Kết Luận
-Tóm lại, các hướng dẫn này là cánh cửa giúp bạn làm chủ lập trình Java 3D với Aspose.3D. Dù bạn đang **modify sphere radius java** hay áp dụng các truy vấn kiểu XPath, mỗi hướng dẫn đều được thiết kế để nâng cao kỹ năng và góp phần vào trải nghiệm phát triển 3D liền mạch. Tải về các tài nguyên, làm theo các bước từng bước, và mở ra vô vàn khả năng của lập trình Java 3D ngay hôm nay!
-
-## Hướng Dẫn Thao Tác Đối Tượng và Cảnh 3D trong Java
-
-### [Thay Đổi Bán Kính Hình Cầu 3D trong Java với Aspose.3D](./modify-sphere-radius/)
-Khám phá lập trình Java 3D với Aspose.3D, thay đổi bán kính hình cầu một cách dễ dàng. Tải ngay để có trải nghiệm phát triển 3D liền mạch.
-
-### [Áp Dụng Các Truy Vấn Kiểu XPath vào Đối Tượng 3D trong Java](./xpath-like-object-queries/)
-Thành thạo các truy vấn đối tượng 3D trong Java một cách dễ dàng với Aspose.3D. Áp dụng các truy vấn kiểu XPath, thao tác cảnh, và nâng cao kỹ năng phát triển 3D của bạn.
+## Kết luận
+Bạn giờ đã có một quy trình hoàn chỉnh, sẵn sàng cho sản xuất để **how to use Aspose** sửa đổi bán kính của một hình cầu trong Java, truy vấn các đối tượng bằng cú pháp XPath‑like, và **save the scene as FBX**. Áp dụng các bước này để xây dựng các hình ảnh trực quan tương tác, thế giới thủ tục, hoặc mô phỏng thời gian thực với mã tối thiểu và độ tin cậy tối đa.
 
 ---
 
-**Cập nhật lần cuối:** 2026-07-04  
-**Kiểm tra với:** Aspose.3D for Java 24.11 (2025)  
-**Tác giả:** Aspose
+**Last Updated:** 2026-10-29  
+**Tested With:** Aspose.3D for Java 24.11 (2025)  
+**Author:** Aspose  
 
-## Các Hướng Dẫn Liên Quan
+## Hướng dẫn liên quan
 
-- [Chọn Đối Tượng theo Tên trong Cảnh Java 3D – Truy Vấn Kiểu XPath với Aspose.3D](/3d/java/3d-objects-and-scenes/xpath-like-object-queries/)
-- [Hướng Dẫn Giấy Phép Bước Nhất cho Aspose.3D Java](/3d/java/licensing/)
-- [Lưu Cảnh 3D Đã Render thành Tệp Ảnh với Aspose.3D cho Java](/3d/java/rendering-3d-scenes/render-to-file/)
+- [Modify 3D sphere radius in java with aspose.3D](./modify-sphere-radius/)
+- [Apply xPath‑Like queries to 3D objects in java](./xpath-like-object-queries/)
+
+- [Select Objects by Name in Java 3D Scene – XPath‑Like Queries with Aspose.3D](/3d/java/3d-objects-and-scenes/xpath-like-object-queries/)
+- [Step by Step License Guide for Aspose.3D Java](/3d/java/licensing/)
+- [Save Rendered 3D Scenes to Image Files with Aspose.3D for Java](/3d/java/rendering-3d-scenes/render-to-file/)
+
+```java
+// Example: modify sphere radius by traversing the scene graph
+Scene scene = new Scene();
+scene.open("model.fbx");
+
+// Find spheres named 'MySphere' by traversing the scene graph
+for (Node childNode : scene.getRootNode().getChildNodes()) {
+    Sphere sphere = (Sphere) childNode.getEntity();
+    if (sphere != null && "MySphere".equals(childNode.getName())) {
+        sphere.setRadius(5.0);
+    }
+}
+
+// Save the updated scene
+scene.save("updated.fbx");
+```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

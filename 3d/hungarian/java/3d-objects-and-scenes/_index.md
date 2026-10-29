@@ -1,35 +1,42 @@
 ---
-date: 2026-07-04
-description: Ismerje meg, hogyan módosíthatja a gömb sugárát Java-ban az Aspose.3D
-  használatával XPath‑szerű lekérdezésekkel. Ez a lépésről‑lépésre útmutató megmutatja,
-  hogyan méretezhet újra gömböket, lekérdezhet objektumokat, és exportálhatja a frissített
-  jeleneteket.
+date: 2026-10-29
+description: Ismerje meg, hogyan használhatja az Aspose-t a gömb sugárának módosításához
+  Java-ban XPath‑szerű lekérdezésekkel, mentse a jelenetet FBX formátumban, és exportálja
+  hatékonyan a frissített 3D modelleket.
 keywords:
+- how to use aspose
+- save scene as fbx
 - modify sphere radius java
-- Aspose 3D XPath
-- Java 3D sphere manipulation
+- aspose 3d xpath
+- java 3d sphere manipulation
+lastmod: 2026-10-29
 linktitle: 3D objektumok és jelenetek manipulálása Java-ban
+og_description: Ismerje meg, hogyan használhatja az Aspose-t a gömb sugárának módosításához
+  Java-ban, alkalmazzon XPath‑szerű lekérdezéseket, és mentse a jelenetet FBX formátumban
+  – mindezt egy tömör lépésről‑lépésre útmutatóban.
+og_image_alt: Developer guide showing Aspose 3D Java code to change sphere radius
+  and export FBX
+og_title: Hogyan használjuk az Aspose-t a gömb sugárának módosításához Java-ban XPath
+  segítségével
 schemas:
 - author: Aspose
-  dateModified: '2026-07-04'
-  description: Learn how to modify sphere radius java using Aspose.3D with XPath‑like
-    queries. This step‑by‑step guide shows you how to resize spheres, query objects,
-    and export updated scenes.
-  headline: How to Use XPath – Modify Sphere Radius Java with Aspose.3D
+  dateModified: '2026-10-29'
+  description: Learn how to use Aspose to modify sphere radius in Java, apply XPath‑like
+    queries, and export updated scenes.
+  headline: How to use Aspose to modify sphere radius in Java with XPath
   type: TechArticle
-- description: Learn how to modify sphere radius java using Aspose.3D with XPath‑like
-    queries. This step‑by‑step guide shows you how to resize spheres, query objects,
-    and export updated scenes.
-  name: How to Use XPath – Modify Sphere Radius Java with Aspose.3D
+- description: Learn how to use Aspose to modify sphere radius in Java, apply XPath‑like
+    queries, and export updated scenes.
+  name: How to use Aspose to modify sphere radius in Java with XPath
   steps:
   - name: '**Set up your project** – Add the Aspose.3D Maven/Gradle dependency and
       import the necessary classes.'
     text: '**Set up your project** – Add the Aspose.3D Maven/Gradle dependency and
       import the necessary classes.'
   - name: '**Load or create a scene** – Use `Scene scene = new Scene();` or load an
-      existing file with `scene.load("model.fbx");`.'
+      existing file with `scene.open("model.fbx");`.'
     text: '**Load or create a scene** – Use `Scene scene = new Scene();` or load an
-      existing file with `scene.load("model.fbx");`.'
+      existing file with `scene.open("model.fbx");`.'
   - name: '**Locate the sphere node** – Apply an XPath‑like query such as `scene.selectNodes("//Sphere[@name=''MySphere'']")`.'
     text: '**Locate the sphere node** – Apply an XPath‑like query such as `scene.selectNodes("//Sphere[@name=''MySphere'']")`.'
   - name: '**Modify the radius** – Iterate over the returned nodes and call `sphere.setRadius(newRadius);`.'
@@ -61,7 +68,13 @@ schemas:
     question: Can I export the modified scene to other formats?
   type: FAQPage
 second_title: Aspose.3D Java API
-title: Hogyan használjuk az XPath‑t – Gömb sugár módosítása Java-ban az Aspose.3D
+tags:
+- aspose 3d
+- java 3d
+- xpath queries
+- sphere radius
+- fbx export
+title: Hogyan használjuk az Aspose-t a gömb sugárának módosításához Java-ban XPath
   segítségével
 url: /hu/java/3d-objects-and-scenes/
 weight: 33
@@ -71,122 +84,119 @@ weight: 33
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan használjuk az XPath‑et – Gömb sugár módosítása Java-ban az Aspose.3D-val
+# Hogyan használjuk az Aspose-t a gömb sugárának módosításához Java-ban XPath-szel
 
 ## Bevezetés
 
-Ha kíváncsi vagy **hogyan használjuk az XPath‑et**, amikor Java‑ban 3D jelenetekkel dolgozol, jó helyen jársz. Ebben az oktatóanyagban megmutatjuk, hogyan **módosítsa a gömb sugárát Java-ban** az Aspose.3D segítségével, és egyúttal XPath‑szerű lekérdezésekkel megtalálhatod a pontosan szükséges objektumokat. A végére megérted, miért erőteljes eszköz az XPath a 3D manipulációhoz, hogyan alkalmazhatod valós helyzetekben, és milyen lépések szükségesek a változások azonnali megjelenítéséhez a jelenetben.
+Ha **hogyan használjuk az Aspose-t** dinamikus 3D geometriai módosításokhoz keres, ez az útmutató pontosan megmutatja, hogyan módosíthatja egy gömb sugarát Java-ban az Aspose.3D XPath‑szerű lekérdezéseivel. Néhány perc alatt képes lesz bármely gömb csomópontot megtalálni, méretét megváltoztatni, a nézetablakot frissíteni, és **a jelenetet FBX formátumban menteni** vagy más formátumokba. A lépések tömörek, az API folyékony, és az alatta lévő háló újragenerálása automatikusan történik, így a saját alkalmazáslogikára koncentrálhat.
 
 ## Gyors válaszok
-- **Miért “modify sphere radius java” hasznos?** A gömb primitív méretét változtatja futásidőben, lehetővé téve dinamikus 3D modellek létrehozását.  
-- **Melyik könyvtár kezeli ezt?** Az Aspose.3D for Java egy folyékony API‑t biztosít a geometriai manipulációhoz.  
-- **Szükségem van licencre?** Egy ingyenes próba a kiértékeléshez elegendő; a kereskedelmi licenc a termeléshez kötelező.  
-- **Melyik IDE a legjobb?** Bármely Java IDE (IntelliJ IDEA, Eclipse, VS Code), amely támogatja a Maven/Gradle‑t.  
-- **Összekapcsolható-e XPath‑szerű lekérdezésekkel?** Teljesen – először lekérdezheted az objektumokat, majd módosíthatod a tulajdonságaikat.
+- **Mi a “modify sphere radius java” célja?** Átméretezi a gömb primitívát futásidőben, lehetővé téve a dinamikus vizuális hatásokat a háló újraépítése nélkül.  
+- **Melyik könyvtár kezeli ezt?** Az Aspose.3D for Java folyékony, magas szintű API-t biztosít a geometriai manipulációhoz.  
+- **Szükségem van licencre?** Egy ingyenes próba a kiértékeléshez működik; egy kereskedelmi licenc szükséges a termelési környezethez.  
+- **Melyik IDE a legalkalmasabb?** Bármely Java IDE (IntelliJ IDEA, Eclipse, VS Code), amely támogatja a Maven vagy Gradle használatát.  
+- **Kombinálhatom ezt XPath‑szerű lekérdezésekkel?** Természetesen – először lekérdezheti az objektumokat, majd egy lépésben módosíthatja a tulajdonságaikat.  
 
-## Mi az a “modify sphere radius java”?
-A gömb sugárának módosítása Java-ban azt jelenti, hogy egy `Sphere` csomópont geometriai paramétereit állítod be egy Aspose.3D jelenet gráfjában. A `Sphere` csomópont tárolja a sugárinformációt, amely meghatározza a megjelenített objektum méretét. Ez a művelet animációs hatások, felhasználói bemenet alapján történő méretezés vagy procedurális modellgenerálás esetén hasznos.
+## Mi az Aspose.3D?
+`Aspose.3D` egy Java könyvtár, amely egy 3D jelenetet hierarchikus gráfként ábrázol csomópontok, geometria, anyagok és animációk formájában. Elrejti az alacsony szintű fájlparszolást és háló generálást, lehetővé téve, hogy a `Scene`, `Node` és `Sphere` objektumokkal közvetlenül Java kódból dolgozzon.
 
-## Miért fontos a „modify sphere radius java”?
-A sugár módosítása közvetlenül befolyásolja a gömb vizuális és fizikai jellemzőit, lehetővé téve dinamikus tartalom létrehozását és egyszerűsítve a bonyolult számításokat. A sugár megváltoztatásával a fejlesztők reagálhatnak futásidő adatokra, interaktív élményeket hozhatnak létre, és elkerülhetik a manuális háló újraépítését.
+## Miért fontos a gömb sugárának módosítása Java-ban?
+A gömb sugarának módosítása közvetlenül befolyásolja a vizuális méretét és az ütközési geometriáját, ami elengedhetetlen az interaktív szimulációkhoz, a procedurális tartalomgeneráláshoz és a valós idejű vizuális effektusokhoz. A háló újragenerálásának delegálásával az Aspose.3D-re elkerülheti a kézi csúcs számításokat, és tisztán tarthatja a kódbázist.
 
-- **Dinamikus tartalom:** A sugár valós időben történő módosítása szenzoradatok vagy játékelemek alapján.  
-- **Egyszerűsített matematika:** Az Aspose.3D kezeli a háttérben a háló újragenerálását, így nem kell manuálisan újraszámolni a csúcsokat.  
-- **Zökkenőmentes integráció:** A sugárváltoztatást anyagokkal, textúrákkal és animációs görbékkel kombinálhatod anélkül, hogy a jelenet hierarchiáját megtörnéd.
+## Miért használjuk az Aspose.3D-t a gömb sugárának módosításához Java-ban?
+Aspose.3D magas szintű absztrakciót kínál, amely megszünteti az alacsony szintű geometriai kezelés szükségességét. A platformok közötti támogatása, a kiterjedt formátumlista és a beépített XPath‑szerű lekérdezés teszi a leghatékonyabb választássá a Java fejlesztők számára. Emellett átfogó dokumentációt, mintaprojekteket és egy gyors reagálású támogatási csapatot biztosít, amely elősegíti a gyors fejlesztést és a könnyű hibakeresést. A teljesítményre optimalizált streaming I/O gyors betöltési és mentési időket biztosít még nagy jelenetek esetén is, miközben az API intuitív marad a kezdők és a szakértők számára egyaránt.
 
-## Miért használjuk az Aspose.3D‑t a „modify sphere radius java” módosításához?
-Az Aspose.3D egy magas szintű API‑t kínál, amely elrejti az alacsony szintű geometriai kezelést, így a fejlesztők az alkalmazáslogikára koncentrálhatnak. Robusztus funkciókészlete, platformközi támogatása és széles formátumkompatibilitása ideálissá teszi a hatékony gömb sugár módosítását.
+## Hogyan módosíthatom a gömb sugárát Java-ban XPath-szel?
+Töltse be a jelenetet, futtasson egy XPath‑szerű lekérdezést a cél gömb csomópontok lekéréséhez, és hívja meg a `setRadius()` metódust minden csomóponton – mindezt néhány egyszerű sorban. A `selectNodes` metódus kiértékeli az XPath‑szerű kifejezést és visszaadja a megfelelő csomópontokat, majd meghívja a `sphere.setRadius(newRadius)`-t és frissíti a jelenetet.
 
-- **Magas szintű absztrakció:** Nem kell alacsony szintű hálószámításokba merülni.  
-- **Platformközi:** Windows, Linux és macOS rendszereken működik.  
-- **Gazdag funkciókészlet:** Támogatja a textúrákat, anyagokat, animációkat és XPath‑szerű objektumlekérdezéseket.  
-- **Mennyiségi képesség:** Az Aspose.3D **60+** import‑ és exportformátumot támogat, és akár **10 000 csomópontot** is képes feldolgozni a teljes fájl betöltése nélkül, alulmásodperces betöltési időt biztosítva a tipikus hardveren.  
-- **Kiváló dokumentáció és példák:** Gyorsan elindulhatsz.
+## Hogyan módosítsuk a gömb sugárát Java-ban?
+A gömb sugarának módosításához Java-ban töltse be a jelenetet, használjon egy XPath‑szerű lekérdezést, például `scene.selectNodes("//Sphere[@name='MySphere']")` a cél csomópontok lekéréséhez, hívja meg a `sphere.setRadius(newRadius)`-t minden egyes csomóponton, futtassa a `scene.update()`-t a nézetablak frissítéséhez, és végül exportálja a változásokat a `scene.save("updated.fbx")` segítségével. Ez az vég‑végi folyamat általában egy percnél kevesebb idő alatt befejeződik a szabványos modellek esetén.
 
-## Hogyan használjuk az XPath‑et az Aspose.3D Java-ban?
-Az XPath‑szerű lekérdezések lehetővé teszik a jelenet gráf keresését egy tömör, kifejező szintaxissal. A `selectNodes` metódus XPath‑szerű lekérdezést hajt végre a gráfon, és visszaadja a megfelelő csomópontok gyűjteményét. Kereshetsz minden gömböt, szűrhetsz név szerint, vagy egyedi attribútumok alapján választhatsz objektumokat, majd minden eredményen meghívhatod a `setRadius()`‑t. Ez a megközelítés tiszta kódot eredményez, és drámaian csökkenti a manuális bejárás mennyiségét.
+### Step 1: állítsa be a projektet
+A `Scene` osztály az Aspose.3D minden műveletének belépési pontja; a jelenet gráf gyökerét képviseli. Adja hozzá az Aspose.3D Maven vagy Gradle függőséget a `pom.xml` vagy `build.gradle` fájlhoz, majd importálja a szükséges névtereket a Java forrásfájlban.
 
-## Hogyan módosíthatom a sphere radius java‑t XPath‑szel?
-Töltsd be a jeleneted, futtass egy XPath‑szerű lekérdezést a cél gömb csomópontok lekéréséhez, és hívd meg a `setRadius()`‑t minden csomóponton – mindezt néhány egyszerű sorban. A `selectNodes` metódus végrehajtja az XPath‑szerű kifejezést, és visszaadja a megfelelő gömb csomópontokat. Például a `scene.selectNodes("//Sphere[@name='MySphere']")` egy gyűjteményt ad vissza a megfelelő gömbökről; a gyűjtemény iterálásával és a `sphere.setRadius(5.0)` meghívásával azonnal átméretezed őket. A módosítás után hívd meg a `scene.update()`‑t a nézet frissítéséhez, majd mentsd el a jelenetet a kívánt formátumban.
+### Step 2: töltsön be vagy hozzon létre egy jelenetet
+A `Scene` osztály vagy új üres jelenetet hozhat létre (`new Scene()`), vagy meglévő fájlt nyithat meg (`scene.open("model.fbx")`). Amikor az `open`-t hívja, az Aspose.3D feldolgozza a fájlt és feltölti a belső csomóhierarchiát anélkül, hogy a teljes geometriát a memóriába töltené, így még nagy eszközök esetén is alacsony memóriahasználatot biztosít.
 
-## Hogyan módosítsuk a sphere radius java‑t?
-Az alábbiakban két fókuszált oktatóanyagot találsz, amelyek pontos lépéseken keresztül vezetnek.
+### Step 3: találja meg a gömb csomópontot
+A `selectNodes` metódus XPath‑szerű szintaxist valósít meg a jelenet gráf navigálásához. Például a `scene.selectNodes("//Sphere[@name='MySphere']")` visszaad egy gyűjteményt az összes `Sphere` csomópontról, amelyek `name` attribútuma megegyezik a *MySphere* értékkel. A `Sphere` osztály az Aspose.3D geometriai objektuma, amely a sugarat, szegmenseket és egyéb gömb‑specifikus paramétereket tárolja.
 
-### 3D gömb sugár módosítása Java-ban az Aspose.3D-val
-Vágj bele egy izgalmas kalandba a 3D gömb manipulációjában az Aspose.3D segítségével. Ez az oktatóanyag lépésről lépésre vezet, megtanítva, hogyan módosítsd könnyedén egy 3D gömb sugárát Java‑ban. Akár tapasztalt fejlesztő vagy, akár újonc, ez az anyag sima tanulási élményt biztosít.
+### Step 4: módosítsa a sugarat
+A `setRadius` metódus a `Sphere` osztályhoz tartozik, és megváltoztatja a gömb méretét. A `sphere.setRadius(7.5)` hívása automatikusan újraépíti a hálót, hogy a vizuális ábrázolás megfeleljen az új sugárnak. További geometriai feldolgozás nem szükséges.
 
-Készen állsz? Kattints [ide](./modify-sphere-radius/) a teljes oktatóanyag eléréséhez és a szükséges erőforrások letöltéséhez. Fejleszd Java 3D programozási tudásod az Aspose.3D-val a 3D gömb sugárának módosításának elsajátításával.
+### Step 5: frissítse a nézetet
+A geometriai módosítások után hívja meg a `scene.update()`-t, hogy kényszerítse a nézetablak újrarajzolását. Ez a metódus továbbítja az összes függőben lévő változást a renderelési csővezetéken, biztosítva, hogy a következő képkocka a frissített gömb méretét jelenítse meg.
 
-### XPath‑szerű lekérdezések alkalmazása 3D objektumokra Java-ban
-Fedezd fel az XPath‑szerű lekérdezések erejét a Java 3D programozásban az Aspose.3D segítségével. Ez az oktatóanyag átfogó betekintést nyújt a fejlett lekérdezések alkalmazásába a 3D objektumok zökkenőmentes manipulálásához. Emeld 3D fejlesztési képességeidet, miközben felfedezed az XPath‑szerű lekérdezések világát, és növeld a 3D jelenetekkel való interakció hatékonyságát.
+### Step 6: mentse el a frissített jelenetet
+Használja a `scene.save("updated.fbx")` parancsot a módosított jelenet exportálásához. A `save` metódus támogatja a **save scene as fbx** kulcsszót, valamint az OBJ, GLTF és számos egyéb formátumot. Az Aspose.3D a fájlt ugyanazzal a nagy teljesítményű streaming megközelítéssel írja, mint a betöltéskor.
 
-Készen állsz a Java 3D programozási készségeid következő szintjére? Merülj el az oktatóanyagban [itt](./xpath-like-object-queries/) és szerezz tudást az XPath‑szerű lekérdezések hatékony alkalmazásához. Az Aspose.3D felhasználóbarát és hatékony tanulási élményt biztosít, így a komplex 3D objektummodellálás mindenki számára elérhető.
-
-## Gyakori felhasználási esetek a modify sphere radius java‑hoz
-- **Interaktív szimulációk:** A gömb méretének beállítása szenzoradatok vagy felhasználói bemenet alapján.  
-- **Procedurális generálás:** Bolygók vagy buborékok létrehozása változó sugárral egyetlen átfutásban.  
-- **Animáció:** Sugárváltozások animálása növekedés, pulzálás vagy ütközési hatások szimulálásához.  
+## Gyakori felhasználási esetek a gömb sugárának módosításához Java-ban
+- **Interaktív szimulációk:** Állítsa be a gömb méretét élő szenzoradatok vagy játékos akciók alapján.  
+- **Procedurális generálás:** Hozzon létre bolygókat, buborékokat vagy részecskéket változó sugárral egyetlen lépésben.  
+- **Animáció:** Animálja a sugárváltozásokat a növekedés, pulzálás vagy ütközési hatások szimulálásához.  
 
 ## Előfeltételek
 - Java 8 vagy újabb telepítve.  
 - Maven vagy Gradle a függőségkezeléshez.  
 - Aspose.3D for Java könyvtár (letölthető az Aspose weboldaláról).  
-- Alapvető ismeretek a 3D jelenet gráfjáról.
-
-## Lépésről‑lépésre útmutató (kódblokk nélkül)
-
-A `Scene` osztály a 3D jelenet gráfjának gyökere, csomópontokat, geometriát és anyagokat tartalmaz.
-
-1. **Állítsd be a projektet** – Add hozzá az Aspose.3D Maven/Gradle függőséget, és importáld a szükséges osztályokat.  
-2. **Tölts be vagy hozz létre egy jelenetet** – Használd a `Scene scene = new Scene();` kifejezést, vagy tölts be egy meglévő fájlt a `scene.load("model.fbx");` paranccsal.  
-3. **Keresd meg a gömb csomópontot** – Alkalmazz egy XPath‑szerű lekérdezést, például `scene.selectNodes("//Sphere[@name='MySphere']")`.  
-4. **Módosítsd a sugárát** – Iterálj a visszaadott csomópontokon, és hívd meg a `sphere.setRadius(newRadius);` metódust.  
-5. **Frissítsd a nézetet** – Hívd meg a `scene.update();`‑t, hogy a viewport tükrözze a változást.  
-6. **Mentsd el a frissített jelenetet** – Exportáld a kívánt formátumba (OBJ, FBX, GLTF) a `scene.save("updated.fbx");` paranccsal.
+- Alapvető ismeretek a 3D jelenet gráfokról.
 
 ## Hibaelhárítási tippek
-- **Null referencia hibák:** Győződj meg róla, hogy a gömb csomópontja lekérdezés után elérhető, mielőtt a `setRadius()`‑t hívod.  
-- **A jelenet nem frissül:** A geometria módosítása után hívd meg a `scene.update()`‑t a viewport frissítéséhez.  
-- **Licencproblémák:** Ellenőrizd, hogy az Aspose.3D licencfájl megfelelően be van-e töltve; ellenkező esetben próba‑vízjel jelenik meg.  
+- **Null referencia hibák:** Ellenőrizze, hogy a `scene.selectNodes` valóban nem üres gyűjteményt ad vissza a `setRadius()` hívása előtt.  
+- **A jelenet nem frissül:** A geometria módosítása után kötelező a `scene.update()` meghívása, majd a jelenet újrarenderelése vagy mentése a változások megtekintéséhez.  
+- **Licenc problémák:** Győződjön meg arról, hogy az Aspose.3D licencfájl helyesen be van töltve; ellenkező esetben egy próba vízjel jelenik meg az exportált fájlokon.
 
-## Gyakran Ismételt Kérdések
+## Gyakran ismételt kérdések
 
-**Q: Lehet egyszerre több gömb sugárát módosítani?**  
-A: Igen. Használd az Aspose.3D XPath‑szerű lekérdezését az összes gömb csomópont kiválasztásához, majd iterálj és állítsd be mindegyik sugárát.
+**Q: Több gömb sugarát módosíthatom egyszerre?**  
+A: Igen. Használja az Aspose.3D XPath‑szerű lekérdezését az összes gömb csomópont kiválasztásához, majd iteráljon és állítsa be minden sugárát.
 
-**Q: Befolyásolja a sugár módosítása a gömb textúra koordinátáit?**  
-A: A textúra leképezés automatikusan skálázódik a sugárral, megőrizve az UV konzisztenciát.
+**Q: A sugár módosítása befolyásolja a gömb textúra koordinátáit?**  
+A: A textúra leképezés automatikusan méreteződik a sugárral, megőrizve az UV konzisztenciát.
 
-**Q: Lehet animálni a sugárváltozást idővel?**  
-A: Teljesen lehetséges. Kombináld a `setRadius()`‑t egy időzítővel vagy animációs ciklussal a sima átmenetekhez.
+**Q: Lehet-e idővel animálni a sugárváltozásokat?**  
+A: Teljesen. Kombinálja a `setRadius()`-t egy időzítővel vagy animációs ciklussal a sima átmenetek létrehozásához.
 
-**Q: Melyik Aspose.3D verzió szükséges?**  
-A: Bármely friss kiadás (2024‑2025) támogatja ezeket a funkciókat; mindig ellenőrizd a kiadási megjegyzéseket az API‑változásokért.
+**Q: Milyen Aspose.3D verzió szükséges?**  
+A: Bármely friss verzió (2024‑2025 kiadások) támogatja ezeket a funkciókat; mindig ellenőrizze a kiadási jegyzeteket az API változásokért.
 
-**Q: Exportálható a módosított jelenet más formátumokba?**  
+**Q: Exportálhatom a módosított jelenetet más formátumokba?**  
 A: Igen. Az Aspose.3D képes menteni OBJ, FBX, GLTF és további formátumokba a geometria módosítása után.
 
 ## Következtetés
-Összegzésként ezek az oktatóanyagok a Java 3D programozás mesterségének kapuját nyitják meg az Aspose.3D segítségével. Akár **modify sphere radius java**‑t végzel, akár XPath‑szerű lekérdezéseket alkalmazol, minden anyag a készségeid fejlesztését és a zökkenőmentes 3D fejlesztési élményt célozza. Töltsd le az erőforrásokat, kövesd a lépésről‑lépésre útmutatót, és fedezd fel a Java 3D programozás végtelen lehetőségeit még ma!
-
-## 3D objektumok és jelenetek manipulálása Java-ban – Oktatóanyagok
-### [3D gömb sugár módosítása Java-ban az Aspose.3D-val](./modify-sphere-radius/)
-Fedezd fel a Java 3D programozást az Aspose.3D-val, a gömb sugár könnyed módosításával. Töltsd le most a zökkenőmentes 3D fejlesztési élményért.
-### [XPath‑szerű lekérdezések alkalmazása 3D objektumokra Java-ban](./xpath-like-object-queries/)
-Mesterezz a 3D objektum lekérdezéseket Java‑ban az Aspose.3D-val. Alkalmazd az XPath‑szerű lekérdezéseket, manipuláld a jeleneteket, és emeld fejlesztésed szintjét.
+Most már rendelkezik egy teljes, termelésre kész munkafolyammal a **hogyan használjuk az Aspose-t** a gömb sugarának Java-ban történő módosításához, az objektumok XPath‑szerű szintaxisú lekérdezéséhez, és a **jelenet FBX formátumban mentéséhez**. Alkalmazza ezeket a lépéseket interaktív vizualizációk, procedurális világok vagy valós idejű szimulációk építéséhez minimális kóddal és maximális megbízhatósággal.
 
 ---
 
-**Utolsó frissítés:** 2026-07-04  
-**Tesztelve ezzel:** Aspose.3D for Java 24.11 (2025)  
-**Szerző:** Aspose
+**Utolsó frissítés:** 2026-10-29  
+**Tesztelve:** Aspose.3D for Java 24.11 (2025)  
+**Szerző:** Aspose  
 
 ## Kapcsolódó oktatóanyagok
 
-- [Objektumok kiválasztása név alapján Java 3D jelenetben – XPath‑szerű lekérdezések az Aspose.3D-val](/3d/java/3d-objects-and-scenes/xpath-like-object-queries/)
-- [Lépésről‑lépésre licenc útmutató az Aspose.3D Java-hoz](/3d/java/licensing/)
+- [3D gömb sugárának módosítása Java-ban az Aspose.3D-val](./modify-sphere-radius/)
+- [XPath‑szerű lekérdezések alkalmazása 3D objektumokra Java-ban](./xpath-like-object-queries/)
+
+- [Objektumok kiválasztása név szerint Java 3D jelenetben – XPath‑szerű lekérdezések az Aspose.3D-val](/3d/java/3d-objects-and-scenes/xpath-like-object-queries/)
+- [Lépésről lépésre licenc útmutató az Aspose.3D Java-hoz](/3d/java/licensing/)
 - [Renderelt 3D jelenetek mentése képfájlokba az Aspose.3D for Java-val](/3d/java/rendering-3d-scenes/render-to-file/)
 
+```java
+// Example: modify sphere radius by traversing the scene graph
+Scene scene = new Scene();
+scene.open("model.fbx");
+
+// Find spheres named 'MySphere' by traversing the scene graph
+for (Node childNode : scene.getRootNode().getChildNodes()) {
+    Sphere sphere = (Sphere) childNode.getEntity();
+    if (sphere != null && "MySphere".equals(childNode.getName())) {
+        sphere.setRadius(5.0);
+    }
+}
+
+// Save the updated scene
+scene.save("updated.fbx");
+```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

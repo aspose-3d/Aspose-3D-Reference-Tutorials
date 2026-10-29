@@ -1,34 +1,42 @@
 ---
-date: 2026-07-04
-description: Leer hoe je de straal van een bol in Java kunt aanpassen met Aspose.3D
-  en XPath‑achtige queries. Deze stapsgewijze gids laat zien hoe je bollen kunt verkleinen,
-  objecten kunt query'en, en bijgewerkte scènes kunt exporteren.
+date: 2026-10-29
+description: Leer hoe je Aspose kunt gebruiken om de straal van een bol in Java te
+  wijzigen met XPath‑achtige query's, de scène op te slaan als FBX en bijgewerkte
+  3D-modellen efficiënt te exporteren.
 keywords:
+- how to use aspose
+- save scene as fbx
 - modify sphere radius java
-- Aspose 3D XPath
-- Java 3D sphere manipulation
+- aspose 3d xpath
+- java 3d sphere manipulation
+lastmod: 2026-10-29
 linktitle: Manipuleren van 3D-objecten en scènes in Java
+og_description: Leer hoe je Aspose kunt gebruiken om de straal van een bol in Java
+  te wijzigen, XPath‑achtige query's toe te passen en de scène op te slaan als FBX
+  — allemaal in een beknopte stapsgewijze handleiding.
+og_image_alt: Developer guide showing Aspose 3D Java code to change sphere radius
+  and export FBX
+og_title: Hoe Aspose te gebruiken om de straal van een bol in Java te wijzigen met
+  XPath
 schemas:
 - author: Aspose
-  dateModified: '2026-07-04'
-  description: Learn how to modify sphere radius java using Aspose.3D with XPath‑like
-    queries. This step‑by‑step guide shows you how to resize spheres, query objects,
-    and export updated scenes.
-  headline: How to Use XPath – Modify Sphere Radius Java with Aspose.3D
+  dateModified: '2026-10-29'
+  description: Learn how to use Aspose to modify sphere radius in Java, apply XPath‑like
+    queries, and export updated scenes.
+  headline: How to use Aspose to modify sphere radius in Java with XPath
   type: TechArticle
-- description: Learn how to modify sphere radius java using Aspose.3D with XPath‑like
-    queries. This step‑by‑step guide shows you how to resize spheres, query objects,
-    and export updated scenes.
-  name: How to Use XPath – Modify Sphere Radius Java with Aspose.3D
+- description: Learn how to use Aspose to modify sphere radius in Java, apply XPath‑like
+    queries, and export updated scenes.
+  name: How to use Aspose to modify sphere radius in Java with XPath
   steps:
   - name: '**Set up your project** – Add the Aspose.3D Maven/Gradle dependency and
       import the necessary classes.'
     text: '**Set up your project** – Add the Aspose.3D Maven/Gradle dependency and
       import the necessary classes.'
   - name: '**Load or create a scene** – Use `Scene scene = new Scene();` or load an
-      existing file with `scene.load("model.fbx");`.'
+      existing file with `scene.open("model.fbx");`.'
     text: '**Load or create a scene** – Use `Scene scene = new Scene();` or load an
-      existing file with `scene.load("model.fbx");`.'
+      existing file with `scene.open("model.fbx");`.'
   - name: '**Locate the sphere node** – Apply an XPath‑like query such as `scene.selectNodes("//Sphere[@name=''MySphere'']")`.'
     text: '**Locate the sphere node** – Apply an XPath‑like query such as `scene.selectNodes("//Sphere[@name=''MySphere'']")`.'
   - name: '**Modify the radius** – Iterate over the returned nodes and call `sphere.setRadius(newRadius);`.'
@@ -60,7 +68,13 @@ schemas:
     question: Can I export the modified scene to other formats?
   type: FAQPage
 second_title: Aspose.3D Java API
-title: Hoe XPath te gebruiken – Wijzig de straal van een bol in Java met Aspose.3D
+tags:
+- aspose 3d
+- java 3d
+- xpath queries
+- sphere radius
+- fbx export
+title: Hoe Aspose te gebruiken om de straal van een bol in Java te wijzigen met XPath
 url: /nl/java/3d-objects-and-scenes/
 weight: 33
 ---
@@ -69,91 +83,75 @@ weight: 33
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe XPath te gebruiken – Sphere Radius Java wijzigen met Aspose.3D
+# Hoe Aspose te gebruiken om de straal van een bol in Java te wijzigen met XPath
 
-## Introductie
+## Inleiding
 
-Als je je afvraagt **hoe je XPath kunt gebruiken** bij het werken met 3D‑scènes in Java, ben je op de juiste plek. In deze tutorial laten we je zien hoe je **sphere radius java kunt wijzigen** met Aspose.3D en tegelijkertijd XPath‑achtige queries kunt benutten om de exacte objecten te vinden die je nodig hebt. Aan het einde van deze gids begrijp je waarom XPath een krachtig hulpmiddel is voor 3D-manipulatie, hoe je het kunt toepassen in real‑world scenario's, en welke stappen nodig zijn om de wijzigingen direct in je scène te zien.
+Als je op zoek bent naar **hoe Aspose te gebruiken** voor dynamische 3D‑geometriewijzigingen, laat deze gids je precies zien hoe je de straal van een bol in Java kunt aanpassen met de XPath‑achtige query’s van Aspose.3D. Binnen enkele minuten kun je elk bol‑knooppunt vinden, de grootte wijzigen, het viewport vernieuwen en **de scène opslaan als FBX** of andere formaten. De stappen zijn beknopt, de API is vloeiend, en de onderliggende mesh‑regeneratie wordt automatisch afgehandeld, zodat je je kunt concentreren op je toepassingslogica.
 
 ## Snelle antwoorden
-- **Wat doet “modify sphere radius java”?** Het verandert de grootte van een sphere‑primitive tijdens runtime, waardoor je dynamische 3D‑modellen kunt maken.  
-- **Welke bibliotheek behandelt dit?** Aspose.3D for Java biedt een vloeiende API voor geometrie‑manipulatie.  
-- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor evaluatie; een commerciële licentie is vereist voor productie.  
-- **Welke IDE werkt het beste?** Elke Java‑IDE (IntelliJ IDEA, Eclipse, VS Code) die Maven/Gradle ondersteunt.  
-- **Kan ik dit combineren met XPath‑achtige queries?** Absoluut – je kunt eerst objecten opvragen en daarna hun eigenschappen wijzigen.
+- **Wat bereikt “modify sphere radius java”?** Het verandert de grootte van een bol‑primitive tijdens runtime, waardoor dynamische visuele effecten mogelijk zijn zonder de mesh opnieuw te bouwen.  
+- **Welke bibliotheek behandelt dit?** Aspose.3D for Java biedt een vloeiende, high‑level API voor geometriebeheer.  
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor evaluatie; een commerciële licentie is vereist voor productie‑implementaties.  
+- **Welke IDE werkt het beste?** Elke Java‑IDE (IntelliJ IDEA, Eclipse, VS Code) die Maven of Gradle ondersteunt.  
+- **Kan ik dit combineren met XPath‑achtige query’s?** Absoluut – je kunt eerst objecten opvragen en vervolgens hun eigenschappen in één stap wijzigen.  
 
-## Wat is “modify sphere radius java”?
-Het wijzigen van de radius van een sphere in Java betekent het aanpassen van de geometrische parameters van een `Sphere`‑node in een Aspose.3D‑scènegrafiek. De `Sphere`‑node slaat radiusinformatie op die de grootte van het gerenderde object bepaalt. Deze bewerking is nuttig voor het creëren van geanimeerde effecten, het schalen van objecten op basis van gebruikersinvoer, of het procedureel genereren van modellen.
+## Wat is Aspose.3D?
+`Aspose.3D` is een Java‑bibliotheek die een 3D‑scene weergeeft als een hiërarchische graaf van knooppunten, geometrie, materialen en animaties. Het abstraheert low‑level bestandsparsing en mesh‑generatie, zodat je direct met objecten zoals `Scene`, `Node` en `Sphere` vanuit Java‑code kunt werken.
 
-## Waarom is het wijzigen van sphere radius java belangrijk?
-Het wijzigen van de radius beïnvloedt direct de visuele en fysieke kenmerken van de sphere, waardoor dynamische contentcreatie mogelijk wordt en complexe berekeningen worden vereenvoudigd. Door de radius te wijzigen, kunnen ontwikkelaars reageren op runtime‑data, interactieve ervaringen creëren en handmatige mesh‑reconstructie vermijden.
+## Waarom het wijzigen van de bolstraal in Java belangrijk is?
+Het wijzigen van de straal van een bol beïnvloedt direct zowel de visuele grootte als de botsingsgeometrie, wat essentieel is voor interactieve simulaties, procedurele contentgeneratie en realtime visuele effecten. Door mesh‑regeneratie uit te besteden aan Aspose.3D vermijd je handmatige vertex‑berekeningen en houd je codebasis schoon.
 
-- **Dynamische content:** Pas de radius in realtime aan om sensorgegevens of gameplay‑gebeurtenissen weer te geven.  
-- **Vereenvoudigde wiskunde:** Aspose.3D regelt de onderliggende mesh‑regeneratie, zodat je vertices niet handmatig hoeft te herberekenen.  
-- **Naadloze integratie:** Combineer radiuswijzigingen met materialen, textures en animatiecurves zonder de scènehierarchie te breken.
+## Waarom Aspose.3D gebruiken voor het wijzigen van de bolstraal in Java?
+Aspose.3D biedt een high‑level abstractie die de noodzaak voor low‑level geometriebeheer elimineert. De cross‑platform ondersteuning, uitgebreide formatlijst en ingebouwde XPath‑achtige query‑functionaliteit maken het de meest efficiënte keuze voor Java‑ontwikkelaars. Het levert bovendien uitgebreide documentatie, voorbeeldprojecten en een responsief supportteam, waardoor snelle ontwikkeling en eenvoudige probleemoplossing mogelijk zijn. Prestaties‑geoptimaliseerde streaming‑I/O zorgt voor snelle laad‑ en opslagtijden, zelfs voor grote scenes, terwijl de API intuïtief blijft voor zowel beginners als experts.
 
-## Waarom Aspose.3D gebruiken voor het wijzigen van sphere radius java?
-Aspose.3D biedt een high‑level API die low‑level geometriebehandeling abstraheert, waardoor ontwikkelaars zich kunnen concentreren op de applicatielogica. De robuuste functionaliteit, cross‑platform ondersteuning en uitgebreide formaatcompatibiliteit maken het een ideale keuze voor efficiënte sphere‑radiuswijzigingen.
+## Hoe wijzig ik de bolstraal in Java met XPath?
+Laad je scene, voer een XPath‑achtige query uit om de doel‑bolknooppunten op te halen, en roep `setRadius()` aan op elk knooppunt — alles in een paar eenvoudige regels. De `selectNodes`‑methode evalueert de XPath‑achtige expressie en retourneert overeenkomende knooppunten, waarna je `sphere.setRadius(newRadius)` aanroept en de scene ververst.
 
-- **High‑level abstractie:** Geen noodzaak om in low‑level mesh‑berekeningen te duiken.  
-- **Cross‑platform:** Werkt op Windows, Linux en macOS.  
-- **Rijke functionaliteit:** Ondersteunt textures, materialen, animaties en XPath‑achtige objectqueries.  
-- **Gekwantificeerde capaciteit:** Aspose.3D ondersteunt **meer dan 60 import‑ en exportformaten** en kan scènes verwerken met **tot 10.000 nodes** zonder het volledige bestand in het geheugen te laden, waardoor laadtijden onder een seconde op typische hardware worden bereikt.  
-- **Uitstekende documentatie & voorbeelden:** Snel aan de slag.
+## Hoe de bolstraal in Java wijzigen?
+Om de straal van een bol in Java te wijzigen, laad je de scene, gebruik je een XPath‑achtige query zoals `scene.selectNodes("//Sphere[@name='MySphere']")` om de doelknooppunten op te halen, roep je `sphere.setRadius(newRadius)` aan op elk, voer je `scene.update()` uit om het viewport te verversen, en exporteer je ten slotte de wijzigingen met `scene.save("updated.fbx")`. Dit end‑to‑end proces voltooit zich doorgaans in minder dan een minuut voor standaardmodellen.
 
-## Hoe XPath te gebruiken in Aspose.3D Java?
-XPath‑achtige queries laten je de scènegrafiek doorzoeken met een beknopte, expressieve syntaxis. De `selectNodes`‑methode voert een XPath‑achtige query uit op de scènegrafiek en retourneert een collectie van overeenkomende nodes. Je kunt elke sphere vinden, filteren op naam, of objecten selecteren op basis van aangepaste attributen, en vervolgens `setRadius()` aanroepen voor elk resultaat. Deze aanpak houdt je code schoon en vermindert de hoeveelheid handmatige traversals die je moet schrijven drastisch.
+### Stap 1: stel je project in
+De `Scene`‑klasse is het toegangspunt voor elke Aspose.3D‑operatie; het vertegenwoordigt de root van de scene‑graaf. Voeg de Aspose.3D Maven‑ of Gradle‑dependency toe aan je `pom.xml` of `build.gradle`, en importeer vervolgens de benodigde namespaces in je Java‑bronbestand.
 
-## Hoe wijzig ik sphere radius java met XPath?
-Laad je scène, voer een XPath‑achtige query uit om de doel‑sphere‑nodes op te halen, en roep `setRadius()` aan voor elke node — alles in een paar eenvoudige regels. De `selectNodes`‑methode voert de XPath‑achtige expressie uit en retourneert overeenkomende sphere‑nodes. Bijvoorbeeld, `scene.selectNodes("//Sphere[@name='MySphere']")` geeft een collectie van overeenkomende spheres; door die collectie te itereren en `sphere.setRadius(5.0)` aan te roepen, wordt elke sphere direct herschaald. Na de wijziging roep je `scene.update()` aan om de viewport te verversen en sla je de scène op in het gewenste formaat.
+### Stap 2: laad of maak een scene
+De `Scene`‑klasse kan een nieuwe lege scene maken (`new Scene()`) of een bestaand bestand openen (`scene.open("model.fbx")`). Wanneer je `open` aanroept, parseert Aspose.3D het bestand en vult de interne knooppunt‑hiërarchie zonder de volledige geometrie in het geheugen te laden, waardoor het geheugenverbruik laag blijft, zelfs voor grote assets.
 
-## Hoe sphere radius java te wijzigen?
-Hieronder vind je twee gerichte tutorials die je stap voor stap door de exacte procedure leiden.
+### Stap 3: lokaliseer het bolknooppunt
+De `selectNodes`‑methode implementeert XPath‑achtige syntaxis voor het navigeren door de scene‑graaf. Bijvoorbeeld, `scene.selectNodes("//Sphere[@name='MySphere']")` retourneert een collectie van alle `Sphere`‑knooppunten waarvan het `name`‑attribuut overeenkomt met *MySphere*. De `Sphere`‑klasse is het geometrie‑object van Aspose.3D dat straal, segmenten en andere bol‑specifieke parameters opslaat.
 
-### Wijzig 3D Sphere Radius in Java met Aspose.3D
-Ga op een spannende reis in het domein van 3D‑sphere‑manipulatie met Aspose.3D. Deze tutorial begeleidt je stap voor stap en leert je hoe je moeiteloos de radius van een 3D‑sphere in Java kunt wijzigen. Of je nu een ervaren ontwikkelaar bent of een beginner, deze tutorial zorgt voor een soepele leerervaring.
+### Stap 4: wijzig de straal
+De `setRadius`‑methode behoort tot de `Sphere`‑klasse en wijzigt de grootte van de bol. Het aanroepen van `sphere.setRadius(7.5)` bouwt automatisch de mesh opnieuw zodat de visuele weergave overeenkomt met de nieuwe straal. Er is geen extra geometrieverwerking nodig.
 
-Ben je klaar om te beginnen? Klik [hier](./modify-sphere-radius/) om de volledige tutorial te openen en de benodigde bronnen te downloaden. Verhoog je vaardigheid in Java 3D‑programmeren door de kunst van het wijzigen van de 3D‑sphere‑radius met Aspose.3D onder de knie te krijgen.
+### Stap 5: ververs de weergave
+Na geometriewijzigingen roep je `scene.update()` aan om het viewport te dwingen opnieuw te tekenen. Deze methode propagueert alle pending wijzigingen door de render‑pipeline, waardoor het volgende frame de bijgewerkte bolgrootte toont.
 
-### XPath‑achtige queries toepassen op 3D‑objecten in Java
-Ontdek de kracht van XPath‑achtige queries in Java 3D‑programmeren met Aspose.3D. Deze tutorial biedt uitgebreide inzichten in het toepassen van geavanceerde queries om 3D‑objecten naadloos te manipuleren. Verhoog je 3D‑ontwikkelvaardigheden terwijl je de wereld van XPath‑achtige queries verkent en je vermogen verbetert om moeiteloos met 3D‑scènes te interageren.
+### Stap 6: sla de bijgewerkte scene op
+Gebruik `scene.save("updated.fbx")` om de aangepaste scene te exporteren. De `save`‑methode ondersteunt het secundaire sleutelwoord **sla scene op als fbx** evenals OBJ, GLTF en vele andere formaten. Aspose.3D schrijft het bestand met dezelfde high‑performance streaming‑aanpak die het voor het laden gebruikte.
 
-Klaar om je Java 3D‑programmeervaardigheden naar een hoger niveau te tillen? Duik in de tutorial [hier](./xpath-like-object-queries/) en geef jezelf de kennis om XPath‑achtige queries effectief toe te passen. Aspose.3D biedt een gebruiksvriendelijke en efficiënte leerervaring, waardoor complexe 3D‑objectmanipulatie voor iedereen toegankelijk wordt.
-
-## Veelvoorkomende gebruikssituaties voor modify sphere radius java
-- **Interactieve simulaties:** Pas de sphere‑grootte aan op basis van sensorgegevens of gebruikersinvoer.  
-- **Procedurele generatie:** Maak planeten of bellen met variërende radii in één enkele pass.  
-- **Animatie:** Animeer radiuswijzigingen om groei, pulsatie of impact‑effecten te simuleren.  
+## Veelvoorkomende use cases voor het wijzigen van de bolstraal in Java
+- **Interactieve simulaties:** Pas de grootte van de bol aan op basis van live sensorgegevens of spelersacties.  
+- **Procedurele generatie:** Maak planeten, bellen of deeltjes met variërende stralen in één enkele stap.  
+- **Animatie:** Animeer radiuswijzigingen om groei, pulsatie of impacteffecten te simuleren.  
 
 ## Vereisten
-- Java 8 of hoger geïnstalleerd.  
-- Maven of Gradle voor afhankelijkheidsbeheer.  
+- Java 8 of hoger geïnstalleerd.  
+- Maven of Gradle voor dependency‑beheer.  
 - Aspose.3D for Java bibliotheek (download van de Aspose‑website).  
-- Basiskennis van 3D‑scènegrafieken.
-
-## Stapsgewijze handleiding (Geen codeblokken vereist)
-
-De `Scene`‑klasse vertegenwoordigt de root van een 3D‑scènegrafiek, met nodes, geometrie en materialen.
-
-1. **Stel je project in** – Voeg de Aspose.3D Maven/Gradle‑dependency toe en importeer de benodigde classes.  
-2. **Laad of maak een scène** – Gebruik `Scene scene = new Scene();` of laad een bestaand bestand met `scene.load("model.fbx");`.  
-3. **Zoek de sphere‑node** – Pas een XPath‑achtige query toe, bijvoorbeeld `scene.selectNodes("//Sphere[@name='MySphere']")`.  
-4. **Wijzig de radius** – Iterate over de teruggegeven nodes en roep `sphere.setRadius(newRadius);` aan.  
-5. **Ververs de weergave** – Roep `scene.update();` aan om ervoor te zorgen dat de viewport de wijziging weergeeft.  
-6. **Sla de bijgewerkte scène op** – Exporteer naar het gewenste formaat (OBJ, FBX, GLTF) met `scene.save("updated.fbx");`.
+- Basiskennis van 3D‑scene‑grafen.
 
 ## Tips voor probleemoplossing
-- **Null‑referentiefouten:** Zorg ervoor dat de sphere‑node is opgehaald voordat `setRadius()` wordt aangeroepen.  
-- **Scène wordt niet bijgewerkt:** Roep `scene.update()` aan na het wijzigen van de geometrie om de viewport te verversen.  
-- **Licentieproblemen:** Controleer of het Aspose.3D‑licentiebestand correct is geladen; anders verschijnt een proef‑watermerk.  
+- **Null‑referentiefouten:** Controleer of `scene.selectNodes` daadwerkelijk een niet‑lege collectie retourneert voordat je `setRadius()` aanroept.  
+- **Scene wordt niet bijgewerkt:** Na het wijzigen van de geometrie moet je `scene.update()` aanroepen en vervolgens de scene opnieuw renderen of opslaan om de wijzigingen te zien.  
+- **Licentieproblemen:** Zorg ervoor dat het Aspose.3D‑licentiebestand correct wordt geladen; anders verschijnt er een proef‑watermerk op geëxporteerde bestanden.  
 
 ## Veelgestelde vragen
 
-**Q: Kan ik de radius van meerdere spheres tegelijk wijzigen?**  
-A: Ja. Gebruik de XPath‑achtige query van Aspose.3D om alle sphere‑nodes te selecteren, vervolgens te itereren en elke radius in te stellen.
+**Q: Kan ik de straal van meerdere bollen tegelijk wijzigen?**  
+A: Ja. Gebruik de XPath‑achtige query van Aspose.3D om alle bolknooppunten te selecteren, en iterereer vervolgens om elke straal in te stellen.
 
-**Q: Heeft het wijzigen van de radius invloed op de texture‑coördinaten van de sphere?**  
-A: De texture‑mapping schaalt automatisch mee met de radius, waardoor UV‑consistentie behouden blijft.
+**Q: Heeft het wijzigen van de straal invloed op de textuurcoördinaten van de bol?**  
+A: De textuurmapping schaalt automatisch mee met de straal, waardoor UV‑consistentie behouden blijft.
 
 **Q: Is het mogelijk om radiuswijzigingen over tijd te animeren?**  
 A: Absoluut. Combineer `setRadius()` met een timer of animatielus om vloeiende overgangen te creëren.
@@ -161,30 +159,42 @@ A: Absoluut. Combineer `setRadius()` met een timer of animatielus om vloeiende o
 **Q: Welke versie van Aspose.3D is vereist?**  
 A: Elke recente versie (2024‑2025 releases) ondersteunt deze functionaliteit; controleer altijd de release‑notes voor API‑wijzigingen.
 
-**Q: Kan ik de aangepaste scène exporteren naar andere formaten?**  
-A: Ja. Aspose.3D kan opslaan naar OBJ, FBX, GLTF en meer nadat je de geometrie hebt aangepast.
+**Q: Kan ik de aangepaste scene exporteren naar andere formaten?**  
+A: Ja. Aspose.3D kan na het aanpassen van de geometrie opslaan naar OBJ, FBX, GLTF en meer.
 
 ## Conclusie
-Samengevat fungeren deze tutorials als jouw toegangspoort tot het beheersen van Java 3D‑programmeren met Aspose.3D. Of je nu **sphere radius java wijzigt** of XPath‑achtige queries toepast, elke tutorial is ontworpen om je vaardigheden te verbeteren en bij te dragen aan een naadloze 3D‑ontwikkelervaring. Download de bronnen, volg de stap‑voor‑stap instructies, en ontgrendel de eindeloze mogelijkheden van Java 3D‑programmeren vandaag nog!
-
-## 3D‑objecten en scènes manipuleren in Java‑tutorials
-### [Wijzig 3D Sphere Radius in Java met Aspose.3D](./modify-sphere-radius/)
-Ontdek Java 3D‑programmeren met Aspose.3D, waarbij je de sphere‑radius moeiteloos wijzigt. Download nu voor een naadloze 3D‑ontwikkelervaring.
-### [XPath‑achtige queries toepassen op 3D‑objecten in Java](./xpath-like-object-queries/)
-Beheers 3D‑objectqueries in Java moeiteloos met Aspose.3D. Pas XPath‑achtige queries toe, manipuleer scènes, en til je 3D‑ontwikkeling naar een hoger niveau.
+Je hebt nu een volledige, productie‑klare workflow voor **hoe Aspose te gebruiken** om de straal van een bol in Java te wijzigen, objecten te queryen met XPath‑achtige syntaxis, en **de scene op te slaan als FBX**. Pas deze stappen toe om interactieve visualisaties, procedurele werelden of realtime simulaties te bouwen met minimale code en maximale betrouwbaarheid.
 
 ---
 
-**Last Updated:** 2026-07-04  
-**Tested With:** Aspose.3D for Java 24.11 (2025)  
-**Author:** Aspose
+**Laatst bijgewerkt:** 2026-10-29  
+**Getest met:** Aspose.3D for Java 24.11 (2025)  
+**Auteur:** Aspose  
 
 ## Gerelateerde tutorials
 
-- [Objecten selecteren op naam in Java 3D‑scene – XPath‑achtige queries met Aspose.3D](/3d/java/3d-objects-and-scenes/xpath-like-object-queries/)
+- [Wijzig 3D bolstraal in Java met Aspose.3D](./modify-sphere-radius/)
+- [Pas XPath‑achtige query’s toe op 3D‑objecten in Java](./xpath-like-object-queries/)
+- [Objecten selecteren op naam in Java 3D-scène – XPath‑achtige query’s met Aspose.3D](/3d/java/3d-objects-and-scenes/xpath-like-object-queries/)
 - [Stapsgewijze licentiegids voor Aspose.3D Java](/3d/java/licensing/)
-- [Renderde 3D‑scènes opslaan naar afbeeldingsbestanden met Aspose.3D voor Java](/3d/java/rendering-3d-scenes/render-to-file/)
+- [Renderde 3D‑scènes opslaan als afbeeldingsbestanden met Aspose.3D voor Java](/3d/java/rendering-3d-scenes/render-to-file/)
 
+```java
+// Example: modify sphere radius by traversing the scene graph
+Scene scene = new Scene();
+scene.open("model.fbx");
+
+// Find spheres named 'MySphere' by traversing the scene graph
+for (Node childNode : scene.getRootNode().getChildNodes()) {
+    Sphere sphere = (Sphere) childNode.getEntity();
+    if (sphere != null && "MySphere".equals(childNode.getName())) {
+        sphere.setRadius(5.0);
+    }
+}
+
+// Save the updated scene
+scene.save("updated.fbx");
+```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

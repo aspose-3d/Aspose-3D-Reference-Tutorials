@@ -1,34 +1,41 @@
 ---
-date: 2026-07-04
-description: Aprenda como modificar o raio da esfera em Java usando Aspose.3D com
-  XPath‑like queries. Este guia passo a passo mostra como redimensionar esferas, consultar
-  objetos e exportar cenas atualizadas.
+date: 2026-10-29
+description: Aprenda a usar Aspose para modificar o raio da esfera em Java com consultas
+  semelhantes a XPath, salvar a cena como FBX e exportar modelos 3D atualizados de
+  forma eficiente.
 keywords:
+- how to use aspose
+- save scene as fbx
 - modify sphere radius java
-- Aspose 3D XPath
-- Java 3D sphere manipulation
+- aspose 3d xpath
+- java 3d sphere manipulation
+lastmod: 2026-10-29
 linktitle: Manipulando objetos e cenas 3D em Java
+og_description: Aprenda a usar Aspose para modificar o raio da esfera em Java, aplicar
+  consultas semelhantes a XPath e salvar a cena como FBX — tudo em um guia conciso
+  passo a passo.
+og_image_alt: Developer guide showing Aspose 3D Java code to change sphere radius
+  and export FBX
+og_title: Como usar Aspose para modificar o raio da esfera em Java com XPath
 schemas:
 - author: Aspose
-  dateModified: '2026-07-04'
-  description: Learn how to modify sphere radius java using Aspose.3D with XPath‑like
-    queries. This step‑by‑step guide shows you how to resize spheres, query objects,
-    and export updated scenes.
-  headline: How to Use XPath – Modify Sphere Radius Java with Aspose.3D
+  dateModified: '2026-10-29'
+  description: Learn how to use Aspose to modify sphere radius in Java, apply XPath‑like
+    queries, and export updated scenes.
+  headline: How to use Aspose to modify sphere radius in Java with XPath
   type: TechArticle
-- description: Learn how to modify sphere radius java using Aspose.3D with XPath‑like
-    queries. This step‑by‑step guide shows you how to resize spheres, query objects,
-    and export updated scenes.
-  name: How to Use XPath – Modify Sphere Radius Java with Aspose.3D
+- description: Learn how to use Aspose to modify sphere radius in Java, apply XPath‑like
+    queries, and export updated scenes.
+  name: How to use Aspose to modify sphere radius in Java with XPath
   steps:
   - name: '**Set up your project** – Add the Aspose.3D Maven/Gradle dependency and
       import the necessary classes.'
     text: '**Set up your project** – Add the Aspose.3D Maven/Gradle dependency and
       import the necessary classes.'
   - name: '**Load or create a scene** – Use `Scene scene = new Scene();` or load an
-      existing file with `scene.load("model.fbx");`.'
+      existing file with `scene.open("model.fbx");`.'
     text: '**Load or create a scene** – Use `Scene scene = new Scene();` or load an
-      existing file with `scene.load("model.fbx");`.'
+      existing file with `scene.open("model.fbx");`.'
   - name: '**Locate the sphere node** – Apply an XPath‑like query such as `scene.selectNodes("//Sphere[@name=''MySphere'']")`.'
     text: '**Locate the sphere node** – Apply an XPath‑like query such as `scene.selectNodes("//Sphere[@name=''MySphere'']")`.'
   - name: '**Modify the radius** – Iterate over the returned nodes and call `sphere.setRadius(newRadius);`.'
@@ -60,7 +67,13 @@ schemas:
     question: Can I export the modified scene to other formats?
   type: FAQPage
 second_title: Aspose.3D Java API
-title: Como usar XPath – Modificar o raio da esfera em Java com Aspose.3D
+tags:
+- aspose 3d
+- java 3d
+- xpath queries
+- sphere radius
+- fbx export
+title: Como usar Aspose para modificar o raio da esfera em Java com XPath
 url: /pt/java/3d-objects-and-scenes/
 weight: 33
 ---
@@ -69,85 +82,69 @@ weight: 33
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Como Usar XPath – Modificar Raio da Esfera Java com Aspose.3D
+# Como usar Aspose para modificar o raio de uma esfera em Java com XPath
 
 ## Introdução
 
-Se você está se perguntando **como usar XPath** ao trabalhar com cenas 3D em Java, chegou ao lugar certo. Neste tutorial mostraremos como **modificar o raio da esfera java** usando Aspose.3D e, ao mesmo tempo, aproveitar consultas semelhantes a XPath para localizar os objetos exatos que você precisa. Ao final deste guia, você entenderá por que XPath é uma ferramenta poderosa para manipulação 3D, como aplicá‑la em cenários reais e quais passos são necessários para ver as alterações instantaneamente em sua cena.
+Se você está procurando **como usar Aspose** para alterações dinâmicas de geometria 3D, este guia mostra exatamente como modificar o raio de uma esfera em Java usando as consultas semelhantes a XPath do Aspose.3D. Em poucos minutos, você poderá localizar qualquer nó de esfera, alterar seu tamanho, atualizar a viewport e **salvar a cena como FBX** ou outros formatos. As etapas são concisas, a API é fluente e a regeneração de malha subjacente é tratada automaticamente, permitindo que você se concentre na lógica da sua aplicação.
 
-## Respostas Rápidas
-- **O que “modify sphere radius java” realiza?** Ela altera o tamanho de uma primitiva esfera em tempo de execução, permitindo criar modelos 3D dinâmicos.  
-- **Qual biblioteca lida com isso?** Aspose.3D para Java fornece uma API fluente para manipulação de geometria.  
-- **Preciso de uma licença?** Um teste gratuito funciona para avaliação; uma licença comercial é necessária para produção.  
-- **Qual IDE funciona melhor?** Qualquer IDE Java (IntelliJ IDEA, Eclipse, VS Code) que suporte Maven/Gradle.  
-- **Posso combinar isso com consultas semelhantes a XPath?** Absolutamente – você pode consultar objetos primeiro e depois modificar suas propriedades.
+## Respostas rápidas
+- **O que “modify sphere radius java” realiza?** Redimensiona um primitivo esfera em tempo de execução, permitindo efeitos visuais dinâmicos sem reconstruir a malha.  
+- **Qual biblioteca lida com isso?** Aspose.3D for Java fornece uma API fluente e de alto nível para manipulação de geometria.  
+- **Preciso de uma licença?** Um teste gratuito funciona para avaliação; uma licença comercial é necessária para implantações em produção.  
+- **Qual IDE funciona melhor?** Qualquer IDE Java (IntelliJ IDEA, Eclipse, VS Code) que suporte Maven ou Gradle.  
+- **Posso combinar isso com consultas semelhantes a XPath?** Absolutamente – você pode consultar objetos primeiro e, em seguida, modificar suas propriedades em uma única passagem.  
 
-## O que é “modify sphere radius java”?
-Alterar o raio de uma esfera em Java significa ajustar os parâmetros geométricos de um nó `Sphere` em um grafo de cena Aspose.3D. O nó `Sphere` armazena informações de raio que determinam o tamanho do objeto renderizado. Esta operação é útil para criar efeitos animados, dimensionar objetos com base na entrada do usuário ou gerar modelos proceduralmente.
+## O que é Aspose.3D?
+`Aspose.3D` é uma biblioteca Java que representa uma cena 3D como um grafo hierárquico de nós, geometria, materiais e animações. Ela abstrai a análise de arquivos de baixo nível e a geração de malhas, permitindo que você trabalhe com objetos como `Scene`, `Node` e `Sphere` diretamente a partir do código Java.
 
-## Por que modificar o raio da esfera java é importante?
-Modificar o raio influencia diretamente as características visuais e físicas da esfera, permitindo a criação de conteúdo dinâmico e simplificando cálculos complexos. Ao mudar o raio, os desenvolvedores podem reagir a dados em tempo de execução, criar experiências interativas e evitar a reconstrução manual da malha.
+## Por que modificar o raio da esfera em Java é importante?
+Alterar o raio de uma esfera influencia diretamente tanto seu tamanho visual quanto sua geometria de colisão, o que é essencial para simulações interativas, geração procedural de conteúdo e efeitos visuais em tempo real. Ao delegar a regeneração da malha ao Aspose.3D, você evita cálculos manuais de vértices e mantém seu código limpo.
 
-- **Conteúdo dinâmico:** Ajuste o raio em tempo real para refletir dados de sensores ou eventos de gameplay.  
-- **Matemática simplificada:** Aspose.3D lida com a regeneração da malha subjacente, portanto você não precisa recalcular vértices manualmente.  
-- **Integração perfeita:** Combine alterações de raio com materiais, texturas e curvas de animação sem quebrar a hierarquia da cena.
+## Por que usar Aspose.3D para modificar o raio da esfera em Java?
+Aspose.3D oferece uma abstração de alto nível que elimina a necessidade de manipulação de geometria de baixo nível. Seu suporte multiplataforma, lista extensa de formatos e consultas integradas semelhantes a XPath o tornam a escolha mais eficiente para desenvolvedores Java. Também fornece documentação abrangente, projetos de exemplo e uma equipe de suporte responsiva, permitindo desenvolvimento rápido e solução de problemas fácil. O streaming I/O otimizado para desempenho garante tempos rápidos de carregamento e salvamento mesmo para cenas grandes, enquanto a API permanece intuitiva para iniciantes e especialistas.
 
-## Por que usar Aspose.3D para modificar o raio da esfera java?
-Aspose.3D fornece uma API de alto nível que abstrai o manuseio de geometria de baixo nível, permitindo que os desenvolvedores se concentrem na lógica da aplicação. Seu conjunto robusto de recursos, suporte multiplataforma e ampla compatibilidade de formatos o tornam uma escolha ideal para modificações eficientes do raio da esfera.
+## Como modificar o raio da esfera em Java com XPath?
+Carregue sua cena, execute uma consulta semelhante a XPath para buscar os nós de esfera alvo e chame `setRadius()` em cada nó — tudo em poucas linhas diretas. O método `selectNodes` avalia a expressão semelhante a XPath e retorna os nós correspondentes, após o que você invoca `sphere.setRadius(newRadius)` e atualiza a cena.
 
-- **Abstração de alto nível:** Não é necessário mergulhar em cálculos de malha de baixo nível.  
-- **Multiplataforma:** Funciona em Windows, Linux e macOS.  
-- **Conjunto rico de recursos:** Suporta texturas, materiais, animações e consultas de objetos semelhantes a XPath.  
-- **Capacidade quantificada:** Aspose.3D suporta **mais de 60 formatos de importação e exportação** e pode processar cenas contendo **até 10.000 nós** sem carregar o arquivo inteiro na memória, oferecendo tempos de carregamento sub‑segundo em hardware típico.  
-- **Documentação e exemplos excelentes:** Comece a usar rapidamente.
+## Como modificar o raio da esfera em Java?
+Para modificar o raio de uma esfera em Java, carregue a cena, use uma consulta semelhante a XPath como `scene.selectNodes("//Sphere[@name='MySphere']")` para recuperar os nós alvo, chame `sphere.setRadius(newRadius)` em cada um, invoque `scene.update()` para atualizar a viewport e, finalmente, exporte as alterações com `scene.save("updated.fbx")`. Esse processo de ponta a ponta normalmente é concluído em menos de um minuto para modelos padrão.
 
-## Como usar XPath no Aspose.3D Java?
-Consultas semelhantes a XPath permitem pesquisar o grafo de cena com uma sintaxe concisa e expressiva. O método `selectNodes` executa uma consulta semelhante a XPath no grafo de cena e retorna uma coleção de nós correspondentes. Você pode localizar cada esfera, filtrar por nome ou selecionar objetos com base em atributos personalizados, e então chamar `setRadius()` em cada resultado. Essa abordagem mantém seu código limpo e reduz drasticamente a quantidade de travessia manual que você precisa escrever.
+### Passo 1: configure seu projeto
+A classe `Scene` é o ponto de entrada para qualquer operação Aspose.3D; ela representa a raiz do grafo da cena. Adicione a dependência Aspose.3D Maven ou Gradle ao seu `pom.xml` ou `build.gradle`, depois importe os namespaces necessários no seu arquivo fonte Java.
 
-## Como modificar o raio da esfera java com XPath?
-Carregue sua cena, execute uma consulta semelhante a XPath para obter os nós de esfera alvo e chame `setRadius()` em cada nó — tudo em algumas linhas simples. O método `selectNodes` executa a expressão semelhante a XPath e retorna nós de esfera correspondentes. Por exemplo, `scene.selectNodes("//Sphere[@name='MySphere']")` devolve uma coleção de esferas correspondentes; ao iterar sobre essa coleção e invocar `sphere.setRadius(5.0)` redimensiona instantaneamente cada esfera. Após a alteração, chame `scene.update()` para atualizar a viewport e então salve a cena no formato de sua preferência.
+### Passo 2: carregue ou crie uma cena
+A classe `Scene` pode criar uma nova cena vazia (`new Scene()`) ou abrir um arquivo existente (`scene.open("model.fbx")`). Quando você chama `open`, Aspose.3D analisa o arquivo e preenche a hierarquia interna de nós sem carregar toda a geometria na memória, o que mantém o uso de memória baixo mesmo para ativos grandes.
 
-## Como modificar o raio da esfera java?
-Abaixo você encontrará dois tutoriais focados que o guiarão pelos passos exatos.
+### Passo 3: localize o nó da esfera
+O método `selectNodes` implementa sintaxe semelhante a XPath para navegar no grafo da cena. Por exemplo, `scene.selectNodes("//Sphere[@name='MySphere']")` retorna uma coleção de todos os nós `Sphere` cujo atributo `name` corresponde a *MySphere*. A classe `Sphere` é o objeto de geometria do Aspose.3D que armazena raio, segmentos e outros parâmetros específicos da esfera.
 
-### Modificar o Raio da Esfera 3D em Java com Aspose.3D
-Embarque em uma empolgante jornada no domínio da manipulação de esferas 3D usando Aspose.3D. Este tutorial orienta passo a passo, ensinando como modificar facilmente o raio de uma esfera 3D em Java. Seja você um desenvolvedor experiente ou iniciante, este tutorial garante uma experiência de aprendizado fluida.
+### Passo 4: modifique o raio
+O método `setRadius` pertence à classe `Sphere` e altera o tamanho da esfera. Chamar `sphere.setRadius(7.5)` reconstrói automaticamente a malha para que a representação visual corresponda ao novo raio. Nenhum processamento adicional de geometria é necessário.
 
-Pronto para mergulhar? Clique [aqui](./modify-sphere-radius/) para acessar o tutorial completo e baixar os recursos necessários. Aprimore sua proficiência em programação Java 3D dominando a arte de modificar o raio de esferas 3D com Aspose.3D.
+### Passo 5: atualize a visualização
+Após alterações na geometria, invoque `scene.update()` para forçar a viewport a redesenhar. Esse método propaga todas as mudanças pendentes através do pipeline de renderização, garantindo que o próximo quadro exiba o tamanho atualizado da esfera.
 
-### Aplicar Consultas Semelhantes a XPath a Objetos 3D em Java
-Desvende o poder das consultas semelhantes a XPath na programação Java 3D com Aspose.3D. Este tutorial oferece insights abrangentes sobre a aplicação de consultas sofisticadas para manipular objetos 3D de forma fluida. Eleve suas habilidades de desenvolvimento 3D enquanto explora o mundo das consultas semelhantes a XPath e aprimora sua capacidade de interagir com cenas 3D sem esforço.
+### Passo 6: salve a cena atualizada
+Use `scene.save("updated.fbx")` para exportar a cena modificada. O método `save` suporta a palavra‑chave secundária **save scene as fbx** assim como OBJ, GLTF e muitos outros formatos. Aspose.3D grava o arquivo usando a mesma abordagem de streaming de alto desempenho que utilizou para o carregamento.
 
-Pronto para levar suas habilidades de programação Java 3D ao próximo nível? Mergulhe no tutorial [aqui](./xpath-like-object-queries/) e capacite-se com o conhecimento para aplicar consultas semelhantes a XPath de forma eficaz. Aspose.3D garante uma experiência de aprendizado amigável e eficiente, tornando a manipulação complexa de objetos 3D acessível a todos.
-
-## Casos de Uso Comuns para modificar o raio da esfera java
-- **Simulações interativas:** Ajuste o tamanho da esfera com base em dados de sensores ou entrada do usuário.  
-- **Geração procedural:** Crie planetas ou bolhas com raios variados em uma única passagem.  
+## Casos de uso comuns para modificar o raio da esfera em Java
+- **Simulações interativas:** Ajuste o tamanho da esfera com base em dados de sensores ao vivo ou ações do jogador.  
+- **Geração procedural:** Crie planetas, bolhas ou partículas com raios variados em uma única passagem.  
 - **Animação:** Anime alterações de raio para simular crescimento, pulsação ou efeitos de impacto.  
 
-## Prerequisitos
-- Java 8 ou superior instalado.  
+## Pré-requisitos
+- Java 8 ou superior instalado.  
 - Maven ou Gradle para gerenciamento de dependências.  
 - Biblioteca Aspose.3D para Java (download no site da Aspose).  
 - Familiaridade básica com grafos de cena 3D.
 
-## Guia Passo a Passo (Sem blocos de código necessários)
+## Dicas de solução de problemas
+- **Erros de referência nula:** Verifique se `scene.selectNodes` realmente retorna uma coleção não vazia antes de chamar `setRadius()`.  
+- **Cena não atualizando:** Após modificar a geometria, você deve chamar `scene.update()` e então re‑renderizar ou salvar a cena para ver as alterações.  
+- **Problemas de licença:** Certifique‑se de que o arquivo de licença do Aspose.3D foi carregado corretamente; caso contrário, uma marca d'água de avaliação aparecerá nos arquivos exportados.  
 
-A classe `Scene` representa a raiz de um grafo de cena 3D, contendo nós, geometria e materiais.
-
-1. **Configure seu projeto** – Adicione a dependência Aspose.3D Maven/Gradle e importe as classes necessárias.  
-2. **Carregue ou crie uma cena** – Use `Scene scene = new Scene();` ou carregue um arquivo existente com `scene.load("model.fbx");`.  
-3. **Localize o nó da esfera** – Aplique uma consulta semelhante a XPath como `scene.selectNodes("//Sphere[@name='MySphere']")`.  
-4. **Modifique o raio** – Itere sobre os nós retornados e chame `sphere.setRadius(newRadius);`.  
-5. **Atualize a visualização** – Invocar `scene.update();` para garantir que a viewport reflita a alteração.  
-6. **Salve a cena atualizada** – Exporte para o formato desejado (OBJ, FBX, GLTF) usando `scene.save("updated.fbx");`.
-
-## Dicas de Solução de Problemas
-- **Erros de referência nula:** Certifique-se de que o nó da esfera foi recuperado antes de chamar `setRadius()`.  
-- **Cena não atualiza:** Chame `scene.update()` após modificar a geometria para atualizar a viewport.  
-- **Problemas de licença:** Verifique se o arquivo de licença Aspose.3D está carregado corretamente; caso contrário, aparecerá uma marca d'água de avaliação.  
-
-## Frequently Asked Questions
+## Perguntas frequentes
 
 **Q: Posso modificar o raio de várias esferas ao mesmo tempo?**  
 A: Sim. Use a consulta semelhante a XPath do Aspose.3D para selecionar todos os nós de esfera, então itere e defina cada raio.
@@ -162,29 +159,41 @@ A: Absolutamente. Combine `setRadius()` com um temporizador ou loop de animaçã
 A: Qualquer versão recente (lançamentos 2024‑2025) suporta esses recursos; sempre verifique as notas de versão para alterações na API.
 
 **Q: Posso exportar a cena modificada para outros formatos?**  
-A: Sim. Aspose.3D pode salvar em OBJ, FBX, GLTF e outros após ajustar a geometria.
+A: Sim. Aspose.3D pode salvar em OBJ, FBX, GLTF e mais após ajustar a geometria.
 
 ## Conclusão
-Em conclusão, estes tutoriais são sua porta de entrada para dominar a programação Java 3D com Aspose.3D. Seja **modificando o raio da esfera java** ou aplicando consultas semelhantes a XPath, cada tutorial foi projetado para aprimorar suas habilidades e contribuir para uma experiência de desenvolvimento 3D fluida. Baixe os recursos, siga as instruções passo a passo e desbloqueie as infinitas possibilidades da programação Java 3D hoje!
-
-## Manipulando Objetos e Cenas 3D em Tutoriais Java
-### [Modificar o Raio da Esfera 3D em Java com Aspose.3D](./modify-sphere-radius/)
-Explore a programação Java 3D com Aspose.3D, modificando o raio da esfera sem esforço. Baixe agora para uma experiência de desenvolvimento 3D fluida.
-### [Aplicar Consultas Semelhantes a XPath a Objetos 3D em Java](./xpath-like-object-queries/)
-Domine consultas de objetos 3D em Java sem esforço com Aspose.3D. Aplique consultas semelhantes a XPath, manipule cenas e eleve seu desenvolvimento 3D.
+Agora você tem um fluxo de trabalho completo e pronto para produção sobre **como usar Aspose** para modificar o raio de uma esfera em Java, consultar objetos com sintaxe semelhante a XPath e **salvar a cena como FBX**. Aplique estas etapas para construir visualizações interativas, mundos procedurais ou simulações em tempo real com código mínimo e máxima confiabilidade.
 
 ---
 
-**Last Updated:** 2026-07-04  
-**Tested With:** Aspose.3D for Java 24.11 (2025)  
-**Author:** Aspose
+**Última atualização:** 2026-10-29  
+**Testado com:** Aspose.3D for Java 24.11 (2025)  
+**Autor:** Aspose  
 
-## Tutoriais Relacionados
+## Tutoriais relacionados
 
-- [Selecionar Objetos por Nome em Cena 3D Java – Consultas Semelhantes a XPath com Aspose.3D](/3d/java/3d-objects-and-scenes/xpath-like-object-queries/)
-- [Guia Passo a Passo de Licença para Aspose.3D Java](/3d/java/licensing/)
-- [Salvar Cenas 3D Renderizadas em Arquivos de Imagem com Aspose.3D para Java](/3d/java/rendering-3d-scenes/render-to-file/)
+- [Modificar raio de esfera 3D em Java com Aspose.3D](./modify-sphere-radius/)
+- [Aplicar consultas semelhantes a XPath a objetos 3D em Java](./xpath-like-object-queries/)
+- [Selecionar objetos por nome em cena 3D Java – Consultas semelhantes a XPath com Aspose.3D](/3d/java/3d-objects-and-scenes/xpath-like-object-queries/)
+- [Guia passo a passo de licença para Aspose.3D Java](/3d/java/licensing/)
+- [Salvar cenas 3D renderizadas em arquivos de imagem com Aspose.3D para Java](/3d/java/rendering-3d-scenes/render-to-file/)
 
+```java
+// Example: modify sphere radius by traversing the scene graph
+Scene scene = new Scene();
+scene.open("model.fbx");
+
+// Find spheres named 'MySphere' by traversing the scene graph
+for (Node childNode : scene.getRootNode().getChildNodes()) {
+    Sphere sphere = (Sphere) childNode.getEntity();
+    if (sphere != null && "MySphere".equals(childNode.getName())) {
+        sphere.setRadius(5.0);
+    }
+}
+
+// Save the updated scene
+scene.save("updated.fbx");
+```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
