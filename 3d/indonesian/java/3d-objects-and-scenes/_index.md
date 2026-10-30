@@ -1,34 +1,41 @@
 ---
-date: 2026-07-04
-description: Pelajari cara memodifikasi radius bola java menggunakan Aspose.3D dengan
-  kueri mirip XPath. Panduan step‑by‑step ini menunjukkan cara resize spheres, query
-  objects, dan export updated scenes.
+date: 2026-10-29
+description: Pelajari cara menggunakan Aspose untuk mengubah radius bola di Java dengan
+  kueri mirip XPath, menyimpan adegan sebagai FBX, dan mengekspor model 3D yang diperbarui
+  secara efisien.
 keywords:
+- how to use aspose
+- save scene as fbx
 - modify sphere radius java
-- Aspose 3D XPath
-- Java 3D sphere manipulation
-linktitle: Memanipulasi 3D Objects dan Scenes dalam Java
+- aspose 3d xpath
+- java 3d sphere manipulation
+lastmod: 2026-10-29
+linktitle: Memanipulasi Objek dan Adegan 3D di Java
+og_description: Pelajari cara menggunakan Aspose untuk mengubah radius bola di Java,
+  menerapkan kueri mirip XPath, dan menyimpan adegan sebagai FBX—semua dalam panduan
+  langkah demi langkah yang singkat.
+og_image_alt: Developer guide showing Aspose 3D Java code to change sphere radius
+  and export FBX
+og_title: Cara menggunakan Aspose untuk mengubah radius bola di Java dengan XPath
 schemas:
 - author: Aspose
-  dateModified: '2026-07-04'
-  description: Learn how to modify sphere radius java using Aspose.3D with XPath‑like
-    queries. This step‑by‑step guide shows you how to resize spheres, query objects,
-    and export updated scenes.
-  headline: How to Use XPath – Modify Sphere Radius Java with Aspose.3D
+  dateModified: '2026-10-29'
+  description: Learn how to use Aspose to modify sphere radius in Java, apply XPath‑like
+    queries, and export updated scenes.
+  headline: How to use Aspose to modify sphere radius in Java with XPath
   type: TechArticle
-- description: Learn how to modify sphere radius java using Aspose.3D with XPath‑like
-    queries. This step‑by‑step guide shows you how to resize spheres, query objects,
-    and export updated scenes.
-  name: How to Use XPath – Modify Sphere Radius Java with Aspose.3D
+- description: Learn how to use Aspose to modify sphere radius in Java, apply XPath‑like
+    queries, and export updated scenes.
+  name: How to use Aspose to modify sphere radius in Java with XPath
   steps:
   - name: '**Set up your project** – Add the Aspose.3D Maven/Gradle dependency and
       import the necessary classes.'
     text: '**Set up your project** – Add the Aspose.3D Maven/Gradle dependency and
       import the necessary classes.'
   - name: '**Load or create a scene** – Use `Scene scene = new Scene();` or load an
-      existing file with `scene.load("model.fbx");`.'
+      existing file with `scene.open("model.fbx");`.'
     text: '**Load or create a scene** – Use `Scene scene = new Scene();` or load an
-      existing file with `scene.load("model.fbx");`.'
+      existing file with `scene.open("model.fbx");`.'
   - name: '**Locate the sphere node** – Apply an XPath‑like query such as `scene.selectNodes("//Sphere[@name=''MySphere'']")`.'
     text: '**Locate the sphere node** – Apply an XPath‑like query such as `scene.selectNodes("//Sphere[@name=''MySphere'']")`.'
   - name: '**Modify the radius** – Iterate over the returned nodes and call `sphere.setRadius(newRadius);`.'
@@ -60,7 +67,13 @@ schemas:
     question: Can I export the modified scene to other formats?
   type: FAQPage
 second_title: Aspose.3D Java API
-title: Cara Menggunakan XPath – Memodifikasi Radius Bola Java dengan Aspose.3D
+tags:
+- aspose 3d
+- java 3d
+- xpath queries
+- sphere radius
+- fbx export
+title: Cara menggunakan Aspose untuk mengubah radius bola di Java dengan XPath
 url: /id/java/3d-objects-and-scenes/
 weight: 33
 ---
@@ -69,122 +82,119 @@ weight: 33
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Menggunakan XPath – Memodifikasi Radius Bola Java dengan Aspose.3D
+# Cara menggunakan Aspose untuk mengubah radius bola di Java dengan XPath
 
 ## Pendahuluan
 
-Jika Anda bertanya-tanya **cara menggunakan XPath** saat bekerja dengan adegan 3D di Java, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan menunjukkan cara **memodifikasi radius bola java** menggunakan Aspose.3D dan, pada saat yang sama, memanfaatkan kueri mirip XPath untuk menemukan objek yang tepat yang Anda butuhkan. Pada akhir panduan ini Anda akan memahami mengapa XPath adalah alat yang kuat untuk manipulasi 3D, cara menerapkannya dalam skenario dunia nyata, dan langkah‑langkah yang diperlukan untuk melihat perubahan secara instan di adegan Anda.
+Jika Anda mencari **how to use Aspose** untuk perubahan geometri 3D yang dinamis, panduan ini menunjukkan secara tepat cara mengubah radius bola di Java menggunakan kueri mirip XPath Aspose.3D. Dalam hitungan menit Anda dapat menemukan node bola mana pun, mengubah ukurannya, menyegarkan viewport, dan **save the scene as FBX** atau format lainnya. Langkah‑langkahnya singkat, API‑nya lancar, dan regenerasi mesh yang mendasari ditangani secara otomatis, sehingga Anda dapat fokus pada logika aplikasi Anda.
 
 ## Jawaban Cepat
-- **Apa yang dicapai dengan “modify sphere radius java”?** Itu mengubah ukuran primitif bola pada waktu berjalan, memungkinkan Anda membuat model 3D dinamis.  
-- **Perpustakaan mana yang menangani ini?** Aspose.3D untuk Java menyediakan API yang fluida untuk manipulasi geometri.  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis cukup untuk evaluasi; lisensi komersial diperlukan untuk produksi.  
-- **IDE apa yang paling cocok?** Semua IDE Java (IntelliJ IDEA, Eclipse, VS Code) yang mendukung Maven/Gradle.  
-- **Bisakah saya menggabungkannya dengan kueri mirip XPath?** Tentu – Anda dapat menanyakan objek terlebih dahulu, lalu memodifikasi propertinya.
+- **Apa yang dicapai dengan “modify sphere radius java”?** Ini memperbesar primitif bola pada waktu berjalan, memungkinkan efek visual dinamis tanpa membangun ulang mesh.  
+- **Library mana yang menangani ini?** Aspose.3D for Java menyediakan API yang lancar dan tingkat‑tinggi untuk manipulasi geometri.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi komersial diperlukan untuk penerapan produksi.  
+- **IDE mana yang paling cocok?** Setiap IDE Java (IntelliJ IDEA, Eclipse, VS Code) yang mendukung Maven atau Gradle.  
+- **Bisakah saya menggabungkan ini dengan kueri mirip XPath?** Tentu – Anda dapat menanyakan objek terlebih dahulu, kemudian mengubah propertinya dalam satu langkah.  
 
-## Apa itu “modify sphere radius java”?
-Mengubah radius sebuah bola di Java berarti menyesuaikan parameter geometrik dari node `Sphere` dalam grafik adegan Aspose.3D. Node `Sphere` menyimpan informasi radius yang menentukan ukuran objek yang dirender. Operasi ini berguna untuk membuat efek animasi, menskalakan objek berdasarkan input pengguna, atau menghasilkan model secara prosedural.
+## Apa itu Aspose.3D?
+`Aspose.3D` adalah pustaka Java yang merepresentasikan sebuah scene 3D sebagai grafik hierarkis dari node, geometri, material, dan animasi. Ia mengabstraksi parsing file tingkat‑rendah dan pembuatan mesh, memungkinkan Anda bekerja dengan objek seperti `Scene`, `Node`, dan `Sphere` langsung dari kode Java.
 
-## Mengapa memodifikasi radius bola java penting?
-Memodifikasi radius secara langsung memengaruhi karakteristik visual dan fisik bola, memungkinkan pembuatan konten dinamis dan menyederhanakan perhitungan kompleks. Dengan mengubah radius, pengembang dapat merespons data runtime, menciptakan pengalaman interaktif, dan menghindari rekonstruksi mesh manual.
+## Mengapa mengubah radius bola java penting?
+Mengubah radius bola secara langsung memengaruhi baik ukuran visualnya maupun geometri tabrakan, yang penting untuk simulasi interaktif, generasi konten prosedural, dan efek visual waktu‑nyata. Dengan mendelegasikan regenerasi mesh ke Aspose.3D Anda menghindari perhitungan vertex manual dan menjaga basis kode tetap bersih.
 
-- **Konten dinamis:** Sesuaikan radius secara langsung untuk mencerminkan data sensor atau peristiwa gameplay.  
-- **Matematika sederhana:** Aspose.3D menangani regenerasi mesh di balik layar, sehingga Anda tidak perlu menghitung ulang vertex secara manual.  
-- **Integrasi mulus:** Gabungkan perubahan radius dengan material, tekstur, dan kurva animasi tanpa merusak hierarki adegan.
+## Mengapa menggunakan Aspose.3D untuk mengubah radius sphere java?
+Aspose.3D menawarkan abstraksi tingkat‑tinggi yang menghilangkan kebutuhan penanganan geometri tingkat‑rendah. Dukungan lintas‑platformnya, daftar format yang luas, dan kueri mirip XPath bawaan menjadikannya pilihan paling efisien bagi pengembang Java. Ia juga menyediakan dokumentasi lengkap, proyek contoh, dan tim dukungan yang responsif, memungkinkan pengembangan cepat dan pemecahan masalah yang mudah. I/O streaming yang dioptimalkan untuk kinerja memastikan waktu muat dan simpan yang cepat bahkan untuk scene besar, sementara API tetap intuitif bagi pemula maupun ahli.
 
-## Mengapa menggunakan Aspose.3D untuk memodifikasi radius bola java?
-Aspose.3D menyediakan API tingkat tinggi yang mengabstraksi penanganan geometri tingkat rendah, memungkinkan pengembang fokus pada logika aplikasi. Set fitur yang kuat, dukungan lintas platform, dan kompatibilitas format yang luas menjadikannya pilihan ideal untuk modifikasi radius bola yang efisien.
+## Bagaimana cara mengubah radius sphere java dengan XPath?
+Muat scene Anda, jalankan kueri mirip XPath untuk mengambil node sphere target, dan panggil `setRadius()` pada setiap node—semua dalam beberapa baris sederhana. Metode `selectNodes` mengevaluasi ekspresi mirip XPath dan mengembalikan node yang cocok, setelah itu Anda memanggil `sphere.setRadius(newRadius)` dan menyegarkan scene.
 
-- **Abstraksi tingkat tinggi:** Tidak perlu menyelam ke perhitungan mesh tingkat rendah.  
-- **Lintas platform:** Berfungsi di Windows, Linux, dan macOS.  
-- **Set fitur kaya:** Mendukung tekstur, material, animasi, dan kueri objek mirip XPath.  
-- **Kemampuan terukur:** Aspose.3D mendukung **lebih dari 60 format impor dan ekspor** dan dapat memproses adegan yang berisi **hingga 10.000 node** tanpa memuat seluruh file ke memori, memberikan waktu muat sub‑detik pada perangkat keras tipikal.  
-- **Dokumentasi & contoh yang luar biasa:** Mulai dengan cepat.
+## Cara mengubah radius sphere java?
+Untuk mengubah radius bola di Java, muat scene, gunakan kueri mirip XPath seperti `scene.selectNodes("//Sphere[@name='MySphere']")` untuk mengambil node target, panggil `sphere.setRadius(newRadius)` pada masing‑masing, panggil `scene.update()` untuk menyegarkan viewport, dan akhirnya ekspor perubahan dengan `scene.save("updated.fbx")`. Proses end‑to‑end ini biasanya selesai dalam kurang dari satu menit untuk model standar.
 
-## Cara menggunakan XPath di Aspose.3D Java?
-Kueri mirip XPath memungkinkan Anda mencari grafik adegan dengan sintaks yang ringkas dan ekspresif. Metode `selectNodes` mengeksekusi kueri mirip XPath pada grafik adegan dan mengembalikan koleksi node yang cocok. Anda dapat menemukan setiap bola, menyaring berdasarkan nama, atau memilih objek berdasarkan atribut khusus, kemudian memanggil `setRadius()` pada setiap hasil. Pendekatan ini menjaga kode tetap bersih dan secara dramatis mengurangi jumlah traversal manual yang harus Anda tulis.
+### Langkah 1: siapkan proyek Anda
+Kelas `Scene` adalah titik masuk untuk setiap operasi Aspose.3D; ia mewakili akar grafik scene. Tambahkan dependensi Aspose.3D Maven atau Gradle ke `pom.xml` atau `build.gradle` Anda, lalu impor namespace yang diperlukan dalam file sumber Java Anda.
 
-## Bagaimana cara memodifikasi radius bola java dengan XPath?
-Muat adegan Anda, jalankan kueri mirip XPath untuk mengambil node bola target, dan panggil `setRadius()` pada setiap node—semua dalam beberapa baris sederhana. Metode `selectNodes` menjalankan ekspresi mirip XPath dan mengembalikan node bola yang cocok. Misalnya, `scene.selectNodes("//Sphere[@name='MySphere']")` mengembalikan koleksi bola yang cocok; iterasi koleksi tersebut dan panggil `sphere.setRadius(5.0)` untuk mengubah ukuran setiap bola secara instan. Setelah perubahan, panggil `scene.update()` untuk menyegarkan viewport dan kemudian simpan adegan dalam format pilihan Anda.
+### Langkah 2: muat atau buat scene
+Kelas `Scene` dapat membuat scene kosong baru (`new Scene()`) atau membuka file yang sudah ada (`scene.open("model.fbx")`). Saat Anda memanggil `open`, Aspose.3D mengurai file dan mengisi hierarki node internal tanpa memuat seluruh geometri ke memori, sehingga penggunaan memori tetap rendah bahkan untuk aset besar.
 
-## Cara memodifikasi radius bola java?
-Di bawah ini Anda akan menemukan dua tutorial terfokus yang memandu Anda melalui langkah‑langkah yang tepat.
+### Langkah 3: temukan node sphere
+Metode `selectNodes` menerapkan sintaks mirip XPath untuk menavigasi grafik scene. Misalnya, `scene.selectNodes("//Sphere[@name='MySphere']")` mengembalikan koleksi semua node `Sphere` yang atribut `name`‑nya cocok dengan *MySphere*. Kelas `Sphere` adalah objek geometri Aspose.3D yang menyimpan radius, segmen, dan parameter khusus sphere lainnya.
 
-### Memodifikasi Radius Bola 3D di Java dengan Aspose.3D
-Mulailah petualangan menarik ke dunia manipulasi bola 3D menggunakan Aspose.3D. Tutorial ini membimbing Anda langkah demi langkah, mengajarkan cara memodifikasi radius bola 3D di Java dengan mudah. Baik Anda pengembang berpengalaman maupun pemula, tutorial ini memastikan pengalaman belajar yang lancar.
+### Langkah 4: ubah radius
+Metode `setRadius` milik kelas `Sphere` dan mengubah ukuran sphere. Memanggil `sphere.setRadius(7.5)` secara otomatis membangun kembali mesh sehingga representasi visual cocok dengan radius baru. Tidak diperlukan pemrosesan geometri tambahan.
 
-Apakah Anda siap memulai? Klik [here](./modify-sphere-radius/) untuk mengakses tutorial lengkap dan mengunduh sumber daya yang diperlukan. Tingkatkan keahlian Anda dalam pemrograman Java 3D dengan menguasai seni memodifikasi radius bola 3D menggunakan Aspose.3D.
+### Langkah 5: segarkan tampilan
+Setelah perubahan geometri, panggil `scene.update()` untuk memaksa viewport menggambar ulang. Metode ini menyebarkan semua perubahan yang tertunda melalui pipeline rendering, memastikan frame berikutnya menampilkan ukuran sphere yang diperbarui.
 
-### Terapkan Kueri Mirip XPath ke Objek 3D di Java
-Ungkap kekuatan kueri mirip XPath dalam pemrograman Java 3D dengan Aspose.3D. Tutorial ini memberikan wawasan komprehensif tentang penerapan kueri canggih untuk memanipulasi objek 3D secara mulus. Tingkatkan keterampilan pengembangan 3D Anda saat Anda menjelajahi dunia kueri mirip XPath dan memperkuat kemampuan berinteraksi dengan adegan 3D secara effortless.
+### Langkah 6: simpan scene yang diperbarui
+Gunakan `scene.save("updated.fbx")` untuk mengekspor scene yang dimodifikasi. Metode `save` mendukung kata kunci sekunder **save scene as fbx** serta OBJ, GLTF, dan banyak format lainnya. Aspose.3D menulis file menggunakan pendekatan streaming berperforma tinggi yang sama seperti saat memuat.
 
-Siap meningkatkan kemampuan pemrograman Java 3D Anda ke level berikutnya? Selami tutorial [here](./xpath-like-object-queries/) dan beri diri Anda pengetahuan untuk menerapkan kueri mirip XPath secara efektif. Aspose.3D memastikan pengalaman belajar yang ramah pengguna dan efisien, menjadikan manipulasi objek 3D yang kompleks dapat diakses oleh semua orang.
+## Kasus penggunaan umum untuk mengubah radius sphere java
+- **Simulasi interaktif:** Sesuaikan ukuran sphere berdasarkan data sensor langsung atau aksi pemain.  
+- **Generasi prosedural:** Buat planet, gelembung, atau partikel dengan radius bervariasi dalam satu langkah.  
+- **Animasi:** Animasikan perubahan radius untuk mensimulasikan pertumbuhan, pulsasi, atau efek tumbukan.  
 
-## Kasus Penggunaan Umum untuk memodifikasi radius bola java
-- **Simulasi interaktif:** Sesuaikan ukuran bola berdasarkan data sensor atau input pengguna.  
-- **Generasi prosedural:** Buat planet atau gelembung dengan radius bervariasi dalam satu proses.  
-- **Animasi:** Animasikan perubahan radius untuk mensimulasikan pertumbuhan, denyutan, atau efek tumbukan.  
-
-## Prerequisites
-- Java 8 atau lebih tinggi terpasang.  
+## Prasyarat
+- Java 8 atau lebih tinggi terpasang.  
 - Maven atau Gradle untuk manajemen dependensi.  
-- Perpustakaan Aspose.3D untuk Java (unduh dari situs web Aspose).  
-- Pemahaman dasar tentang grafik adegan 3D.
+- Pustaka Aspose.3D untuk Java (unduh dari situs web Aspose).  
+- Pemahaman dasar tentang grafik scene 3D.  
 
-## Panduan Langkah‑per‑Langkah (Tidak diperlukan blok kode)
+## Tips pemecahan masalah
+- **Kesalahan referensi null:** Verifikasi bahwa `scene.selectNodes` benar‑benar mengembalikan koleksi yang tidak kosong sebelum memanggil `setRadius()`.  
+- **Scene tidak memperbarui:** Setelah memodifikasi geometri, Anda harus memanggil `scene.update()` dan kemudian merender ulang atau menyimpan scene untuk melihat perubahan.  
+- **Masalah lisensi:** Pastikan file lisensi Aspose.3D dimuat dengan benar; jika tidak, watermark percobaan akan muncul pada file yang diekspor.  
 
-Kelas `Scene` mewakili akar dari grafik adegan 3D, berisi node, geometri, dan material.
+## Pertanyaan yang sering diajukan
 
-1. **Siapkan proyek Anda** – Tambahkan dependensi Aspose.3D Maven/Gradle dan impor kelas yang diperlukan.  
-2. **Muat atau buat adegan** – Gunakan `Scene scene = new Scene();` atau muat file yang ada dengan `scene.load("model.fbx");`.  
-3. **Temukan node bola** – Terapkan kueri mirip XPath seperti `scene.selectNodes("//Sphere[@name='MySphere']")`.  
-4. **Modifikasi radius** – Iterasi node yang dikembalikan dan panggil `sphere.setRadius(newRadius);`.  
-5. **Segarkan tampilan** – Panggil `scene.update();` untuk memastikan viewport mencerminkan perubahan.  
-6. **Simpan adegan yang diperbarui** – Ekspor ke format yang diinginkan (OBJ, FBX, GLTF) menggunakan `scene.save("updated.fbx");`.
+**Q: Bisakah saya mengubah radius beberapa sphere sekaligus?**  
+A: Ya. Gunakan kueri mirip XPath Aspose.3D untuk memilih semua node sphere, lalu iterasi dan atur setiap radius.
 
-## Tips Pemecahan Masalah
-- **Kesalahan referensi null:** Pastikan node bola diambil sebelum memanggil `setRadius()`.  
-- **Adegan tidak memperbarui:** Panggil `scene.update()` setelah memodifikasi geometri untuk menyegarkan viewport.  
-- **Masalah lisensi:** Verifikasi bahwa file lisensi Aspose.3D telah dimuat dengan benar; jika tidak, watermark percobaan akan muncul.  
-
-## Frequently Asked Questions
-
-**Q: Bisakah saya memodifikasi radius beberapa bola sekaligus?**  
-A: Ya. Gunakan kueri mirip XPath Aspose.3D untuk memilih semua node bola, lalu iterasi dan set setiap radius.
-
-**Q: Apakah mengubah radius memengaruhi koordinat tekstur bola?**  
-A: Pemetaan tekstur secara otomatis menyesuaikan dengan radius, menjaga konsistensi UV.
+**Q: Apakah mengubah radius memengaruhi koordinat tekstur sphere?**  
+A: Pemetaan tekstur secara otomatis menyesuaikan skala dengan radius, mempertahankan konsistensi UV.
 
 **Q: Apakah memungkinkan untuk menganimasikan perubahan radius seiring waktu?**  
-A: Tentu. Gabungkan `setRadius()` dengan timer atau loop animasi untuk menciptakan transisi halus.
+A: Tentu. Gabungkan `setRadius()` dengan timer atau loop animasi untuk membuat transisi halus.
 
 **Q: Versi Aspose.3D apa yang diperlukan?**  
-A: Versi terbaru (rilis 2024‑2025) mendukung fitur ini; selalu periksa catatan rilis untuk perubahan API.
+A: Versi terbaru apa pun (rilis 2024‑2025) mendukung fitur ini; selalu periksa catatan rilis untuk perubahan API.
 
-**Q: Bisakah saya mengekspor adegan yang dimodifikasi ke format lain?**  
-A: Ya. Aspose.3D dapat menyimpan ke OBJ, FBX, GLTF, dan lebih banyak lagi setelah Anda menyesuaikan geometri.
+**Q: Bisakah saya mengekspor scene yang dimodifikasi ke format lain?**  
+A: Ya. Aspose.3D dapat menyimpan ke OBJ, FBX, GLTF, dan lainnya setelah Anda menyesuaikan geometri.
 
-## Conclusion
-Sebagai kesimpulan, tutorial ini menjadi gerbang Anda untuk menguasai pemrograman Java 3D dengan Aspose.3D. Baik Anda **memodifikasi radius bola java** atau menerapkan kueri mirip XPath, setiap tutorial dirancang untuk meningkatkan keterampilan Anda dan memberikan pengalaman pengembangan 3D yang mulus. Unduh sumber daya, ikuti langkah‑per‑langkah, dan buka kemungkinan tak terbatas dalam pemrograman Java 3D hari ini!
-
-## Memanipulasi Objek dan Adegan 3D dalam Tutorial Java
-### [Memodifikasi Radius Bola 3D di Java dengan Aspose.3D](./modify-sphere-radius/)
-Jelajahi pemrograman Java 3D dengan Aspose.3D, memodifikasi radius bola dengan mudah. Unduh sekarang untuk pengalaman pengembangan 3D yang mulus.
-### [Terapkan Kueri Mirip XPath ke Objek 3D di Java](./xpath-like-object-queries/)
-Kuasi kueri objek 3D di Java dengan mudah menggunakan Aspose.3D. Terapkan kueri mirip XPath, manipulasi adegan, dan tingkatkan pengembangan 3D Anda.
+## Kesimpulan
+Anda kini memiliki alur kerja lengkap yang siap produksi untuk **how to use Aspose** mengubah radius sphere di Java, menanyakan objek dengan sintaks mirip XPath, dan **save the scene as FBX**. Terapkan langkah‑langkah ini untuk membangun visualisasi interaktif, dunia prosedural, atau simulasi waktu‑nyata dengan kode minimal dan keandalan maksimal.
 
 ---
 
-**Last Updated:** 2026-07-04  
-**Tested With:** Aspose.3D for Java 24.11 (2025)  
-**Author:** Aspose
+**Terakhir Diperbarui:** 2026-10-29  
+**Diuji Dengan:** Aspose.3D for Java 24.11 (2025)  
+**Penulis:** Aspose  
 
-## Related Tutorials
+## Tutorial Terkait
 
-- [Pilih Objek berdasarkan Nama di Adegan Java 3D – Kueri Mirip XPath dengan Aspose.3D](/3d/java/3d-objects-and-scenes/xpath-like-object-queries/)
+- [Ubah radius sphere 3D di java dengan aspose.3D](./modify-sphere-radius/)
+- [Terapkan kueri mirip xPath pada objek 3D di java](./xpath-like-object-queries/)
+
+- [Pilih Objek berdasarkan Nama dalam Scene 3D Java – Kueri Mirip XPath dengan Aspose.3D](/3d/java/3d-objects-and-scenes/xpath-like-object-queries/)
 - [Panduan Lisensi Langkah demi Langkah untuk Aspose.3D Java](/3d/java/licensing/)
-- [Simpan Adegan 3D yang Dirender ke File Gambar dengan Aspose.3D untuk Java](/3d/java/rendering-3d-scenes/render-to-file/)
+- [Simpan Scene 3D yang Dirender ke File Gambar dengan Aspose.3D untuk Java](/3d/java/rendering-3d-scenes/render-to-file/)
 
+```java
+// Example: modify sphere radius by traversing the scene graph
+Scene scene = new Scene();
+scene.open("model.fbx");
+
+// Find spheres named 'MySphere' by traversing the scene graph
+for (Node childNode : scene.getRootNode().getChildNodes()) {
+    Sphere sphere = (Sphere) childNode.getEntity();
+    if (sphere != null && "MySphere".equals(childNode.getName())) {
+        sphere.setRadius(5.0);
+    }
+}
+
+// Save the updated scene
+scene.save("updated.fbx");
+```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

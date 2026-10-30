@@ -1,32 +1,37 @@
 ---
-date: 2026-07-04
-description: 学习如何使用 Aspose.3D 通过类 XPath 查询在 Java 中修改球体半径。本分步指南将向您展示如何调整球体大小、查询对象以及导出更新后的场景。
+date: 2026-10-29
+description: 了解如何使用 Aspose 在 Java 中通过类似 XPath 的查询修改球体半径，将场景保存为 FBX，并高效导出更新后的 3D 模型。
 keywords:
+- how to use aspose
+- save scene as fbx
 - modify sphere radius java
-- Aspose 3D XPath
-- Java 3D sphere manipulation
+- aspose 3d xpath
+- java 3d sphere manipulation
+lastmod: 2026-10-29
 linktitle: 在 Java 中操作 3D 对象和场景
+og_description: 了解如何使用 Aspose 在 Java 中修改球体半径，应用类似 XPath 的查询，并将场景保存为 FBX——全部在简明的分步指南中。
+og_image_alt: Developer guide showing Aspose 3D Java code to change sphere radius
+  and export FBX
+og_title: 如何在 Java 中使用 Aspose 通过 XPath 修改球体半径
 schemas:
 - author: Aspose
-  dateModified: '2026-07-04'
-  description: Learn how to modify sphere radius java using Aspose.3D with XPath‑like
-    queries. This step‑by‑step guide shows you how to resize spheres, query objects,
-    and export updated scenes.
-  headline: How to Use XPath – Modify Sphere Radius Java with Aspose.3D
+  dateModified: '2026-10-29'
+  description: Learn how to use Aspose to modify sphere radius in Java, apply XPath‑like
+    queries, and export updated scenes.
+  headline: How to use Aspose to modify sphere radius in Java with XPath
   type: TechArticle
-- description: Learn how to modify sphere radius java using Aspose.3D with XPath‑like
-    queries. This step‑by‑step guide shows you how to resize spheres, query objects,
-    and export updated scenes.
-  name: How to Use XPath – Modify Sphere Radius Java with Aspose.3D
+- description: Learn how to use Aspose to modify sphere radius in Java, apply XPath‑like
+    queries, and export updated scenes.
+  name: How to use Aspose to modify sphere radius in Java with XPath
   steps:
   - name: '**Set up your project** – Add the Aspose.3D Maven/Gradle dependency and
       import the necessary classes.'
     text: '**Set up your project** – Add the Aspose.3D Maven/Gradle dependency and
       import the necessary classes.'
   - name: '**Load or create a scene** – Use `Scene scene = new Scene();` or load an
-      existing file with `scene.load("model.fbx");`.'
+      existing file with `scene.open("model.fbx");`.'
     text: '**Load or create a scene** – Use `Scene scene = new Scene();` or load an
-      existing file with `scene.load("model.fbx");`.'
+      existing file with `scene.open("model.fbx");`.'
   - name: '**Locate the sphere node** – Apply an XPath‑like query such as `scene.selectNodes("//Sphere[@name=''MySphere'']")`.'
     text: '**Locate the sphere node** – Apply an XPath‑like query such as `scene.selectNodes("//Sphere[@name=''MySphere'']")`.'
   - name: '**Modify the radius** – Iterate over the returned nodes and call `sphere.setRadius(newRadius);`.'
@@ -58,7 +63,13 @@ schemas:
     question: Can I export the modified scene to other formats?
   type: FAQPage
 second_title: Aspose.3D Java API
-title: 如何使用 XPath – 使用 Aspose.3D 在 Java 中修改球体半径
+tags:
+- aspose 3d
+- java 3d
+- xpath queries
+- sphere radius
+- fbx export
+title: 如何在 Java 中使用 Aspose 通过 XPath 修改球体半径
 url: /zh/java/3d-objects-and-scenes/
 weight: 33
 ---
@@ -67,121 +78,118 @@ weight: 33
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何使用 XPath – 使用 Aspose.3D 修改 Java 球体半径
+# 如何使用 Aspose 在 Java 中通过 XPath 修改球体半径
 
 ## 介绍
 
-如果你在使用 Java 处理 3D 场景时想了解 **如何使用 XPath**，那么你来对地方了。在本教程中，我们将展示如何使用 Aspose.3D **修改 sphere radius java**，并利用类似 XPath 的查询定位所需的精确对象。阅读完本指南后，你将了解为何 XPath 是 3D 操作的强大工具、如何在实际场景中应用它，以及需要哪些步骤才能在场景中即时看到更改。
+如果您正在寻找 **如何使用 Aspose** 来进行动态 3D 几何更改，本指南将准确展示如何使用 Aspose.3D 的 XPath‑like 查询在 Java 中修改球体的半径。只需几分钟，您就能定位任意球体节点，改变其大小，刷新视口，并 **将场景保存为 FBX** 或其他格式。步骤简洁，API 流畅，底层网格重建自动完成，让您专注于业务逻辑。
 
 ## 快速答案
-- **“modify sphere radius java” 能实现什么？** 它在运行时改变球体原语的大小，使你能够创建动态的 3D 模型。  
-- **哪个库负责此操作？** Aspose.3D for Java 提供了流畅的几何操作 API。  
-- **我需要许可证吗？** 免费试用可用于评估；生产环境需要商业许可证。  
-- **哪种 IDE 最佳？** 任何支持 Maven/Gradle 的 Java IDE（IntelliJ IDEA、Eclipse、VS Code）均可。  
-- **我可以将其与类似 XPath 的查询结合使用吗？** 当然可以——先查询对象，再修改其属性。
+- **What does “modify sphere radius java” achieve?** 它在运行时调整球体原语的大小，实现动态视觉效果而无需重新构建网格。  
+- **Which library handles this?** Aspose.3D for Java 提供流畅的高级 API 用于几何操作。  
+- **Do I need a license?** 免费试用可用于评估；生产部署需要商业许可证。  
+- **What IDE works best?** 任意支持 Maven 或 Gradle 的 Java IDE（IntelliJ IDEA、Eclipse、VS Code）。  
+- **Can I combine this with XPath‑like queries?** 完全可以——您可以先查询对象，然后一次性修改其属性。  
 
-## 什么是 “modify sphere radius java”？
-在 Java 中更改球体半径意味着调整 Aspose.3D 场景图中 `Sphere` 节点的几何参数。`Sphere` 节点保存决定渲染对象大小的半径信息。此操作可用于创建动画效果、根据用户输入缩放对象或程序化生成模型。
+## Aspose.3D 是什么？
+`Aspose.3D` 是一个 Java 库，将 3D 场景表示为节点、几何体、材质和动画的层次图。它抽象了低层文件解析和网格生成，让您直接在 Java 代码中使用 `Scene`、`Node`、`Sphere` 等对象。
 
 ## 为什么修改 sphere radius java 很重要？
-修改半径直接影响球体的视觉和物理特性，能够实现动态内容创建并简化复杂计算。通过更改半径，开发者可以响应运行时数据、创建交互式体验，并避免手动网格重建。
+改变球体半径直接影响其视觉尺寸和碰撞几何，这对于交互式仿真、程序化内容生成和实时视觉特效至关重要。将网格重建委托给 Aspose.3D 可避免手动顶点计算，保持代码整洁。
 
-- **动态内容：** 实时调整半径以反映传感器数据或游戏事件。  
-- **简化数学：** Aspose.3D 处理底层网格再生成，无需手动重新计算顶点。  
-- **无缝集成：** 将半径变化与材质、纹理和动画曲线结合，而不会破坏场景层次结构。
-
-## 为什么使用 Aspose.3D 来修改 sphere radius java？
-Aspose.3D 提供了抽象底层几何处理的高级 API，使开发者能够专注于应用逻辑。其强大的功能集、跨平台支持以及广泛的格式兼容性，使其成为高效修改球体半径的理想选择。
-
-- **高级抽象：** 无需深入底层网格计算。  
-- **跨平台：** 在 Windows、Linux 和 macOS 上均可运行。  
-- **丰富功能集：** 支持纹理、材质、动画以及类似 XPath 的对象查询。  
-- **量化能力：** Aspose.3D 支持 **60+ 导入和导出格式**，并且能够在不将整个文件加载到内存的情况下处理包含 **多达 10,000 个节点** 的场景，在普通硬件上实现亚秒级加载时间。  
-- **优秀的文档与示例：** 快速上手。
-
-## 如何在 Aspose.3D Java 中使用 XPath？
-类似 XPath 的查询让你能够使用简洁且富表达性的语法搜索场景图。`selectNodes` 方法在场景图上执行类似 XPath 的查询，并返回匹配节点的集合。你可以定位每个球体、按名称过滤，或根据自定义属性选择对象，然后对每个结果调用 `setRadius()`。这种方式保持代码整洁，显著减少手动遍历的工作量。
+## 为什么在修改 sphere radius java 时使用 Aspose.3D？
+Aspose.3D 提供的高级抽象消除了低层几何处理的需求。其跨平台支持、丰富的格式列表以及内置的 XPath‑like 查询，使其成为 Java 开发者的最优选择。它还提供完整文档、示例项目和响应迅速的支持团队，帮助快速开发并轻松排错。性能优化的流式 I/O 确保即使是大型场景也能快速加载和保存，同时 API 对初学者和专家都直观友好。
 
 ## 如何使用 XPath 修改 sphere radius java？
-加载场景后，运行类似 XPath 的查询以获取目标球体节点，并对每个节点调用 `setRadius()`——只需几行简洁代码。`selectNodes` 方法执行 XPath‑like 表达式并返回匹配的球体节点。例如，`scene.selectNodes("//Sphere[@name='MySphere']")` 会返回匹配的球体集合；遍历该集合并调用 `sphere.setRadius(5.0)` 即可即时调整每个球体的大小。更改完成后，调用 `scene.update()` 刷新视口，然后按需保存场景。
+加载场景，运行 XPath‑like 查询获取目标球体节点，然后对每个节点调用 `setRadius()`——全部只需几行代码。`selectNodes` 方法评估 XPath‑like 表达式并返回匹配节点，随后您调用 `sphere.setRadius(newRadius)` 并刷新场景。
 
 ## 如何修改 sphere radius java？
-下面提供了两个专注的教程，逐步演示具体操作。
+要在 Java 中修改球体半径，加载场景，使用类似 `scene.selectNodes("//Sphere[@name='MySphere']")` 的 XPath‑like 查询检索目标节点，对每个节点调用 `sphere.setRadius(newRadius)`，再调用 `scene.update()` 刷新视口，最后使用 `scene.save("updated.fbx")` 导出更改。此端到端过程通常在标准模型下不到一分钟即可完成。
 
-### 使用 Aspose.3D 在 Java 中修改 3D 球体半径
-踏上使用 Aspose.3D 操作 3D 球体的激动人心之旅。本教程一步步指导，教你如何在 Java 中轻松修改 3D 球体的半径。无论你是经验丰富的开发者还是初学者，本教程都能提供流畅的学习体验。
+### 步骤 1：设置项目
+`Scene` 类是任何 Aspose.3D 操作的入口点；它代表场景图的根。将 Aspose.3D 的 Maven 或 Gradle 依赖添加到 `pom.xml` 或 `build.gradle`，然后在 Java 源文件中导入所需的命名空间。
 
-准备好开始了吗？点击[此处](./modify-sphere-radius/)访问完整教程并下载所需资源。通过掌握使用 Aspose.3D 修改 3D 球体半径的技巧，提升你在 Java 3D 编程方面的能力。
+### 步骤 2：加载或创建场景
+`Scene` 类既可以创建一个新的空场景 (`new Scene()`) 也可以打开已有文件 (`scene.open("model.fbx")`)。调用 `open` 时，Aspose.3D 解析文件并填充内部节点层次结构，而不将完整几何加载到内存中，从而在处理大型资源时保持低内存占用。
 
-### 在 Java 中对 3D 对象应用 XPath‑Like 查询
-在使用 Aspose.3D 的 Java 3D 编程中，揭示 XPath‑like 查询的强大力量。本教程提供了全面的洞见，帮助你将复杂查询应用于 3D 对象的无缝操作。通过探索 XPath‑like 查询的世界，提升你的 3D 开发技能，并轻松与 3D 场景交互。
+### 步骤 3：定位球体节点
+`selectNodes` 方法实现了 XPath‑like 语法用于遍历场景图。例如，`scene.selectNodes("//Sphere[@name='MySphere']")` 返回所有 `name` 属性为 *MySphere* 的 `Sphere` 节点集合。`Sphere` 类是 Aspose.3D 的几何对象，存储半径、细分段数等球体特定参数。
 
-想将你的 Java 3D 编程技能提升到新水平吗？深入阅读教程[此处](./xpath-like-object-queries/)，掌握有效使用 XPath‑like 查询的知识。Aspose.3D 提供友好且高效的学习体验，让复杂的 3D 对象操作对所有人都触手可及。
+### 步骤 4：修改半径
+`setRadius` 方法属于 `Sphere` 类，用于改变球体大小。调用 `sphere.setRadius(7.5)` 会自动重建网格，使视觉表现与新半径匹配，无需额外的几何处理。
+
+### 步骤 5：刷新视图
+几何更改后，调用 `scene.update()` 强制视口重绘。此方法会将所有待处理的更改传播到渲染管线，确保下一帧显示更新后的球体尺寸。
+
+### 步骤 6：保存更新后的场景
+使用 `scene.save("updated.fbx")` 导出修改后的场景。`save` 方法支持 **将场景保存为 fbx** 关键字以及 OBJ、GLTF 等多种格式。Aspose.3D 使用与加载相同的高性能流式方式写入文件。
 
 ## modify sphere radius java 的常见用例
-- **交互式仿真：** 根据传感器数据或用户输入调整球体大小。  
-- **程序化生成：** 在一次遍历中创建半径各异的行星或气泡。  
-- **动画：** 动画化半径变化，以模拟生长、脉动或冲击效果。
+- **Interactive simulations:** 根据实时传感器数据或玩家操作调整球体大小。  
+- **Procedural generation:** 在一次遍历中创建具有不同半径的行星、气泡或粒子。  
+- **Animation:** 动画化半径变化以模拟生长、脉动或冲击效果。  
 
 ## 前提条件
-- 已安装 Java 8 或更高版本。  
+- 已安装 Java 8 或更高版本。  
 - 使用 Maven 或 Gradle 进行依赖管理。  
 - Aspose.3D for Java 库（从 Aspose 官网下载）。  
 - 对 3D 场景图有基本了解。
 
-## 步骤指南（无需代码块）
-`Scene` 类代表 3D 场景图的根，包含节点、几何体和材质。
-
-1. **Set up your project** – 添加 Aspose.3D 的 Maven/Gradle 依赖并导入所需类。  
-2. **Load or create a scene** – 使用 `Scene scene = new Scene();` 或通过 `scene.load("model.fbx");` 加载已有文件。  
-3. **Locate the sphere node** – 应用类似 XPath 的查询，例如 `scene.selectNodes("//Sphere[@name='MySphere']")`。  
-4. **Modify the radius** – 遍历返回的节点并调用 `sphere.setRadius(newRadius);`。  
-5. **Refresh the view** – 调用 `scene.update();` 确保视口反映更改。  
-6. **Save the updated scene** – 使用 `scene.save("updated.fbx");` 导出为所需格式（OBJ、FBX、GLTF）。
-
 ## 故障排除技巧
-- **Null reference errors:** 在调用 `setRadius()` 之前确保已检索到球体节点。  
-- **Scene not updating:** 修改几何后调用 `scene.update()` 刷新视口。  
-- **License issues:** 验证 Aspose.3D 许可证文件已正确加载，否则会出现试用水印。
+- **Null reference errors:** 在调用 `setRadius()` 前，确认 `scene.selectNodes` 实际返回了非空集合。  
+- **Scene not updating:** 修改几何后必须调用 `scene.update()`，随后重新渲染或保存场景才能看到更改。  
+- **License issues:** 确保正确加载 Aspose.3D 许可证文件，否则导出文件会出现试用水印。
 
 ## 常见问题
 
-**Q: 我可以一次修改多个球体的半径吗？**  
-A: 可以。使用 Aspose.3D 的类似 XPath 查询选中所有球体节点，然后遍历并设置每个半径。
+**Q: Can I modify the radius of multiple spheres at once?**  
+**A:** 是的。使用 Aspose.3D 的 XPath‑like 查询选中所有球体节点，然后遍历并为每个节点设置半径。
 
-**Q: 更改半径会影响球体的纹理坐标吗？**  
-A: 纹理映射会随半径自动缩放，保持 UV 一致性。
+**Q: Does changing the radius affect the sphere’s texture coordinates?**  
+**A:** 纹理映射会随半径自动缩放，保持 UV 一致性。
 
-**Q: 能否随时间动画化半径变化？**  
-A: 完全可以。将 `setRadius()` 与计时器或动画循环结合，即可实现平滑过渡。
+**Q: Is it possible to animate radius changes over time?**  
+**A:** 完全可以。将 `setRadius()` 与计时器或动画循环结合即可实现平滑过渡。
 
-**Q: 需要哪个版本的 Aspose.3D？**  
-A: 任意近期版本（2024‑2025 发布）均支持这些功能；请始终查看发行说明以获取 API 变更信息。
+**Q: What version of Aspose.3D is required?**  
+**A:** 任意近期版本（2024‑2025 发布）均支持这些功能；请始终查阅发行说明以了解 API 变更。
 
-**Q: 我可以将修改后的场景导出为其他格式吗？**  
-A: 可以。Aspose.3D 在调整几何后可保存为 OBJ、FBX、GLTF 等多种格式。
+**Q: Can I export the modified scene to other formats?**  
+**A:** 可以。调整几何后，Aspose.3D 可保存为 OBJ、FBX、GLTF 等多种格式。
 
 ## 结论
-总之，这些教程是你掌握 Aspose.3D 与 Java 3D 编程的入口。无论是 **修改 sphere radius java** 还是应用类似 XPath 的查询，每个教程都旨在提升你的技能并实现无缝的 3D 开发体验。下载资源，按照步骤操作，今天就解锁 Java 3D 编程的无限可能！
-
-## 在 Java 中操作 3D 对象和场景的教程
-### [使用 Aspose.3D 在 Java 中修改 3D 球体半径](./modify-sphere-radius/)
-探索使用 Aspose.3D 的 Java 3D 编程，轻松修改球体半径。立即下载，获得流畅的 3D 开发体验。
-### [在 Java 中对 3D 对象应用 XPath‑Like 查询](./xpath-like-object-queries/)
-轻松掌握使用 Aspose.3D 在 Java 中的 3D 对象查询。应用 XPath‑Like 查询，操控场景，提升你的 3D 开发水平。
+您现在拥有完整的、可投入生产的工作流，能够 **如何使用 Aspose** 在 Java 中修改球体半径，使用 XPath‑like 语法查询对象，并 **将场景保存为 FBX**。将这些步骤应用于构建交互式可视化、程序化世界或实时仿真，代码量少且可靠性高。
 
 ---
 
-**最后更新：** 2026-07-04  
+**最后更新：** 2026-10-29  
 **测试环境：** Aspose.3D for Java 24.11 (2025)  
-**作者：** Aspose
+**作者：** Aspose  
 
 ## 相关教程
 
-- [使用 Aspose.3D 在 Java 3D 场景中按名称选择对象 – XPath‑Like 查询](/3d/java/3d-objects-and-scenes/xpath-like-object-queries/)
-- [Aspose.3D Java 许可证分步指南](/3d/java/licensing/)
+- [在 Java 中使用 Aspose.3D 修改 3D 球体半径](./modify-sphere-radius/)
+- [在 Java 中对 3D 对象应用 XPath‑Like 查询](./xpath-like-object-queries/)
+- [在 Java 3D 场景中按名称选择对象 – 使用 Aspose.3D 的 XPath‑Like 查询](/3d/java/3d-objects-and-scenes/xpath-like-object-queries/)
+- [Aspose.3D Java 许可证指南（逐步）](/3d/java/licensing/)
 - [使用 Aspose.3D for Java 将渲染的 3D 场景保存为图像文件](/3d/java/rendering-3d-scenes/render-to-file/)
 
+```java
+// Example: modify sphere radius by traversing the scene graph
+Scene scene = new Scene();
+scene.open("model.fbx");
+
+// Find spheres named 'MySphere' by traversing the scene graph
+for (Node childNode : scene.getRootNode().getChildNodes()) {
+    Sphere sphere = (Sphere) childNode.getEntity();
+    if (sphere != null && "MySphere".equals(childNode.getName())) {
+        sphere.setRadius(5.0);
+    }
+}
+
+// Save the updated scene
+scene.save("updated.fbx");
+```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

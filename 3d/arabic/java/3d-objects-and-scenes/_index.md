@@ -1,34 +1,40 @@
 ---
-date: 2026-07-04
-description: تعلم كيفية تعديل نصف قطر الكرة في Java باستخدام Aspose.3D مع استعلامات
-  شبيهة بـ XPath. يوضح لك هذا الدليل خطوة بخطوة كيفية تغيير حجم الكرات، استعلام الكائنات،
-  وتصدير المشاهد المحدثة.
+date: 2026-10-29
+description: تعلم كيفية استخدام Aspose لتعديل نصف قطر الكرة في Java باستخدام استعلامات
+  شبيهة بـ XPath، وحفظ المشهد كـ FBX، وتصدير النماذج ثلاثية الأبعاد المحدثة بكفاءة.
 keywords:
+- how to use aspose
+- save scene as fbx
 - modify sphere radius java
-- Aspose 3D XPath
-- Java 3D sphere manipulation
-linktitle: معالجة الكائنات والمشاهد ثلاثية الأبعاد في Java
+- aspose 3d xpath
+- java 3d sphere manipulation
+lastmod: 2026-10-29
+linktitle: معالجة الكائنات ثلاثية الأبعاد والمشاهد في Java
+og_description: تعلم كيفية استخدام Aspose لتعديل نصف قطر الكرة في Java، وتطبيق استعلامات
+  شبيهة بـ XPath، وحفظ المشهد كـ FBX—كل ذلك في دليل خطوة بخطوة مختصر.
+og_image_alt: Developer guide showing Aspose 3D Java code to change sphere radius
+  and export FBX
+og_title: كيفية استخدام Aspose لتعديل نصف قطر الكرة في Java باستخدام استعلامات شبيهة
+  بـ XPath
 schemas:
 - author: Aspose
-  dateModified: '2026-07-04'
-  description: Learn how to modify sphere radius java using Aspose.3D with XPath‑like
-    queries. This step‑by‑step guide shows you how to resize spheres, query objects,
-    and export updated scenes.
-  headline: How to Use XPath – Modify Sphere Radius Java with Aspose.3D
+  dateModified: '2026-10-29'
+  description: Learn how to use Aspose to modify sphere radius in Java, apply XPath‑like
+    queries, and export updated scenes.
+  headline: How to use Aspose to modify sphere radius in Java with XPath
   type: TechArticle
-- description: Learn how to modify sphere radius java using Aspose.3D with XPath‑like
-    queries. This step‑by‑step guide shows you how to resize spheres, query objects,
-    and export updated scenes.
-  name: How to Use XPath – Modify Sphere Radius Java with Aspose.3D
+- description: Learn how to use Aspose to modify sphere radius in Java, apply XPath‑like
+    queries, and export updated scenes.
+  name: How to use Aspose to modify sphere radius in Java with XPath
   steps:
   - name: '**Set up your project** – Add the Aspose.3D Maven/Gradle dependency and
       import the necessary classes.'
     text: '**Set up your project** – Add the Aspose.3D Maven/Gradle dependency and
       import the necessary classes.'
   - name: '**Load or create a scene** – Use `Scene scene = new Scene();` or load an
-      existing file with `scene.load("model.fbx");`.'
+      existing file with `scene.open("model.fbx");`.'
     text: '**Load or create a scene** – Use `Scene scene = new Scene();` or load an
-      existing file with `scene.load("model.fbx");`.'
+      existing file with `scene.open("model.fbx");`.'
   - name: '**Locate the sphere node** – Apply an XPath‑like query such as `scene.selectNodes("//Sphere[@name=''MySphere'']")`.'
     text: '**Locate the sphere node** – Apply an XPath‑like query such as `scene.selectNodes("//Sphere[@name=''MySphere'']")`.'
   - name: '**Modify the radius** – Iterate over the returned nodes and call `sphere.setRadius(newRadius);`.'
@@ -60,7 +66,14 @@ schemas:
     question: Can I export the modified scene to other formats?
   type: FAQPage
 second_title: Aspose.3D Java API
-title: كيفية استخدام XPath – تعديل نصف قطر الكرة في Java باستخدام Aspose.3D
+tags:
+- aspose 3d
+- java 3d
+- xpath queries
+- sphere radius
+- fbx export
+title: كيفية استخدام Aspose لتعديل نصف قطر الكرة في Java باستخدام استعلامات شبيهة
+  بـ XPath
 url: /ar/java/3d-objects-and-scenes/
 weight: 33
 ---
@@ -69,120 +82,118 @@ weight: 33
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية استخدام XPath – تعديل نصف قطر الكرة في Java باستخدام Aspose.3D
+# كيفية استخدام Aspose لتعديل نصف قطر الكرة في Java باستخدام XPath
 
 ## مقدمة
 
-إذا كنت تتساءل **how to use XPath** عند العمل مع مشاهد 3D في Java، فقد وجدت المكان المناسب. في هذا الدرس سنوضح لك كيفية **modify sphere radius java** باستخدام Aspose.3D، وفي نفس الوقت نستفيد من استعلامات شبيهة بـ XPath لتحديد الكائنات الدقيقة التي تحتاجها. بحلول نهاية هذا الدليل ستفهم لماذا يعتبر XPath أداة قوية لمعالجة 3D، وكيفية تطبيقه في سيناريوهات العالم الحقيقي، وما هي الخطوات المطلوبة لرؤية التغييرات فورًا في المشهد الخاص بك.
+إذا كنت تبحث عن **how to use Aspose** لتغييرات الهندسة ثلاثية الأبعاد الديناميكية، فإن هذا الدليل يوضح لك بالضبط كيفية تعديل نصف قطر كرة في Java باستخدام استعلامات XPath‑like الخاصة بـ Aspose.3D. خلال دقائق ستتمكن من تحديد أي عقدة كرة، تغيير حجمها، تحديث نافذة العرض، و**save the scene as FBX** أو صيغ أخرى. الخطوات مختصرة، الـ API سهل الاستخدام، وإعادة توليد الشبكة الداخلية تتم تلقائيًا، لذا يمكنك التركيز على منطق التطبيق الخاص بك.
 
 ## إجابات سريعة
-- **What does “modify sphere radius java” achieve?** إنه يغيّر حجم كائن الكرة الأساسي أثناء التشغيل، مما يتيح لك إنشاء نماذج 3D ديناميكية.  
-- **Which library handles this?** Aspose.3D for Java يوفر API سهل الاستخدام لمعالجة الهندسة.  
-- **Do I need a license?** نسخة تجريبية مجانية تكفي للتقييم؛ يلزم الحصول على ترخيص تجاري للإنتاج.  
-- **What IDE works best?** أي بيئة تطوير Java (IntelliJ IDEA، Eclipse، VS Code) تدعم Maven/Gradle.  
-- **Can I combine this with XPath‑like queries?** بالطبع – يمكنك استعلام الكائنات أولاً، ثم تعديل خصائصها.
+- **What does “modify sphere radius java” achieve?** إنه يعيد تحجيم كائن كرة في وقت التشغيل، مما يتيح تأثيرات بصرية ديناميكية دون الحاجة لإعادة بناء الشبكة.  
+- **Which library handles this?** Aspose.3D for Java يوفر API عالي المستوى وسلس لتعديل الهندسة.  
+- **Do I need a license?** نسخة تجريبية مجانية تكفي للتقييم؛ يلزم الحصول على ترخيص تجاري للنشر في بيئات الإنتاج.  
+- **What IDE works best?** أي بيئة تطوير Java (IntelliJ IDEA، Eclipse، VS Code) تدعم Maven أو Gradle.  
+- **Can I combine this with XPath‑like queries?** بالتأكيد – يمكنك استعلام الكائنات أولاً، ثم تعديل خصائصها في خطوة واحدة.  
 
-## ما هو “modify sphere radius java”؟
-تغيير نصف قطر الكرة في Java يعني تعديل المعلمات الهندسية لعقدة `Sphere` في رسم مشهد Aspose.3D. تخزن عقدة `Sphere` معلومات نصف القطر التي تحدد حجم الكائن المُعرض. هذه العملية مفيدة لإنشاء تأثيرات متحركة، وتوسيع الكائنات بناءً على مدخلات المستخدم، أو توليد نماذج إجرائية.
+## ما هو Aspose.3D؟
+`Aspose.3D` هو مكتبة Java تمثل المشهد ثلاثي الأبعاد كرسوم بيانية هرمية من العقد، الهندسة، المواد، والرسوم المتحركة. إنها تُجرد عملية تحليل الملفات منخفضة المستوى وتوليد الشبكات، مما يتيح لك العمل مع كائنات مثل `Scene`، `Node`، و `Sphere` مباشرةً من كود Java.
 
 ## لماذا تعديل نصف قطر الكرة في Java مهم؟
-تعديل نصف القطر يؤثر مباشرة على الخصائص البصرية والفيزيائية للكرة، مما يتيح إنشاء محتوى ديناميكي وتبسيط الحسابات المعقدة. من خلال تغيير نصف القطر، يمكن للمطورين الاستجابة لبيانات وقت التشغيل، إنشاء تجارب تفاعلية، وتجنب إعادة بناء الشبكة يدوياً.
-
-- **Dynamic content:** ضبط نصف القطر في الوقت الفعلي لتعكس بيانات المستشعر أو أحداث اللعبة.  
-- **Simplified math:** Aspose.3D يتولى تجديد الشبكة الأساسية، لذا لا تحتاج إلى إعادة حساب الرؤوس يدويًا.  
-- **Seamless integration:** دمج تغييرات نصف القطر مع المواد، القوام، ومنحنيات التحريك دون كسر هيكلية المشهد.
+تغيير نصف قطر الكرة يؤثر مباشرةً على حجمها البصري وهندسة التصادم الخاصة بها، وهو أمر أساسي للمحاكاة التفاعلية، توليد المحتوى الإجرائي، وتأثيرات البصرية في الوقت الحقيقي. من خلال تفويض إعادة توليد الشبكة إلى Aspose.3D تتجنب حسابات الرؤوس اليدوية وتحافظ على نظافة قاعدة الكود.
 
 ## لماذا تستخدم Aspose.3D لتعديل نصف قطر الكرة في Java؟
-Aspose.3D يوفر API عالي المستوى ي抽象 التعامل مع الهندسة منخفضة المستوى، مما يسمح للمطورين بالتركيز على منطق التطبيق. مجموعة ميزاته القوية، الدعم المتعدد المنصات، وتوافقه الواسع مع الصيغ تجعل منه خيارًا مثاليًا لتعديلات نصف قطر الكرة بكفاءة.
+Aspose.3D يقدم تجريدًا عالي المستوى يلغي الحاجة إلى التعامل مع الهندسة منخفضة المستوى. دعمه المتعدد المنصات، قائمة الصيغ الواسعة، والقدرة المدمجة على الاستعلام بنمط XPath‑like تجعله الخيار الأكثر كفاءة لمطوري Java. كما يوفر توثيقًا شاملاً، مشاريع مثال، وفريق دعم سريع الاستجابة، مما يتيح تطويرًا سريعًا وحل مشاكل سهل. تدفق I/O المُحسّن للأداء يضمن أوقات تحميل وحفظ سريعة حتى للمشاهد الكبيرة، بينما يظل الـ API بديهيًا للمبتدئين والخبراء على حد سواء.
 
-- **High‑level abstraction:** لا حاجة للغوص في حسابات الشبكة منخفضة المستوى.  
-- **Cross‑platform:** يعمل على Windows وLinux وmacOS.  
-- **Rich feature set:** يدعم القوام، المواد، التحريكات، واستعلامات شبيهة بـ XPath.  
-- **Quantified capability:** Aspose.3D يدعم **أكثر من 60 صيغة استيراد وتصدير** ويمكنه معالجة مشاهد تحتوي على **حتى 10,000 عقدة** دون تحميل الملف بالكامل إلى الذاكرة، مما يوفّر أوقات تحميل أقل من الثانية على الأجهزة العادية.  
-- **Excellent documentation & samples:** احصل على إعداد سريع.
+## كيف يمكنني تعديل نصف قطر الكرة في Java باستخدام XPath؟
+حمّل المشهد، نفّذ استعلامًا شبيهًا بـ XPath لجلب عقد الكرة المستهدفة، ثم استدعِ `setRadius()` على كل عقدة—كل ذلك في بضع أسطر بسيطة. طريقة `selectNodes` تقيم التعبير الشبيه بـ XPath وتعيد العقد المطابقة، بعد ذلك تستدعي `sphere.setRadius(newRadius)` وتُحدّث المشهد.
 
-## كيف تستخدم XPath في Aspose.3D Java؟
-استعلامات شبيهة بـ XPath تتيح لك البحث في رسم المشهد بصياغة مختصرة ومعبرة. طريقة `selectNodes` تنفّذ استعلامًا شبيهًا بـ XPath على رسم المشهد وتعيد مجموعة من العقد المطابقة. يمكنك تحديد كل كرة، الترشيح بالاسم، أو اختيار الكائنات بناءً على سمات مخصصة، ثم استدعاء `setRadius()` على كل نتيجة. هذا النهج يحافظ على نظافة الكود ويقلل بشكل كبير من الحاجة إلى كتابة عمليات تجوال يدوية.
+## كيفية تعديل نصف قطر الكرة في Java؟
+لتعديل نصف قطر كرة في Java، حمّل المشهد، استخدم استعلامًا شبيهًا بـ XPath مثل `scene.selectNodes("//Sphere[@name='MySphere']")` لاسترجاع العقد المستهدفة، استدعِ `sphere.setRadius(newRadius)` على كل منها، نفّذ `scene.update()` لتحديث نافذة العرض، وأخيرًا صدّر التغييرات باستخدام `scene.save("updated.fbx")`. عادةً ما يكتمل هذا الإجراء من البداية إلى النهاية في أقل من دقيقة للنماذج القياسية.
 
-## كيف أقوم بتعديل نصف قطر الكرة في Java باستخدام XPath؟
-حمّل المشهد الخاص بك، نفّذ استعلامًا شبيهًا بـ XPath لجلب عقد الكرة المستهدفة، واستدعِ `setRadius()` على كل عقدة—كل ذلك في بضع أسطر بسيطة. طريقة `selectNodes` تنفّذ التعبير الشبيه بـ XPath وتعيد عقد الكرة المطابقة. على سبيل المثال، `scene.selectNodes("//Sphere[@name='MySphere']")` تُعيد مجموعة من الكرات المطابقة؛ عند التكرار على تلك المجموعة واستدعاء `sphere.setRadius(5.0)` يتم تعديل حجم كل كرة فورًا. بعد التغيير، استدعِ `scene.update()` لتحديث العرض ثم احفظ المشهد بالصيغ التي تفضّلها.
+### الخطوة 1: إعداد مشروعك
+فئة `Scene` هي نقطة الدخول لأي عملية Aspose.3D؛ تمثل جذر الرسم البياني للمشهد. أضف تبعية Aspose.3D لـ Maven أو Gradle إلى ملف `pom.xml` أو `build.gradle`، ثم استورد المساحات الاسمية المطلوبة في ملف مصدر Java الخاص بك.
 
-## كيف تعدل نصف قطر الكرة في Java؟
-فيما يلي تجد دليلين مركّزين يرشدانك عبر الخطوات الدقيقة.
+### الخطوة 2: تحميل أو إنشاء مشهد
+فئة `Scene` يمكنها إما إنشاء مشهد فارغ جديد (`new Scene()`) أو فتح ملف موجود (`scene.open("model.fbx")`). عند استدعاء `open`، تقوم Aspose.3D بتحليل الملف وتملأ التسلسل الهرمي للعقد داخليًا دون تحميل الهندسة بالكامل إلى الذاكرة، مما يحافظ على استهلاك منخفض للذاكرة حتى للأصول الكبيرة.
 
-### تعديل نصف قطر الكرة ثلاثية الأبعاد في Java باستخدام Aspose.3D
-انطلق في مغامرة مثيرة إلى عالم تعديل كرات 3D باستخدام Aspose.3D. هذا الدرس يوجهك خطوة بخطوة، يعلمك كيفية تعديل نصف قطر كرة 3D في Java بسهولة. سواء كنت مطورًا متمرسًا أو مبتدئًا، يضمن لك هذا الدرس تجربة تعلم سلسة.
+### الخطوة 3: تحديد عقدة الكرة
+طريقة `selectNodes` تنفّذ صياغة شبيهة بـ XPath لتصفح الرسم البياني للمشهد. على سبيل المثال، `scene.selectNodes("//Sphere[@name='MySphere']")` تُعيد مجموعة من جميع عقد `Sphere` التي يطابق atributo `name` الخاص بها *MySphere*. فئة `Sphere` هي كائن الهندسة في Aspose.3D الذي يخزن نصف القطر، القطاعات، وغيرها من المعلمات الخاصة بالكرة.
 
-هل أنت مستعد للغوص؟ اضغط [هنا](./modify-sphere-radius/) للوصول إلى الدرس الكامل وتحميل الموارد اللازمة. حسّن مهاراتك في برمجة Java 3D من خلال إتقان فن تعديل نصف قطر الكرة ثلاثية الأبعاد باستخدام Aspose.3D.
+### الخطوة 4: تعديل نصف القطر
+طريقة `setRadius` تنتمي إلى فئة `Sphere` وتغيّر حجم الكرة. استدعاء `sphere.setRadius(7.5)` يعيد بناء الشبكة تلقائيًا بحيث يتطابق التمثيل البصري مع نصف القطر الجديد. لا يلزم أي معالجة هندسية إضافية.
 
-### تطبيق استعلامات شبيهة بـ XPath على كائنات 3D في Java
-اكتشف قوة استعلامات شبيهة بـ XPath في برمجة Java 3D مع Aspose.3D. يقدم هذا الدرس رؤى شاملة حول تطبيق استعلامات متقدمة لتعديل كائنات 3D بسلاسة. ارتق بمهاراتك في تطوير 3D أثناء استكشاف عالم استعلامات شبيهة بـ XPath وتعزيز قدرتك على التفاعل مع مشاهد 3D بسهولة.
+### الخطوة 5: تحديث العرض
+بعد تغييرات الهندسة، استدعِ `scene.update()` لإجبار نافذة العرض على إعادة الرسم. هذه الطريقة تُمرّر جميع التغييرات المعلقة عبر خط أنابيب التصيير، مما يضمن أن الإطار التالي يعرض حجم الكرة المحدث.
 
-هل تريد رفع مهاراتك في برمجة Java 3D إلى المستوى التالي؟ استكشف الدرس [هنا](./xpath-like-object-queries/) وتمكّن من تطبيق استعلامات شبيهة بـ XPath بفعالية. Aspose.3D يضمن تجربة تعلم صديقة للمستخدم وفعّالة، مما يجعل تعديل كائنات 3D المعقدة في متناول الجميع.
+### الخطوة 6: حفظ المشهد المحدث
+استخدم `scene.save("updated.fbx")` لتصدير المشهد المعدل. تدعم طريقة `save` الكلمة المفتاحية الثانوية **save scene as fbx** بالإضافة إلى OBJ، GLTF، والعديد من الصيغ الأخرى. تقوم Aspose.3D بكتابة الملف باستخدام نفس نهج البث عالي الأداء الذي استخدمته للتحميل.
 
 ## حالات الاستخدام الشائعة لتعديل نصف قطر الكرة في Java
-- **Interactive simulations:** ضبط حجم الكرة بناءً على بيانات المستشعر أو مدخلات المستخدم.  
-- **Procedural generation:** إنشاء كواكب أو فقاعات بنصف أقطار متغيرة في تمريرة واحدة.  
-- **Animation:** تحريك تغيّر نصف القطر لمحاكاة النمو أو النبض أو تأثيرات الصدمات.  
+- **المحاكاة التفاعلية:** ضبط حجم الكرة بناءً على بيانات حسّاسات حية أو إجراءات اللاعب.  
+- **التوليد الإجرائي:** إنشاء كواكب، فقاعات، أو جسيمات بأقطار مختلفة في خطوة واحدة.  
+- **الرسوم المتحركة:** تحريك تغيّر نصف القطر لمحاكاة النمو، النبض، أو تأثيرات الصدمات.  
 
 ## المتطلبات المسبقة
-- Java 8 أو أعلى مثبت.  
+- تثبيت Java 8 أو أعلى.  
 - Maven أو Gradle لإدارة التبعيات.  
 - مكتبة Aspose.3D for Java (تحميل من موقع Aspose).  
 - إلمام أساسي برسوم المشاهد ثلاثية الأبعاد.
 
-## دليل خطوة بخطوة (لا حاجة لكتل الشيفرة)
-فئة `Scene` تمثل جذر رسم المشهد ثلاثي الأبعاد، وتحتوي على العقد، الهندسة، والمواد.
-
-1. **Set up your project** – أضف تبعية Aspose.3D لـ Maven/Gradle واستورد الفئات الضرورية.  
-2. **Load or create a scene** – استخدم `Scene scene = new Scene();` أو حمّل ملفًا موجودًا بـ `scene.load("model.fbx");`.  
-3. **Locate the sphere node** – طبّق استعلامًا شبيهًا بـ XPath مثل `scene.selectNodes("//Sphere[@name='MySphere']")`.  
-4. **Modify the radius** – كرّر على العقد المسترجعة واستدعِ `sphere.setRadius(newRadius);`.  
-5. **Refresh the view** – نفّذ `scene.update();` لضمان أن نافذة العرض تعكس التغيير.  
-6. **Save the updated scene** – صدّر إلى الصيغة التي تريدها (OBJ, FBX, GLTF) باستخدام `scene.save("updated.fbx");`.
-
 ## نصائح استكشاف الأخطاء وإصلاحها
-- **Null reference errors:** تأكد من استرجاع عقدة الكرة قبل استدعاء `setRadius()`.  
-- **Scene not updating:** نفّذ `scene.update()` بعد تعديل الهندسة لتحديث نافذة العرض.  
-- **License issues:** تحقق من تحميل ملف ترخيص Aspose.3D بشكل صحيح؛ وإلا سيظهر علامة مائية تجريبية.
+- **أخطاء الإشارة إلى كائن فارغ:** تأكد من أن `scene.selectNodes` تُعيد مجموعة غير فارغة قبل استدعاء `setRadius()`.  
+- **المشهد لا يتم تحديثه:** بعد تعديل الهندسة، يجب استدعاء `scene.update()` ثم إعادة التصيير أو حفظ المشهد لرؤية التغييرات.  
+- **مشكلات الترخيص:** تأكد من تحميل ملف ترخيص Aspose.3D بشكل صحيح؛ وإلا سيظهر علامة مائية تجريبية على الملفات المصدرة.  
 
 ## الأسئلة المتكررة
 
-**س: هل يمكنني تعديل نصف القطر لعدة كرات في آن واحد؟**  
-ج: نعم. استخدم استعلام شبيه بـ XPath من Aspose.3D لتحديد جميع عقد الكرات، ثم كرّر واضبط نصف القطر لكل واحدة.
+**س: هل يمكنني تعديل نصف القطر لعدة كرات في آنٍ واحد؟**  
+ج: نعم. استخدم استعلام XPath‑like الخاص بـ Aspose.3D لتحديد جميع عقد الكرة، ثم كرّر العملية واضبط نصف القطر لكل واحدة.
 
-**س: هل يؤثر تغيير نصف القطر على إحداثيات قوام الكرة؟**  
-ج: خريطة القوام تتوسع تلقائيًا مع نصف القطر، مع الحفاظ على تناسق UV.
+**س: هل يؤثر تغيير نصف القطر على إحداثيات نسيج الكرة؟**  
+ج: خريطة النسيج تُعيد التحجيم تلقائيًا مع نصف القطر، مما يحافظ على تناسق UV.
 
 **س: هل يمكن تحريك تغيّر نصف القطر مع مرور الوقت؟**  
-ج: بالتأكيد. اجمع `setRadius()` مع مؤقت أو حلقة تحريك لإنشاء انتقالات سلسة.
+ج: بالتأكيد. اجمع `setRadius()` مع مؤقت أو حلقة رسوم متحركة لإنشاء انتقالات سلسة.
 
-**س: ما الإصدار المطلوب من Aspose.3D؟**  
-ج: أي إصدار حديث (إصدارات 2024‑2025) يدعم هذه الميزات؛ تحقق دائمًا من ملاحظات الإصدار لأي تغييرات في API.
+**س: ما هو الإصدار المطلوب من Aspose.3D؟**  
+ج: أي إصدار حديث (إصدارات 2024‑2025) يدعم هذه الميزات؛ تحقق دائمًا من ملاحظات الإصدار لأي تغييرات في الـ API.
 
 **س: هل يمكنني تصدير المشهد المعدل إلى صيغ أخرى؟**  
-ج: نعم. Aspose.3D يمكنه حفظ المشهد إلى OBJ، FBX، GLTF، وغيرها بعد تعديل الهندسة.
+ج: نعم. يمكن لـ Aspose.3D حفظ المشهد إلى OBJ، FBX، GLTF، والمزيد بعد تعديل الهندسة.
 
 ## الخلاصة
-في الختام، تُعد هذه الدروس بوابتك لإتقان برمجة Java 3D باستخدام Aspose.3D. سواء كنت **modify sphere radius java** أو تطبق استعلامات شبيهة بـ XPath، كل درس صُمم لتعزيز مهاراتك وتوفير تجربة تطوير 3D سلسة. حمّل الموارد، اتبع التعليمات خطوة بخطوة، وافتح إمكانيات لا حصر لها في برمجة Java 3D اليوم!
-
-## تعديل كائنات ومشاهد 3D في Java - دروس
-### [تعديل نصف قطر الكرة ثلاثية الأبعاد في Java باستخدام Aspose.3D](./modify-sphere-radius/)
-استكشف برمجة Java 3D مع Aspose.3D، تعديل نصف قطر الكرة بسهولة. حمّل الآن لتجربة تطوير 3D سلسة.
-### [تطبيق استعلامات شبيهة بـ XPath على كائنات 3D في Java](./xpath-like-object-queries/)
-اتقن استعلامات الكائنات ثلاثية الأبعاد في Java بسهولة مع Aspose.3D. طبّق استعلامات شبيهة بـ XPath، عدّل المشاهد، وارتقِ بتطوير 3D الخاص بك.
+أصبح لديك الآن سير عمل كامل وجاهز للإنتاج **how to use Aspose** لتعديل نصف قطر كرة في Java، استعلام الكائنات بصيغة شبيهة بـ XPath، و**save the scene as FBX**. طبّق هذه الخطوات لبناء تصورات تفاعلية، عوالم إجرائية، أو محاكاة في الوقت الحقيقي بأقل قدر من الكود وأعلى موثوقية.
 
 ---
 
-**آخر تحديث:** 2026-07-04  
-**تم الاختبار مع:** Aspose.3D for Java 24.11 (2025)  
-**المؤلف:** Aspose
+**آخر تحديث:** 2026-10-29  
+**تم الاختبار باستخدام:** Aspose.3D for Java 24.11 (2025)  
+**المؤلف:** Aspose  
 
 ## دروس ذات صلة
 
-- [تحديد الكائنات بالاسم في مشهد Java 3D – استعلامات شبيهة بـ XPath مع Aspose.3D](/3d/java/3d-objects-and-scenes/xpath-like-object-queries/)
+- [تعديل نصف قطر كرة 3D في Java باستخدام Aspose.3D](./modify-sphere-radius/)
+- [تطبيق استعلامات شبيهة بـ xPath على كائنات 3D في Java](./xpath-like-object-queries/)
+- [اختيار الكائنات حسب الاسم في مشهد Java 3D – استعلامات شبيهة بـ XPath باستخدام Aspose.3D](/3d/java/3d-objects-and-scenes/xpath-like-object-queries/)
 - [دليل الترخيص خطوة بخطوة لـ Aspose.3D Java](/3d/java/licensing/)
 - [حفظ المشاهد ثلاثية الأبعاد المرسومة إلى ملفات صور باستخدام Aspose.3D for Java](/3d/java/rendering-3d-scenes/render-to-file/)
+
+```java
+// Example: modify sphere radius by traversing the scene graph
+Scene scene = new Scene();
+scene.open("model.fbx");
+
+// Find spheres named 'MySphere' by traversing the scene graph
+for (Node childNode : scene.getRootNode().getChildNodes()) {
+    Sphere sphere = (Sphere) childNode.getEntity();
+    if (sphere != null && "MySphere".equals(childNode.getName())) {
+        sphere.setRadius(5.0);
+    }
+}
+
+// Save the updated scene
+scene.save("updated.fbx");
+```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

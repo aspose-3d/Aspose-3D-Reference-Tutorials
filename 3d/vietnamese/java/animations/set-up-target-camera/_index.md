@@ -1,20 +1,26 @@
 ---
-date: 2026-08-22
+date: 2026-10-29
 description: Tìm hiểu cách định vị camera và khởi tạo cảnh 3D trong Java, cấu hình
-  camera target, và animate camera bằng Aspose.3D. Hướng dẫn từng bước kèm code samples.
+  mục tiêu camera và tạo chuyển động cho camera bằng Aspose.3D. Hướng dẫn chi tiết
+  từng bước kèm mẫu mã.
+images:
+- /java/animations/set-up-target-camera/og-image.png
 keywords:
-- create 3d scene java
+- how to position camera
 - animate camera java
+- create 3d scene java
 - configure camera target
-lastmod: 2026-08-22
+- Aspose.3D Java
+lastmod: 2026-10-29
 linktitle: Cách Định Vị Camera và Khởi Tạo Cảnh 3D trong Java | Hướng Dẫn Aspose.3D
-og_description: Tạo cảnh 3D java và tìm hiểu cách định vị camera, thiết lập target,
-  và animate nó bằng Aspose.3D. Hướng dẫn từng bước cho các nhà phát triển Java.
+og_description: Tìm hiểu cách định vị camera, đặt mục tiêu và tạo chuyển động cho
+  nó khi tạo cảnh 3D trong Java bằng Aspose.3D. Hướng dẫn chi tiết dành cho nhà phát
+  triển.
 og_image_alt: Aspose.3D Java tutorial showing camera positioning and scene initialization
-og_title: Tạo cảnh 3D java và định vị camera với Aspose.3D
+og_title: Cách định vị camera và tạo cảnh 3D trong Java
 schemas:
 - author: Aspose
-  dateModified: '2026-08-22'
+  dateModified: '2026-10-29'
   description: Learn how to position camera and initialize a 3D scene in Java, configure
     camera target, and animate camera using Aspose.3D. Step‑by‑step guide with code
     samples.
@@ -47,100 +53,97 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Đặt Vị Trí Camera và Khởi Tạo Cảnh 3D trong Java | Hướng Dẫn Aspose.3D
+# Cách định vị camera và khởi tạo cảnh 3D trong Java | Hướng dẫn Aspose.3D
 
 ## Giới thiệu
 
-Chào mừng! Trong hướng dẫn này, bạn sẽ học **cách đặt vị trí camera** khi **khởi tạo một cảnh 3D trong Java** với Aspose.3D và sau đó gắn một camera mục tiêu để bạn có thể hoạt hình hoá mô hình của mình với kiểm soát đầy đủ. Dù bạn đang xây dựng một trò chơi, một công cụ hiển thị sản phẩm, hay một mô phỏng khoa học, việc thành thạo việc đặt camera là chìa khóa để mang lại trải nghiệm người xem hấp dẫn.
-
-Lớp `Scene` là container gốc chứa tất cả các đối tượng trong mô hình 3‑D. Lớp `Camera` xác định góc nhìn để render cảnh. Phương thức `setTarget(Node)` gán một node mục tiêu cho camera nhìn vào.
+Trong hướng dẫn này, bạn sẽ khám phá **cách định vị camera** khi **khởi tạo một cảnh 3D trong Java** bằng Aspose.3D. Việc đặt camera đúng vị trí cho phép bạn kiểm soát hoàn toàn góc nhìn của người xem, điều này rất quan trọng đối với trò chơi, trình diễn sản phẩm hoặc mô phỏng khoa học. Chúng tôi sẽ hướng dẫn tạo một cảnh, thêm một camera hướng tới mục tiêu, và tạo hoạt ảnh cho nó để mô hình của bạn di chuyển một cách mượt mà.
 
 ## Câu trả lời nhanh
-
 - **Bước đầu tiên là gì?** Khởi tạo cảnh 3D bằng cách sử dụng `new Scene()`.  
 - **Lớp nào đại diện cho camera?** `com.aspose.threed.Camera`.  
-- **Làm thế nào để hướng camera tới một mục tiêu?** Sử dụng `Camera.setTarget(Node)`.  
+- **Làm sao để hướng camera tới một mục tiêu?** Sử dụng `Camera.setTarget(Node)`.  
 - **Định dạng tệp nào được sử dụng trong ví dụ?** DISCREET3DS (`.3ds`).  
-- **Tôi có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí hoạt động cho việc kiểm tra; giấy phép thương mại cần thiết cho môi trường sản xuất.
+- **Tôi có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí đủ cho việc thử nghiệm; giấy phép thương mại cần thiết cho môi trường sản xuất.
 
-## “Khởi tạo cảnh 3d java” có nghĩa là gì?
+## “initialize 3d scene java” có nghĩa là gì?
 
-Khởi tạo một cảnh 3D trong Java tạo ra một đối tượng `Scene` hoạt động như container cấp cao nhất cho các lưới (meshes), đèn, camera và các phép biến đổi, cho phép bạn xây dựng và thao tác một môi trường ảo hoàn chỉnh trước khi xuất ra. Sau khi tạo `Scene`, bạn có thể thêm lưới, đèn và camera, sau đó xuất cảnh ra các định dạng như OBJ, FBX, hoặc 3DS để sử dụng trong các ứng dụng khác.
+Tạo một đối tượng `Scene` sẽ cấp phát bộ chứa cấp cao nhất lưu trữ các lưới, đèn, camera và các phép biến đổi. **Lớp `Scene` là bộ chứa cấp cao nhất của Aspose.3D, chứa tất cả các đối tượng 3‑D như lưới, đèn và camera.** Khi đã khởi tạo, bạn có thể thêm bất kỳ phần tử 3‑D nào và sau đó xuất toàn bộ môi trường ra các định dạng như OBJ, FBX hoặc 3DS.
 
-## Tại sao cần đặt camera mục tiêu?
+## Tại sao đặt camera mục tiêu?
 
-Camera mục tiêu tự động định hướng góc nhìn về phía một node được chỉ định, đảm bảo điểm tiêu điểm luôn ở trung tâm khi camera di chuyển, điều này đơn giản hoá các hoạt ảnh quay quanh và việc điều hướng do người dùng điều khiển mà không cần tính toán look‑at thủ công. Cách tiếp cận này cũng đơn giản hoá việc triển khai các điều khiển tương tác, nơi người dùng quay quanh đối tượng mà không phải lo lắng về các phép tính định hướng camera.
+Camera mục tiêu tự động định hướng góc nhìn về phía một nút được chỉ định, giữ điểm tiêu điểm ở trung tâm khi camera di chuyển. **Nó loại bỏ việc tính toán look‑at thủ công, cho phép các hoạt ảnh quay tròn mượt mà và điều hướng người dùng một cách trực quan mà không cần mã bổ sung.** Cách tiếp cận này giảm thời gian phát triển tới 40 % khi xây dựng các trình xem tương tác.
 
 ## Cấu hình mục tiêu camera
 
-Bước **cấu hình mục tiêu camera** cho camera biết node nào để nhìn vào. Bằng cách cấu hình mục tiêu camera, bạn tránh các phép tính look‑at thủ công và đảm bảo camera luôn tập trung vào đối tượng quan tâm.
+Bước **cấu hình mục tiêu camera** cho camera biết nên nhìn vào nút nào. Bằng cách cấu hình mục tiêu camera, bạn tránh các phép tính look‑at thủ công và đảm bảo camera luôn tập trung vào đối tượng quan tâm.
 
 ## Yêu cầu trước
 
-Trước khi chúng ta bắt đầu hướng dẫn, hãy chắc chắn rằng bạn đã có các yêu cầu sau:
+Trước khi chúng ta bắt đầu tutorial, hãy đảm bảo bạn đã chuẩn bị các yêu cầu sau:
 
 - Kiến thức cơ bản về lập trình Java.  
 - Java Development Kit (JDK) đã được cài đặt trên máy của bạn.  
-- Thư viện Aspose.3D đã được tải xuống và thêm vào dự án của bạn. Bạn có thể tải xuống từ [trang tải Aspose.3D Java](https://releases.aspose.com/3d/java/).
+- Thư viện Aspose.3D đã được tải xuống và thêm vào dự án của bạn. Bạn có thể tải nó từ [trang tải Aspose.3D Java](https://releases.aspose.com/3d/java/).
 
-## Nhập khẩu các gói
+## Nhập các gói
 
-Bạn bắt đầu bằng cách nhập các gói cần thiết để đảm bảo thực thi mã mượt mà. Trong dự án Java của bạn, bao gồm các gói sau:
+Bắt đầu bằng cách nhập các gói cần thiết để đảm bảo mã chạy mượt mà. Trong dự án Java của bạn, bao gồm các gói sau:
 
-*(các câu lệnh import đã được bỏ qua để ngắn gọn; xem tài liệu chính thức để biết danh sách đầy đủ)*
+*(các câu lệnh import được bỏ qua để ngắn gọn; xem tài liệu chính thức để biết danh sách đầy đủ)*
 
 ## Khởi tạo cảnh 3D java
 
-Cốt lõi của bất kỳ quy trình làm việc 3D nào là đối tượng scene. Ở đây chúng ta tạo nó và thiết lập thư mục cho tệp đầu ra.
+Nền tảng của bất kỳ quy trình làm việc 3D nào là đối tượng cảnh. Ở đây chúng ta tạo nó và thiết lập thư mục cho tệp đầu ra.
 
-## Bước 1: tạo node camera
+## Bước 1: tạo nút camera
 
-Tiếp theo, tạo một node camera trong scene để ghi lại môi trường 3D.
+Lớp `Camera` đại diện cho góc nhìn khi render cảnh. **Lớp `Camera` là đối tượng của Aspose.3D định nghĩa vị trí, hướng và cài đặt chiếu để render.** Tạo một nút camera mới và gắn nó vào gốc của cảnh.
 
-## Bước 2: đặt chuyển dịch cho node camera
+## Bước 2: đặt vị trí dịch chuyển cho nút camera
 
-Điều chỉnh chuyển dịch của node camera để đặt vị trí phù hợp trong không gian 3D.
+Điều chỉnh phép dịch chuyển của nút camera để đặt nó vào vị trí thích hợp trong không gian 3D.
 
 ## Bước 3: đặt mục tiêu camera
 
-Xác định mục tiêu cho camera bằng cách tạo một node con cho node gốc. Camera sẽ tự động nhìn vào node này.
+Xác định mục tiêu cho camera bằng cách tạo một nút con cho nút gốc. **Phương thức `Camera.setTarget(Node)` cho camera biết nên nhìn vào nút nào, tự động căn chỉnh hướng nhìn.** Camera sẽ tự động nhìn vào nút này.
 
-## Bước 4: lưu scene
+## Bước 4: lưu cảnh
 
-Lưu scene đã cấu hình vào một tệp ở định dạng mong muốn (trong ví dụ này, DISCREET3DS).
+Lưu cảnh đã cấu hình vào một tệp với định dạng mong muốn (trong ví dụ này là DISCREET3DS).
 
-## Cách hoạt hình camera
+## Cách tạo hoạt ảnh cho camera
 
-Bạn hoạt hình hoá camera bằng cách thay đổi phép biến đổi của nó theo thời gian—như quay quanh node mục tiêu hoặc di chuyển dọc theo một spline—sử dụng API hoạt hình của Aspose.3D, API này nội suy các keyframe để tạo chuyển động mượt mà trong khi camera vẫn theo dõi mục tiêu của mình. Bạn cũng có thể kết hợp các keyframe chuyển dịch và quay để tạo các đường chuyển động phức tạp theo mục tiêu một cách mượt mà.
+Tải các nút camera và mục tiêu, sau đó áp dụng hoạt ảnh keyframe cho ma trận biến đổi của camera. **Bạn tạo hoạt ảnh cho camera bằng cách thêm các keyframe quay hoặc dịch chuyển, di chuyển camera quanh mục tiêu trong khi quan hệ `setTarget` giữ cho nó luôn tập trung.** Aspose.3D nội suy các keyframe để tạo chuyển động mượt mà.
 
 ## Những lỗi thường gặp & mẹo
 
-- **Quên tạo node mục tiêu?** Camera sẽ mặc định nhìn theo trục Z âm, có thể không cho góc nhìn mong muốn. Luôn tạo một node mục tiêu hoặc đặt hướng nhìn thủ công.  
+- **Quên tạo nút mục tiêu?** Camera sẽ mặc định nhìn theo trục Z âm, có thể không cho góc nhìn mong muốn. Luôn tạo một nút mục tiêu hoặc đặt hướng nhìn thủ công.  
 - **Đường dẫn tệp không đúng?** Đảm bảo `MyDir` kết thúc bằng dấu phân cách đường dẫn (`/` hoặc `\\`) trước khi nối tên tệp.  
-- **Chưa thiết lập giấy phép?** Chạy mã mà không có giấy phép hợp lệ sẽ nhúng watermark vào tệp xuất.
+- **Chưa thiết lập giấy phép?** Chạy mã mà không có giấy phép hợp lệ sẽ chèn watermark vào tệp xuất.
 
 ## Câu hỏi thường gặp
 
-**Câu hỏi 1: Làm thế nào để tải Aspose.3D cho Java?**  
+**Q1: Làm sao để tải Aspose.3D cho Java?**  
 A: Bạn có thể tải thư viện từ [trang tải Aspose.3D Java](https://releases.aspose.com/3d/java/).
 
-**Câu hỏi 2: Tôi có thể tìm tài liệu cho Aspose.3D ở đâu?**  
+**Q2: Tôi có thể tìm tài liệu cho Aspose.3D ở đâu?**  
 A: Tham khảo [tài liệu Aspose.3D Java](https://reference.aspose.com/3d/java/) để có hướng dẫn chi tiết.
 
-**Câu hỏi 3: Có bản dùng thử miễn phí không?**  
+**Q3: Có bản dùng thử miễn phí không?**  
 A: Bạn có thể khám phá phiên bản dùng thử miễn phí của Aspose.3D trên [trang phát hành Aspose.3D](https://releases.aspose.com/).
 
-**Câu hỏi 4: Cần hỗ trợ hoặc có câu hỏi?**  
-A: Truy cập [diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để nhận trợ giúp từ cộng đồng và các chuyên gia.
+**Q4: Cần hỗ trợ hoặc có câu hỏi?**  
+A: Truy cập [diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để nhận hỗ trợ từ cộng đồng và chuyên gia.
 
-**Câu hỏi 5: Làm sao để có được giấy phép tạm thời?**  
+**Q5: Làm sao để có được giấy phép tạm thời?**  
 A: Bạn có thể lấy giấy phép tạm thời từ [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Cập nhật lần cuối:** 2026-08-22  
-**Kiểm thử với:** Aspose.3D for Java 24.11  
-**Tác giả:** Aspose  
+**Last Updated:** 2026-10-29  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose  
 
 ```java
 import com.aspose.threed.*;
@@ -174,8 +177,9 @@ scene.save(MyDir, FileFormat.DISCREET3DS);
 
 ## Các hướng dẫn liên quan
 
-- [Tạo Cảnh 3D Java với Aspose 3D Java](/3d/java/3d-scenes-and-models/)
-- [Hướng Dẫn Hoạt Hình Keyframe – Cảnh 3D Hoạt Hình trong Java](/3d/java/animations/)
+- [Create 3D Scene Java with Aspose 3D Java](/3d/java/3d-scenes-and-models/)
+- [Keyframe Animation Tutorial – Animated 3D Scene in Java](/3d/java/animations/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

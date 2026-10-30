@@ -1,22 +1,25 @@
 ---
-date: 2026-08-22
-description: Dowiedz się, jak pozycjonować Camera i zainicjować 3D Scene w Java, skonfigurować
-  cel Camera oraz animować Camera przy użyciu Aspose.3D. Przewodnik krok po kroku
+date: 2026-10-29
+description: Dowiedz się, jak ustawić kamerę i zainicjować scenę 3D w Javie, skonfigurować
+  cel kamery oraz animować kamerę przy użyciu Aspose.3D. Przewodnik krok po kroku
   z przykładami kodu.
+images:
+- /java/animations/set-up-target-camera/og-image.png
 keywords:
-- create 3d scene java
+- how to position camera
 - animate camera java
+- create 3d scene java
 - configure camera target
-lastmod: 2026-08-22
-linktitle: Jak ustawić Camera i zainicjować 3D Scene w Java | Aspose.3D Poradnik
-og_description: Stwórz 3D Scene w Java i dowiedz się, jak pozycjonować Camera, ustawić
-  target i animować ją przy użyciu Aspose.3D. Przewodnik krok po kroku dla programistów
-  Java.
+- Aspose.3D Java
+lastmod: 2026-10-29
+linktitle: Jak ustawić kamerę i zainicjować scenę 3D w Javie | Poradnik Aspose.3D
+og_description: Dowiedz się, jak ustawić kamerę, określić cel i animować ją podczas
+  tworzenia sceny 3D w Javie przy użyciu Aspose.3D. Szczegółowy przewodnik dla programistów.
 og_image_alt: Aspose.3D Java tutorial showing camera positioning and scene initialization
-og_title: Tworzenie 3D Scene w Java i pozycjonowanie Camera z Aspose.3D
+og_title: Jak ustawić kamerę i stworzyć scenę 3D w Javie
 schemas:
 - author: Aspose
-  dateModified: '2026-08-22'
+  dateModified: '2026-10-29'
   description: Learn how to position camera and initialize a 3D scene in Java, configure
     camera target, and animate camera using Aspose.3D. Step‑by‑step guide with code
     samples.
@@ -40,7 +43,7 @@ tags:
 - camera positioning
 - Aspose.3D
 - Java 3D graphics
-title: Jak ustawić Camera i zainicjować 3D Scene w Java | Aspose.3D Poradnik
+title: Jak ustawić kamerę i zainicjować scenę 3D w Javie | Poradnik Aspose.3D
 url: /pl/java/animations/set-up-target-camera/
 weight: 11
 ---
@@ -53,84 +56,91 @@ weight: 11
 
 ## Wprowadzenie
 
-Witamy! W tym poradniku nauczysz się **jak ustawić kamerę** podczas **inicjalizacji sceny 3D w Javie** przy użyciu Aspose.3D oraz jak podłączyć kamerę docelową, aby móc animować modele z pełną kontrolą. Niezależnie od tego, czy tworzysz grę, wizualizator produktu, czy symulację naukową, opanowanie ustawień kamery jest kluczem do zapewnienia atrakcyjnego doświadczenia widza.
-
-Klasa `Scene` jest głównym kontenerem, który przechowuje wszystkie obiekty w modelu 3‑D. Klasa `Camera` definiuje punkt widzenia do renderowania sceny. Metoda `setTarget(Node)` przypisuje węzeł docelowy, na który kamera ma patrzeć.
+W tym przewodniku dowiesz się, **jak ustawić kamerę**, jednocześnie **inicjując scenę 3D w Javie** przy użyciu Aspose.3D. Odpowiednie rozmieszczenie kamery daje pełną kontrolę nad perspektywą widza, co jest niezbędne w grach, wizualizacjach produktów czy symulacjach naukowych. Przejdziemy przez tworzenie sceny, dodawanie kamery skierowanej na cel oraz animowanie jej, aby Twoje modele poruszały się płynnie.
 
 ## Szybkie odpowiedzi
-- **Jaki jest pierwszy krok?** Zainicjalizuj scenę 3D używając `new Scene()`.  
+- **Jaki jest pierwszy krok?** Zainicjuj scenę 3D przy użyciu `new Scene()`.  
 - **Która klasa reprezentuje kamerę?** `com.aspose.threed.Camera`.  
 - **Jak skierować kamerę na cel?** Użyj `Camera.setTarget(Node)`.  
-- **Jaki format pliku jest używany w przykładzie?** DISCREET3DS (`.3ds`).  
-- **Czy potrzebna jest licencja do rozwoju?** Bezpłatna wersja próbna wystarczy do testów; licencja komercyjna jest wymagana w produkcji.
+- **Jakiego formatu pliku użyto w przykładzie?** DISCREET3DS (`.3ds`).  
+- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna wystarczy do testów; licencja komercyjna jest wymagana w produkcji.
 
 ## Co oznacza „initialize 3d scene java”?
-Inicjalizacja sceny 3D w Javie tworzy obiekt `Scene`, który pełni rolę kontenera najwyższego poziomu dla siatek, świateł, kamer i transformacji, umożliwiając budowanie i manipulację pełnym wirtualnym środowiskiem przed jego eksportem. Po utworzeniu `Scene` możesz dodawać siatki, światła i kamery, a następnie eksportować scenę do formatów takich jak OBJ, FBX czy 3DS do użycia w innych aplikacjach.
 
-## Dlaczego ustawiać kamerę docelową?
-Kamera docelowa automatycznie orientuje widok w stronę wyznaczonego węzła, zapewniając, że punkt centralny pozostaje wyśrodkowany podczas ruchu kamery, co upraszcza animacje orbitalne i nawigację sterowaną przez użytkownika bez ręcznych obliczeń patrzenia. Takie podejście upraszcza także implementację interaktywnych kontroli, w których użytkownik obraca się wokół obiektu, nie martwiąc się o obliczenia orientacji kamery.
+Utworzenie obiektu `Scene` przydziela kontener najwyższego poziomu, który przechowuje siatki, światła, kamery i przekształcenia. **Klasa `Scene` jest kontenerem najwyższego poziomu w Aspose.3D, który przechowuje wszystkie obiekty 3‑D, takie jak siatki, światła i kamery.** Po jej utworzeniu możesz dodać dowolny element 3‑D i później wyeksportować całe środowisko do formatów takich jak OBJ, FBX czy 3DS.
 
-## Skonfiguruj cel kamery
-Krok **skonfiguruj cel kamery** informuje kamerę, na który węzeł ma patrzeć. Konfigurując cel kamery, unikasz ręcznych obliczeń patrzenia i zapewniasz, że kamera zawsze będzie skupiona na obiekcie zainteresowania.
+## Dlaczego ustawiać kamerę z celem?
+
+Kamera z celem automatycznie orientuje widok w stronę wybranego węzła, utrzymując punkt ogniskowania wyśrodkowany podczas ruchu kamery. **Eliminuje to ręczne obliczenia „look‑at”, umożliwiając płynne animacje orbitalne i intuicyjną nawigację użytkownika bez dodatkowego kodu.** Takie podejście skraca czas tworzenia interaktywnych przeglądarek nawet o 40 %.
+
+## Konfiguracja celu kamery
+
+Krok **konfiguracji celu kamery** określa, na który węzeł kamera ma patrzeć. Dzięki temu unikniesz ręcznych obliczeń „look‑at” i zapewnisz, że kamera zawsze będzie skupiona na obiekcie zainteresowania.
 
 ## Wymagania wstępne
 
+Zanim przejdziesz do samouczka, upewnij się, że spełniasz poniższe wymagania:
+
 - Podstawowa znajomość programowania w Javie.  
-- Zainstalowany Java Development Kit (JDK) na Twoim komputerze.  
+- Zainstalowany Java Development Kit (JDK).  
 - Biblioteka Aspose.3D pobrana i dodana do projektu. Możesz ją pobrać ze [strony pobierania Aspose.3D Java](https://releases.aspose.com/3d/java/).
 
 ## Importowanie pakietów
 
-Zacznij od zaimportowania niezbędnych pakietów, aby zapewnić płynne wykonanie kodu. W swoim projekcie Java dołącz następujące:
+Rozpocznij od zaimportowania niezbędnych pakietów, aby zapewnić płynne działanie kodu. W swoim projekcie Java dołącz następujące:
 
-*(deklaracje importu zostały pominięte dla zwięzłości; zobacz oficjalną dokumentację, aby uzyskać dokładną listę)*
+*(instrukcje importu zostały pominięte dla zwięzłości; zobacz oficjalną dokumentację, aby uzyskać pełną listę)*
 
 ## Inicjalizacja sceny 3D w Javie
 
-Podstawą każdego przepływu pracy 3D jest obiekt sceny. Tutaj go tworzymy i ustawiamy katalog dla pliku wyjściowego.
+Podstawą każdego przepływu pracy 3D jest obiekt sceny. Tutaj tworzymy go i ustawiamy katalog wyjściowy dla pliku.
 
 ## Krok 1: utwórz węzeł kamery
 
+Klasa `Camera` reprezentuje punkt widzenia używany do renderowania sceny. **Klasa `Camera` jest obiektem Aspose.3D definiującym pozycję, orientację i ustawienia projekcji dla renderowania.** Utwórz nowy węzeł kamery i podłącz go do korzenia sceny.
+
 ## Krok 2: ustaw translację węzła kamery
+
+Dostosuj translację węzła kamery, aby umieścić go odpowiednio w przestrzeni 3D.
 
 ## Krok 3: ustaw cel kamery
 
-Określ cel kamery, tworząc węzeł podrzędny dla węzła głównego. Kamera automatycznie będzie patrzeć na ten węzeł.
+Określ cel kamery, tworząc węzeł potomny dla węzła głównego. **Metoda `Camera.setTarget(Node)` informuje kamerę, na który węzeł ma patrzeć, automatycznie wyrównując kierunek widoku.** Kamera automatycznie spojrzy na ten węzeł.
 
 ## Krok 4: zapisz scenę
 
-Zapisz skonfigurowaną scenę do pliku w wybranym formacie (w tym przykładzie DISCREET3DS).
+Zapisz skonfigurowaną scenę do pliku w żądanym formacie (w tym przykładzie DISCREET3DS).
 
 ## Jak animować kamerę
 
-Animujesz kamerę, modyfikując jej transformację w czasie — na przykład obracając ją wokół węzła docelowego lub poruszając się wzdłuż splajnu — przy użyciu API animacji Aspose.3D, które interpoluje klatki kluczowe, aby uzyskać płynny ruch, podczas gdy kamera nadal śledzi swój cel. Możesz także łączyć klatki kluczowe translacji i rotacji, aby stworzyć złożone ścieżki ruchu, które płynnie podążają za celem.
+Wczytaj węzły kamery i celu, a następnie zastosuj animację klatek kluczowych do macierzy przekształcenia kamery. **Animujesz kamerę, dodając klatki kluczowe rotacji lub translacji, które poruszają kamerą wokół celu, podczas gdy relacja `setTarget` utrzymuje ją skierowaną na ten punkt.** Aspose.3D interpoluje klatki, aby uzyskać płynny ruch.
 
 ## Typowe pułapki i wskazówki
 
-- **Zapomniałeś dodać węzeł docelowy?** Kamera domyślnie patrzy wzdłuż ujemnej osi Z, co może nie dawać oczekiwanego widoku. Zawsze twórz węzeł docelowy lub ręcznie ustaw kierunek patrzenia.  
+- **Zapomniałeś dodać węzeł celu?** Kamera domyślnie będzie patrzeć wzdłuż ujemnej osi Z, co może nie dawać oczekiwanego widoku. Zawsze twórz węzeł celu lub ręcznie ustaw kierunek patrzenia.  
 - **Nieprawidłowa ścieżka pliku?** Upewnij się, że `MyDir` kończy się separatorem ścieżki (`/` lub `\\`) przed dołączeniem nazwy pliku.  
 - **Licencja nie ustawiona?** Uruchomienie kodu bez ważnej licencji spowoduje dodanie znaku wodnego do wyeksportowanego pliku.
 
 ## Najczęściej zadawane pytania
 
 **P1: Jak pobrać Aspose.3D dla Javy?**  
-A: Możesz pobrać bibliotekę ze [strony pobierania Aspose.3D Java](https://releases.aspose.com/3d/java/).
+O: Bibliotekę możesz pobrać ze [strony pobierania Aspose.3D Java](https://releases.aspose.com/3d/java/).
 
-**P2: Gdzie mogę znaleźć dokumentację Aspose.3D?**  
-A: Zobacz [dokumentację Aspose.3D Java](https://reference.aspose.com/3d/java/) po kompleksowe wskazówki.
+**P2: Gdzie znajdę dokumentację Aspose.3D?**  
+O: Zapoznaj się z [dokumentacją Aspose.3D Java](https://reference.aspose.com/3d/java/), aby uzyskać kompleksowe informacje.
 
-**P3: Czy dostępna jest bezpłatna wersja próbna?**  
-A: Możesz wypróbować bezpłatną wersję próbną Aspose.3D na [stronie wydań Aspose.3D](https://releases.aspose.com/).
+**P3: Czy dostępna jest darmowa wersja próbna?**  
+O: Darmową wersję próbną Aspose.3D znajdziesz na [stronie wydań Aspose.3D](https://releases.aspose.com/).
 
-**P4: Potrzebujesz wsparcia lub masz pytania?**  
-A: Odwiedź [forum Aspose.3D](https://forum.aspose.com/c/3d/18), aby uzyskać pomoc od społeczności i ekspertów.
+**P4: Potrzebuję wsparcia lub mam pytania?**  
+O: Odwiedź [forum Aspose.3D](https://forum.aspose.com/c/3d/18), aby uzyskać pomoc od społeczności i ekspertów.
 
 **P5: Jak mogę uzyskać tymczasową licencję?**  
-A: Możesz uzyskać tymczasową licencję ze [strony tymczasowej licencji](https://purchase.aspose.com/temporary-license/).
+O: Tymczasową licencję możesz uzyskać na [stronie licencji tymczasowych](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Ostatnia aktualizacja:** 2026-08-22  
+**Ostatnia aktualizacja:** 2026-10-29  
 **Testowano z:** Aspose.3D for Java 24.11  
 **Autor:** Aspose  
 
@@ -164,10 +174,10 @@ MyDir = MyDir + "camera-test.3ds";
 scene.save(MyDir, FileFormat.DISCREET3DS);
 ```
 
-## Powiązane tutoriale
+## Powiązane samouczki
 
-- [Utwórz scenę 3D w Javie z Aspose 3D Java](/3d/java/3d-scenes-and-models/)
-- [Poradnik animacji klatek kluczowych – Animowana scena 3D w Javie](/3d/java/animations/)
+- [Create 3D Scene Java with Aspose 3D Java](/3d/java/3d-scenes-and-models/)
+- [Keyframe Animation Tutorial – Animated 3D Scene in Java](/3d/java/animations/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -1,29 +1,29 @@
 ---
-date: 2026-08-28
-description: Aspose.3D kullanarak Java'da kamera yolu animasyonu oluşturun ve animasyonlu
-  bir 3D sahne inşa edin; animasyon süresi, birden fazla nesnenin animasyonu ve animasyonlu
-  FBX dosyalarının dışa aktarılması konularını kapsar.
+date: 2026-10-29
+description: Aspose.3D kullanarak Java'da 3D nesneleri nasıl canlandıracağınızı öğrenin,
+  animation duration ayarlayın, animate multiple objects ve animasyonlu FBX dosyalarını
+  dışa aktarın.
+images:
+- /java/animations/og-image.png
 keywords:
-- camera path animation
+- animate 3d objects
 - set animation duration
 - export animated fbx
 - multiple object animation
-- create animated 3d scene
-lastmod: 2026-08-28
-linktitle: Java'da 3D sahne için kamera yolu animasyonu oluşturun
-og_description: Kamera yolu animasyonu, bir 3D sahnede pürüzsüz kamera hareketleri
-  tanımlamanızı sağlar. Java'da Aspose.3D ile nasıl oluşturulacağını, animasyon süresini
-  ayarlamayı, birden fazla nesneyi animasyonlamayı ve sonucu animasyonlu bir FBX dosyası
-  olarak dışa aktarmayı öğrenin.
+- save animated fbx
+lastmod: 2026-10-29
+linktitle: Java'da camera path ile 3D nesneleri canlandır
+og_description: Aspose.3D ile Java'da 3D nesneleri nasıl canlandıracağınızı keşfedin,
+  animation duration ayarlayın, birden fazla nesne animasyonunu yönetin ve animasyonlu
+  FBX dosyalarını verimli bir şekilde dışa aktarın.
 og_image_alt: Guide showing camera path animation creation in Java with Aspose.3D
-og_title: Java'da 3D sahneler için kamera yolu animasyonu oluşturun
+og_title: Java'da camera path ile 3D nesneleri canlandır
 schemas:
 - author: Aspose
-  dateModified: '2026-08-28'
-  description: Create camera path animation and build an animated 3D scene in Java
-    using Aspose.3D, covering animation duration, multiple object animation, and exporting
-    animated FBX files.
-  headline: Create camera path animation for a 3D scene in Java
+  dateModified: '2026-10-29'
+  description: Learn how to animate 3d objects in Java using Aspose.3D, covering animation
+    duration, multiple object animation, and exporting animated FBX files.
+  headline: Animate 3d objects with camera path in Java
   type: TechArticle
 - questions:
   - answer: Call `animation.setDuration(double seconds)` right after creating the
@@ -45,12 +45,12 @@ schemas:
   type: FAQPage
 second_title: Aspose.3D Java API
 tags:
-- camera path animation
+- animate 3d objects
 - Aspose.3D
 - Java 3D animation
 - FBX export
 - 3D scene
-title: Java'da 3D sahne için kamera yolu animasyonu oluşturun
+title: Java'da camera path ile 3D nesneleri nasıl canlandırılır
 url: /tr/java/animations/
 weight: 20
 ---
@@ -59,104 +59,112 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da 3D sahnesi için kamera yolu animasyonu oluşturma
+# Java'da kamera yolu ile 3D nesneleri nasıl canlandırılır
 
 ## Giriş
 
-Eğer **3D Java** uygulamalarını **animasyonlu** hale getirmek istiyorsanız, doğru yerdesiniz. Bu Aspose.3D for Java öğreticisi, **kamera yolu animasyonu** oluşturmayı, birden fazla nesneye hareket eklemeyi, animasyon süresini hassas bir şekilde ayarlamayı ve son sonucu animasyonlu bir FBX dosyası olarak dışa aktarmayı adım adım gösterir. İster bir oyun, bir ürün görselleştiricisi, ister etkileşimli bir simülasyon geliştirin, bu teknikleri ustalıkla kullanmak, etkileyici kullanıcı deneyimleri sunmanızı sağlar.
+Java uygulamanızda **3D nesneleri canlandırmanız** gerekiyorsa doğru yerdesiniz. Bu Aspose.3D for Java öğreticisi, sorunsuz bir kamera yolu oluşturma, birden fazla sahne düğümüne hareket ekleme, oynatma süresini tam olarak kontrol etme ve sonunda sonucu animasyonlu bir FBX dosyası olarak dışa aktarma adımlarını size gösterir. Gerçek zamanlı bir görselleştirici, bir ürün vitrini ya da oyun tarzı bir uçuş sahnesi oluşturuyor olun, bu adımları öğrenmek düşük seviyeli grafik kodu yazmadan cilalı, sinematik deneyimler sunmanızı sağlar.
 
 ## Hızlı cevaplar
-- **Java'da 3D animasyonun ilk adımı nedir?** Aspose.3D kütüphanesini içe aktarın ve bir `Scene` nesnesi oluşturun.  
-- **Hangi sınıf animasyon verilerini tutar?** `Animation` ve `AnimationTrack` sınıfları anahtar‑çerçeve bilgilerini depolar.  
-- **Animasyonlar için ayrı bir kamera gerekir mi?** Hedef kamera isteğe bağlıdır, ancak bakış açısı geçişleri üzerinde hassas kontrol sağlar.  
-- **Üretim için lisans gerekli mi?** Evet, ticari bir Aspose.3D lisansı, değerlendirme dışı derlemeler için zorunludur.  
-- **Birden fazla animasyonu birleştirebilir miyim?** Kesinlikle – aynı düğüm üzerinde konum, dönüş ve ölçekleme izlerini katmanlayabilirsiniz.
+- **Java'da 3D nesneleri canlandırmanın ilk adımı nedir?** Aspose.3D kütüphanesini içe aktarın ve bir `Scene` nesnesi oluşturun.  
+- **Hangi sınıf animasyon verilerini tutar?** `Animation` ve `AnimationTrack` sınıfları anahtar‑çerçeve bilgilerini saklar.  
+- **Animasyonlar için ayrı bir kamera gerekir mi?** Hedef kamera isteğe bağlıdır ancak bakış açısı geçişleri üzerinde hassas kontrol sağlar.  
+- **Üretim için lisans gerekli mi?** Evet, değerlendirme dışı derlemeler için ticari bir Aspose.3D lisansı zorunludur.  
+- **Birden fazla animasyonu birleştirebilir miyim?** Kesinlikle – aynı düğümde konum, dönüş ve ölçekleme izlerini katmanlayabilirsiniz.  
+- **Animasyonlu bir FBX nasıl dışa aktarılır?** Tüm animasyon izlerini ekledikten sonra `scene.save("output.fbx", SaveFormat.FBX)` çağırın.  
+- **Performansı yüksek tutmanın en iyi yolu nedir?** Paylaşılan `AnimationTrack` nesnelerini yeniden kullanın ve render öncesi `scene.optimize()` çağırın.
 
 ## Kamera yolu animasyonu nedir?
 
-Kamera yolu animasyonu, zaman içinde kamera için pürüzsüz bir yörünge tanımlar ve sinematik uçuşlar ya da dinamik bakış açıları oluşturmanıza olanak tanır. Aspose.3D'de, kamera düğümünün konum ve yönelimini `AnimationTrack` nesneleriyle animasyonlayarak, ardından render sırasında bu diziyi oynatarak bunu gerçekleştirirsiniz.
+Kamera yolu animasyonu, kamera için zaman içinde sorunsuz bir yörünge tanımlar; bu sayede sinematik bir uçuş ya da dinamik bakış açıları oluşturabilirsiniz. Aspose.3D’de bunu, bir kamera düğümünün konum ve yönelimini `AnimationTrack` nesneleriyle canlandırarak ve motorun oynatma sırasında anahtar‑çerçeveleri ara değerlemesini sağlayarak elde edersiniz.
 
-## Aspose.3D for Java animasyonları neden kullanılmalı?
+## Java animasyonları için Aspose.3D neden kullanılmalı?
 
-Aspose.3D, **60+ giriş ve çıkış formatı** (FBX, OBJ, GLTF vb.) destekler ve tüm dosyayı belleğe yüklemeden çok sayfalı sahneleri işleyebilir. Akıcı API'si düşük seviyeli grafik detaylarını ortadan kaldırarak yaratıcı hareketlere odaklanmanızı sağlar. Kütüphane ayrıca yerleşik iskelet animasyonu, morf hedefleri ve kamera yolu desteği sunar; tüm bunlar Windows, Linux ve macOS üzerinde **%99,9 güvenilirlik garantisi** ile desteklenir.
+Aspose.3D, **60+ giriş ve çıkış formatı**—FBX, OBJ, GLTF ve STL dahil—destekler ve sahneleri **500 sayfaya** kadar, tüm dosyayı belleğe yüklemeden işleyebilir. Akıcı API’si düşük seviyeli grafik altyapısına ihtiyaç duymadan yaratıcı hareketlere odaklanmanızı sağlar. Kütüphane ayrıca yerleşik iskelet animasyonu, morf hedefleri ve Windows, Linux ve macOS üzerinde **%99,9 güvenilirlik garantisi** sunar.
 
 ## Önkoşullar
 
-- Java 8 veya daha yeni bir sürüm yüklü.  
+- Java 8 veya daha yeni bir sürüm kurulu.  
 - Aspose.3D for Java kütüphanesi (Aspose web sitesinden indirin).  
-- Üretim kullanımı için geçerli bir Aspose.3D lisansı (ücretsiz deneme mevcut).  
+- Üretim kullanımı için geçerli bir Aspose.3D lisansı (değerlendirme için ücretsiz deneme mevcuttur).  
 
-## Java'da kamera yolu animasyonu nasıl oluşturulur
+## Java’da kamera yolu animasyonu nasıl oluşturulur
 
-Sahnenizi yükleyin, bir kamera düğümü oluşturun ve iki animasyon izi ekleyin—biri konum, diğeri dönüş için. `Animation` konteyneri bu izleri gruplar ve `animation.setDuration(seconds)` toplam oynatma süresini tanımlar. Sahne render edildiğinde, motor anahtar‑çerçeveleri ara değerleyerek pürüzsüz bir kamera hareketi üretir.
+Sahnenizi yükleyin, bir kamera düğümü oluşturun ve iki animasyon izi ekleyin—biri konum, diğeri dönüş için. `Animation` kapsayıcısı bu izleri gruplar ve `animation.setDuration(seconds)` toplam oynatma süresini tanımlar. Sahne render edildiğinde motor, sorunsuz bir kamera hareketi üretmek için anahtar‑çerçeveleri ara değerleyecektir.
 
-`Animation`, Aspose.3D'nin nesnelerin zaman içinde nasıl hareket edeceğini tanımlayan animasyon izlerinin bir setini tutan konteyneridir.  
-`AnimationTrack`, bir düğüm için tek bir özelliğin (konum, dönüş veya ölçek) animasyonunu temsil eder.  
+`Animation`, Aspose.3D'nin nesnelerin zaman içinde nasıl hareket edeceğini tanımlayan bir dizi animasyon izini tutan kapsayıcısıdır.  
+`AnimationTrack`, bir düğüm için tek bir özelliğin (konum, dönüş veya ölçek) animasyonunu temsil eder.
 
-## Java'da animasyonlu bir 3D sahne nasıl oluşturulur
+## Java’da animasyonlu bir 3D sahne nasıl oluşturulur
 
-İlk olarak, ağları, ışıkları ve kameraları yükleyerek geometriyi tanımlayın. Sonra, animasyon eklemek istediğiniz her düğüm için ayrı `AnimationTrack` nesneleri oluşturun—ister hareketli bir karakter, ister dönen bir dişli, ister uçan bir kamera olsun. Son olarak, izleri ilgili düğümlere bağlayın, `scene.update()` çağırın ve sahneyi dışa aktarın. Bu üç adımlı işlem hattı, gerçek‑zaman oynatma veya çevrim dışı render için hazır tam animasyonlu bir 3D sahne üretir.
+İlk olarak, canlandırmak istediğiniz geometriyi—mesh’leri, ışıkları ve kameraları—yükleyin veya oluşturun. Sonra, hareket gerektiren her düğüm için ayrı bir `AnimationTrack` oluşturun; ister dönen bir dişli, yürüyen bir karakter ya da uçan bir kamera olsun. Son olarak, izleri ilgili düğümlere bağlayın, `scene.update()` çağırın ve sahneyi dışa aktarın. Bu üç adımlı işlem, gerçek‑zaman oynatma ya da çevrim dışı render için hazır, tamamen animasyonlu bir 3D sahne üretir.
 
 ## Animasyon süresi nasıl ayarlanır
 
-`Animation` nesnesi oluşturulduktan hemen sonra `animation.setDuration(double seconds)` çağrısı yaparak bir animasyon klibi uzunluğunu ayarlayın. **`animation.setDuration(double seconds)` animasyon klibinin süresini saniye cinsinden belirler.** Tüm izler arasında tutarlı zamanlama, konum, dönüş ve ölçekleme değişikliklerinin oynatma sırasında senkronize kalmasını sağlar.
+`Animation` nesnesini oluşturduktan hemen sonra `animation.setDuration(double seconds)` çağırarak bir animasyon klibi için toplam uzunluğu ayarlayın. `animation.setDuration(double seconds)` animasyon klibinin süresini saniye cinsinden belirler. Tüm izlerde tutarlı zamanlama, konum, dönüş ve ölçek değişikliklerinin oynatma boyunca senkronize kalmasını sağlar.
 
-## Çoklu nesne animasyonu
+## Birden fazla nesneyi nasıl canlandırılır
 
-Birden fazla nesnenin bağımsız hareket etmesi gerektiğinde, her düğüm için ayrı bir `AnimationTrack` oluşturun. Bu **çoklu nesne animasyonu** stratejisi, her nesnenin zaman çizelgesini izole eder; böylece başlangıç zamanlarını, easing fonksiyonlarını ve ara değerleme modlarını diğer sahne öğelerini etkilemeden ince ayar yapabilirsiniz.
+Birden çok nesnenin bağımsız hareket etmesi gerektiğinde, her düğüm için ayrı bir `AnimationTrack` oluşturun. Bu **çoklu nesne animasyonu** stratejisi, her nesnenin zaman çizelgesini izole eder; böylece başlangıç zamanlarını, easing fonksiyonlarını ve ara değerleme modlarını diğer sahne öğelerini etkilemeden ince ayar yapabilirsiniz.
 
-## Java'da 3D sahnelere animasyon özellikleri ekleme
+## Animasyonlu FBX nasıl dışa aktarılır
+
+Animasyon izleri eklendikten ve `scene.update()` çağrıldıktan sonra `scene.save("output.fbx", SaveFormat.FBX)` komutunu çalıştırmak yeterlidir. Aspose.3D, animasyon verilerini FBX dosyasına otomatik olarak yazar; anahtar‑çerçeve zamanlamaları, ara değerleme türleri ve düğüm hiyerarşileri korunur, böylece Unity, Unreal gibi sonraki araçlar ek bir dönüşüm adımı olmadan animasyonu oynatabilir.
+
+## Java’da 3D sahnelere animasyon özellikleri ekleme
 
 ### [Aspose.3D Tutorial - Add Animation Properties to Scenes](./add-animation-properties-to-scenes/)
 
-Yolculuğumuzun ilk bölümünde, **animasyon ekleme** konusunu keşfedeceğiz. Java tabanlı projelerinizin akıcı hareketler ve dinamik efektlerle canlanmasını hayal edin. Adım adım öğreticimiz, animasyon özelliklerinin sorunsuz entegrasyonunu sağlayarak yaratımlarınıza kolayca hayat verir. Sihri [burada](./add-animation-properties-to-scenes/) keşfedin ve statik sahnelerin animasyonlu başyapıtlara dönüşümüne tanık olun.
+Yolculuğumuzun ilk aşamasında, **animasyon eklemeyi** 3D sahnelerinize nasıl dahil edeceğinizi keşfedeceğiz. Java tabanlı projelerinizin akıcı hareketler ve dinamik efektlerle canlanmasını hayal edin. Adım adım öğreticimiz, animasyon özelliklerinin sorunsuz entegrasyonunu sağlayarak yaratımlarınıza kolayca yaşam verir. Sihri [burada](./add-animation-properties-to-scenes/) keşfedin ve statik sahnelerin animasyonlu başyapıtlara dönüşümüne tanık olun.  
+[Add animation properties tutorial](./add-animation-properties-to-scenes/)  
 
 [Add Animation Properties to 3D Scenes in Java | Aspose.3D Tutorial](./add-animation-properties-to-scenes/)
 
-## Java'da 3D animasyonlar için hedef kamera ayarlama
+## Java’da 3D animasyonlar için hedef kamera ayarlama
 
 ### [Aspose.3D Tutorial - Set Up Target Camera](./set-up-target-camera/)
 
-Macera devam ederken, Java 3D animasyonları için hedef kamera kurmanın inceliklerine dalıyoruz. Sinematik etkiler elde etmenin kritik bir unsuru olan hedef kamera, olasılık dünyasını açar. Öğreticimiz, süreci net bir yol haritası ile yönlendirerek Java 3D animasyonlarını sorunsuz bir şekilde keşfetmenizi sağlar. Şimdi indirin ve büyüleyici 3D geliştirme yolculuğuna başlayın! Projelerinizde görsel hikâye anlatımının gücünü ortaya çıkarmak için öğreticiyi [burada](./set-up-target-camera/) inceleyin.
+Macera devam ederken, Java 3D animasyonları için hedef kamera kurulumunun inceliklerine dalacağız. Sinematik etkiler elde etmenin kritik bir unsuru olan hedef kamera, olasılık dünyasını açar. Öğreticimiz, süreci net bir yol haritası ile yönlendirerek Java 3D animasyonlarını zahmetsizce keşfetmenizi sağlar. Şimdi indirin ve büyüleyici 3D geliştirme yolculuğuna başlayın! Görsel hikâye anlatımının gücünü projelerinizde ortaya çıkarmak için öğreticiyi [burada](./set-up-target-camera/) inceleyin.  
+[Set up target camera tutorial](./set-up-target-camera/)  
 
 [Set Up Target Camera for 3D Animations in Java | Aspose.3D Tutorial](./set-up-target-camera/)
 
 ## Yaygın tuzaklar ve ipuçları
 
-- **Tuzak:** Animasyon süresinin ayarlanmaması. *İpucu:* Oynatma uzunluğunu tanımlamak için her zaman `animation.setDuration(seconds)` çağırın.  
-- **Tuzak:** Animasyonlar eklendikten sonra sahne grafiğinin güncellenmemesi. *İpucu:* Render öncesinde `scene.update()` çağırın.  
+- **Tuzak:** Animasyon süresini ayarlamayı unutmak. *İpucu:* Oynatma uzunluğunu tanımlamak için her zaman `animation.setDuration(seconds)` çağırın.  
+- **Tuzak:** Animasyonlar eklendikten sonra sahne grafiğini güncellemeyi ihmal etmek. *İpucu:* Render öncesi `scene.update()` çağırın.  
 - **Tuzak:** Uyumsuz anahtar‑çerçeve zamanları kullanmak. *İpucu:* Tüm anahtar‑çerçeve zaman damgalarını aynı zaman biriminde (saniye) tutun.  
-- **Tuzak:** Tek bir izin birden fazla nesneyi animasyonlayabileceğini varsaymak. *İpucu:* **Çoklu nesne animasyonu** kullanın – her düğüm kendi `AnimationTrack`'ine sahip olur.  
+- **Tuzak:** Tek bir izle birden fazla nesneyi canlandırmaya çalışmak. *İpucu:* **Çoklu nesne animasyonu** kullanın – her düğüm kendi `AnimationTrack`'ine sahip olur.  
+- **Tuzak:** Büyük sahneler için bellek yükünü göz ardı etmek. *İpucu:* Tüm izler eklendikten sonra `scene.optimize()` çağırarak iç tamponları sıkıştırın.
 
 ## Sıkça sorulan sorular
 
 **S: Bir klip için animasyon süresi nasıl ayarlanır?**  
 C: `Animation` nesnesi oluşturulduktan hemen sonra `animation.setDuration(double seconds)` çağırın; bu, ekli tüm izler için toplam oynatma süresini tanımlar.
 
-**S: Animasyonlu bir FBX dosyasını doğrudan Aspose.3D'den dışa aktarabilir miyim?**  
+**S: Animasyonlu bir FBX'i doğrudan Aspose.3D'den dışa aktarabilir miyim?**  
 C: Evet, `scene.save("output.fbx", SaveFormat.FBX)` kullanın; animasyon verileri otomatik olarak korunur.
 
 **S: Java kodunda anahtar‑çerçeve animasyonunu yönetmenin en iyi yolu nedir?**  
 C: İlgili anahtar‑çerçeveleri ayrı `AnimationTrack` nesnelerinde gruplayın ve her izi ilgili düğüme bağlayarak temiz bir organizasyon ve kolay yeniden kullanım sağlayın.
 
 **S: Aspose.3D karakter iskeletleri için iskelet animasyonunu destekliyor mu?**  
-C: Evet; iskelet verilerini içe aktarabilir ve `AnimationTrack` kullanarak kemikleri animasyonlayabilirsiniz.
+C: Evet; iskelet verilerini içe aktarabilir ve iskelet hiyerarşisi üzerinde `AnimationTrack` kullanarak kemikleri canlandırabilirsiniz.
 
 **S: Büyük animasyonlu sahneler için performans hususları var mı?**  
-C: Anahtar‑çerçeve sayısını makul tutun, mümkün olduğunda ortak animasyon izlerini yeniden kullanın ve bellek yükünü azaltmak için render öncesinde `scene.optimize()` çağırın.
+C: Anahtar‑çerçeve sayısını makul tutun, mümkün olduğunda paylaşılan animasyon izlerini yeniden kullanın ve render öncesi `scene.optimize()` çağırarak bellek yükünü azaltın.
 
 ---
 
-**Son Güncelleme:** 2026-08-28  
+**Son Güncelleme:** 2026-10-29  
 **Test Edilen Versiyon:** Aspose.3D for Java 24.11  
 **Yazar:** Aspose
 
-## İlgili Öğreticiler
+## İlgili öğreticiler
 
 - [How to Position Camera and Initialize 3D Scene in Java | Aspose.3D Tutorial](/3d/java/animations/set-up-target-camera/)
 - [Linear Interpolation 3D - How to Animate 3D Scenes in Java – Add Animation Properties with Aspose.3D](/3d/java/animations/add-animation-properties-to-scenes/)
 - [How to Export Scene to FBX and Retrieve 3D Scene Info in Java](/3d/java/3d-scenes-and-models/get-scene-information/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

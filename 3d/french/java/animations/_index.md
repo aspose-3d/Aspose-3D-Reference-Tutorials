@@ -1,29 +1,29 @@
 ---
-date: 2026-08-28
-description: Créer une animation du chemin de caméra et construire une scène 3D animée
-  en Java avec Aspose.3D, en abordant la durée de l'animation, l'animation de plusieurs
-  objets et l'exportation de fichiers FBX animés.
+date: 2026-10-29
+description: Apprenez comment animer des objets 3d en Java en utilisant Aspose.3D,
+  définir animation duration, animer plusieurs objets et exporter des fichiers FBX
+  animés.
+images:
+- /java/animations/og-image.png
 keywords:
-- camera path animation
+- animate 3d objects
 - set animation duration
 - export animated fbx
 - multiple object animation
-- create animated 3d scene
-lastmod: 2026-08-28
-linktitle: Créer une animation du chemin de caméra pour une scène 3D en Java
-og_description: L'animation du chemin de caméra vous permet de définir des mouvements
-  de caméra fluides dans une scène 3D. Apprenez à la créer en Java avec Aspose.3D,
-  à définir la durée de l'animation, à animer plusieurs objets et à exporter le résultat
-  sous forme de fichier FBX animé.
+- save animated fbx
+lastmod: 2026-10-29
+linktitle: Animer des objets 3d avec camera path en Java
+og_description: Découvrez comment animer des objets 3d en Java avec Aspose.3D, définir
+  animation duration, gérer l'animation de plusieurs objets et exporter efficacement
+  des fichiers FBX animés.
 og_image_alt: Guide showing camera path animation creation in Java with Aspose.3D
-og_title: Créer une animation du chemin de caméra pour des scènes 3D en Java
+og_title: Animer des objets 3d avec camera path en Java
 schemas:
 - author: Aspose
-  dateModified: '2026-08-28'
-  description: Create camera path animation and build an animated 3D scene in Java
-    using Aspose.3D, covering animation duration, multiple object animation, and exporting
-    animated FBX files.
-  headline: Create camera path animation for a 3D scene in Java
+  dateModified: '2026-10-29'
+  description: Learn how to animate 3d objects in Java using Aspose.3D, covering animation
+    duration, multiple object animation, and exporting animated FBX files.
+  headline: Animate 3d objects with camera path in Java
   type: TechArticle
 - questions:
   - answer: Call `animation.setDuration(double seconds)` right after creating the
@@ -45,12 +45,12 @@ schemas:
   type: FAQPage
 second_title: Aspose.3D Java API
 tags:
-- camera path animation
+- animate 3d objects
 - Aspose.3D
 - Java 3D animation
 - FBX export
 - 3D scene
-title: Créer une animation du chemin de caméra pour une scène 3D en Java
+title: Comment animer des objets 3d avec camera path en Java
 url: /fr/java/animations/
 weight: 20
 ---
@@ -59,104 +59,110 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Créer une animation de trajectoire de caméra pour une scène 3D en Java
+# Comment animer des objets 3D avec un chemin de caméra en Java
 
 ## Introduction
 
-Si vous cherchez à **animer des applications Java 3D**, vous êtes au bon endroit. Ce tutoriel Aspose.3D pour Java vous guide à travers la création d’une **animation de trajectoire de caméra**, l’ajout de mouvements à plusieurs objets, la définition d’une durée d’animation précise, et l’exportation du résultat final sous forme de fichier FBX animé. Que vous développiez un jeu, un visualiseur de produit ou une simulation interactive, maîtriser ces techniques vous donne l’avantage de fournir des expériences utilisateur convaincantes.
+Si vous devez **animer des objets 3D** dans une application Java, vous êtes au bon endroit. Ce tutoriel Aspose.3D pour Java vous guide à travers la création d'un chemin de caméra fluide, l'ajout de mouvements à plusieurs nœuds de scène, le contrôle de la durée exacte de la lecture, et enfin l'exportation du résultat sous forme de fichier FBX animé. Que vous construisiez un visualiseur en temps réel, une vitrine produit ou un vol de style jeu, maîtriser ces étapes vous permet de fournir des expériences cinématographiques soignées sans écrire de code graphique bas‑niveau.
 
-## Quick answers
-- **Quelle est la première étape pour animer du 3D en Java ?** Importez la bibliothèque Aspose.3D et instanciez un objet `Scene`.  
-- **Quelle classe contient les données d'animation ?** Les classes `Animation` et `AnimationTrack` stockent les informations d'images clés.  
-- **Ai‑je besoin d’une caméra séparée pour les animations ?** Une caméra cible est optionnelle mais offre un contrôle précis des transitions de point de vue.  
+## Réponses rapides
+- **Quelle est la première étape pour animer des objets 3D en Java ?** Importez la bibliothèque Aspose.3D et créez une instance d'un objet `Scene`.  
+- **Quelle classe contient les données d'animation ?** Les classes `Animation` et `AnimationTrack` stockent les informations d'image clé.  
+- **Ai‑je besoin d'une caméra séparée pour les animations ?** Une caméra cible est optionnelle mais offre un contrôle précis des transitions de point de vue.  
 - **Une licence est‑elle requise pour la production ?** Oui, une licence commerciale Aspose.3D est obligatoire pour les builds non‑évaluatifs.  
-- **Puis‑je combiner plusieurs animations ?** Absolument – vous pouvez superposer des pistes de position, de rotation et d’échelle sur le même nœud.
+- **Puis‑je combiner plusieurs animations ?** Absolument – vous pouvez superposer des pistes de position, rotation et mise à l'échelle sur le même nœud.  
+- **Comment exporter un FBX animé ?** Appelez `scene.save("output.fbx", SaveFormat.FBX)` après avoir ajouté toutes les pistes d'animation.  
+- **Quelle est la meilleure façon de maintenir de hautes performances ?** Réutilisez les objets `AnimationTrack` partagés et appelez `scene.optimize()` avant le rendu.
 
-## Qu’est‑ce que l’animation de trajectoire de caméra ?
+## Qu'est‑ce que l'animation de chemin de caméra ?
 
-L’animation de trajectoire de caméra définit une trajectoire fluide pour la caméra au fil du temps, vous permettant de créer des traversées cinématographiques ou des points de vue dynamiques. Dans Aspose.3D, vous y parvenez en animant la position et l’orientation du nœud de la caméra avec des objets `AnimationTrack`, puis en lisant la séquence lors du rendu.
+L'animation de chemin de caméra définit une trajectoire fluide pour la caméra au fil du temps, vous permettant de créer des vols cinématographiques ou des changements de point de vue dynamiques. Dans Aspose.3D, vous réalisez cela en animant la position et l'orientation d'un nœud de caméra avec des objets `AnimationTrack`, puis en laissant le moteur interpoler les images clés pendant la lecture.
 
 ## Pourquoi utiliser Aspose.3D pour les animations Java ?
 
-Aspose.3D prend en charge **plus de 60 formats d’entrée et de sortie**, dont FBX, OBJ et GLTF, et peut traiter des scènes de plusieurs centaines de pages sans charger le fichier complet en mémoire. Son API fluide élimine les détails graphiques de bas niveau, vous permettant de vous concentrer sur le mouvement créatif. La bibliothèque offre également une animation squelettique intégrée, des cibles de morphing et la prise en charge des trajectoires de caméra, le tout garanti par une **fiabilité de 99,9 %** sur Windows, Linux et macOS.
+Aspose.3D prend en charge **plus de 60 formats d'entrée et de sortie** — y compris FBX, OBJ, GLTF et STL — et peut traiter des scènes jusqu'à **500 pages** sans charger le fichier complet en mémoire. Son API fluide élimine le besoin de plomberie graphique bas‑niveau, vous permettant de vous concentrer sur le mouvement créatif. La bibliothèque offre également une animation squelettique intégrée, des cibles de morphing, et une **garantie de fiabilité de 99,9 %** sur Windows, Linux et macOS.
 
 ## Prérequis
 
-- Java 8 ou version ultérieure installé.  
-- Bibliothèque Aspose.3D pour Java (téléchargez-la depuis le site web d’Aspose).  
-- Une licence Aspose.3D valide pour une utilisation en production (essai gratuit disponible).  
+- Java 8 ou version ultérieure installé.  
+- Bibliothèque Aspose.3D pour Java (téléchargement depuis le site Aspose).  
+- Une licence Aspose.3D valide pour une utilisation en production (un essai gratuit est disponible pour l'évaluation).  
 
-## Comment créer une animation de trajectoire de caméra en Java
+## Comment créer une animation de chemin de caméra en Java
 
-Chargez votre scène, créez un nœud de caméra et attachez deux pistes d’animation — une pour la position et une pour la rotation. Le conteneur `Animation` regroupe ces pistes, et `animation.setDuration(seconds)` définit la durée totale de lecture. Lorsque la scène est rendue, le moteur interpole les images clés pour produire un mouvement de caméra fluide.
+Chargez votre scène, créez un nœud de caméra et attachez deux pistes d'animation — une pour la position et une pour la rotation. Le conteneur `Animation` regroupe ces pistes, et `animation.setDuration(seconds)` définit la durée totale de la lecture. Lorsque la scène est rendue, le moteur interpole les images clés pour produire un mouvement de caméra fluide.
 
-`Animation` est le conteneur d’Aspose.3D pour un ensemble de pistes d’animation qui définissent comment les objets se déplacent dans le temps.  
-`AnimationTrack` représente une animation d’une seule propriété (position, rotation ou échelle) pour un nœud.  
+`Animation` est le conteneur d'Aspose.3D pour un ensemble de pistes d'animation qui définissent comment les objets se déplacent dans le temps.  
+`AnimationTrack` représente une animation d'une seule propriété (position, rotation ou mise à l'échelle) pour un nœud.
 
-## Comment construire une scène 3D animée en Java
+## Comment créer une scène 3D animée en Java
 
-Tout d’abord, définissez la géométrie en chargeant les maillages, les lumières et les caméras. Ensuite, créez des objets `AnimationTrack` séparés pour chaque nœud que vous souhaitez animer — qu’il s’agisse d’un personnage en mouvement, d’un engrenage qui tourne ou d’une caméra volante. Enfin, attachez les pistes à leurs nœuds respectifs, appelez `scene.update()`, puis exportez la scène. Ce pipeline en trois étapes produit une scène 3D entièrement animée, prête pour la lecture en temps réel ou le rendu hors ligne.
+Tout d'abord, chargez ou générez la géométrie que vous souhaitez animer — maillages, lumières et caméras. Ensuite, créez un `AnimationTrack` distinct pour chaque nœud nécessitant un mouvement, qu'il s'agisse d'un engrenage tournant, d'un personnage qui marche ou d'une caméra en vol. Enfin, attachez les pistes à leurs nœuds respectifs, appelez `scene.update()`, et exportez la scène. Cette chaîne en trois étapes produit une scène 3D entièrement animée prête pour la lecture en temps réel ou le rendu hors ligne.
 
-## Comment définir la durée d’une animation
+## Comment définir la durée d'une animation
 
-Définissez la durée totale d’un clip d’animation en appelant `animation.setDuration(double seconds)` immédiatement après la création de l’objet `Animation`. **`animation.setDuration(double seconds)` définit la durée du clip d’animation en secondes.** Un timing cohérent sur toutes les pistes garantit que les changements de position, de rotation et d’échelle restent synchronisés pendant la lecture.
+Définissez la durée totale d'un clip d'animation en appelant `animation.setDuration(double seconds)` immédiatement après la création de l'objet `Animation`. `animation.setDuration(double seconds)` fixe la durée du clip d'animation en secondes. Un timing cohérent entre toutes les pistes garantit que les changements de position, de rotation et de mise à l'échelle restent synchronisés pendant la lecture.
 
-## Animation d’objets multiples
+## Comment animer plusieurs objets
 
-Lorsque plusieurs objets nécessitent un mouvement indépendant, créez un `AnimationTrack` distinct pour chaque nœud. Cette stratégie d’**animation d’objets multiples** isole la chronologie de chaque objet, vous permettant d’ajuster finement les temps de démarrage, les fonctions d’atténuation et les modes d’interpolation sans affecter les autres éléments de la scène.
+Lorsque plusieurs objets nécessitent un mouvement indépendant, créez un `AnimationTrack` distinct pour chaque nœud. Cette stratégie d'**animation multi‑objets** isole la chronologie de chaque objet, vous permettant d'ajuster finement les temps de démarrage, les fonctions d'easing et les modes d'interpolation sans affecter les autres éléments de la scène.
 
-## Ajouter des propriétés d’animation aux scènes 3D en Java
+## Comment exporter un FBX animé
 
-### [Tutoriel Aspose.3D - Ajouter des propriétés d’animation aux scènes](./add-animation-properties-to-scenes/)
+Exporter un FBX animé est simple : après avoir attaché toutes les pistes d'animation et appelé `scene.update()`, invoquez `scene.save("output.fbx", SaveFormat.FBX)`. Aspose.3D écrit automatiquement les données d'animation dans le fichier FBX, en préservant les timings des images clés, les types d'interpolation et les hiérarchies de nœuds afin que les outils en aval (par ex., Unity, Unreal) puissent lire l'animation sans étapes de conversion supplémentaires.
 
-Dans la première étape de notre parcours, nous explorerons comment **ajouter de l'animation** à vos scènes 3D. Imaginez vos projets basés sur Java prendre vie avec des mouvements fluides et des effets dynamiques. Notre tutoriel pas à pas garantit une intégration fluide des propriétés d’animation, vous permettant d’insuffler de la vitalité à vos créations sans effort. Découvrez la magie [ici](./add-animation-properties-to-scenes/) et assistez à la transformation de scènes statiques en chefs‑d’œuvre animés.
+## Ajout de propriétés d'animation aux scènes 3D en Java
 
-[Ajouter des propriétés d’animation aux scènes 3D en Java | Tutoriel Aspose.3D](./add-animation-properties-to-scenes/)
+### [Tutoriel Aspose.3D - Ajouter des propriétés d'animation aux scènes](./add-animation-properties-to-scenes/)
 
-## Configurer une caméra cible pour les animations 3D en Java
+Dans la première étape de notre parcours, nous explorerons comment **ajouter de l'animation** à vos scènes 3D. Imaginez vos projets basés sur Java prendre vie avec des mouvements fluides et des effets dynamiques. Notre tutoriel pas à pas assure une intégration transparente des propriétés d'animation, vous permettant d'insuffler facilement de la vitalité à vos créations. Découvrez la magie [ici](./add-animation-properties-to-scenes/) et assistez à la transformation de scènes statiques en chefs‑d'œuvre animés.  
+[Tutoriel d'ajout de propriétés d'animation](./add-animation-properties-to-scenes/)  
 
-### [Tutoriel Aspose.3D - Configurer la caméra cible](./set-up-target-camera/)
+[Ajouter des propriétés d'animation aux scènes 3D en Java | Tutoriel Aspose.3D](./add-animation-properties-to-scenes/)
 
-Ensuite dans notre aventure, nous plongeons dans les subtilités de la configuration d’une caméra cible pour les animations 3D Java. Élément crucial pour obtenir des effets cinématographiques, la caméra cible ouvre un monde de possibilités. Notre tutoriel vous guide à travers le processus, offrant une feuille de route claire pour explorer facilement les animations 3D Java. Téléchargez dès maintenant, et laissez le captivant voyage du développement 3D commencer ! Explorez le tutoriel [ici](./set-up-target-camera/) pour libérer le pouvoir du storytelling visuel dans vos projets.
+## Configuration d'une caméra cible pour les animations 3D en Java
 
-[Configurer la caméra cible pour les animations 3D en Java | Tutoriel Aspose.3D](./set-up-target-camera/)
+### [Tutoriel Aspose.3D - Configurer une caméra cible](./set-up-target-camera/)
 
-## Pièges courants & conseils
+Ensuite dans notre aventure, nous plongeons dans les subtilités de la configuration d'une caméra cible pour les animations 3D Java. Élément crucial pour obtenir des effets cinématographiques, la caméra cible ouvre un monde de possibilités. Notre tutoriel vous guide à travers le processus, offrant une feuille de route claire pour explorer sans effort les animations 3D Java. Téléchargez dès maintenant, et laissez le captivant voyage du développement 3D commencer ! Explorez le tutoriel [ici](./set-up-target-camera/) pour libérer le pouvoir du storytelling visuel dans vos projets.  
+[Tutoriel de configuration de la caméra cible](./set-up-target-camera/)  
 
-- **Piège :** Oublier de définir la durée de l’animation. *Conseil :* Appelez toujours `animation.setDuration(seconds)` pour définir la longueur de lecture.  
-- **Piège :** Négliger la nécessité de mettre à jour le graphe de la scène après l’ajout d’animations. *Conseil :* Appelez `scene.update()` avant le rendu.  
-- **Piège :** Utiliser des temps d’images clés incompatibles. *Conseil :* Conservez tous les horodatages d’images clés dans la même unité de temps (secondes).  
-- **Piège :** Supposer qu’une seule piste peut animer plusieurs objets. *Conseil :* Utilisez l’**animation d’objets multiples** – chaque nœud obtient son propre `AnimationTrack`.  
+[Configurer une caméra cible pour les animations 3D en Java | Tutoriel Aspose.3D](./set-up-target-camera/)
+
+## Pièges courants et conseils
+
+- **Piège :** Oublier de définir la durée de l'animation. *Conseil :* Appelez toujours `animation.setDuration(seconds)` pour définir la longueur de la lecture.  
+- **Piège :** Négliger la nécessité de mettre à jour le graphe de scène après l'ajout d'animations. *Conseil :* Appelez `scene.update()` avant le rendu.  
+- **Piège :** Utiliser des temps d'image clé incompatibles. *Conseil :* Conservez tous les horodatages d'images clés dans la même unité de temps (secondes).  
+- **Piège :** Supposer qu'une seule piste peut animer plusieurs objets. *Conseil :* Utilisez l'**animation multi‑objets** – chaque nœud obtient son propre `AnimationTrack`.  
+- **Piège :** Ignorer la surcharge mémoire pour les grandes scènes. *Conseil :* Appelez `scene.optimize()` après avoir ajouté toutes les pistes pour compresser les tampons internes.
 
 ## Questions fréquemment posées
 
-**Q : Comment définir la durée d’une animation pour un clip ?**  
-R : Appelez `animation.setDuration(double seconds)` immédiatement après la création de l’objet `Animation` ; cela définit la durée totale de lecture pour toutes les pistes attachées.
+**Q : Comment définir la durée d'une animation pour un clip ?**  
+R : Appelez `animation.setDuration(double seconds)` immédiatement après la création de l'objet `Animation` ; cela définit le temps total de lecture pour toutes les pistes attachées.
 
-**Q : Puis‑je exporter un FBX animé directement depuis Aspose.3D ?**  
-R : Oui, utilisez `scene.save("output.fbx", SaveFormat.FBX)` ; les données d’animation sont préservées automatiquement.
+**Q : Puis‑je exporter directement un FBX animé depuis Aspose.3D ?**  
+R : Oui, utilisez `scene.save("output.fbx", SaveFormat.FBX)` ; les données d'animation sont automatiquement conservées.
 
-**Q : Quelle est la meilleure façon de gérer le code d’animation d’images clés en Java ?**  
+**Q : Quelle est la meilleure façon de gérer le code d'animation d'images clés en Java ?**  
 R : Regroupez les images clés liées dans des objets `AnimationTrack` séparés et attachez chaque piste à son nœud correspondant pour une organisation claire et une réutilisation facile.
 
-**Q : Aspose.3D prend‑il en charge l’animation squelettique pour les rigs de personnages ?**  
-R : Oui ; vous pouvez importer des données squelettiques et animer les os en utilisant `AnimationTrack` sur la hiérarchie du squelette.
+**Q : Aspose.3D prend‑il en charge l'animation squelettique pour les rigs de personnages ?**  
+R : Oui ; vous pouvez importer des données squelettiques et animer les os à l'aide de `AnimationTrack` sur la hiérarchie du squelette.
 
 **Q : Existe‑t‑il des considérations de performance pour les grandes scènes animées ?**  
-R : Gardez le nombre d’images clés raisonnable, réutilisez les pistes d’animation partagées lorsque c’est possible, et appelez `scene.optimize()` avant le rendu pour réduire la charge mémoire.
+R : Gardez le nombre d'images clés raisonnable, réutilisez les pistes d'animation partagées lorsque possible, et appelez `scene.optimize()` avant le rendu pour réduire la surcharge mémoire.
 
----
-
-**Dernière mise à jour :** 2026-08-28  
-**Testé avec :** Aspose.3D for Java 24.11  
-**Auteur :** Aspose
+**Dernière mise à jour :** 2026-10-29  
+**Testé avec :** Aspose.3D for Java 24.11  
+**Auteur :** Aspose
 
 ## Tutoriels associés
 
 - [Comment positionner la caméra et initialiser la scène 3D en Java | Tutoriel Aspose.3D](/3d/java/animations/set-up-target-camera/)
-- [Interpolation linéaire 3D - Comment animer des scènes 3D en Java – Ajouter des propriétés d’animation avec Aspose.3D](/3d/java/animations/add-animation-properties-to-scenes/)
+- [Interpolation linéaire 3D - Comment animer des scènes 3D en Java – Ajouter des propriétés d'animation avec Aspose.3D](/3d/java/animations/add-animation-properties-to-scenes/)
 - [Comment exporter une scène en FBX et récupérer les informations de scène 3D en Java](/3d/java/3d-scenes-and-models/get-scene-information/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
