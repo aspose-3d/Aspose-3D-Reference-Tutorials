@@ -1,14 +1,17 @@
 ---
-date: 2026-09-03
+date: 2026-11-04
 description: Pelajari cara memisahkan mesh secara efisien berdasarkan material di
   Java dengan Aspose.3D. Panduan ini menunjukkan cara mengurangi draw calls dan meningkatkan
   rendering performance saat memisahkan mesh berdasarkan material.
+images:
+- /java/3d-mesh-data/split-meshes-by-material/og-image.png
 keywords:
 - how to split mesh
 - reduce draw calls
 - improve rendering performance
 - split mesh by material
-lastmod: 2026-09-03
+- 3d rendering optimization
+lastmod: 2026-11-04
 linktitle: Cara Memisahkan Mesh Berdasarkan Material di Java Menggunakan Aspose.3D
 og_description: Cara memisahkan mesh berdasarkan material menggunakan Aspose.3D untuk
   Java. Kurangi draw calls dan tingkatkan rendering performance dengan panduan langkah
@@ -17,7 +20,7 @@ og_image_alt: Tutorial showing mesh splitting by material in Java with Aspose.3D
 og_title: Cara memisahkan mesh berdasarkan material di Java dengan Aspose.3D
 schemas:
 - author: Aspose
-  dateModified: '2026-09-03'
+  dateModified: '2026-11-04'
   description: Learn how to split mesh efficiently by material in Java with Aspose.3D.
     This guide shows you how to reduce draw calls and improve rendering performance
     while splitting mesh by material.
@@ -74,7 +77,7 @@ tags:
 - batch draw calls
 - reduce draw calls
 - improve rendering performance
-title: Cara Memisahkan Mesh Berdasarkan Material di Java Menggunakan Aspose.3D
+title: Cara memisahkan mesh berdasarkan material di Java menggunakan Aspose.3D
 url: /id/java/3d-mesh-data/split-meshes-by-material/
 weight: 12
 ---
@@ -87,51 +90,56 @@ weight: 12
 
 ## Pendahuluan
 
-Jika Anda bekerja dengan grafik 3D di Java, Anda akan segera menemukan bahwa memproses mesh besar dapat menjadi bottleneck kinerja—terutama ketika satu mesh berisi banyak material. **Mempelajari cara memisahkan mesh** berdasarkan material memungkinkan Anda mengisolasi setiap grup poligon yang spesifik material, memungkinkan rendering lebih cepat, culling yang lebih mudah, dan kontrol yang lebih granular atas penanganan tekstur. Dalam tutorial ini kami akan menjelaskan langkah‑langkah tepat untuk **memisahkan mesh berdasarkan material** menggunakan pustaka Aspose.3D, lengkap dengan penjelasan praktis, tips mengurangi draw call, dan saran meningkatkan kinerja rendering.
+Jika Anda bekerja dengan grafis 3D di Java, Anda akan segera menemukan bahwa memproses mesh besar dapat menjadi bottleneck kinerja—terutama ketika satu mesh berisi banyak material. **Mempelajari cara memisahkan mesh** berdasarkan material memungkinkan Anda mengisolasi setiap grup poligon yang spesifik material, mempercepat rendering, mempermudah culling, dan memberikan kontrol yang lebih granular atas penanganan tekstur. Dalam tutorial ini kami akan membahas langkah‑langkah tepat untuk **memisahkan mesh berdasarkan material** menggunakan pustaka Aspose.3D, lengkap dengan penjelasan praktis, tips mengurangi draw calls, dan saran meningkatkan kinerja rendering.
 
 ## Jawaban Cepat
-- **Apa arti “split mesh by material”?** Ini memisahkan satu mesh menjadi beberapa sub‑mesh, masing‑masing berisi poligon yang menggunakan material yang sama.  
+- **Apa arti “split mesh by material”?** Itu memisahkan satu mesh menjadi beberapa sub‑meshes, masing‑masing berisi poligon yang menggunakan material yang sama.  
 - **Mengapa menggunakan Aspose.3D?** Ia menyediakan API tingkat tinggi, lintas platform yang mengabstraksi format file tingkat rendah sambil mempertahankan kinerja.  
-- **Berapa lama implementasinya?** Sekitar 10–15 menit pengkodean dan pengujian.  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis tersedia; lisensi komersial diperlukan untuk penggunaan produksi.  
-- **Versi Java mana yang didukung?** Java 8 atau lebih tinggi.  
+- **Berapa lama implementasinya?** Sekitar 10–15 menit coding dan pengujian.  
+- **Apakah saya memerlukan lisensi?** Versi trial gratis tersedia; lisensi komersial diperlukan untuk penggunaan produksi.  
+- **Versi Java mana yang didukung?** Java 8 atau lebih tinggi.
 
 ## Apa itu pemisahan mesh?
 
-`Mesh splitting` adalah proses membagi mesh 3D yang kompleks menjadi bagian‑bagian yang lebih kecil dan lebih mudah dikelola. Ketika pemisahan didasarkan pada material, setiap sub‑mesh yang dihasilkan hanya berisi poligon yang merujuk ke satu material. Pendekatan ini mengurangi draw call, meningkatkan kinerja rendering, dan menyederhanakan tugas seperti menerapkan shader per‑material.
+`Mesh splitting` adalah proses membagi mesh 3D yang kompleks menjadi bagian‑bagian yang lebih kecil dan lebih mudah dikelola. Ketika pemisahan didasarkan pada material, setiap sub‑mesh yang dihasilkan hanya berisi poligon yang merujuk pada satu material. Pendekatan ini mengurangi draw calls, meningkatkan kinerja rendering, dan menyederhanakan tugas seperti penerapan shader per‑material.
 
-## Bagaimana pemisahan mengurangi draw call?
+## Bagaimana pemisahan mengurangi draw calls?
 
-Memisahkan mesh membuat satu sub‑mesh per material, memungkinkan mesin grafis mengeluarkan satu draw call untuk setiap material alih‑alih satu per poligon. Lebih sedikit draw call berarti lebih sedikit perubahan status GPU, yang secara langsung diterjemahkan menjadi frame rate yang lebih tinggi pada GPU desktop maupun GPU mobile yang terbatas.
+Membagi mesh menciptakan satu sub‑mesh per material, memungkinkan mesin grafis mengeluarkan satu draw call untuk setiap material alih‑alih satu per poligon. Lebih sedikit draw calls berarti lebih sedikit perubahan status GPU, yang secara langsung meningkatkan frame rate pada GPU desktop maupun GPU seluler yang terbatas.
 
 ## Mengapa memisahkan mesh berdasarkan material?
 
-Memisahkan mesh berdasarkan material meningkatkan kinerja karena renderer dapat mengelompokkan draw call untuk setiap material, mengurangi perubahan status GPU. Ini juga memberi pengembang fleksibilitas untuk menerapkan shader yang berbeda, efek pasca‑pemrosesan, atau logika tabrakan per material. Selain itu, sub‑mesh yang lebih kecil lebih mudah di‑stream, mengelola memori, dan melakukan culling, yang sangat berharga pada platform mobile, AR, dan VR.
+Memisahkan mesh berdasarkan material meningkatkan kinerja karena renderer dapat mengelompokkan draw calls untuk setiap material, mengurangi perubahan status GPU. Ini juga memberi pengembang fleksibilitas untuk menerapkan shader berbeda, efek pasca‑pemrosesan, atau logika tabrakan per material. Selain itu, sub‑mesh yang lebih kecil lebih mudah di‑stream, mengelola memori, dan di‑cull, yang sangat berharga pada platform seluler, AR, dan VR.
 
 ## Manfaat terukur Aspose.3D
 
-Aspose.3D mendukung **lebih dari 30 format input dan output**—termasuk OBJ, FBX, STL, dan GLTF—dan dapat memproses mesh dengan **hingga 10 juta poligon** tanpa memuat seluruh file ke memori. Menggunakan kebijakan pemisahan `COMPACT_DATA` dapat mengurangi penggunaan memori vertex hingga **40 %**, yang sangat berharga untuk grafik Java 3D pada perangkat kelas rendah.
+Aspose.3D mendukung **30+ format input dan output**—termasuk OBJ, FBX, STL, dan GLTF—dan dapat memproses mesh dengan **hingga 10 juta poligon** tanpa memuat seluruh file ke memori. Menggunakan kebijakan split `COMPACT_DATA` dapat memotong penggunaan memori vertex hingga **40 %**, yang sangat berharga untuk grafis Java 3D pada perangkat kelas rendah.
 
 ## Kasus penggunaan umum
 
 | Skenario | Manfaat pemisahan |
 |----------|-------------------|
-| **Game strategi waktu‑nyata** | Setiap tipe terrain dapat memiliki materialnya sendiri, memungkinkan engine menggambar semua patch rumput dalam satu panggilan. |
+| **Game strategi waktu nyata** | Setiap tipe terrain dapat memiliki materialnya sendiri, memungkinkan engine menggambar semua patch rumput dalam satu panggilan. |
 | **Visualisasi arsitektur** | Dinding, kaca, dan logam dapat ditangani secara terpisah untuk efek shader yang berbeda. |
-| **Aplikasi AR mobile** | Mengurangi draw call membantu mempertahankan 60 fps pada perangkat keras terbatas. |
+| **Aplikasi AR seluler** | Mengurangi draw calls membantu mempertahankan 60 fps pada perangkat keras terbatas. |
 | **Pengalaman VR** | Beban kerja GPU yang lebih rendah mengurangi latensi, meningkatkan kenyamanan pengguna. |
 
 ## Prasyarat
 
 Sebelum kita masuk ke kode, pastikan Anda memiliki hal‑hal berikut:
 
-- Pengetahuan dasar tentang pemrograman Java.  
-- Pustaka Aspose.3D untuk Java terinstal (unduh dari [situs Aspose](https://releases.aspose.com/3d/java/)).  
-- IDE seperti IntelliJ IDEA, Eclipse, atau VS Code yang dikonfigurasi untuk pengembangan Java.  
+- Pengetahuan dasar pemrograman Java.  
+- Pustaka Aspose.3D untuk Java terpasang (unduh dari [Aspose website](https://releases.aspose.com/3d/java/)).  
+- IDE seperti IntelliJ IDEA, Eclipse, atau VS Code yang telah dikonfigurasi untuk pengembangan Java.
 
 ## Impor paket
 
-Kelas `Scene` mewakili kontainer adegan 3D, sementara `Mesh` menyimpan data geometri; `VertexElementMaterial` menyimpan indeks material per‑poligon, dan `PolygonModifier` menyediakan utilitas untuk manipulasi mesh.  
+`Scene` adalah objek root Aspose.3D yang menyimpan semua node, lampu, dan kamera dalam sebuah scene 3D.  
+`Mesh` mewakili data geometrik—vertex, edge, dan face—dari sebuah objek 3D.  
+`VertexElementMaterial` menyimpan indeks material integer untuk setiap poligon, memungkinkan penetapan material per‑poligon.  
+`PolygonModifier` menawarkan metode statis untuk mengedit mesh, seperti memisahkan atau menggabungkan poligon.  
+
+Kelas `Scene` mewakili kontainer scene 3D, sementara `Mesh` menyimpan data geometri; `VertexElementMaterial` menyimpan indeks material per‑poligon, dan `PolygonModifier` menyediakan utilitas untuk manipulasi mesh.  
 ```java
 import com.aspose.threed.*;
 
@@ -140,11 +148,11 @@ import java.util.Arrays;
 
 ## Panduan langkah‑demi‑langkah
 
-Berikut adalah penjelasan singkat setiap langkah, dengan penjelasan sebelum placeholder sehingga Anda tahu persis apa yang terjadi.
+Berikut adalah walkthrough singkat setiap langkah, dengan penjelasan sebelum placeholder sehingga Anda tahu persis apa yang terjadi.
 
-### Langkah 1: Buat mesh dari sebuah kotak
+### Langkah 1: Buat mesh kotak
 
-Kelas `Box` membuat geometri kubus dengan enam sisi, masing‑masing direpresentasikan sebagai poligon terpisah. Kami memulai dengan primitif geometri sederhana—sebuah kotak—sehingga kami dapat melihat dengan jelas bagaimana setiap sisi (bidang) mendapatkan materialnya sendiri nanti.  
+Kelas `Box` membuat geometri kubus dengan enam wajah, masing‑masing direpresentasikan sebagai poligon terpisah. Kita mulai dengan primitif geometris sederhana—sebuah kotak—agar dapat melihat dengan jelas bagaimana setiap wajah (plane) mendapatkan materialnya sendiri nanti.  
 ```java
 // ExStart:SplitMeshbyMaterial
 
@@ -154,7 +162,7 @@ Mesh box = (new Box()).toMesh();
 
 ### Langkah 2: Buat elemen material
 
-`VertexElementMaterial` menyimpan indeks material untuk setiap poligon. Dengan melampirkannya ke mesh, kami dapat mengontrol material mana yang digunakan setiap sisi.  
+`VertexElementMaterial` menyimpan indeks material untuk setiap poligon. Dengan melampirkannya ke mesh, kita dapat mengontrol material mana yang digunakan setiap wajah.  
 ```java
 // Create a material element on the box mesh
 VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElementType.MATERIAL, MappingMode.POLYGON, ReferenceMode.INDEX);
@@ -162,13 +170,13 @@ VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElem
 
 ### Langkah 3: Tentukan indeks material yang berbeda
 
-Di sini kami menetapkan indeks material unik untuk masing‑masing dari enam bidang kotak. Urutan array cocok dengan urutan poligon yang dihasilkan oleh primitif `Box`.  
+Di sini kami menetapkan indeks material unik untuk masing‑masing enam plane kotak. Urutan array cocok dengan urutan poligon yang dihasilkan oleh primitif `Box`.  
 ```java
 // Specify different material indices for each plane
 mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
 ```
 
-### Langkah 4: Pisahkan mesh menjadi sub‑mesh
+### Langkah 4: Pisahkan mesh menjadi sub‑meshes
 
 Enum `SplitMeshPolicy` menentukan bagaimana data vertex ditangani selama pemisahan, misalnya `CLONE_DATA` atau `COMPACT_DATA`. Memanggil `PolygonModifier.splitMesh` dengan `SplitMeshPolicy.CLONE_DATA` membuat sub‑mesh baru untuk setiap indeks material yang berbeda sambil mempertahankan data vertex asli.  
 ```java
@@ -178,7 +186,7 @@ Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
 
 ### Langkah 5: Perbarui indeks material dan pisahkan lagi
 
-Untuk mendemonstrasikan strategi pemisahan yang berbeda, kami kini mengelompokkan tiga bidang pertama di bawah material 0 dan tiga bidang sisanya di bawah material 1, lalu memisahkan menggunakan `COMPACT_DATA` untuk menghilangkan vertex yang tidak terpakai.  
+Untuk mendemonstrasikan strategi pemisahan yang berbeda, kami kini mengelompokkan tiga plane pertama di bawah material 0 dan tiga sisanya di bawah material 1, lalu memisahkan menggunakan `COMPACT_DATA` untuk menghilangkan vertex yang tidak terpakai.  
 ```java
 // Update material indices and split into 2 sub-meshes
 mat.getIndices().clear();
@@ -195,50 +203,49 @@ System.out.println("\nSplitting a mesh by specifying the material successfully."
 // ExEnd:SplitMeshbyMaterial
 ```
 
-## Kurangi draw call dan tingkatkan kinerja rendering
+## Kurangi draw calls dan tingkatkan kinerja rendering
 
-Dengan mengubah setiap material menjadi meshnya sendiri, Anda memungkinkan pipeline grafis mengeluarkan satu draw call per material alih‑alih satu per poligon. Pengurangan draw call ini secara langsung menghasilkan frame rate yang lebih halus, terutama pada perangkat keras kelas rendah. Selain itu, kebijakan `COMPACT_DATA` menghapus vertex yang tidak terpakai, lebih lanjut menurunkan bandwidth memori dan membantu GPU merender lebih efisien.
+Dengan menjadikan setiap material menjadi mesh tersendiri, Anda memungkinkan pipeline grafis mengeluarkan satu draw call per material alih‑alih satu per poligon. Pengurangan draw calls ini secara langsung meningkatkan frame rate, terutama pada perangkat keras kelas rendah. Selain itu, kebijakan `COMPACT_DATA` menghapus vertex yang tidak terpakai, menurunkan bandwidth memori dan membantu GPU merender lebih efisien.
 
 ## Masalah umum dan solusi
 
 | Masalah | Mengapa terjadi | Solusi |
-|---------|----------------|--------|
-| **Sub‑mesh berisi vertex duplikat** | Menggunakan `CLONE_DATA` menyalin semua data vertex untuk setiap sub‑mesh. | Beralih ke `COMPACT_DATA` ketika Anda ingin vertex yang berbagi di deduplikasi. |
+|---------|-----------------|--------|
+| **Sub‑mesh mengandung vertex duplikat** | Menggunakan `CLONE_DATA` menyalin semua data vertex untuk setiap sub‑mesh. | Beralih ke `COMPACT_DATA` ketika Anda ingin vertex yang dibagi dihapus duplikasinya. |
 | **Penetapan material tidak tepat** | Panjang array indeks tidak cocok dengan jumlah poligon. | Verifikasi jumlah poligon (misalnya, kotak memiliki 6) dan sediakan array indeks yang cocok. |
 
 ## Pertanyaan yang sering diajukan
 
 **Q: Apakah Aspose.3D kompatibel dengan pustaka Java 3D lainnya?**  
-A: Ya, Aspose.3D dapat berdampingan dengan pustaka seperti Java 3D atau jMonkeyEngine, memungkinkan Anda mengimpor/mengekspor mesh di antara keduanya.
+A: Ya, Aspose.3D dapat berkoeksistensi dengan pustaka seperti Java 3D atau jMonkeyEngine, memungkinkan Anda mengimpor/mengekspor mesh di antara keduanya.
 
-**Q: Bisakah teknik ini diterapkan pada model kompleks dengan ratusan material?**  
-A: Tentu saja. Panggilan API yang sama berfungsi terlepas dari kompleksitas mesh; pastikan saja array indeks Anda mencerminkan tata letak material dengan benar.
+**Q: Dapatkah teknik ini diterapkan pada model kompleks dengan ratusan material?**  
+A: Tentu saja. Panggilan API yang sama bekerja terlepas dari kompleksitas mesh; cukup pastikan array indeks Anda mencerminkan tata letak material dengan benar.
 
 **Q: Di mana saya dapat menemukan dokumentasi lengkap Aspose.3D Java?**  
-A: Kunjungi [dokumentasi resmi Aspose.3D Java](https://reference.aspose.com/3d/java/) untuk referensi API terperinci dan contoh tambahan.
+A: Kunjungi [Aspose.3D Java documentation](https://reference.aspose.com/3d/java/) resmi untuk referensi API terperinci dan contoh tambahan.
 
-**Q: Apakah tersedia versi percobaan gratis untuk Aspose.3D untuk Java?**  
-A: Ya, Anda dapat mengunduh versi percobaan dari [halaman Rilis Aspose](https://releases.aspose.com/).
+**Q: Apakah tersedia trial gratis untuk Aspose.3D untuk Java?**  
+A: Ya, Anda dapat mengunduh versi trial dari [Aspose Releases page](https://releases.aspose.com/).
 
-**Q: Bagaimana saya dapat mendapatkan dukungan jika mengalami masalah?**  
-A: Forum komunitas Aspose ([forum Aspose.3D](https://forum.aspose.com/c/3d/18)) adalah tempat yang bagus untuk mengajukan pertanyaan dan menerima bantuan dari tim Aspose serta pengembang lain.
+**Q: Bagaimana saya mendapatkan dukungan jika mengalami masalah?**  
+A: Forum komunitas Aspose ([Aspose.3D forum](https://forum.aspose.com/c/3d/18)) adalah tempat yang bagus untuk mengajukan pertanyaan dan mendapatkan bantuan dari tim Aspose serta pengembang lain.
 
 ## Kesimpulan
 
-Anda kini memiliki metode lengkap, siap produksi untuk **memisahkan mesh berdasarkan material** menggunakan Aspose.3D di Java. Dengan menerapkan teknik ini Anda akan melihat lebih sedikit draw call, penggunaan memori yang lebih baik, dan rendering yang lebih halus di berbagai perangkat. Jangan ragu bereksperimen dengan opsi `SplitMeshPolicy` yang berbeda atau mengintegrasikan sub‑mesh yang dihasilkan ke dalam pipeline rendering Anda sendiri.
+Anda kini memiliki metode lengkap dan siap produksi untuk **memisahkan mesh berdasarkan material** menggunakan Aspose.3D di Java. Dengan menerapkan teknik ini Anda akan melihat lebih sedikit draw calls, penggunaan memori yang lebih baik, dan rendering yang lebih halus di berbagai perangkat. Jangan ragu bereksperimen dengan opsi `SplitMeshPolicy` yang berbeda atau mengintegrasikan sub‑mesh yang dihasilkan ke dalam pipeline rendering Anda sendiri.
 
 ---
 
-**Terakhir Diperbarui:** 2026-09-03  
-**Diuji Dengan:** Aspose.3D for Java 24.11  
-**Penulis:** Aspose
+**Last Updated:** 2026-11-04  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose
 
-## Tutorial Terkait
+## Tutorial terkait
 
 - [Cara Menghitung Normal Mesh dan Menambahkan Normal ke Mesh 3D di Java (Menggunakan Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Pelajari Cara Mentrikalisasi Mesh untuk Rendering Teroptimasi di Java Menggunakan Aspose.3D](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
+- [Pelajari Cara Menyusun Mesh menjadi Triangulasi untuk Rendering Dioptimalkan di Java Menggunakan Aspose.3D](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
 - [Kurangi Ukuran Model 3D: Buat Mesh Bola di Java dengan Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

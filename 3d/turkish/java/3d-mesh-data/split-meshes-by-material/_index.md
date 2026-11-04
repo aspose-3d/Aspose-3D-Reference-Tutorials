@@ -1,22 +1,26 @@
 ---
-date: 2026-09-03
-description: Java'da Aspose.3D ile mesh'i malzemeye göre verimli bir şekilde bölmeyi
-  öğrenin. Bu kılavuz, mesh'i malzemeye göre bölerek draw call'ları azaltmayı ve rendering
-  performance'ı artırmayı gösterir.
+date: 2026-11-04
+description: Aspose.3D ile Java'da mesh'i material'e göre verimli bir şekilde nasıl
+  böleceğinizi öğrenin. Bu rehber, mesh'i material'e bölerek draw call'ları azaltmayı
+  ve rendering performance'ı artırmayı gösterir.
+images:
+- /java/3d-mesh-data/split-meshes-by-material/og-image.png
 keywords:
 - how to split mesh
 - reduce draw calls
 - improve rendering performance
 - split mesh by material
-lastmod: 2026-09-03
-linktitle: Java'da Aspose.3D Kullanarak Mesh'i Malzemeye Göre Bölme
-og_description: Java için Aspose.3D kullanarak mesh'i malzemeye göre bölme. Bu step‑by‑step
-  kılavuzla draw call'ları azaltın ve rendering performance'ı artırın.
+- 3d rendering optimization
+lastmod: 2026-11-04
+linktitle: Java'da Aspose.3D ile mesh'i material'e göre nasıl bölümlersiniz
+og_description: Aspose.3D for Java kullanarak mesh'i material'e nasıl böleceğinizi
+  öğrenin. Bu adım adım rehberle draw call'ları azaltın ve rendering performance'ı
+  artırın.
 og_image_alt: Tutorial showing mesh splitting by material in Java with Aspose.3D
-og_title: Java'da Aspose.3D ile mesh'i malzemeye göre bölme
+og_title: Java'da Aspose.3D ile mesh'i material'e göre nasıl bölümlersiniz
 schemas:
 - author: Aspose
-  dateModified: '2026-09-03'
+  dateModified: '2026-11-04'
   description: Learn how to split mesh efficiently by material in Java with Aspose.3D.
     This guide shows you how to reduce draw calls and improve rendering performance
     while splitting mesh by material.
@@ -73,7 +77,7 @@ tags:
 - batch draw calls
 - reduce draw calls
 - improve rendering performance
-title: Java'da Aspose.3D Kullanarak Mesh'i Malzemeye Göre Bölme
+title: Java'da Aspose.3D ile mesh'i material'e göre nasıl bölümlersiniz
 url: /tr/java/3d-mesh-data/split-meshes-by-material/
 weight: 12
 ---
@@ -86,62 +90,69 @@ weight: 12
 
 ## Giriş
 
-Java'da 3D grafiklerle çalışıyorsanız, büyük mesh'lerin işlenmesinin özellikle tek bir mesh birden fazla malzeme içerdiğinde performans darboğazı olabileceğini çabucak fark edeceksiniz. Malzemeye göre **mesh bölmeyi öğrenmek**, her bir malzeme‑özel çokgen grubunu izole etmenizi sağlar, daha hızlı render, daha kolay culling ve doku yönetiminde daha ayrıntılı kontrol sunar. Bu öğreticide, Aspose.3D kütüphanesini kullanarak **malzemeye göre mesh bölme** adımlarını, pratik açıklamalar, draw call'ları azaltma ipuçları ve render performansını artırma tavsiyeleriyle birlikte adım adım göstereceğiz.
+Java'da 3D grafiklerle çalışıyorsanız, büyük mesh'lerin işlenmesinin özellikle tek bir mesh birden fazla malzeme içerdiğinde performans darboğazına dönüşebileceğini çabucak fark edeceksiniz. **Malzemeye göre mesh bölmeyi öğrenmek**, her malzeme‑spesifik çokgen grubunu izole etmenizi sağlar, daha hızlı render, daha kolay culling ve doku yönetiminde daha ayrıntılı kontrol sunar. Bu öğreticide, Aspose.3D kütüphanesini kullanarak **malzemeye göre mesh bölme** adımlarını, pratik açıklamalar, draw call'ları azaltma ipuçları ve render performansını artırma tavsiyeleriyle birlikte adım adım göstereceğiz.
 
-## Hızlı Cevaplar
-- **“Malzemeye göre mesh bölme” ne anlama geliyor?** Tek bir mesh'i birden fazla alt‑mesh'e ayırır, her biri aynı malzemeyi paylaşan çokgenleri içerir.  
-- **Neden Aspose.3D kullanılmalı?** Düşük seviyeli dosya formatlarını soyutlayan, yüksek seviyeli, çok platformlu bir API sağlar ve performansı korur.  
-- **Uygulama ne kadar sürer?** Yaklaşık 10–15 dakika kodlama ve test.  
-- **Lisans gerekli mi?** Ücretsiz deneme sürümü mevcuttur; üretim kullanımı için ticari lisans gereklidir.  
+## Hızlı cevaplar
+- **Malzemeye göre “mesh bölme” ne anlama geliyor?** Tek bir mesh'i birden fazla alt‑mesh'e ayırır, her biri aynı malzemeyi paylaşan çokgenleri içerir.  
+- **Neden Aspose.3D kullanılmalı?** Düşük seviyeli dosya formatlarını soyutlayan, yüksek seviyeli, çapraz platform API'si sunar ve performansı korur.  
+- **Uygulama ne kadar sürer?** Yaklaşık 10–15 dakikalık kodlama ve test.  
+- **Lisans gerekli mi?** Ücretsiz deneme sürümü mevcuttur; üretim kullanımı için ticari lisans gerekir.  
 - **Hangi Java sürümü destekleniyor?** Java 8 ve üzeri.
 
-## Mesh Bölme Nedir?
+## Mesh bölme nedir?
 
-`Mesh splitting` (Mesh bölme), karmaşık bir 3D mesh'i daha küçük, yönetilebilir parçalara ayırma sürecidir. Bölme malzemeye dayalı olduğunda, ortaya çıkan her alt‑mesh yalnızca tek bir malzemeye referans veren çokgenleri içerir. Bu yaklaşım draw call'ları azaltır, render performansını artırır ve malzeme bazlı shader uygulama gibi görevleri basitleştirir.
+`Mesh splitting`, karmaşık bir 3D mesh'i daha küçük, yönetilebilir parçalara bölme işlemidir. Bölme malzemeye dayalı olduğunda, ortaya çıkan her alt‑mesh yalnızca tek bir malzemeye referans veren çokgenleri içerir. Bu yaklaşım draw call'ları azaltır, render performansını artırır ve malzeme‑başına gölgelendiriciler uygulama gibi görevleri basitleştirir.
 
 ## Bölme draw call'ları nasıl azaltır?
 
-Bir mesh'i bölmek, malzeme başına bir alt‑mesh oluşturur ve grafik motorunun her malzeme için tek bir draw call yapmasını sağlar, çokgen başına bir draw call yerine. Daha az draw call, daha az GPU durum değişikliği demektir ve bu doğrudan hem masaüstü GPU'larda hem de sınırlı mobil GPU'larda daha yüksek kare hızlarına dönüşür.
+Bir mesh'i bölmek, malzeme başına bir alt‑mesh oluşturur, böylece grafik motoru her malzeme için bir draw call verir, çokgen başına değil. Daha az draw call, daha az GPU durum değişikliği demektir ve bu doğrudan hem masaüstü GPU'larda hem de sınırlı mobil GPU'larda daha yüksek kare hızlarına dönüşür.
 
 ## Neden mesh'i malzemeye göre bölmeliyiz?
 
-Mesh'i malzemeye göre bölmek, render'ın her malzeme için draw call'ları toplu hâle getirebilmesi sayesinde GPU durum değişikliklerini azaltarak performansı artırır. Ayrıca geliştiricilere malzeme başına ayrı shader'lar, post‑processing efektleri veya çarpışma mantığı uygulama esnekliği sağlar. Ek olarak, daha küçük alt‑mesh'ler akış, bellek yönetimi ve culling işlemlerini kolaylaştırır; bu özellikle mobil, AR ve VR platformlarında değerlidir.
+Mesh'i malzemeye göre bölmek, render'ın her malzeme için draw call'ları toplu hâle getirebilmesi sayesinde GPU durum değişikliklerini azaltarak performansı artırır. Ayrıca geliştiricilere malzeme başına farklı gölgelendiriciler, post‑işlem efektleri veya çarpışma mantığı uygulama esnekliği sağlar. Ek olarak, daha küçük alt‑mesh'ler akış, bellek yönetimi ve culling açısından daha kolaydır; bu da özellikle mobil, AR ve VR platformlarında değerlidir.
 
-## Aspose.3D'nin Sayısal Yararları
+## Aspose.3D'nin nicel faydaları
 
-Aspose.3D, **30'dan fazla giriş ve çıkış formatını**—OBJ, FBX, STL ve GLTF dahil—destekler ve **10 milyon çokgene** kadar mesh'i tüm dosyayı belleğe yüklemeden işleyebilir. `COMPACT_DATA` bölme politikasını kullanmak, vertex bellek kullanımını **%40'a kadar** azaltabilir; bu düşük‑seviye cihazlarda Java 3D grafikleri için özellikle değerlidir.
+Aspose.3D, **30'dan fazla giriş ve çıkış formatını**—OBJ, FBX, STL ve GLTF dahil—destekler ve **10 milyon çokgene kadar** mesh'i tüm dosyayı belleğe yüklemeden işleyebilir. `COMPACT_DATA` bölme politikasını kullanmak, vertex bellek kullanımını **%40'a kadar** azaltabilir; bu, düşük‑seviye cihazlarda Java 3D grafikleri için özellikle değerlidir.
 
-## Yaygın Kullanım Senaryoları
+## Yaygın kullanım senaryoları
 
-| Senaryo | Bölmenin Faydası |
-|----------|-------------------|
-| **Gerçek zamanlı strateji oyunları** | Her arazi tipi kendi malzemesine sahip olabilir, bu da motorun tüm çimen parçalarını tek bir çağrıyla çizmesini sağlar. |
-| **Mimari görselleştirme** | Duvarlar, cam ve metal ayrı ayrı işlenebilir, böylece farklı shader efektleri uygulanabilir. |
-| **Mobil AR uygulamaları** | Draw call'ların azaltılması, sınırlı donanımda 60 fps'yi korumaya yardımcı olur. |
+| Senaryo | Bölmenin faydası |
+|----------|----------------------|
+| **Gerçek zamanlı strateji oyunları** | Her arazi tipi kendi malzemesine sahip olabilir, bu sayede motor tüm çim parçalarını tek bir çağrıda çizebilir. |
+| **Mimari görselleştirme** | Duvarlar, cam ve metal ayrı ayrı işlenerek farklı gölgelendirici efektleri uygulanabilir. |
+| **Mobil AR uygulamaları** | Draw call'ları azaltmak, sınırlı donanımda 60 fps'yi korumaya yardımcı olur. |
 | **VR deneyimleri** | Daha düşük GPU iş yükü gecikmeyi azaltır, kullanıcı konforunu artırır. |
 
 ## Önkoşullar
 
+Koda geçmeden önce aşağıdakilere sahip olduğunuzdan emin olun:
+
 - Java programlama temelleri.  
-- Aspose.3D for Java kütüphanesi yüklü ( [Aspose web sitesi](https://releases.aspose.com/3d/java/) üzerinden indirin).  
-- IntelliJ IDEA, Eclipse veya VS Code gibi Java geliştirme için yapılandırılmış bir IDE.
+- Aspose.3D for Java kütüphanesi kurulu (indir: [Aspose website](https://releases.aspose.com/3d/java/)).  
+- Java geliştirme için yapılandırılmış IntelliJ IDEA, Eclipse veya VS Code gibi bir IDE.
 
-## Paketleri İçe Aktarma
+## Paketleri içe aktar
 
-`Scene` sınıfı bir 3D sahne konteynerini temsil eder, `Mesh` geometri verilerini tutar; `VertexElementMaterial` çokgen başına malzeme indekslerini saklar ve `PolygonModifier` mesh manipülasyonu için yardımcı araçlar sağlar.  
+`Scene`, Aspose.3D'nin tüm düğümleri, ışıkları ve kameraları tutan kök nesnesidir.  
+`Mesh`, bir 3D nesnenin geometrik verilerini—vertex'ler, kenarlar ve yüzeyler—temsil eder.  
+`VertexElementMaterial`, her çokgen için bir tam sayı malzeme indeksi saklar ve çokgen‑başına malzeme atamasını mümkün kılar.  
+`PolygonModifier`, mesh'leri düzenlemek için (bölme veya birleştirme gibi) statik yöntemler sunar.  
+
+`Scene` sınıfı bir 3D sahne konteynerini temsil eder, `Mesh` geometrik veriyi tutar; `VertexElementMaterial` çokgen‑başına malzeme indekslerini saklar ve `PolygonModifier` mesh manipülasyonu için yardımcı araçlar sağlar.  
 ```java
 import com.aspose.threed.*;
 
 import java.util.Arrays;
 ```
 
-## Adım‑adım Kılavuz
+## Adım adım kılavuz
 
-Aşağıda her adımın kısa bir yürütmesi, açıklamalar yer tutucunun önünde yer alacak şekilde, ne olduğunu tam olarak anlamanızı sağlar.
+Aşağıda her adımın kısa bir yürütmesi, açıklamalar yer tutucunun önünde verilmiştir, böylece ne olduğunu tam olarak bilirsiniz.
 
 ### Adım 1: Bir kutunun mesh'ini oluşturun
 
-`Box` sınıfı, altı yüze sahip bir küp geometrisi oluşturur, her yüz ayrı bir çokgen olarak temsil edilir. Basit bir geometrik primitive—bir kutu—ile başlarız, böylece daha sonra her yüzün (düzlemin) kendi malzemesini nasıl alacağını net bir şekilde görebiliriz.  
+`Box` sınıfı, her biri ayrı bir çokgen olarak temsil edilen altı yüze sahip bir küp geometrisi oluşturur. Basit bir geometrik primitive—bir kutu—ile başlarız, böylece daha sonra her yüzün (düzlemin) kendi malzemesini nasıl alacağını net görebiliriz.  
 ```java
 // ExStart:SplitMeshbyMaterial
 
@@ -151,15 +162,15 @@ Mesh box = (new Box()).toMesh();
 
 ### Adım 2: Bir malzeme öğesi oluşturun
 
-`VertexElementMaterial` her çokgen için malzeme indekslerini saklar. Mesh'e ekleyerek, her yüzün hangi malzemeyi kullandığını kontrol edebiliriz.  
+`VertexElementMaterial`, her çokgen için malzeme indekslerini saklar. Mesh'e ekleyerek, her yüzün hangi malzemeyi kullandığını kontrol edebiliriz.  
 ```java
 // Create a material element on the box mesh
 VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElementType.MATERIAL, MappingMode.POLYGON, ReferenceMode.INDEX);
 ```
 
-### Adım 3: Farklı malzeme indeksleri belirleyin
+### Adım 3: Farklı malzeme indekslerini belirtin
 
-Burada kutunun altı düzlemi için benzersiz bir malzeme indeksi atıyoruz. Dizi sırası, `Box` primitive'ı tarafından üretilen çokgenlerin sırasıyla eşleşir.  
+Burada kutunun altı düzlemi için benzersiz bir malzeme indeksi atıyoruz. Dizi sırası, `Box` primitive'ı tarafından oluşturulan çokgenlerin sırasıyla eşleşir.  
 ```java
 // Specify different material indices for each plane
 mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
@@ -167,7 +178,7 @@ mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
 
 ### Adım 4: Mesh'i alt‑mesh'lere bölün
 
-`SplitMeshPolicy` enum'ı, bölme sırasında vertex verisinin nasıl işlendiğini tanımlar, ör. `CLONE_DATA` veya `COMPACT_DATA`. `PolygonModifier.splitMesh` metodunu `SplitMeshPolicy.CLONE_DATA` ile çağırmak, orijinal vertex verisini korurken her farklı malzeme indeksi için yeni bir alt‑mesh oluşturur.  
+`SplitMeshPolicy` enum'u, bölme sırasında vertex verisinin nasıl işlendiğini tanımlar, ör. `CLONE_DATA` veya `COMPACT_DATA`. `PolygonModifier.splitMesh` metodunu `SplitMeshPolicy.CLONE_DATA` ile çağırmak, orijinal vertex verisini korurken her farklı malzeme indeksi için yeni bir alt‑mesh oluşturur.  
 ```java
 // Split the mesh into 6 sub-meshes, each plane becoming a sub-mesh
 Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
@@ -175,7 +186,7 @@ Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
 
 ### Adım 5: Malzeme indekslerini güncelleyin ve tekrar bölün
 
-Farklı bir bölme stratejisini göstermek için, ilk üç düzlemi malzeme 0 altında, kalan üç düzlemi malzeme 1 altında gruplayıp, kullanılmayan vertex'leri ortadan kaldırmak için `COMPACT_DATA` kullanarak bölüyoruz.  
+Farklı bir bölme stratejisini göstermek için, ilk üç düzlemi malzeme 0 altında, kalan üçü malzeme 1 altında gruplayıp, kullanılmayan vertex'leri ortadan kaldırmak için `COMPACT_DATA` kullanarak bölüyoruz.  
 ```java
 // Update material indices and split into 2 sub-meshes
 mat.getIndices().clear();
@@ -194,48 +205,47 @@ System.out.println("\nSplitting a mesh by specifying the material successfully."
 
 ## Draw call'ları azaltın ve render performansını artırın
 
-Her malzemeyi kendi mesh'i haline getirerek, grafik boru hattının her malzeme için bir draw call, çokgen başına bir draw call yerine yapmasını sağlarsınız. Bu draw call azalması, özellikle düşük seviye donanımlarda daha akıcı kare hızlarına dönüşür. Ayrıca, `COMPACT_DATA` politikası kullanılmayan vertex'leri kaldırır, bellek bant genişliğini daha da düşürür ve GPU'nun daha verimli render etmesine yardımcı olur.
+Her malzemeyi kendi mesh'i haline getirerek, grafik boru hattının her malzeme için bir draw call, çokgen başına değil, vermesini sağlarsınız. Bu draw call azalması, özellikle düşük seviye donanımda daha akıcı kare hızlarına dönüşür. Ayrıca, `COMPACT_DATA` politikası kullanılmayan vertex'leri kaldırarak bellek bant genişliğini daha da düşürür ve GPU'nun daha verimli render etmesine yardımcı olur.
 
-## Yaygın Sorunlar ve Çözümler
+## Yaygın sorunlar ve çözümler
 
-| Sorun | Neden Oluşur | Çözüm |
-|-------|--------------|-------|
-| **Alt‑mesh'ler yinelenen vertex'ler içerir** | `CLONE_DATA` kullanmak, her alt‑mesh için tüm vertex verisini kopyalar. | Paylaşılan vertex'lerin tekilleştirilmesini istediğinizde `COMPACT_DATA`'ya geçin. |
-| **Yanlış malzeme ataması** | Indeks dizisi uzunluğu çokgen sayısıyla eşleşmez. | Çokgen sayısını (ör. bir kutunun 6 çokgeni vardır) doğrulayın ve eşleşen bir indeks dizisi sağlayın. |
+| Sorun | Neden olur | Çözüm |
+|-------|------------|-------|
+| **Alt‑mesh'ler yinelenen vertex'ler içerir** | `CLONE_DATA` kullanılması, her alt‑mesh için tüm vertex verisini kopyalar. | Paylaşılan vertex'lerin tekilleştirilmesini istediğinizde `COMPACT_DATA`'ye geçin. |
+| **Yanlış malzeme ataması** | Indeks dizisi uzunluğu çokgen sayısıyla eşleşmez. | Çokgen sayısını (ör. kutunun 6 olduğunu) doğrulayın ve eşleşen bir indeks dizisi sağlayın. |
 
-## Sıkça Sorulan Sorular
+## Sıkça sorulan sorular
 
 **S: Aspose.3D diğer Java 3D kütüphaneleriyle uyumlu mu?**  
-C: Evet, Aspose.3D, Java 3D veya jMonkeyEngine gibi kütüphanelerle birlikte çalışabilir ve mesh'leri aralarında içe/dışa aktarmanıza olanak tanır.
+C: Evet, Aspose.3D, Java 3D veya jMonkeyEngine gibi kütüphanelerle birlikte çalışabilir, böylece mesh'leri aralarında içe/dışa aktarabilirsiniz.
 
-**S: Bu teknik, yüzlerce malzemeye sahip karmaşık modellerde uygulanabilir mi?**  
+**S: Bu teknik yüzlerce malzemeli karmaşık modellerde uygulanabilir mi?**  
 C: Kesinlikle. Aynı API çağrıları mesh karmaşıklığından bağımsız çalışır; sadece indeks dizinizin malzeme düzenini doğru yansıttığından emin olun.
 
 **S: Tam Aspose.3D Java belgelerini nerede bulabilirim?**  
-C: Ayrıntılı API referansları ve ek örnekler için resmi [Aspose.3D Java belgeleri](https://reference.aspose.com/3d/java/) sayfasını ziyaret edin.
+C: Ayrıntılı API referansları ve ek örnekler için resmi [Aspose.3D Java documentation](https://reference.aspose.com/3d/java/) sayfasını ziyaret edin.
 
 **S: Aspose.3D for Java için ücretsiz deneme sürümü mevcut mu?**  
-C: Evet, deneme sürümünü [Aspose Releases sayfasından](https://releases.aspose.com/) indirebilirsiniz.
+C: Evet, [Aspose Releases page](https://releases.aspose.com/) üzerinden bir deneme sürümü indirebilirsiniz.
 
 **S: Sorun yaşarsam nasıl destek alabilirim?**  
-C: Aspose topluluk forumu ([Aspose.3D forumu](https://forum.aspose.com/c/3d/18)) sorular sormak ve Aspose ekibi ile diğer geliştiricilerden yardım almak için mükemmel bir yerdir.
+C: Aspose topluluk forumu ([Aspose.3D forum](https://forum.aspose.com/c/3d/18)) sorular sormak ve Aspose ekibi ile diğer geliştiricilerden yardım almak için mükemmel bir yerdir.
 
 ## Sonuç
 
-Artık Java'da Aspose.3D kullanarak **malzemeye göre mesh bölme** için tam, üretim‑hazır bir yönteme sahipsiniz. Bu tekniği uyguladığınızda daha az draw call, daha iyi bellek kullanımı ve çeşitli cihazlarda daha akıcı render elde edeceksiniz. Farklı `SplitMeshPolicy` seçenekleriyle denemeler yapmaktan veya ortaya çıkan alt‑mesh'leri kendi render boru hattınıza entegre etmekten çekinmeyin.
+Artık Java'da Aspose.3D kullanarak **malzemeye göre mesh bölme** için tam, üretim‑hazır bir yönteme sahipsiniz. Bu tekniği uyguladığınızda daha az draw call, daha iyi bellek kullanımı ve çeşitli cihazlarda daha akıcı render elde edeceksiniz. Farklı `SplitMeshPolicy` seçenekleriyle denemeler yapmaktan veya elde edilen alt‑mesh'leri kendi render boru hattınıza entegre etmekten çekinmeyin.
 
 ---
 
-**Son Güncelleme:** 2026-09-03  
-**Test Edilen:** Aspose.3D for Java 24.11  
-**Yazar:** Aspose
+**Last Updated:** 2026-11-04  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose
 
-## İlgili Öğreticiler
+## İlgili öğreticiler
 
 - [Java'da Mesh Normallerini Hesaplama ve 3D Mesh'lere Normal Ekleme (Aspose.3D Kullanarak)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Java'da Optimizasyonlu Render İçin Mesh'leri Üçgenleme (Aspose.3D Kullanarak)](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
-- [3D Model Boyutunu Azaltma: Java'da Draco ile Küre Mesh'i Oluşturma](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
+- [Java'da Optimizasyonlu Render İçin Mesh'leri Üçgenleme Öğrenin (Aspose.3D Kullanarak)](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
+- [3D Model Boyutunu Azaltın: Java'da Draco ile Küre Mesh'i Oluşturun](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

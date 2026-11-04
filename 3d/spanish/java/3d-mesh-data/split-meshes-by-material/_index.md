@@ -1,22 +1,25 @@
 ---
-date: 2026-09-03
+date: 2026-11-04
 description: Aprende a dividir una malla de forma eficiente por material en Java con
-  Aspose.3D. Esta guía te muestra cómo reducir draw calls y mejorar rendering performance
-  mientras divides la malla por material.
+  Aspose.3D. Esta guía muestra cómo reducir draw calls y mejorar rendering performance
+  al dividir la malla por material.
+images:
+- /java/3d-mesh-data/split-meshes-by-material/og-image.png
 keywords:
 - how to split mesh
 - reduce draw calls
 - improve rendering performance
 - split mesh by material
-lastmod: 2026-09-03
+- 3d rendering optimization
+lastmod: 2026-11-04
 linktitle: Cómo dividir una malla por material en Java usando Aspose.3D
 og_description: Cómo dividir una malla por material usando Aspose.3D para Java. Reduce
-  draw calls y mejora rendering performance con esta guía paso a paso.
+  draw calls y mejora rendering performance con esta step‑by‑step guide.
 og_image_alt: Tutorial showing mesh splitting by material in Java with Aspose.3D
 og_title: Cómo dividir una malla por material en Java con Aspose.3D
 schemas:
 - author: Aspose
-  dateModified: '2026-09-03'
+  dateModified: '2026-11-04'
   description: Learn how to split mesh efficiently by material in Java with Aspose.3D.
     This guide shows you how to reduce draw calls and improve rendering performance
     while splitting mesh by material.
@@ -86,51 +89,56 @@ weight: 12
 
 ## Introducción
 
-Si trabajas con gráficos 3D en Java, descubrirás rápidamente que procesar mallas grandes puede convertirse en un cuello de botella de rendimiento, especialmente cuando una única malla contiene múltiples materiales. **Aprender a dividir una malla** por material te permite aislar cada grupo de polígonos específico de material, habilitando un renderizado más rápido, una eliminación de objetos más sencilla y un control más granular sobre el manejo de texturas. En este tutorial recorreremos paso a paso cómo **dividir una malla por material** usando la biblioteca Aspose.3D, con explicaciones prácticas, consejos para reducir llamadas de dibujo y recomendaciones para mejorar el rendimiento de renderizado.
+Si trabajas con gráficos 3D en Java, descubrirás rápidamente que procesar mallas grandes puede convertirse en un cuello de botella de rendimiento, especialmente cuando una única malla contiene varios materiales. **Aprender a dividir la malla** por material te permite aislar cada grupo de polígonos específico de material, habilitando un renderizado más rápido, una eliminación más sencilla y un control más granular sobre el manejo de texturas. En este tutorial recorreremos paso a paso cómo **dividir la malla por material** usando la biblioteca Aspose.3D, con explicaciones prácticas, consejos para reducir llamadas de dibujo y recomendaciones para mejorar el rendimiento de renderizado.
 
 ## Respuestas rápidas
-- **¿Qué significa “split mesh by material”?** Separa una única malla en múltiples sub‑mallas, cada una contiene polígonos que comparten el mismo material.  
-- **¿Por qué usar Aspose.3D?** Proporciona una API de alto nivel y multiplataforma que abstrae formatos de archivo de bajo nivel mientras mantiene el rendimiento.  
+- **¿Qué significa “dividir la malla por material”?** Separa una única malla en múltiples sub‑mallas, cada una conteniendo polígonos que comparten el mismo material.  
+- **¿Por qué usar Aspose.3D?** Proporciona una API de alto nivel, multiplataforma, que abstrae formatos de archivo de bajo nivel manteniendo el rendimiento.  
 - **¿Cuánto tiempo lleva la implementación?** Aproximadamente 10–15 minutos de codificación y pruebas.  
 - **¿Necesito una licencia?** Hay una prueba gratuita disponible; se requiere una licencia comercial para uso en producción.  
 - **¿Qué versión de Java es compatible?** Java 8 o superior.
 
 ## ¿Qué es la división de mallas?
 
-`Mesh splitting` es el proceso de dividir una malla 3D compleja en piezas más pequeñas y manejables. Cuando la división se basa en el material, cada sub‑malla resultante contiene solo los polígonos que hacen referencia a un único material. Este enfoque reduce las llamadas de dibujo, mejora el rendimiento de renderizado y simplifica tareas como aplicar shaders por material.
+`Mesh splitting` es el proceso de dividir una malla 3D compleja en piezas más pequeñas y manejables. Cuando la división se basa en el material, cada sub‑malla resultante contiene solo los polígonos que hacen referencia a un único material. Este enfoque reduce las llamadas de dibujo, mejora el rendimiento de renderizado y simplifica tareas como la aplicación de shaders por material.
 
 ## ¿Cómo reduce la división las llamadas de dibujo?
 
-Dividir una malla crea una sub‑malla por material, lo que permite que el motor gráfico emita una única llamada de dibujo para cada material en lugar de una por polígonos. Menos llamadas de dibujo significan menos cambios de estado en la GPU, lo que se traduce directamente en mayores tasas de fotogramas tanto en GPUs de escritorio como en GPUs móviles con recursos limitados.
+Dividir una malla crea una sub‑malla por material, lo que permite que el motor gráfico emita una única llamada de dibujo para cada material en lugar de una por polígonos. Menos llamadas de dibujo implican menos cambios de estado en la GPU, lo que se traduce directamente en mayores tasas de fotogramas tanto en GPUs de escritorio como en GPUs móviles con recursos limitados.
 
 ## ¿Por qué dividir la malla por material?
 
-Dividir una malla por material mejora el rendimiento porque el renderizador puede agrupar llamadas de dibujo para cada material, reduciendo los cambios de estado de la GPU. También brinda a los desarrolladores flexibilidad para aplicar shaders distintos, efectos de post‑procesado o lógica de colisión por material. Además, las sub‑mallas más pequeñas son más fáciles de transmitir, gestionar en memoria y eliminar, lo que resulta especialmente valioso en plataformas móviles, AR y VR.
+Dividir una malla por material mejora el rendimiento porque el renderizador puede agrupar llamadas de dibujo para cada material, reduciendo los cambios de estado de la GPU. También brinda a los desarrolladores flexibilidad para aplicar shaders distintos, efectos de post‑procesado o lógica de colisión por material. Además, las sub‑mallas más pequeñas son más fáciles de transmitir, gestionar en memoria y descartar, lo cual es especialmente valioso en plataformas móviles, AR y VR.
 
 ## Beneficios cuantificados de Aspose.3D
 
-Aspose.3D soporta **más de 30 formatos de entrada y salida**—incluyendo OBJ, FBX, STL y GLTF—y puede procesar mallas con **hasta 10 millones de polígonos** sin cargar todo el archivo en memoria. Usar la política de división `COMPACT_DATA` puede reducir el uso de memoria de vértices **hasta un 40 %**, lo cual es especialmente valioso para gráficos 3D en Java en dispositivos de gama baja.
+Aspose.3D soporta **más de 30 formatos de entrada y salida**—incluidos OBJ, FBX, STL y GLTF—y puede procesar mallas con **hasta 10 millones de polígonos** sin cargar todo el archivo en memoria. Usar la política de división `COMPACT_DATA` puede reducir el uso de memoria de vértices en **hasta un 40 %**, lo cual es especialmente valioso para gráficos 3D en Java en dispositivos de gama baja.
 
 ## Casos de uso comunes
 
-| Escenario | Beneficio de la división |
-|----------|--------------------------|
-| **Juegos de estrategia en tiempo real** | Cada tipo de terreno puede tener su propio material, lo que permite al motor dibujar todos los parches de hierba en una sola llamada. |
-| **Visualización arquitectónica** | Las paredes, el vidrio y el metal pueden manejarse por separado para efectos de shader distintos. |
+| Escenario | Beneficio de dividir |
+|----------|----------------------|
+| **Juegos de estrategia en tiempo real** | Cada tipo de terreno puede tener su propio material, permitiendo que el motor dibuje todos los parches de hierba en una sola llamada. |
+| **Visualización arquitectónica** | Paredes, vidrio y metal pueden manejarse por separado para efectos de shader distintos. |
 | **Aplicaciones móviles de AR** | Reducir las llamadas de dibujo ayuda a mantener 60 fps en hardware limitado. |
-| **Experiencias de VR** | Una carga de trabajo GPU menor reduce la latencia, mejorando la comodidad del usuario. |
+| **Experiencias de VR** | Menor carga de trabajo de la GPU reduce la latencia, mejorando la comodidad del usuario. |
 
 ## Requisitos previos
 
 Antes de sumergirnos en el código, asegúrate de contar con lo siguiente:
 
 - Conocimientos básicos de programación en Java.  
-- Biblioteca Aspose.3D para Java instalada (descargar desde el [sitio web de Aspose](https://releases.aspose.com/3d/java/)).  
+- Biblioteca Aspose.3D para Java instalada (descarga desde el [Aspose website](https://releases.aspose.com/3d/java/)).  
 - Un IDE como IntelliJ IDEA, Eclipse o VS Code configurado para desarrollo Java.
 
 ## Importar paquetes
 
-La clase `Scene` representa un contenedor de escena 3D, mientras que `Mesh` contiene datos de geometría; `VertexElementMaterial` almacena índices de material por polígono, y `PolygonModifier` ofrece utilidades para la manipulación de mallas.  
+`Scene` es el objeto raíz de Aspose.3D que contiene todos los nodos, luces y cámaras en una escena 3D.  
+`Mesh` representa los datos geométricos—vértices, aristas y caras—de un objeto 3D.  
+`VertexElementMaterial` almacena un índice de material entero para cada polígonos, habilitando la asignación de material por polígonos.  
+`PolygonModifier` ofrece métodos estáticos para editar mallas, como dividir o combinar polígonos.  
+
+La clase `Scene` representa un contenedor de escena 3D, mientras que `Mesh` contiene los datos de geometría; `VertexElementMaterial` almacena índices de material por polígonos, y `PolygonModifier` proporciona utilidades para la manipulación de mallas.  
 ```java
 import com.aspose.threed.*;
 
@@ -139,11 +147,11 @@ import java.util.Arrays;
 
 ## Guía paso a paso
 
-A continuación se muestra una guía concisa de cada paso, con explicaciones antes del marcador de posición para que sepas exactamente lo que está sucediendo.
+A continuación se muestra un recorrido conciso de cada paso, con explicaciones antes del marcador de posición para que sepas exactamente qué está ocurriendo.
 
 ### Paso 1: Crear una malla de una caja
 
-La clase `Box` crea una geometría de cubo con seis caras, cada una representada como un polígono separado. Comenzamos con una primitiva geométrica simple—una caja—para poder ver claramente cómo cada cara (plano) obtiene su propio material más adelante.  
+La clase `Box` crea una geometría de cubo con seis caras, cada una representada como un polígono separado. Comenzamos con un primitivo geométrico simple—una caja—para poder ver claramente cómo cada cara (plano) obtiene su propio material más adelante.  
 ```java
 // ExStart:SplitMeshbyMaterial
 
@@ -161,7 +169,7 @@ VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElem
 
 ### Paso 3: Especificar diferentes índices de material
 
-Aquí asignamos un índice de material único a cada uno de los seis planos de la caja. El orden del arreglo coincide con el orden de los polígonos generados por la primitiva `Box`.  
+Aquí asignamos un índice de material único a cada uno de los seis planos de la caja. El orden del arreglo coincide con el orden de los polígonos generados por el primitivo `Box`.  
 ```java
 // Specify different material indices for each plane
 mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
@@ -169,7 +177,7 @@ mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
 
 ### Paso 4: Dividir la malla en sub‑mallas
 
-El enum `SplitMeshPolicy` define cómo se maneja la información de vértices durante la división, por ejemplo, `CLONE_DATA` o `COMPACT_DATA`. Llamar a `PolygonModifier.splitMesh` con `SplitMeshPolicy.CLONE_DATA` crea una nueva sub‑malla para cada índice de material distinto mientras preserva los datos de vértices originales.  
+El enum `SplitMeshPolicy` define cómo se manejan los datos de vértices durante la división, por ejemplo, `CLONE_DATA` o `COMPACT_DATA`. Llamar a `PolygonModifier.splitMesh` con `SplitMeshPolicy.CLONE_DATA` crea una nueva sub‑malla para cada índice de material distinto mientras preserva los datos de vértices originales.  
 ```java
 // Split the mesh into 6 sub-meshes, each plane becoming a sub-mesh
 Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
@@ -177,7 +185,7 @@ Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
 
 ### Paso 5: Actualizar los índices de material y dividir nuevamente
 
-Para demostrar una estrategia de división diferente, ahora agrupamos los primeros tres planos bajo el material 0 y los tres restantes bajo el material 1, luego dividimos usando `COMPACT_DATA` para eliminar los vértices no utilizados.  
+Para demostrar una estrategia de división diferente, ahora agrupamos los primeros tres planos bajo el material 0 y los tres restantes bajo el material 1, luego dividimos usando `COMPACT_DATA` para eliminar vértices no utilizados.  
 ```java
 // Update material indices and split into 2 sub-meshes
 mat.getIndices().clear();
@@ -187,7 +195,7 @@ planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 
 ### Paso 6: Confirmar el éxito
 
-Un mensaje simple en la consola indica que la operación se completó sin errores.  
+Un simple mensaje en la consola te indica que la operación se completó sin errores.  
 ```java
 // Display success message
 System.out.println("\nSplitting a mesh by specifying the material successfully.");
@@ -196,47 +204,47 @@ System.out.println("\nSplitting a mesh by specifying the material successfully."
 
 ## Reducir llamadas de dibujo y mejorar el rendimiento de renderizado
 
-Al convertir cada material en su propia malla, habilitas que la cadena gráfica emita una única llamada de dibujo por material en lugar de una por polígonos. Esta reducción de llamadas de dibujo se traduce directamente en tasas de fotogramas más fluidas, especialmente en hardware de gama baja. Además, la política `COMPACT_DATA` elimina los vértices no utilizados, reduciendo aún más el ancho de banda de memoria y ayudando a la GPU a renderizar de manera más eficiente.
+Al convertir cada material en su propia malla, permites que la canalización gráfica emita una única llamada de dibujo por material en lugar de una por polígonos. Esta reducción de llamadas de dibujo se traduce directamente en tasas de fotogramas más suaves, especialmente en hardware de gama baja. Además, la política `COMPACT_DATA` elimina vértices no utilizados, reduciendo aún más el ancho de banda de memoria y ayudando a la GPU a renderizar de manera más eficiente.
 
 ## Problemas comunes y soluciones
 
 | Problema | Por qué ocurre | Solución |
 |----------|----------------|----------|
-| **Las sub‑mallas contienen vértices duplicados** | Usar `CLONE_DATA` copia todos los datos de vértices para cada sub‑malla. | Cambiar a `COMPACT_DATA` cuando deseas que los vértices compartidos se deduplicen. |
+| **Las sub‑mallas contienen vértices duplicados** | Usar `CLONE_DATA` copia todos los datos de vértices para cada sub‑malla. | Cambia a `COMPACT_DATA` cuando quieras que los vértices compartidos se deduplicen. |
 | **Asignación de material incorrecta** | La longitud del arreglo de índices no coincide con el recuento de polígonos. | Verifica el número de polígonos (por ejemplo, una caja tiene 6) y proporciona un arreglo de índices que coincida. |
 
 ## Preguntas frecuentes
 
-**Q: ¿Es Aspose.3D compatible con otras bibliotecas 3D de Java?**  
-A: Sí, Aspose.3D puede coexistir con bibliotecas como Java 3D o jMonkeyEngine, lo que permite importar/exportar mallas entre ellas.
+**Q: ¿Es Aspose.3D compatible con otras bibliotecas Java 3D?**  
+A: Sí, Aspose.3D puede coexistir con bibliotecas como Java 3D o jMonkeyEngine, permitiéndote importar/exportar mallas entre ellas.
 
 **Q: ¿Puede aplicarse esta técnica a modelos complejos con cientos de materiales?**  
 A: Absolutamente. Las mismas llamadas de API funcionan sin importar la complejidad de la malla; solo asegúrate de que tu arreglo de índices refleje correctamente la distribución de materiales.
 
 **Q: ¿Dónde puedo encontrar la documentación completa de Aspose.3D para Java?**  
-A: Visita la documentación oficial de [Aspose.3D Java](https://reference.aspose.com/3d/java/) para referencias detalladas de la API y ejemplos adicionales.
+A: Visita la documentación oficial [Aspose.3D Java documentation](https://reference.aspose.com/3d/java/) para referencias detalladas de la API y ejemplos adicionales.
 
-**Q: ¿Hay una prueba gratuita disponible para Aspose.3D para Java?**  
-A: Sí, puedes descargar una versión de prueba desde la [página de lanzamientos de Aspose](https://releases.aspose.com/).
+**Q: ¿Hay una versión de prueba gratuita disponible para Aspose.3D para Java?**  
+A: Sí, puedes descargar una versión de prueba desde la [Aspose Releases page](https://releases.aspose.com/).
 
 **Q: ¿Cómo puedo obtener soporte si encuentro problemas?**  
 A: El foro de la comunidad Aspose ([Aspose.3D forum](https://forum.aspose.com/c/3d/18)) es un excelente lugar para hacer preguntas y recibir ayuda tanto del equipo de Aspose como de otros desarrolladores.
 
 ## Conclusión
 
-Ahora dispones de un método completo y listo para producción para **dividir una malla por material** usando Aspose.3D en Java. Al aplicar esta técnica verás menos llamadas de dibujo, mejor uso de memoria y un renderizado más fluido en una variedad de dispositivos. Siéntete libre de experimentar con diferentes opciones de `SplitMeshPolicy` o integrar las sub‑mallas resultantes en tu propio pipeline de renderizado.
+Ahora dispones de un método completo y listo para producción para **dividir la malla por material** usando Aspose.3D en Java. Al aplicar esta técnica verás menos llamadas de dibujo, mejor uso de memoria y un renderizado más fluido en una variedad de dispositivos. Siéntete libre de experimentar con diferentes opciones de `SplitMeshPolicy` o integrar las sub‑mallas resultantes en tu propia canalización de renderizado.
 
 ---
 
-**Última actualización:** 2026-09-03  
-**Probado con:** Aspose.3D for Java 24.11  
-**Autor:** Aspose
+**Last Updated:** 2026-11-04  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose
 
 ## Tutoriales relacionados
 
-- [Cómo calcular normales de malla y añadir normales a mallas 3D en Java (Usando Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Aprende a triangular mallas para renderizado optimizado en Java usando Aspose.3D](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
-- [Reducir el tamaño de modelos 3D: crear malla de esfera en Java con Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
+- [Cómo calcular normales de malla y agregar normales a mallas 3D en Java (Usando Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
+- [Aprende a triangular mallas para un renderizado optimizado en Java usando Aspose.3D](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
+- [Reducir el tamaño de modelos 3D: crear una malla de esfera en Java con Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

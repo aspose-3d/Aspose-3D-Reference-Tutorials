@@ -1,22 +1,25 @@
 ---
-date: 2026-09-03
-description: Tìm hiểu cách tách mesh hiệu quả theo material trong Java với Aspose.3D.
-  Hướng dẫn này cho bạn biết cách giảm draw calls và cải thiện rendering performance
-  khi tách mesh theo material.
+date: 2026-11-04
+description: Tìm hiểu cách tách lưới một cách hiệu quả theo vật liệu trong Java với
+  Aspose.3D. Hướng dẫn này cho bạn biết cách giảm số lần gọi vẽ và cải thiện hiệu
+  năng render khi tách lưới theo vật liệu.
+images:
+- /java/3d-mesh-data/split-meshes-by-material/og-image.png
 keywords:
 - how to split mesh
 - reduce draw calls
 - improve rendering performance
 - split mesh by material
-lastmod: 2026-09-03
-linktitle: Cách tách Mesh theo Material trong Java bằng Aspose.3D
-og_description: Cách tách mesh theo material bằng Aspose.3D cho Java. Giảm draw calls
-  và cải thiện rendering performance với hướng dẫn chi tiết này.
+- 3d rendering optimization
+lastmod: 2026-11-04
+linktitle: Cách tách lưới theo vật liệu trong Java bằng Aspose.3D
+og_description: Cách tách lưới theo vật liệu bằng Aspose.3D cho Java. Giảm số lần
+  gọi vẽ và cải thiện hiệu năng render với hướng dẫn chi tiết từng bước.
 og_image_alt: Tutorial showing mesh splitting by material in Java with Aspose.3D
-og_title: Cách tách mesh theo material trong Java với Aspose.3D
+og_title: Cách tách lưới theo vật liệu trong Java với Aspose.3D
 schemas:
 - author: Aspose
-  dateModified: '2026-09-03'
+  dateModified: '2026-11-04'
   description: Learn how to split mesh efficiently by material in Java with Aspose.3D.
     This guide shows you how to reduce draw calls and improve rendering performance
     while splitting mesh by material.
@@ -73,7 +76,7 @@ tags:
 - batch draw calls
 - reduce draw calls
 - improve rendering performance
-title: Cách tách Mesh theo Material trong Java bằng Aspose.3D
+title: Cách tách lưới theo vật liệu trong Java bằng Aspose.3D
 url: /vi/java/3d-mesh-data/split-meshes-by-material/
 weight: 12
 ---
@@ -82,55 +85,60 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách tách mesh theo vật liệu trong Java sử dụng Aspose.3D
+# Cách tách mesh theo vật liệu trong Java bằng Aspose.3D
 
 ## Giới thiệu
 
-Nếu bạn đang làm việc với đồ họa 3D trong Java, bạn sẽ nhanh chóng nhận ra rằng việc xử lý các mesh lớn có thể trở thành nút thắt hiệu năng—đặc biệt khi một mesh duy nhất chứa nhiều vật liệu. **Học cách tách mesh** theo vật liệu cho phép bạn cô lập mỗi nhóm đa giác đặc thù cho một vật liệu, giúp render nhanh hơn, culling dễ dàng hơn và kiểm soát chi tiết hơn việc xử lý texture. Trong hướng dẫn này, chúng ta sẽ đi qua các bước **tách mesh theo vật liệu** bằng thư viện Aspose.3D, kèm theo giải thích thực tế, mẹo giảm draw calls và lời khuyên cải thiện hiệu năng render.
+Nếu bạn đang làm việc với đồ họa 3D trong Java, bạn sẽ nhanh chóng nhận ra rằng việc xử lý các mesh lớn có thể trở thành nút thắt hiệu năng—đặc biệt khi một mesh duy nhất chứa nhiều vật liệu. **Việc học cách tách mesh** theo vật liệu cho phép bạn cô lập mỗi nhóm đa giác riêng biệt theo vật liệu, giúp tăng tốc độ render, dễ dàng culling, và kiểm soát chi tiết hơn việc xử lý texture. Trong hướng dẫn này, chúng ta sẽ đi qua các bước **tách mesh theo vật liệu** bằng thư viện Aspose.3D, kèm theo các giải thích thực tế, mẹo giảm draw calls, và lời khuyên cải thiện hiệu năng render.
 
 ## Câu trả lời nhanh
-- **“Tách mesh theo vật liệu” có nghĩa là gì?** Nó tách một mesh duy nhất thành nhiều sub‑mesh, mỗi sub‑mesh chứa các đa giác chia sẻ cùng một vật liệu.  
+- **“Tách mesh theo vật liệu” có nghĩa là gì?** Nó tách một mesh duy nhất thành nhiều sub‑mesh, mỗi sub‑mesh chứa các đa giác có cùng một vật liệu.  
 - **Tại sao lại dùng Aspose.3D?** Nó cung cấp API cấp cao, đa nền tảng, trừu tượng hoá các định dạng file cấp thấp trong khi vẫn giữ hiệu năng.  
-- **Việc triển khai mất bao lâu?** Khoảng 10–15 phút để viết mã và kiểm thử.  
-- **Tôi có cần giấy phép không?** Có bản dùng thử miễn phí; giấy phép thương mại cần thiết cho môi trường sản xuất.  
-- **Phiên bản Java nào được hỗ trợ?** Java 8 trở lên.
+- **Thời gian thực hiện khoảng bao lâu?** Khoảng 10–15 phút lập trình và kiểm thử.  
+- **Có cần giấy phép không?** Có bản dùng thử miễn phí; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Phiên bản Java nào được hỗ trợ?** Java 8 hoặc cao hơn.
 
 ## Mesh splitting là gì?
 
-`Mesh splitting` là quá trình chia một mesh 3D phức tạp thành các phần nhỏ, dễ quản lý hơn. Khi việc tách dựa trên vật liệu, mỗi sub‑mesh kết quả chỉ chứa các đa giác tham chiếu một vật liệu duy nhất. Cách tiếp cận này giảm draw calls, cải thiện hiệu năng render và đơn giản hoá các tác vụ như áp dụng shader riêng cho từng vật liệu.
+`Mesh splitting` là quá trình chia một mesh 3D phức tạp thành các phần nhỏ hơn, dễ quản lý hơn. Khi việc tách dựa trên vật liệu, mỗi sub‑mesh kết quả chỉ chứa các đa giác tham chiếu tới một vật liệu duy nhất. Cách tiếp cận này giảm draw calls, cải thiện hiệu năng render, và đơn giản hoá các tác vụ như áp dụng shader riêng cho từng vật liệu.
 
-## Việc tách mesh giảm số lần gọi draw như thế nào?
+## Tách mesh giúp giảm draw calls như thế nào?
 
-Khi tách mesh, mỗi vật liệu sẽ có một sub‑mesh, cho phép engine đồ họa phát một draw call duy nhất cho mỗi vật liệu thay vì một draw call cho mỗi đa giác. Ít draw calls hơn đồng nghĩa với ít thay đổi trạng thái GPU, trực tiếp tăng tốc độ khung hình trên cả GPU desktop và GPU di động hạn chế.
+Khi tách mesh, mỗi vật liệu sẽ có một sub‑mesh riêng, cho phép engine đồ họa phát một draw call duy nhất cho mỗi vật liệu thay vì một draw call cho mỗi đa giác. Ít draw calls hơn đồng nghĩa với ít thay đổi trạng thái GPU, trực tiếp nâng cao FPS trên cả GPU desktop và GPU di động hạn chế.
 
-## Tại sao tách mesh theo vật liệu?
+## Tại sao phải tách mesh theo vật liệu?
 
-Tách mesh theo vật liệu cải thiện hiệu năng vì renderer có thể batch draw calls cho mỗi vật liệu, giảm thay đổi trạng thái GPU. Nó cũng cho phép nhà phát triển áp dụng các shader, hiệu ứng post‑processing hoặc logic va chạm riêng cho từng vật liệu. Thêm vào đó, các sub‑mesh nhỏ hơn dễ stream, quản lý bộ nhớ và cull hơn, điều này đặc biệt quan trọng trên mobile, AR và VR.
+Tách mesh theo vật liệu cải thiện hiệu năng vì renderer có thể batch draw calls cho mỗi vật liệu, giảm thay đổi trạng thái GPU. Nó cũng cho phép nhà phát triển linh hoạt áp dụng shader, hiệu ứng post‑processing, hoặc logic va chạm riêng cho từng vật liệu. Thêm vào đó, các sub‑mesh nhỏ hơn dễ stream, quản lý bộ nhớ và culling, đặc biệt hữu ích trên nền tảng mobile, AR và VR.
 
 ## Lợi ích định lượng của Aspose.3D
 
-Aspose.3D hỗ trợ **hơn 30 định dạng đầu vào và đầu ra**—bao gồm OBJ, FBX, STL và GLTF—và có thể xử lý mesh với **lên tới 10 triệu đa giác** mà không cần tải toàn bộ file vào bộ nhớ. Sử dụng chính sách tách `COMPACT_DATA` có thể giảm sử dụng bộ nhớ vertex **lên tới 40 %**, rất hữu ích cho đồ họa Java 3D trên các thiết bị cấp thấp.
+Aspose.3D hỗ trợ **hơn 30 định dạng nhập và xuất**—bao gồm OBJ, FBX, STL, và GLTF—và có thể xử lý mesh với **lên tới 10 triệu đa giác** mà không cần tải toàn bộ file vào bộ nhớ. Sử dụng chính sách tách `COMPACT_DATA` có thể giảm sử dụng bộ nhớ vertex **lên tới 40 %**, rất có giá trị cho đồ họa Java 3D trên thiết bị tầm trung và thấp.
 
 ## Các trường hợp sử dụng phổ biến
 
-| Kịch bản | Lợi ích của việc tách |
+| Scenario | Benefit of splitting |
 |----------|----------------------|
-| **Trò chơi chiến lược thời gian thực** | Mỗi loại địa hình có thể có vật liệu riêng, cho phép engine vẽ tất cả các mảnh cỏ trong một lần gọi. |
-| **Trực quan kiến trúc** | Tường, kính và kim loại có thể được xử lý riêng biệt cho các hiệu ứng shader khác nhau. |
-| **Ứng dụng AR trên di động** | Giảm số lần gọi draw giúp duy trì 60 fps trên phần cứng hạn chế. |
-| **Trải nghiệm VR** | Giảm tải GPU giảm độ trễ, cải thiện sự thoải mái của người dùng. |
+| **Real‑time strategy games** | Mỗi loại địa hình có thể có vật liệu riêng, cho phép engine vẽ tất cả các mảnh cỏ trong một lần gọi. |
+| **Architectural visualization** | Tường, kính và kim loại có thể được xử lý riêng để tạo hiệu ứng shader riêng biệt. |
+| **Mobile AR apps** | Giảm draw calls giúp duy trì 60 fps trên phần cứng hạn chế. |
+| **VR experiences** | Giảm tải GPU làm giảm độ trễ, cải thiện sự thoải mái của người dùng. |
 
-## Yêu cầu trước
+## Điều kiện tiên quyết
 
-Trước khi chúng ta bắt đầu với mã, hãy chắc chắn bạn đã có:
+Trước khi chúng ta đi vào code, hãy chắc chắn bạn có:
 
 - Kiến thức cơ bản về lập trình Java.  
-- Thư viện Aspose.3D cho Java đã được cài đặt (tải về từ [trang web Aspose](https://releases.aspose.com/3d/java/)).  
-- Một IDE như IntelliJ IDEA, Eclipse hoặc VS Code được cấu hình cho phát triển Java.
+- Thư viện Aspose.3D for Java đã được cài đặt (tải từ [Aspose website](https://releases.aspose.com/3d/java/)).  
+- Một IDE như IntelliJ IDEA, Eclipse, hoặc VS Code được cấu hình cho phát triển Java.
 
-## Nhập các gói
+## Nhập khẩu các package
 
-Lớp `Scene` đại diện cho một container cảnh 3D, trong khi `Mesh` chứa dữ liệu hình học; `VertexElementMaterial` lưu chỉ số vật liệu cho mỗi đa giác, và `PolygonModifier` cung cấp các tiện ích để thao tác mesh.  
+`Scene` là đối tượng gốc của Aspose.3D chứa tất cả các node, light và camera trong một scene 3D.  
+`Mesh` đại diện cho dữ liệu hình học—vertex, edge và face—của một đối tượng 3D.  
+`VertexElementMaterial` lưu trữ chỉ số vật liệu nguyên cho mỗi đa giác, cho phép gán vật liệu theo đa giác.  
+`PolygonModifier` cung cấp các phương thức tĩnh để chỉnh sửa mesh, như tách hoặc hợp nhất đa giác.  
+
+Lớp `Scene` đại diện cho container của một scene 3D, trong khi `Mesh` chứa dữ liệu hình học; `VertexElementMaterial` lưu chỉ số vật liệu cho từng đa giác, và `PolygonModifier` cung cấp các tiện ích cho việc thao tác mesh.  
 ```java
 import com.aspose.threed.*;
 
@@ -139,11 +147,11 @@ import java.util.Arrays;
 
 ## Hướng dẫn từng bước
 
-Dưới đây là một bản walkthrough ngắn gọn cho mỗi bước, với giải thích trước placeholder để bạn biết chính xác những gì đang diễn ra.
+Dưới đây là một walkthrough ngắn gọn cho mỗi bước, với giải thích trước placeholder để bạn biết chính xác những gì đang diễn ra.
 
-### Bước 1: Tạo một mesh dạng hộp
+### Bước 1: Tạo mesh dạng hộp
 
-Lớp `Box` tạo hình khối lập phương với sáu mặt, mỗi mặt được biểu diễn dưới dạng một đa giác riêng. Chúng ta bắt đầu với một primitive hình học đơn giản—một hộp—để có thể nhìn rõ cách mỗi mặt (plane) sẽ có vật liệu riêng sau này.  
+Lớp `Box` tạo hình khối lập phương với sáu mặt, mỗi mặt được biểu diễn dưới dạng một đa giác riêng. Chúng ta bắt đầu với một primitive hình học đơn giản—một hộp—để có thể nhìn rõ cách mỗi mặt (plane) sẽ nhận vật liệu riêng sau này.  
 ```java
 // ExStart:SplitMeshbyMaterial
 
@@ -151,9 +159,9 @@ Lớp `Box` tạo hình khối lập phương với sáu mặt, mỗi mặt đư
 Mesh box = (new Box()).toMesh();
 ```
 
-### Bước 2: Tạo một phần tử vật liệu
+### Bước 2: Tạo phần tử vật liệu
 
-`VertexElementMaterial` lưu chỉ số vật liệu cho mỗi đa giác. Bằng cách gắn nó vào mesh, chúng ta có thể kiểm soát vật liệu nào mỗi mặt sẽ sử dụng.  
+`VertexElementMaterial` lưu chỉ số vật liệu cho mỗi đa giác. Bằng cách gắn nó vào mesh, chúng ta có thể kiểm soát vật liệu mà mỗi mặt sử dụng.  
 ```java
 // Create a material element on the box mesh
 VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElementType.MATERIAL, MappingMode.POLYGON, ReferenceMode.INDEX);
@@ -161,7 +169,7 @@ VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElem
 
 ### Bước 3: Chỉ định các chỉ số vật liệu khác nhau
 
-Ở đây chúng ta gán một chỉ số vật liệu duy nhất cho mỗi trong sáu mặt của hộp. Thứ tự của mảng khớp với thứ tự các đa giác được tạo ra bởi primitive `Box`.  
+Ở đây chúng ta gán một chỉ số vật liệu duy nhất cho mỗi trong sáu mặt của hộp. Thứ tự trong mảng khớp với thứ tự các đa giác được tạo ra bởi primitive `Box`.  
 ```java
 // Specify different material indices for each plane
 mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
@@ -194,50 +202,49 @@ System.out.println("\nSplitting a mesh by specifying the material successfully."
 // ExEnd:SplitMeshbyMaterial
 ```
 
-## Giảm số lần gọi draw và cải thiện hiệu suất render
+## Giảm draw calls và cải thiện hiệu năng render
 
-Bằng cách biến mỗi vật liệu thành một mesh riêng, bạn cho phép pipeline đồ họa phát một draw call duy nhất cho mỗi vật liệu thay vì một draw call cho mỗi đa giác. Việc giảm draw calls này trực tiếp mang lại tốc độ khung hình mượt hơn, đặc biệt trên phần cứng cấp thấp. Thêm vào đó, chính sách `COMPACT_DATA` loại bỏ các vertex không dùng, giảm băng thông bộ nhớ và giúp GPU render hiệu quả hơn.
+Bằng cách biến mỗi vật liệu thành một mesh riêng, bạn cho phép pipeline đồ họa phát một draw call duy nhất cho mỗi vật liệu thay vì một draw call cho mỗi đa giác. Việc giảm draw calls này trực tiếp mang lại tốc độ khung hình mượt hơn, đặc biệt trên phần cứng tầm trung và thấp. Thêm vào đó, chính sách `COMPACT_DATA` loại bỏ các vertex không dùng, giảm băng thông bộ nhớ và giúp GPU render hiệu quả hơn.
 
 ## Các vấn đề thường gặp và giải pháp
 
-| Vấn đề | Tại sao xảy ra | Cách khắc phục |
-|-------|----------------|----------------|
-| **Sub‑meshes chứa các vertex trùng lặp** | Sử dụng `CLONE_DATA` sao chép toàn bộ dữ liệu vertex cho mỗi sub‑mesh. | Chuyển sang `COMPACT_DATA` khi bạn muốn các vertex chung được loại bỏ trùng lặp. |
-| **Gán vật liệu không đúng** | Độ dài mảng chỉ số không khớp với số lượng đa giác. | Kiểm tra số lượng đa giác (ví dụ, một hộp có 6) và cung cấp một mảng chỉ số phù hợp. |
+| Issue | Why it happens | Fix |
+|-------|----------------|-----|
+| **Sub‑meshes contain duplicate vertices** | Using `CLONE_DATA` copies all vertex data for each sub‑mesh. | Switch to `COMPACT_DATA` when you want shared vertices to be deduplicated. |
+| **Incorrect material assignment** | Indices array length does not match polygon count. | Verify the number of polygons (e.g., a box has 6) and supply a matching indices array. |
 
 ## Câu hỏi thường gặp
 
-**Q: Aspose.3D có tương thích với các thư viện 3D Java khác không?**  
+**Q: Aspose.3D có tương thích với các thư viện Java 3D khác không?**  
 A: Có, Aspose.3D có thể đồng hành cùng các thư viện như Java 3D hoặc jMonkeyEngine, cho phép bạn nhập/xuất mesh giữa chúng.
 
 **Q: Kỹ thuật này có thể áp dụng cho mô hình phức tạp với hàng trăm vật liệu không?**  
-A: Chắc chắn. Các cuộc gọi API giống nhau hoạt động bất kể độ phức tạp của mesh; chỉ cần đảm bảo mảng chỉ số của bạn phản ánh đúng bố cục vật liệu.
+A: Chắc chắn. Các cuộc gọi API giống nhau hoạt động bất kể độ phức tạp của mesh; chỉ cần đảm bảo mảng chỉ số phản ánh đúng bố cục vật liệu.
 
-**Q: Tôi có thể tìm tài liệu Java đầy đủ của Aspose.3D ở đâu?**  
+**Q: Tôi có thể tìm tài liệu đầy đủ của Aspose.3D Java ở đâu?**  
 A: Truy cập tài liệu chính thức [Aspose.3D Java documentation](https://reference.aspose.com/3d/java/) để xem chi tiết API và các ví dụ bổ sung.
 
-**Q: Có bản dùng thử miễn phí cho Aspose.3D cho Java không?**  
-A: Có, bạn có thể tải phiên bản dùng thử từ [trang Aspose Releases](https://releases.aspose.com/).
+**Q: Có bản dùng thử miễn phí cho Aspose.3D for Java không?**  
+A: Có, bạn có thể tải phiên bản dùng thử từ [Aspose Releases page](https://releases.aspose.com/).
 
 **Q: Làm sao tôi có thể nhận hỗ trợ nếu gặp vấn đề?**  
-A: Diễn đàn cộng đồng Aspose ([Aspose.3D forum](https://forum.aspose.com/c/3d/18)) là nơi tuyệt vời để đặt câu hỏi và nhận trợ giúp từ đội ngũ Aspose cũng như các nhà phát triển khác.
+A: Diễn đàn cộng đồng Aspose ([Aspose.3D forum](https://forum.aspose.com/c/3d/18)) là nơi tuyệt vời để đặt câu hỏi và nhận trợ giúp từ đội ngũ Aspose và các nhà phát triển khác.
 
 ## Kết luận
 
-Bạn đã có một phương pháp hoàn chỉnh, sẵn sàng cho sản xuất để **tách mesh theo vật liệu** bằng Aspose.3D trong Java. Áp dụng kỹ thuật này, bạn sẽ thấy số lần gọi draw giảm, sử dụng bộ nhớ tốt hơn và render mượt hơn trên nhiều thiết bị. Hãy thử nghiệm các tùy chọn `SplitMeshPolicy` khác nhau hoặc tích hợp các sub‑mesh đã tạo vào pipeline render của riêng bạn.
+Bạn đã có một phương pháp hoàn chỉnh, sẵn sàng cho môi trường production để **tách mesh theo vật liệu** bằng Aspose.3D trong Java. Áp dụng kỹ thuật này sẽ giúp bạn giảm số lượng draw calls, tối ưu sử dụng bộ nhớ và render mượt hơn trên nhiều thiết bị. Hãy thử nghiệm các tùy chọn `SplitMeshPolicy` khác nhau hoặc tích hợp các sub‑mesh đã tách vào pipeline render của bạn.
 
 ---
 
-**Last Updated:** 2026-09-03  
+**Last Updated:** 2026-11-04  
 **Tested With:** Aspose.3D for Java 24.11  
 **Author:** Aspose
 
-## Hướng dẫn liên quan
+## Các hướng dẫn liên quan
 
-- [Cách tính chuẩn mesh và thêm chuẩn cho các mesh 3D trong Java (Sử dụng Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Học cách tam giác hoá mesh để tối ưu render trong Java bằng Aspose.3D](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
-- [Giảm kích thước mô hình 3D: Tạo mesh hình cầu trong Java với Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
+- [How to Calculate Mesh Normals and Add Normals to 3D Meshes in Java (Using Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
+- [Learn How to Triangulate Meshes for Optimized Rendering in Java Using Aspose.3D](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
+- [Reduce 3D Model Size: Create Sphere Mesh in Java with Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

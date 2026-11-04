@@ -1,22 +1,25 @@
 ---
-date: 2026-09-03
-description: Lär dig hur du splittar mesh effektivt efter material i Java med Aspose.3D.
+date: 2026-11-04
+description: Lär dig hur du effektivt delar upp mesh efter material i Java med Aspose.3D.
   Denna guide visar hur du minskar draw calls och förbättrar rendering performance
-  när du splittar mesh efter material.
+  när du delar upp mesh efter material.
+images:
+- /java/3d-mesh-data/split-meshes-by-material/og-image.png
 keywords:
 - how to split mesh
 - reduce draw calls
 - improve rendering performance
 - split mesh by material
-lastmod: 2026-09-03
-linktitle: Hur man splittar mesh efter material i Java med Aspose.3D
-og_description: Hur du splittar mesh efter material med Aspose.3D för Java. Minska
+- 3d rendering optimization
+lastmod: 2026-11-04
+linktitle: Hur man delar upp mesh efter material i Java med Aspose.3D
+og_description: Hur man delar upp mesh efter material med Aspose.3D för Java. Minska
   draw calls och förbättra rendering performance med denna step‑by‑step guide.
 og_image_alt: Tutorial showing mesh splitting by material in Java with Aspose.3D
-og_title: Hur man splittar mesh efter material i Java med Aspose.3D
+og_title: Hur man delar upp mesh efter material i Java med Aspose.3D
 schemas:
 - author: Aspose
-  dateModified: '2026-09-03'
+  dateModified: '2026-11-04'
   description: Learn how to split mesh efficiently by material in Java with Aspose.3D.
     This guide shows you how to reduce draw calls and improve rendering performance
     while splitting mesh by material.
@@ -73,7 +76,7 @@ tags:
 - batch draw calls
 - reduce draw calls
 - improve rendering performance
-title: Hur man splittar mesh efter material i Java med Aspose.3D
+title: Hur man delar upp mesh efter material i Java med Aspose.3D
 url: /sv/java/3d-mesh-data/split-meshes-by-material/
 weight: 12
 ---
@@ -86,32 +89,32 @@ weight: 12
 
 ## Introduktion
 
-Om du arbetar med 3D‑grafik i Java kommer du snabbt att upptäcka att bearbetning av stora mesh‑ar kan bli en prestandaflaskhals—särskilt när en enda mesh innehåller flera material. **Att lära sig att dela mesh** efter material låter dig isolera varje material‑specifik grupp av polygoner, vilket möjliggör snabbare rendering, enklare culling och mer granulär kontroll över texturhantering. I den här handledningen går vi igenom de exakta stegen för att **dela mesh efter material** med Aspose.3D‑biblioteket, komplett med praktiska förklaringar, tips för att minska draw calls och råd om hur du förbättrar renderingsprestanda.
+Om du arbetar med 3D‑grafik i Java kommer du snabbt att upptäcka att bearbetning av stora meshes kan bli en prestandaflaskhals—särskilt när ett enda mesh innehåller flera material. **Att lära sig hur man delar mesh** efter material låter dig isolera varje material‑specifik grupp av polygoner, vilket möjliggör snabbare rendering, enklare culling och mer finmaskig kontroll över texturhantering. I den här handledningen går vi igenom de exakta stegen för att **dela mesh efter material** med Aspose.3D‑biblioteket, komplett med praktiska förklaringar, tips för att minska draw calls och råd om hur du förbättrar renderingsprestanda.
 
 ## Snabba svar
-- **Vad betyder “split mesh by material”?** Det separerar en enda mesh i flera sub‑meshes, där varje sub‑mesh innehåller polygoner som delar samma material.  
-- **Varför använda Aspose.3D?** Det erbjuder ett hög‑nivå, plattformsoberoende API som abstraherar lågnivå‑filformat samtidigt som prestandan bevaras.  
+- **Vad betyder “split mesh by material”?** Det separerar ett enda mesh i flera del‑meshes, där varje del‑mesh innehåller polygoner som delar samma material.  
+- **Varför använda Aspose.3D?** Det erbjuder ett hög‑nivå, plattforms‑oberoende API som abstraherar låg‑nivå filformat samtidigt som prestanda behålls.  
 - **Hur lång tid tar implementeringen?** Ungefär 10–15 minuter kodning och testning.  
-- **Behöver jag en licens?** En gratis provversion finns tillgänglig; en kommersiell licens krävs för produktionsbruk.  
+- **Behöver jag en licens?** En gratis provversion finns; en kommersiell licens krävs för produktionsanvändning.  
 - **Vilken Java‑version stöds?** Java 8 eller högre.
 
 ## Vad är mesh‑delning?
 
-`Mesh splitting` är processen att dela en komplex 3D‑mesh i mindre, mer hanterbara delar. När delningen baseras på material innehåller varje resulterande sub‑mesh endast de polygoner som refererar ett enda material. Detta minskar draw calls, förbättrar renderingsprestanda och förenklar uppgifter som att applicera per‑material‑shaders.
+`Mesh splitting` är processen att dela ett komplext 3D‑mesh i mindre, mer hanterbara delar. När delningen baseras på material innehåller varje resulterande del‑mesh endast de polygoner som refererar till ett enda material. Detta tillvägagångssätt minskar draw calls, förbättrar renderingsprestanda och förenklar uppgifter som att applicera per‑material‑shaders.
 
-## Hur minskar delning antalet draw calls?
+## Hur minskar delning draw calls?
 
-Att dela en mesh skapar en sub‑mesh per material, vilket gör att grafikmotorn kan utfärda ett enda draw call för varje material istället för ett per polygon. Färre draw calls innebär färre GPU‑tillståndsändringar, vilket direkt översätts till högre bildhastigheter både på stationära GPU:er och begränsade mobila GPU:er.
+Att dela ett mesh skapar en del‑mesh per material, vilket gör att grafikmotorn kan utfärda ett enda draw call för varje material istället för ett per polygon. Färre draw calls betyder färre GPU‑tillståndsändringar, vilket direkt översätts till högre bildhastigheter både på stationära GPU:er och begränsade mobila GPU:er.
 
 ## Varför dela mesh efter material?
 
-Att dela en mesh efter material förbättrar prestanda eftersom renderaren kan batcha draw calls för varje material, vilket minskar GPU‑tillståndsändringar. Det ger också utvecklare flexibilitet att applicera olika shaders, efterbearbetningseffekter eller kollisionslogik per material. Dessutom är mindre sub‑meshes enklare att strömma, hantera minne och culla, vilket är särskilt värdefullt på mobila, AR‑ och VR‑plattformar.
+Att dela ett mesh efter material förbättrar prestanda eftersom renderaren kan batcha draw calls för varje material, vilket minskar GPU‑tillståndsändringar. Det ger också utvecklare flexibilitet att applicera olika shaders, efterbehandlingseffekter eller kollisionslogik per material. Dessutom är mindre del‑meshes enklare att strömma, hantera minne och culla, vilket är särskilt värdefullt på mobila, AR‑ och VR‑plattformar.
 
 ## Kvantifierade fördelar med Aspose.3D
 
-Aspose.3D stödjer **30+ in‑ och utdataformat**—inklusive OBJ, FBX, STL och GLTF—och kan bearbeta mesh‑ar med **upp till 10 miljoner polygoner** utan att ladda hela filen i minnet. Att använda split‑policyn `COMPACT_DATA` kan minska vertex‑minnesanvändningen med **upp till 40 %**, vilket är särskilt värdefullt för Java 3D‑grafik på låg‑presterande enheter.
+Aspose.3D stödjer **30+ in‑ och utdataformat**—inklusive OBJ, FBX, STL och GLTF—och kan bearbeta meshes med **upp till 10 miljoner polygoner** utan att ladda hela filen i minnet. Att använda split‑policyn `COMPACT_DATA` kan minska vertex‑minnesanvändningen med **upp till 40 %**, vilket är särskilt värdefullt för Java 3D‑grafik på låg‑presterande enheter.
 
-## Vanliga användningsområden
+## Vanliga användningsfall
 
 | Scenario | Fördel med delning |
 |----------|--------------------|
@@ -125,12 +128,14 @@ Aspose.3D stödjer **30+ in‑ och utdataformat**—inklusive OBJ, FBX, STL och 
 Innan vi dyker ner i koden, se till att du har följande:
 
 - Grundläggande kunskaper i Java‑programmering.  
-- Aspose.3D för Java‑biblioteket installerat (ladda ner från den [Aspose‑webbplatsen](https://releases.aspose.com/3d/java/)).  
+- Aspose.3D för Java‑biblioteket installerat (ladda ner från [Aspose‑webbplatsen](https://releases.aspose.com/3d/java/)).  
 - En IDE som IntelliJ IDEA, Eclipse eller VS Code konfigurerad för Java‑utveckling.
 
 ## Importera paket
 
-`Scene`‑klassen representerar en 3D‑scenkontainer, medan `Mesh` innehåller geometridata; `VertexElementMaterial` lagrar materialindex per polygon, och `PolygonModifier` tillhandahåller verktyg för mesh‑manipulation.  
+`Scene` är Aspose.3D:s rotobjekt som innehåller alla noder, ljus och kameror i en 3D‑scen. `Mesh` representerar de geometriska data—vertexar, kanter och ytor—för ett 3D‑objekt. `VertexElementMaterial` lagrar ett heltals‑materialindex för varje polygon, vilket möjliggör per‑polygon‑materialtilldelning. `PolygonModifier` erbjuder statiska metoder för att redigera meshes, såsom att dela eller slå ihop polygoner.
+
+Klassen `Scene` representerar en 3D‑scenbehållare, medan `Mesh` håller geometridata; `VertexElementMaterial` lagrar per‑polygon‑materialindex, och `PolygonModifier` tillhandahåller verktyg för mesh‑manipulation.  
 ```java
 import com.aspose.threed.*;
 
@@ -139,9 +144,9 @@ import java.util.Arrays;
 
 ## Steg‑för‑steg‑guide
 
-Nedan följer en kort genomgång av varje steg, med förklaringar före platshållaren så att du vet exakt vad som händer.
+Nedan följer en koncis genomgång av varje steg, med förklaringar före platshållaren så att du vet exakt vad som händer.
 
-### Steg 1: Skapa en mesh av en låda
+### Steg 1: Skapa ett mesh av en låda
 
 `Box`‑klassen skapar en kubgeometri med sex ytor, där varje yta representeras som en separat polygon. Vi börjar med ett enkelt geometriskt primitiv—en låda—så att vi tydligt kan se hur varje yta (plan) får sitt eget material senare.  
 ```java
@@ -151,7 +156,7 @@ Nedan följer en kort genomgång av varje steg, med förklaringar före platshå
 Mesh box = (new Box()).toMesh();
 ```
 
-### Steg 2: Skapa ett material‑element
+### Steg 2: Skapa ett materialelement
 
 `VertexElementMaterial` lagrar materialindex för varje polygon. Genom att fästa det på meshen kan vi kontrollera vilket material varje yta använder.  
 ```java
@@ -161,15 +166,15 @@ VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElem
 
 ### Steg 3: Specificera olika materialindex
 
-Här tilldelar vi ett unikt materialindex till var och en av lådans sex plan. Arrayens ordning matchar ordningen på polygonerna som genereras av `Box`‑primitivet.  
+Här tilldelar vi ett unikt materialindex till var och en av de sex planerna i lådan. Arrayens ordning matchar ordningen på polygonerna som genereras av `Box`‑primitivet.  
 ```java
 // Specify different material indices for each plane
 mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
 ```
 
-### Steg 4: Dela meshen i sub‑meshes
+### Steg 4: Dela meshen i del‑meshes
 
-`SplitMeshPolicy`‑enum definierar hur vertex‑data hanteras under delning, t.ex. `CLONE_DATA` eller `COMPACT_DATA`. Att anropa `PolygonModifier.splitMesh` med `SplitMeshPolicy.CLONE_DATA` skapar en ny sub‑mesh för varje distinkt materialindex samtidigt som den ursprungliga vertex‑datan bevaras.  
+Enum‑typen `SplitMeshPolicy` definierar hur vertexdata hanteras under delning, t.ex. `CLONE_DATA` eller `COMPACT_DATA`. Att anropa `PolygonModifier.splitMesh` med `SplitMeshPolicy.CLONE_DATA` skapar ett nytt del‑mesh för varje distinkt materialindex samtidigt som den ursprungliga vertexdatan bevaras.  
 ```java
 // Split the mesh into 6 sub-meshes, each plane becoming a sub-mesh
 Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
@@ -196,22 +201,22 @@ System.out.println("\nSplitting a mesh by specifying the material successfully."
 
 ## Minska draw calls och förbättra renderingsprestanda
 
-Genom att göra varje material till sin egen mesh möjliggör du att grafik‑pipeline utfärdar ett enda draw call per material istället för ett per polygon. Denna minskning av draw calls översätts direkt till mjukare bildhastigheter, särskilt på låg‑presterande hårdvara. Dessutom tar `COMPACT_DATA`‑policyn bort oanvända vertexar, vilket ytterligare minskar minnesbandbredden och hjälper GPU:n att rendera mer effektivt.
+Genom att göra varje material till ett eget mesh möjliggör du att grafik‑pipeline kan utfärda ett enda draw call per material istället för ett per polygon. Denna minskning av draw calls översätts direkt till jämnare bildhastigheter, särskilt på låg‑presterande hårdvara. Dessutom tar `COMPACT_DATA`‑policyn bort oanvända vertexar, vilket ytterligare minskar minnesbandbredden och hjälper GPU:n att rendera mer effektivt.
 
 ## Vanliga problem och lösningar
 
 | Problem | Varför det händer | Lösning |
 |---------|-------------------|---------|
-| **Sub‑meshes innehåller duplicerade vertexar** | Att använda `CLONE_DATA` kopierar all vertexdata för varje sub‑mesh. | Byt till `COMPACT_DATA` när du vill att delade vertexar ska dedupliceras. |
+| **Del‑meshes innehåller duplicerade vertexar** | Att använda `CLONE_DATA` kopierar all vertexdata för varje del‑mesh. | Byt till `COMPACT_DATA` när du vill att delade vertexar ska dedupliceras. |
 | **Felaktig materialtilldelning** | Indexarrayens längd matchar inte antalet polygoner. | Verifiera antalet polygoner (t.ex. en låda har 6) och ange en matchande indexarray. |
 
 ## Vanliga frågor
 
-**Q: Är Aspose.3D kompatibel med andra Java 3D‑bibliotek?**  
+**Q: Är Aspose.3D kompatibel med andra Java‑3D‑bibliotek?**  
 A: Ja, Aspose.3D kan samexistera med bibliotek som Java 3D eller jMonkeyEngine, vilket gör att du kan importera/exportera meshes mellan dem.
 
 **Q: Kan denna teknik tillämpas på komplexa modeller med hundratals material?**  
-A: Absolut. Samma API‑anrop fungerar oavsett mesh‑komplexitet; se bara till att din indexarray korrekt återspeglar materiallayouten.
+A: Absolut. Samma API‑anrop fungerar oavsett mesh‑komplexitet; se bara till att din indexarray korrekt speglar materiallayouten.
 
 **Q: Var kan jag hitta den fullständiga Aspose.3D Java‑dokumentationen?**  
 A: Besök den officiella [Aspose.3D Java‑dokumentationen](https://reference.aspose.com/3d/java/) för detaljerade API‑referenser och fler exempel.
@@ -220,24 +225,23 @@ A: Besök den officiella [Aspose.3D Java‑dokumentationen](https://reference.as
 A: Ja, du kan ladda ner en provversion från [Aspose Releases‑sidan](https://releases.aspose.com/).
 
 **Q: Hur kan jag få support om jag stöter på problem?**  
-A: Aspose‑community‑forumet ([Aspose.3D‑forum](https://forum.aspose.com/c/3d/18)) är en utmärkt plats för att ställa frågor och få hjälp både från Aspose‑teamet och andra utvecklare.
+A: Aspose‑community‑forumet ([Aspose.3D‑forum](https://forum.aspose.com/c/3d/18)) är en utmärkt plats för att ställa frågor och få hjälp från både Aspose‑teamet och andra utvecklare.
 
 ## Slutsats
 
-Du har nu en komplett, produktionsklar metod för **att dela mesh efter material** med Aspose.3D i Java. Genom att tillämpa denna teknik kommer du att se färre draw calls, bättre minnesanvändning och smidigare rendering på en rad olika enheter. Känn dig fri att experimentera med olika `SplitMeshPolicy`‑alternativ eller integrera de resulterande sub‑meshes i din egen renderingspipeline.
+Du har nu en komplett, produktionsklar metod för **att dela mesh efter material** med Aspose.3D i Java. Genom att tillämpa denna teknik kommer du att se färre draw calls, bättre minnesanvändning och smidigare rendering på en rad olika enheter. Känn dig fri att experimentera med olika `SplitMeshPolicy`‑alternativ eller integrera de resulterande del‑meshes i din egen renderingspipeline.
 
 ---
 
-**Senast uppdaterad:** 2026-09-03  
+**Senast uppdaterad:** 2026-11-04  
 **Testat med:** Aspose.3D för Java 24.11  
 **Författare:** Aspose
 
 ## Relaterade handledningar
 
-- [Hur man beräknar mesh‑normaler och lägger till normala i 3D‑meshes i Java (med Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
+- [Hur man beräknar mesh‑normals och lägger till normals i 3D‑meshes i Java (med Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
 - [Lär dig hur man triangulerar meshes för optimerad rendering i Java med Aspose.3D](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
-- [Minska 3D‑modellstorlek: Skapa sfär‑mesh i Java med Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
+- [Minska 3D‑modells storlek: Skapa sfär‑mesh i Java med Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

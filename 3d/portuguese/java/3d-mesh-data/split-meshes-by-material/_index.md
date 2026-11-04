@@ -1,22 +1,25 @@
 ---
-date: 2026-09-03
-description: Aprenda como dividir malha eficientemente por material em Java com Aspose.3D.
+date: 2026-11-04
+description: Aprenda a dividir mesh eficientemente por material em Java com Aspose.3D.
   Este guia mostra como reduzir draw calls e melhorar rendering performance ao dividir
-  a malha por material.
+  mesh por material.
+images:
+- /java/3d-mesh-data/split-meshes-by-material/og-image.png
 keywords:
 - how to split mesh
 - reduce draw calls
 - improve rendering performance
 - split mesh by material
-lastmod: 2026-09-03
-linktitle: Como dividir malha por material em Java usando Aspose.3D
-og_description: Como dividir malha por material usando Aspose.3D para Java. Reduza
-  draw calls e melhore rendering performance com este step‑by‑step guide.
+- 3d rendering optimization
+lastmod: 2026-11-04
+linktitle: Como dividir mesh por material em Java usando Aspose.3D
+og_description: Como dividir mesh por material usando Aspose.3D para Java. Reduza
+  draw calls e melhore rendering performance com este guia passo a passo.
 og_image_alt: Tutorial showing mesh splitting by material in Java with Aspose.3D
-og_title: Como dividir malha por material em Java com Aspose.3D
+og_title: Como dividir mesh por material em Java com Aspose.3D
 schemas:
 - author: Aspose
-  dateModified: '2026-09-03'
+  dateModified: '2026-11-04'
   description: Learn how to split mesh efficiently by material in Java with Aspose.3D.
     This guide shows you how to reduce draw calls and improve rendering performance
     while splitting mesh by material.
@@ -73,7 +76,7 @@ tags:
 - batch draw calls
 - reduce draw calls
 - improve rendering performance
-title: Como dividir malha por material em Java usando Aspose.3D
+title: Como dividir mesh por material em Java usando Aspose.3D
 url: /pt/java/3d-mesh-data/split-meshes-by-material/
 weight: 12
 ---
@@ -82,43 +85,43 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Como dividir mesh por material em Java usando Aspose.3D
+# Como dividir malha por material em Java usando Aspose.3D
 
 ## Introdução
 
-Se você está trabalhando com gráficos 3D em Java, descobrirá rapidamente que processar meshes grandes pode se tornar um gargalo de desempenho — especialmente quando uma única mesh contém múltiplos materiais. **Aprender a dividir mesh** por material permite isolar cada grupo de polígonos específico de material, possibilitando renderização mais rápida, culling mais fácil e controle mais granular sobre o manuseio de texturas. Neste tutorial, percorreremos os passos exatos para **dividir mesh por material** usando a biblioteca Aspose.3D, com explicações práticas, dicas para reduzir draw calls e conselhos para melhorar o desempenho de renderização.
+Se você está trabalhando com gráficos 3D em Java, descobrirá rapidamente que processar malhas grandes pode se tornar um gargalo de desempenho — especialmente quando uma única malha contém vários materiais. **Aprender a dividir a malha** por material permite isolar cada grupo de polígonos específico de material, possibilitando renderização mais rápida, culling mais fácil e controle mais granular sobre o manuseio de texturas. Neste tutorial, percorreremos os passos exatos para **dividir a malha por material** usando a biblioteca Aspose.3D, com explicações práticas, dicas para reduzir chamadas de desenho e conselhos sobre como melhorar o desempenho de renderização.
 
 ## Respostas rápidas
-- **O que significa “dividir mesh por material”?** Ele separa uma única mesh em múltiplas sub‑meshes, cada uma contendo polígonos que compartilham o mesmo material.  
+- **O que significa “dividir malha por material”?** Ele separa uma única malha em múltiplas sub‑malhas, cada uma contendo polígonos que compartilham o mesmo material.  
 - **Por que usar Aspose.3D?** Ela fornece uma API de alto nível, multiplataforma, que abstrai formatos de arquivo de baixo nível enquanto mantém o desempenho.  
-- **Quanto tempo leva a implementação?** Aproximadamente 10–15 minutos de codificação e testes.  
-- **Preciso de licença?** Um teste gratuito está disponível; uma licença comercial é necessária para uso em produção.  
+- **Quanto tempo leva a implementação?** Aproximadamente 10–15 minutos de codificação e teste.  
+- **Preciso de uma licença?** Um teste gratuito está disponível; uma licença comercial é necessária para uso em produção.  
 - **Qual versão do Java é suportada?** Java 8 ou superior.
 
-## O que é divisão de mesh?
+## O que é divisão de malha?
 
-`Mesh splitting` é o processo de dividir uma mesh 3D complexa em peças menores e mais manejáveis. Quando a divisão é baseada em material, cada sub‑mesh resultante contém apenas os polígonos que referenciam um único material. Essa abordagem reduz draw calls, melhora o desempenho de renderização e simplifica tarefas como a aplicação de shaders por material.
+`Mesh splitting` é o processo de dividir uma malha 3D complexa em peças menores e mais manejáveis. Quando a divisão é baseada em material, cada sub‑malha resultante contém apenas os polígonos que referenciam um único material. Essa abordagem reduz chamadas de desenho, melhora o desempenho de renderização e simplifica tarefas como aplicar shaders por material.
 
-## Como a divisão reduz draw calls?
+## Como a divisão reduz chamadas de desenho?
 
-Dividir uma mesh cria uma sub‑mesh por material, permitindo que o motor gráfico emita uma única draw call para cada material em vez de uma por polígono. Menos draw calls significam menos mudanças de estado da GPU, o que se traduz diretamente em taxas de quadros mais altas tanto em GPUs de desktop quanto em GPUs móveis limitadas.
+Dividir uma malha cria uma sub‑malha por material, permitindo que o motor gráfico emita uma única chamada de desenho para cada material em vez de uma por polígono. Menos chamadas de desenho significam menos mudanças de estado da GPU, o que se traduz diretamente em taxas de quadros mais altas tanto em GPUs de desktop quanto em GPUs móveis limitadas.
 
-## Por que dividir mesh por material?
+## Por que dividir a malha por material?
 
-Dividir mesh por material melhora o desempenho porque o renderizador pode agrupar draw calls para cada material, reduzindo mudanças de estado da GPU. Também oferece aos desenvolvedores flexibilidade para aplicar shaders distintos, efeitos de pós‑processamento ou lógica de colisão por material. Além disso, sub‑meshes menores são mais fáceis de fazer streaming, gerenciar memória e culling, o que é especialmente valioso em plataformas móveis, AR e VR.
+Dividir a malha por material melhora o desempenho porque o renderizador pode agrupar chamadas de desenho para cada material, reduzindo mudanças de estado da GPU. Também oferece aos desenvolvedores flexibilidade para aplicar shaders distintos, efeitos de pós‑processamento ou lógica de colisão por material. Além disso, sub‑malhas menores são mais fáceis de fazer streaming, gerenciar memória e fazer culling, o que é especialmente valioso em plataformas móveis, AR e VR.
 
 ## Benefícios quantificados do Aspose.3D
 
-Aspose.3D suporta **30+ formatos de entrada e saída** — incluindo OBJ, FBX, STL e GLTF — e pode processar meshes com **até 10 milhões de polígonos** sem carregar o arquivo inteiro na memória. Usar a política de divisão `COMPACT_DATA` pode reduzir o uso de memória de vértices em **até 40 %**, o que é particularmente valioso para gráficos 3D Java em dispositivos de baixo custo.
+Aspose.3D suporta **30+ formatos de entrada e saída** — incluindo OBJ, FBX, STL e GLTF — e pode processar malhas com **até 10 milhões de polígonos** sem carregar o arquivo inteiro na memória. Usar a política de divisão `COMPACT_DATA` pode reduzir o uso de memória de vértices em **até 40 %**, o que é especialmente valioso para gráficos Java 3D em dispositivos de baixo custo.
 
 ## Casos de uso comuns
 
 | Cenário | Benefício da divisão |
 |----------|----------------------|
-| **Jogos de estratégia em tempo real** | Cada tipo de terreno pode ter seu próprio material, permitindo que o motor desenhe todas as áreas de grama em uma única chamada. |
+| **Jogos de estratégia em tempo real** | Cada tipo de terreno pode ter seu próprio material, permitindo que o motor desenhe todos os patches de grama em uma única chamada. |
 | **Visualização arquitetônica** | Paredes, vidro e metal podem ser tratados separadamente para efeitos de shader distintos. |
-| **Aplicativos móveis de AR** | Reduzir draw calls ajuda a manter 60 fps em hardware limitado. |
-| **Experiências de VR** | Uma carga de trabalho GPU menor reduz a latência, melhorando o conforto do usuário. |
+| **Aplicativos móveis de AR** | Reduzir chamadas de desenho ajuda a manter 60 fps em hardware limitado. |
+| **Experiências de VR** | Uma carga de trabalho menor na GPU reduz a latência, melhorando o conforto do usuário. |
 
 ## Pré-requisitos
 
@@ -130,7 +133,12 @@ Antes de mergulharmos no código, certifique‑se de que você tem o seguinte:
 
 ## Importar pacotes
 
-A classe `Scene` representa um contêiner de cena 3D, enquanto `Mesh` contém os dados de geometria; `VertexElementMaterial` armazena índices de material por polígono, e `PolygonModifier` fornece utilitários para manipulação de mesh.  
+`Scene` é o objeto raiz do Aspose.3D que contém todos os nós, luzes e câmeras em uma cena 3D.  
+`Mesh` representa os dados geométricos — vértices, arestas e faces — de um objeto 3D.  
+`VertexElementMaterial` armazena um índice de material inteiro para cada polígono, permitindo a atribuição de material por polígono.  
+`PolygonModifier` oferece métodos estáticos para editar malhas, como dividir ou mesclar polígonos.  
+
+A classe `Scene` representa um contêiner de cena 3D, enquanto `Mesh` contém dados de geometria; `VertexElementMaterial` armazena índices de material por polígono, e `PolygonModifier` fornece utilitários para manipulação de malhas.  
 ```java
 import com.aspose.threed.*;
 
@@ -139,11 +147,11 @@ import java.util.Arrays;
 
 ## Guia passo a passo
 
-A seguir está um walkthrough conciso de cada passo, com explicações precedendo o placeholder para que você saiba exatamente o que está acontecendo.
+A seguir, um walkthrough conciso de cada passo, com explicações antes do placeholder para que você saiba exatamente o que está acontecendo.
 
-### Etapa 1: Criar um mesh de uma caixa
+### Passo 1: Criar uma malha de uma caixa
 
-A classe `Box` cria uma geometria de cubo com seis faces, cada uma representada como um polígono separado. Começamos com um primitivo geométrico simples — uma caixa — para que possamos ver claramente como cada face (plano) recebe seu próprio material posteriormente.  
+A classe `Box` cria uma geometria de cubo com seis faces, cada uma representada como um polígono separado. Começamos com um primitivo geométrico simples — uma caixa — para que possamos ver claramente como cada face (plano) recebe seu próprio material mais tarde.  
 ```java
 // ExStart:SplitMeshbyMaterial
 
@@ -151,15 +159,15 @@ A classe `Box` cria uma geometria de cubo com seis faces, cada uma representada 
 Mesh box = (new Box()).toMesh();
 ```
 
-### Etapa 2: Criar um elemento de material
+### Passo 2: Criar um elemento de material
 
-`VertexElementMaterial` armazena índices de material para cada polígono. Ao anexá‑lo ao mesh, podemos controlar qual material cada face usa.  
+`VertexElementMaterial` armazena índices de material para cada polígono. Ao anexá‑lo à malha, podemos controlar qual material cada face usa.  
 ```java
 // Create a material element on the box mesh
 VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElementType.MATERIAL, MappingMode.POLYGON, ReferenceMode.INDEX);
 ```
 
-### Etapa 3: Especificar índices de material diferentes
+### Passo 3: Especificar índices de material diferentes
 
 Aqui atribuímos um índice de material único a cada um dos seis planos da caixa. A ordem do array corresponde à ordem dos polígonos gerados pelo primitivo `Box`.  
 ```java
@@ -167,15 +175,15 @@ Aqui atribuímos um índice de material único a cada um dos seis planos da caix
 mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
 ```
 
-### Etapa 4: Dividir o mesh em sub‑meshes
+### Passo 4: Dividir a malha em sub‑malhas
 
-O enum `SplitMeshPolicy` define como os dados de vértice são tratados durante a divisão, por exemplo, `CLONE_DATA` ou `COMPACT_DATA`. Chamar `PolygonModifier.splitMesh` com `SplitMeshPolicy.CLONE_DATA` cria uma nova sub‑mesh para cada índice de material distinto, preservando os dados de vértice originais.  
+O enum `SplitMeshPolicy` define como os dados de vértice são tratados durante a divisão, por exemplo, `CLONE_DATA` ou `COMPACT_DATA`. Chamar `PolygonModifier.splitMesh` com `SplitMeshPolicy.CLONE_DATA` cria uma nova sub‑malha para cada índice de material distinto, preservando os dados de vértice originais.  
 ```java
 // Split the mesh into 6 sub-meshes, each plane becoming a sub-mesh
 Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
 ```
 
-### Etapa 5: Atualizar índices de material e dividir novamente
+### Passo 5: Atualizar índices de material e dividir novamente
 
 Para demonstrar uma estratégia de divisão diferente, agora agrupamos os três primeiros planos sob o material 0 e os três restantes sob o material 1, então dividimos usando `COMPACT_DATA` para eliminar vértices não usados.  
 ```java
@@ -185,7 +193,7 @@ mat.setIndices(new int[]{0, 0, 0, 1, 1, 1});
 planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 ```
 
-### Etapa 6: Confirmar sucesso
+### Passo 6: Confirmar sucesso
 
 Uma simples mensagem no console informa que a operação foi concluída sem erros.  
 ```java
@@ -194,50 +202,49 @@ System.out.println("\nSplitting a mesh by specifying the material successfully."
 // ExEnd:SplitMeshbyMaterial
 ```
 
-## Reduzir draw calls e melhorar o desempenho de renderização
+## Reduzir chamadas de desenho e melhorar o desempenho de renderização
 
-Ao transformar cada material em sua própria mesh, você permite que o pipeline gráfico emita uma única draw call por material em vez de uma por polígono. Essa redução de draw calls se traduz diretamente em taxas de quadros mais suaves, especialmente em hardware de baixo custo. Além disso, a política `COMPACT_DATA` remove vértices não utilizados, diminuindo ainda mais a largura de banda de memória e ajudando a GPU a renderizar de forma mais eficiente.
+Ao transformar cada material em sua própria malha, você permite que o pipeline gráfico emita uma única chamada de desenho por material em vez de uma por polígono. Essa redução nas chamadas de desenho se traduz diretamente em taxas de quadros mais suaves, especialmente em hardware de baixo custo. Além disso, a política `COMPACT_DATA` remove vértices não utilizados, diminuindo ainda mais a largura de banda de memória e ajudando a GPU a renderizar de forma mais eficiente.
 
 ## Problemas comuns e soluções
 
 | Problema | Por que acontece | Correção |
 |----------|------------------|----------|
-| **Sub‑meshes contêm vértices duplicados** | Usar `CLONE_DATA` copia todos os dados de vértice para cada sub‑mesh. | Mude para `COMPACT_DATA` quando quiser que vértices compartilhados sejam desduplicados. |
+| **Sub‑malhas contêm vértices duplicados** | Usar `CLONE_DATA` copia todos os dados de vértice para cada sub‑malha. | Mude para `COMPACT_DATA` quando quiser que vértices compartilhados sejam desduplicados. |
 | **Atribuição de material incorreta** | O comprimento da matriz de índices não corresponde ao número de polígonos. | Verifique o número de polígonos (por exemplo, uma caixa tem 6) e forneça uma matriz de índices correspondente. |
 
 ## Perguntas frequentes
 
 **Q: O Aspose.3D é compatível com outras bibliotecas Java 3D?**  
-A: Sim, o Aspose.3D pode coexistir com bibliotecas como Java 3D ou jMonkeyEngine, permitindo importar/exportar meshes entre elas.
+A: Sim, o Aspose.3D pode coexistir com bibliotecas como Java 3D ou jMonkeyEngine, permitindo importar/exportar malhas entre elas.
 
 **Q: Essa técnica pode ser aplicada a modelos complexos com centenas de materiais?**  
-A: Absolutamente. As mesmas chamadas de API funcionam independentemente da complexidade da mesh; basta garantir que sua matriz de índices reflita corretamente a disposição dos materiais.
+A: Absolutamente. As mesmas chamadas de API funcionam independentemente da complexidade da malha; basta garantir que sua matriz de índices reflita corretamente o layout de materiais.
 
 **Q: Onde posso encontrar a documentação completa do Aspose.3D Java?**  
 A: Visite a documentação oficial [Aspose.3D Java documentation](https://reference.aspose.com/3d/java/) para referências detalhadas de API e exemplos adicionais.
 
-**Q: Existe uma versão de teste gratuita do Aspose.3D para Java?**  
+**Q: Existe uma versão de teste gratuita disponível para Aspose.3D para Java?**  
 A: Sim, você pode baixar uma versão de teste na [Aspose Releases page](https://releases.aspose.com/).
 
-**Q: Como obter suporte se eu encontrar problemas?**  
+**Q: Como posso obter suporte se eu encontrar problemas?**  
 A: O fórum da comunidade Aspose ([Aspose.3D forum](https://forum.aspose.com/c/3d/18)) é um excelente local para fazer perguntas e receber ajuda tanto da equipe Aspose quanto de outros desenvolvedores.
 
 ## Conclusão
 
-Agora você tem um método completo e pronto para produção de **dividir mesh por material** usando Aspose.3D em Java. Ao aplicar essa técnica, você verá menos draw calls, melhor uso de memória e renderização mais fluida em uma variedade de dispositivos. Sinta‑se à vontade para experimentar diferentes opções de `SplitMeshPolicy` ou integrar as sub‑meshes resultantes ao seu próprio pipeline de renderização.
+Agora você tem um método completo e pronto para produção de **dividir malha por material** usando Aspose.3D em Java. Ao aplicar esta técnica, você verá menos chamadas de desenho, melhor uso de memória e renderização mais suave em uma variedade de dispositivos. Sinta‑se à vontade para experimentar diferentes opções de `SplitMeshPolicy` ou integrar as sub‑malhas resultantes ao seu próprio pipeline de renderização.
 
 ---
 
-**Última atualização:** 2026-09-03  
-**Testado com:** Aspose.3D for Java 24.11  
-**Autor:** Aspose
+**Last Updated:** 2026-11-04  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose
 
-## Tutoriais Relacionados
+## Tutoriais relacionados
 
-- [Como calcular normais de mesh e adicionar normais a meshes 3D em Java (Usando Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Aprenda como triangular meshes para renderização otimizada em Java usando Aspose.3D](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
-- [Reduzir tamanho de modelo 3D: criar mesh de esfera em Java com Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
+- [Como calcular normais de malha e adicionar normais a malhas 3D em Java (Usando Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
+- [Aprenda como triangular malhas para renderização otimizada em Java usando Aspose.3D](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
+- [Reduzir tamanho de modelo 3D: criar malha de esfera em Java com Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

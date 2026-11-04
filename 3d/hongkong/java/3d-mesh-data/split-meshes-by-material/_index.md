@@ -1,19 +1,22 @@
 ---
-date: 2026-09-03
-description: 了解如何在 Java 中使用 Aspose.3D 高效地依材質分割網格。本指南將示範如何在分割網格時減少繪製呼叫次數並提升渲染效能。
+date: 2026-11-04
+description: 了解如何在 Java 中使用 Aspose.3D 高效地按材質分割網格。本指南將教您如何減少繪製呼叫並提升渲染效能，同時按材質分割網格。
+images:
+- /java/3d-mesh-data/split-meshes-by-material/og-image.png
 keywords:
 - how to split mesh
 - reduce draw calls
 - improve rendering performance
 - split mesh by material
-lastmod: 2026-09-03
-linktitle: 如何在 Java 中使用 Aspose.3D 依材質分割網格
-og_description: 使用 Aspose.3D for Java 依材質分割網格的步驟說明。透過本步驟指南減少繪製呼叫次數並提升渲染效能。
+- 3d rendering optimization
+lastmod: 2026-11-04
+linktitle: 如何在 Java 中使用 Aspose.3D 按材質分割網格
+og_description: 使用 Aspose.3D for Java 按材質分割網格。透過本逐步指南減少繪製呼叫並提升渲染效能。
 og_image_alt: Tutorial showing mesh splitting by material in Java with Aspose.3D
-og_title: 如何在 Java 中使用 Aspose.3D 依材質分割網格
+og_title: 如何在 Java 中使用 Aspose.3D 按材質分割網格
 schemas:
 - author: Aspose
-  dateModified: '2026-09-03'
+  dateModified: '2026-11-04'
   description: Learn how to split mesh efficiently by material in Java with Aspose.3D.
     This guide shows you how to reduce draw calls and improve rendering performance
     while splitting mesh by material.
@@ -70,7 +73,7 @@ tags:
 - batch draw calls
 - reduce draw calls
 - improve rendering performance
-title: 如何在 Java 中使用 Aspose.3D 依材質分割網格
+title: 如何在 Java 中使用 Aspose.3D 按材質分割網格
 url: /zh-hant/java/3d-mesh-data/split-meshes-by-material/
 weight: 12
 ---
@@ -83,64 +86,69 @@ weight: 12
 
 ## 介紹
 
-如果你在 Java 中從事 3D 圖形開發，會很快發現處理大型網格可能成為效能瓶頸——尤其是單一網格包含多種材質時。**學會按材質分割網格** 能讓你將每種材質專屬的多邊形群組分離出來，從而加快渲染速度、簡化剔除流程，並對紋理處理擁有更細緻的控制。在本教學中，我們將逐步說明如何使用 Aspose.3D 函式庫**按材質分割網格**，並提供實務說明、減少 draw call 的技巧以及提升渲染效能的建議。
+如果您在 Java 中從事 3D 圖形開發，您會很快發現處理大型網格可能成為效能瓶頸——尤其是當單一網格包含多種材質時。**學習如何按材質分割網格** 可讓您將每個材質專屬的多邊形群組分離出來，從而實現更快的渲染、更容易的剔除，以及對紋理處理的更細緻控制。在本教學中，我們將逐步說明如何使用 Aspose.3D 函式庫 **按材質分割網格**，並提供實用說明、減少 draw call 的技巧以及提升渲染效能的建議。
 
 ## 快速回答
-- **「按材質分割網格」是什麼意思？** 它會將單一網格拆分成多個子網格，每個子網格只包含使用相同材質的多邊形。  
-- **為什麼要使用 Aspose.3D？** 它提供高階、跨平台的 API，抽象低階檔案格式，同時保持效能。  
-- **實作大約需要多久？** 約 10–15 分鐘的程式撰寫與測試。  
-- **需要授權嗎？** 提供免費試用版；商業授權則是正式上線的必要條件。  
+- **什麼是「split mesh by material」？** 它會將單一網格分離成多個子網格，每個子網格只包含使用相同材質的多邊形。  
+- **為什麼使用 Aspose.3D？** 它提供高階、跨平台的 API，抽象低階檔案格式，同時保持效能。  
+- **實作需要多長時間？** 大約 10–15 分鐘的程式撰寫與測試。  
+- **需要授權嗎？** 提供免費試用版；商業授權是正式環境的必備。  
 - **支援哪個 Java 版本？** Java 8 或以上。
 
 ## 什麼是網格分割？
 
-`Mesh splitting` 是將複雜 3D 網格切割成較小、較易管理的片段的過程。當分割依據材質時，每個產生的子網格只會包含指向單一材質的多邊形。此做法可減少 draw call、提升渲染效能，並簡化每材質著色器的應用。
+`Mesh splitting` 是將複雜的 3D 網格切割成較小、較易管理的片段的過程。當分割依據材質時，每個產生的子網格只包含引用單一材質的多邊形。此做法可減少 draw call、提升渲染效能，並簡化如套用 per‑material shader 等工作。
 
-## 分割如何減少繪製呼叫？
+## 分割如何減少 draw call？
 
-將網格分割後，每種材質會對應一個子網格，圖形引擎即可對每種材質發出一次 draw call，而不是對每個多邊形都發出。較少的 draw call 意味著較少的 GPU 狀態切換，直接提升桌面 GPU 以及受限行動裝置 GPU 的幀率。
+將網格分割為每種材質一個子網格，讓圖形引擎能針對每種材質發出一次 draw call，而不是每個多邊形一次。較少的 draw call 意味著較少的 GPU 狀態切換，直接提升桌面與行動裝置的幀率。
 
 ## 為什麼要按材質分割網格？
 
-按材質分割網格可提升效能，因為渲染器能針對每種材質批次化 draw call，減少 GPU 狀態變更。開發者也能更彈性地為不同材質套用獨立的著色器、後處理效果或碰撞邏輯。此外，較小的子網格更易於串流、記憶體管理與剔除，對行動、AR 與 VR 平台尤為重要。
+按材質分割可讓渲染器為每種材質批次化 draw call，減少 GPU 狀態變更，同時開發者也能針對不同材質套用獨立的 shader、後處理或碰撞邏輯。較小的子網格更易於串流、記憶體管理與剔除，對行動、AR 與 VR 平台尤為重要。
 
 ## Aspose.3D 的量化效益
 
-Aspose.3D 支援 **30+ 輸入與輸出格式**——包括 OBJ、FBX、STL 與 GLTF，且可在不將整個檔案載入記憶體的情況下處理 **高達 1000 萬個多邊形** 的網格。使用 `COMPACT_DATA` 分割策略可將頂點記憶體使用量削減 **最高 40 %**，對於低階裝置上的 Java 3D 圖形尤為有價值。
+Aspose.3D 支援 **30+ 輸入與輸出格式**——包括 OBJ、FBX、STL 與 GLTF，且可在不將整個檔案載入記憶體的情況下處理 **高達 1000 萬個多邊形**的網格。使用 `COMPACT_DATA` 分割策略可將頂點記憶體使用量降低 **最高 40 %**，對低階裝置的 Java 3D 圖形尤為有價值。
 
 ## 常見使用情境
 
 | 情境 | 分割的好處 |
 |----------|----------------------|
 | **即時策略遊戲** | 每種地形類型可擁有自己的材質，讓引擎一次性繪製所有草地區塊。 |
-| **建築可視化** | 牆面、玻璃與金屬可分別處理，以實現不同的著色效果。 |
+| **建築可視化** | 牆面、玻璃與金屬可分別處理，以實現不同的 shader 效果。 |
 | **行動 AR 應用** | 減少 draw call 有助於在硬體受限的情況下維持 60 fps。 |
 | **VR 體驗** | 降低 GPU 工作負載可減少延遲，提升使用者舒適度。 |
 
 ## 前置條件
 
-在進入程式碼之前，請先確保你具備以下條件：
+在進入程式碼之前，請確保您已具備以下條件：
 
-- 具備 Java 程式設計的基本知識。  
-- 已安裝 Aspose.3D for Java 函式庫（可從 [Aspose website](https://releases.aspose.com/3d/java/) 下載）。  
+- 具備 Java 程式設計的基礎知識。  
+- 已安裝 Aspose.3D for Java 函式庫（從 [Aspose website](https://releases.aspose.com/3d/java/) 下載）。  
 - 已配置好 Java 開發環境的 IDE，例如 IntelliJ IDEA、Eclipse 或 VS Code。
 
 ## 匯入套件
 
-`Scene` 類別代表 3D 場景容器，`Mesh` 保存幾何資料；`VertexElementMaterial` 用於存放每個多邊形的材質索引，`PolygonModifier` 提供網格操作的實用工具。  
+`Scene` 是 Aspose.3D 的根物件，負責保存 3D 場景中的所有節點、光源與相機。  
+`Mesh` 代表 3D 物件的幾何資料——頂點、邊與面。  
+`VertexElementMaterial` 為每個多邊形存儲一個整數材質索引，以實現 per‑polygon 材質指派。  
+`PolygonModifier` 提供靜態方法，用於編輯網格，例如分割或合併多邊形。  
+
+`Scene` 類別代表 3D 場景容器，`Mesh` 保存幾何資料；`VertexElementMaterial` 保存每個多邊形的材質索引，`PolygonModifier` 提供網格操作的實用工具。  
 ```java
 import com.aspose.threed.*;
 
 import java.util.Arrays;
 ```
 
-## 步驟說明
+## 步驟指南
 
-以下是每個步驟的簡潔說明，說明文字位於佔位符之前，讓你清楚了解正在執行的動作。
+以下以簡潔的方式逐步說明每個步驟，說明文字放在佔位符前方，讓您清楚了解每一步的目的。
 
 ### 步驟 1：建立盒子網格
 
-`Box` 類別會產生一個六面體幾何體，每個面都以獨立的多邊形表示。我們先從一個簡單的幾何基元──盒子──開始，這樣才能清楚看到之後每個面（平面）如何取得自己的材質。  
+`Box` 類別會產生一個六面體幾何體，每個面皆為獨立的多邊形。我們先從一個簡單的幾何基元──盒子──開始，以便清楚觀察每個面（平面）之後如何分配各自的材質。  
 ```java
 // ExStart:SplitMeshbyMaterial
 
@@ -150,7 +158,7 @@ Mesh box = (new Box()).toMesh();
 
 ### 步驟 2：建立材質元素
 
-`VertexElementMaterial` 用於為每個多邊形存放材質索引。將它附加到網格後，即可控制每個面使用哪種材質。  
+`VertexElementMaterial` 為每個多邊形存儲材質索引。將它附加到網格後，即可控制每個面使用哪種材質。  
 ```java
 // Create a material element on the box mesh
 VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElementType.MATERIAL, MappingMode.POLYGON, ReferenceMode.INDEX);
@@ -158,7 +166,7 @@ VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElem
 
 ### 步驟 3：指定不同的材質索引
 
-此處為盒子六個平面的每一個指派唯一的材質索引。陣列順序與 `Box` 基元產生的多邊形順序相同。  
+此處為盒子的六個平面分別指派唯一的材質索引。陣列順序與 `Box` 基元產生的多邊形順序相同。  
 ```java
 // Specify different material indices for each plane
 mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
@@ -166,7 +174,7 @@ mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
 
 ### 步驟 4：將網格分割為子網格
 
-`SplitMeshPolicy` 列舉定義了分割時頂點資料的處理方式，例如 `CLONE_DATA` 或 `COMPACT_DATA`。呼叫 `PolygonModifier.splitMesh` 並傳入 `SplitMeshPolicy.CLONE_DATA`，會為每個不同的材質索引建立一個新子網格，同時保留原始頂點資料。  
+`SplitMeshPolicy` 列舉定義分割時頂點資料的處理方式，例如 `CLONE_DATA` 或 `COMPACT_DATA`。呼叫 `PolygonModifier.splitMesh` 並傳入 `SplitMeshPolicy.CLONE_DATA`，會為每個不同的材質索引建立一個新子網格，同時保留原始頂點資料。  
 ```java
 // Split the mesh into 6 sub-meshes, each plane becoming a sub-mesh
 Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
@@ -174,7 +182,7 @@ Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
 
 ### 步驟 5：更新材質索引並再次分割
 
-為示範另一種分割策略，我們將前三個平面歸入材質 0，剩餘三個平面歸入材質 1，然後使用 `COMPACT_DATA` 進行分割，以移除未使用的頂點。  
+為示範另一種分割策略，我們將前三個平面歸入材質 0，剩餘三個平面歸入材質 1，然後使用 `COMPACT_DATA` 以移除未使用的頂點。  
 ```java
 // Update material indices and split into 2 sub-meshes
 mat.getIndices().clear();
@@ -184,57 +192,56 @@ planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 
 ### 步驟 6：確認成功
 
-簡單的主控台訊息會告訴你操作已順利完成，且未發生錯誤。  
+簡單的主控台訊息會告訴您操作已順利完成，且未發生錯誤。  
 ```java
 // Display success message
 System.out.println("\nSplitting a mesh by specifying the material successfully.");
 // ExEnd:SplitMeshbyMaterial
 ```
 
-## 減少繪製呼叫並提升渲染效能
+## 減少 draw call 並提升渲染效能
 
-將每種材質轉換為獨立的網格後，圖形管線即可對每種材質發出一次 draw call，而非對每個多邊形都發出。此 draw call 的減少直接轉化為更平滑的幀率，特別是在低階硬體上。再者，`COMPACT_DATA` 策略會移除未使用的頂點，進一步降低記憶體頻寬需求，協助 GPU 更有效率地渲染。
+將每種材質轉換為獨立的網格後，圖形管線即可對每種材質發出一次 draw call，而非對每個多邊形各發一次。此 draw call 的減少直接轉化為更平滑的幀率，特別是在低階硬體上。此外，`COMPACT_DATA` 策略會移除未使用的頂點，進一步降低記憶體頻寬需求，協助 GPU 更有效率地渲染。
 
 ## 常見問題與解決方案
 
-| 問題 | 發生原因 | 解決方法 |
+| 問題 | 為什麼會發生 | 解決方式 |
 |-------|----------------|-----|
 | **子網格包含重複的頂點** | 使用 `CLONE_DATA` 會為每個子網格複製全部頂點資料。 | 想要去除重複頂點時，改用 `COMPACT_DATA`。 |
-| **材質指派不正確** | 索引陣列長度與多邊形數量不匹配。 | 核對多邊形數量（例如盒子有 6 個），並提供相符的索引陣列。 |
+| **材質指派不正確** | 索引陣列長度與多邊形數量不匹配。 | 確認多邊形數量（例如盒子有 6 個）並提供相同長度的索引陣列。 |
 
 ## 常見問答
 
-**Q: Aspose.3D 能與其他 Java 3D 函式庫相容嗎？**  
-A: 可以，Aspose.3D 能與 Java 3D、jMonkeyEngine 等函式庫共存，讓你在它們之間匯入/匯出網格。
+**Q: Aspose.3D 能與其他 Java 3D 函式庫共存嗎？**  
+A: 可以，Aspose.3D 能與 Java 3D 或 jMonkeyEngine 等函式庫同時使用，讓您在它們之間匯入/匯出網格。
 
-**Q: 這項技術能應用於擁有數百種材質的複雜模型嗎？**  
-A: 完全可以。相同的 API 呼叫在任何網格複雜度下皆適用，只要確保你的索引陣列正確對應材質配置。
+**Q: 這項技術能否應用於擁有數百種材質的複雜模型？**  
+A: 完全可以。無論網格多複雜，API 呼叫方式相同，只要確保索引陣列正確對應材質布局即可。
 
 **Q: 哪裡可以找到完整的 Aspose.3D Java 文件？**  
-A: 請前往官方的 [Aspose.3D Java documentation](https://reference.aspose.com/3d/java/) 取得詳細的 API 參考與更多範例。
+A: 請造訪官方的 [Aspose.3D Java documentation](https://reference.aspose.com/3d/java/) 取得詳細的 API 參考與範例。
 
 **Q: Aspose.3D for Java 有提供免費試用嗎？**  
-A: 有，你可以從 [Aspose Releases page](https://releases.aspose.com/) 下載試用版。
+A: 有，您可以從 [Aspose Releases page](https://releases.aspose.com/) 下載試用版。
 
-**Q: 若遇到問題該向哪裡尋求支援？**  
-A: Aspose 社群論壇 ([Aspose.3D forum](https://forum.aspose.com/c/3d/18)) 是提問與取得 Aspose 團隊及其他開發者協助的好地方。
+**Q: 若遇到問題，該如何取得支援？**  
+A: Aspose 社群論壇 ([Aspose.3D forum](https://forum.aspose.com/c/3d/18)) 是提問與獲得 Aspose 團隊及其他開發者協助的好地方。
 
 ## 結論
 
-現在你已掌握使用 Aspose.3D 在 Java 中**按材質分割網格**的完整、可投入生產的做法。運用此技巧後，你會看到 draw call 減少、記憶體使用更佳，且在各種裝置上渲染更順暢。歡迎嘗試不同的 `SplitMeshPolicy` 設定，或將產生的子網格整合到自己的渲染管線中。
+您現在已掌握使用 Aspose.3D 在 Java 中 **按材質分割網格** 的完整、可投入生產的作法。透過此技巧，您將看到 draw call 減少、記憶體使用更佳，以及在各種裝置上更流暢的渲染效果。歡迎嘗試不同的 `SplitMeshPolicy`，或將產生的子網格整合至您自己的渲染管線中。
 
 ---
 
-**Last Updated:** 2026-09-03  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose
+**最後更新：** 2026-11-04  
+**測試環境：** Aspose.3D for Java 24.11  
+**作者：** Aspose
 
 ## 相關教學
 
-- [如何在 Java 中計算網格法線並將法線加入 3D 網格 (使用 Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [學習如何在 Java 中使用 Aspose.3D 進行網格三角化以優化渲染](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
-- [縮減 3D 模型尺寸：使用 Draco 在 Java 中建立球體網格](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
+- [如何在 Java 中計算網格法線並將法線加入 3D 網格（使用 Aspose.3D）](/3d/java/3d-mesh-data/generate-mesh-data/)
+- [學習如何在 Java 中使用 Aspose.3D 對網格進行三角化以優化渲染](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
+- [縮小 3D 模型尺寸：使用 Draco 在 Java 中建立球體網格](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,5 +1,5 @@
 ---
-date: 2026-09-03
+date: 2026-11-04
 description: Learn how to split mesh efficiently by material in Java with Aspose.3D.
   This guide shows you how to reduce draw calls and improve rendering performance
   while splitting mesh by material.
@@ -10,7 +10,8 @@ keywords:
 - reduce draw calls
 - improve rendering performance
 - split mesh by material
-lastmod: 2026-09-03
+- 3d rendering optimization
+lastmod: 2026-11-04
 linktitle: How to Split Mesh by Material in Java Using Aspose.3D
 og_description: How to split mesh by material using Aspose.3D for Java. Reduce draw
   calls and improve rendering performance with this step‑by‑step guide.
@@ -18,7 +19,7 @@ og_image_alt: Tutorial showing mesh splitting by material in Java with Aspose.3D
 og_title: How to split mesh by material in Java with Aspose.3D
 schemas:
 - author: Aspose
-  dateModified: '2026-09-03'
+  dateModified: '2026-11-04'
   description: Learn how to split mesh efficiently by material in Java with Aspose.3D.
     This guide shows you how to reduce draw calls and improve rendering performance
     while splitting mesh by material.
@@ -75,7 +76,7 @@ tags:
 - batch draw calls
 - reduce draw calls
 - improve rendering performance
-title: How to Split Mesh by Material in Java Using Aspose.3D
+title: How to split mesh by material in Java using Aspose.3D
 url: /java/3d-mesh-data/split-meshes-by-material/
 weight: 12
 ---
@@ -131,6 +132,11 @@ Before we dive into the code, make sure you have the following:
 - An IDE such as IntelliJ IDEA, Eclipse, or VS Code configured for Java development.
 
 ## Import packages
+
+`Scene` is Aspose.3D's root object that holds all nodes, lights, and cameras in a 3D scene.  
+`Mesh` represents the geometric data—vertices, edges, and faces—of a 3D object.  
+`VertexElementMaterial` stores an integer material index for each polygon, enabling per‑polygon material assignment.  
+`PolygonModifier` offers static methods for editing meshes, such as splitting or merging polygons.  
 
 The `Scene` class represents a 3D scene container, while `Mesh` holds geometry data; `VertexElementMaterial` stores per‑polygon material indices, and `PolygonModifier` provides utilities for mesh manipulation.  
 ```java
@@ -230,16 +236,15 @@ You now have a complete, production‑ready method for **splitting mesh by mater
 
 ---
 
-**Last Updated:** 2026-09-03  
+**Last Updated:** 2026-11-04  
 **Tested With:** Aspose.3D for Java 24.11  
 **Author:** Aspose
 
-## Related Tutorials
+## Related tutorials
 
 - [How to Calculate Mesh Normals and Add Normals to 3D Meshes in Java (Using Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
 - [Learn How to Triangulate Meshes for Optimized Rendering in Java Using Aspose.3D](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
 - [Reduce 3D Model Size: Create Sphere Mesh in Java with Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

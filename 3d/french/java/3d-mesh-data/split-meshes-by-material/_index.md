@@ -1,23 +1,25 @@
 ---
-date: 2026-09-03
-description: Apprenez à diviser efficacement un maillage par matériau en Java avec
-  Aspose.3D. Ce guide vous montre comment réduire les appels de dessin et améliorer
-  les performances de rendu lors de la division du maillage par matériau.
+date: 2026-11-04
+description: Apprenez comment diviser efficacement un mesh par material en Java avec
+  Aspose.3D. Ce guide vous montre comment réduire les draw calls et améliorer la rendering
+  performance lors de la division du mesh par material.
+images:
+- /java/3d-mesh-data/split-meshes-by-material/og-image.png
 keywords:
 - how to split mesh
 - reduce draw calls
 - improve rendering performance
 - split mesh by material
-lastmod: 2026-09-03
-linktitle: Comment diviser un maillage par matériau en Java avec Aspose.3D
-og_description: Comment diviser un maillage par matériau avec Aspose.3D pour Java.
-  Réduisez les appels de dessin et améliorez les performances de rendu grâce à ce
-  guide étape par étape.
+- 3d rendering optimization
+lastmod: 2026-11-04
+linktitle: Comment diviser un Mesh par Material en Java avec Aspose.3D
+og_description: Comment diviser un mesh par material en utilisant Aspose.3D pour Java.
+  Réduisez les draw calls et améliorez la rendering performance avec ce guide step‑by‑step.
 og_image_alt: Tutorial showing mesh splitting by material in Java with Aspose.3D
-og_title: Comment diviser un maillage par matériau en Java avec Aspose.3D
+og_title: Comment diviser un mesh par material en Java avec Aspose.3D
 schemas:
 - author: Aspose
-  dateModified: '2026-09-03'
+  dateModified: '2026-11-04'
   description: Learn how to split mesh efficiently by material in Java with Aspose.3D.
     This guide shows you how to reduce draw calls and improve rendering performance
     while splitting mesh by material.
@@ -74,7 +76,7 @@ tags:
 - batch draw calls
 - reduce draw calls
 - improve rendering performance
-title: Comment diviser un maillage par matériau en Java avec Aspose.3D
+title: Comment diviser un mesh par material en Java avec Aspose.3D
 url: /fr/java/3d-mesh-data/split-meshes-by-material/
 weight: 12
 ---
@@ -87,30 +89,30 @@ weight: 12
 
 ## Introduction
 
-Si vous travaillez avec la 3D en Java, vous découvrirez rapidement que le traitement de maillages volumineux peut devenir un goulot d’étranglement de performance—surtout lorsqu’un seul maillage contient plusieurs matériaux. **Apprendre à diviser un maillage** par matériau vous permet d’isoler chaque groupe de polygones spécifique à un matériau, ce qui favorise un rendu plus rapide, un culling plus facile et un contrôle plus granulaire de la gestion des textures. Dans ce tutoriel, nous parcourrons les étapes exactes pour **diviser un maillage par matériau** en utilisant la bibliothèque Aspose.3D, avec des explications pratiques, des astuces pour réduire les appels de dessin et des conseils pour améliorer les performances de rendu.
+Si vous travaillez avec la 3D en Java, vous découvrirez rapidement que le traitement de maillages volumineux peut devenir un goulot d’étranglement de performance—surtout lorsqu’un seul maillage contient plusieurs matériaux. **Apprendre à diviser un maillage** par matériau vous permet d’isoler chaque groupe de polygones spécifique à un matériau, ce qui favorise un rendu plus rapide, un culling plus facile et un contrôle plus granulaire de la gestion des textures. Dans ce tutoriel, nous parcourrons les étapes exactes pour **diviser un maillage par matériau** à l’aide de la bibliothèque Aspose.3D, avec des explications pratiques, des astuces pour réduire les appels de dessin et des conseils pour améliorer les performances de rendu.
 
 ## Réponses rapides
-- **Que signifie « diviser un maillage par matériau » ?** Il sépare un seul maillage en plusieurs sous‑maillages, chacun contenant des polygones qui partagent le même matériau.  
-- **Pourquoi utiliser Aspose.3D ?** Il fournit une API de haut niveau, multiplateforme, qui abstrait les formats de fichiers bas niveau tout en conservant les performances.  
-- **Combien de temps prend l’implémentation ?** Environ 10 à 15 minutes de codage et de tests.  
-- **Ai-je besoin d’une licence ?** Un essai gratuit est disponible ; une licence commerciale est requise pour une utilisation en production.  
+- **Que signifie « diviser un maillage par matériau » ?** Cela sépare un maillage unique en plusieurs sous‑maillages, chacun contenant les polygones qui partagent le même matériau.  
+- **Pourquoi utiliser Aspose.3D ?** Elle fournit une API de haut niveau, multiplateforme, qui abstrait les formats de fichiers bas‑niveau tout en conservant les performances.  
+- **Combien de temps prend l’implémentation ?** Environ 10–15 minutes de codage et de tests.  
+- **Ai‑je besoin d’une licence ?** Une version d’essai gratuite est disponible ; une licence commerciale est requise pour une utilisation en production.  
 - **Quelle version de Java est prise en charge ?** Java 8 ou supérieur.
 
-## Qu’est-ce que la division de maillage ?
+## Qu’est‑ce que la division de maillage ?
 
-`Mesh splitting` est le processus de division d’un maillage 3D complexe en morceaux plus petits et plus faciles à gérer. Lorsque la division est basée sur le matériau, chaque sous‑maillage résultant ne contient que les polygones qui référencent un seul matériau. Cette approche réduit les appels de dessin, améliore les performances de rendu et simplifie des tâches telles que l’application de shaders par matériau.
+`Mesh splitting` est le processus de division d’un maillage 3D complexe en morceaux plus petits et plus faciles à gérer. Lorsque la division est basée sur le matériau, chaque sous‑maillage résultant ne contient que les polygones qui font référence à un seul matériau. Cette approche réduit les appels de dessin, améliore les performances de rendu et simplifie des tâches comme l’application de shaders par matériau.
 
 ## Comment la division réduit‑elle les appels de dessin ?
 
-La division d’un maillage crée un sous‑maillage par matériau, permettant au moteur graphique d’émettre un seul appel de dessin pour chaque matériau au lieu d’un par polygone. Moins d’appels de dessin signifient moins de changements d’état du GPU, ce qui se traduit directement par des taux de rafraîchissement plus élevés tant sur les GPU de bureau que sur les GPU mobiles limités.
+Diviser un maillage crée un sous‑maillage par matériau, permettant au moteur graphique d’émettre un appel de dessin unique pour chaque matériau au lieu d’un appel par polygone. Moins d’appels de dessin signifie moins de changements d’état GPU, ce qui se traduit directement par des taux de rafraîchissement plus élevés tant sur les GPU de bureau que sur les GPU mobiles limités.
 
 ## Pourquoi diviser le maillage par matériau ?
 
-La division d’un maillage par matériau améliore les performances car le rendu peut regrouper les appels de dessin pour chaque matériau, réduisant ainsi les changements d’état du GPU. Elle offre également aux développeurs la flexibilité d’appliquer des shaders distincts, des effets de post‑traitement ou une logique de collision par matériau. De plus, les sous‑maillages plus petits sont plus faciles à diffuser, à gérer en mémoire et à éliminer, ce qui est particulièrement précieux sur les plateformes mobiles, AR et VR.
+Diviser un maillage par matériau améliore les performances car le rendu peut regrouper les appels de dessin pour chaque matériau, réduisant ainsi les changements d’état GPU. Cela offre également aux développeurs la flexibilité d’appliquer des shaders distincts, des effets de post‑traitement ou une logique de collision propre à chaque matériau. De plus, les sous‑maillages plus petits sont plus faciles à diffuser, à gérer en mémoire et à culler, ce qui est particulièrement précieux sur les plateformes mobiles, AR et VR.
 
 ## Avantages quantifiés d’Aspose.3D
 
-Aspose.3D prend en charge **plus de 30 formats d’entrée et de sortie**—y compris OBJ, FBX, STL et GLTF—et peut traiter des maillages contenant **jusqu’à 10 millions de polygones** sans charger le fichier complet en mémoire. L’utilisation de la politique de division `COMPACT_DATA` peut réduire l’utilisation de la mémoire des sommets de **jusqu’à 40 %**, ce qui est particulièrement précieux pour la 3D Java sur des appareils bas de gamme.
+Aspose.3D prend en charge **plus de 30 formats d’entrée et de sortie**—y compris OBJ, FBX, STL et GLTF—et peut traiter des maillages contenant **jusqu’à 10 millions de polygones** sans charger le fichier complet en mémoire. L’utilisation de la politique de division `COMPACT_DATA` peut réduire l’utilisation de la mémoire des sommets de **jusqu’à 40 %**, ce qui est particulièrement utile pour la 3D Java sur des appareils bas de gamme.
 
 ## Cas d’utilisation courants
 
@@ -123,7 +125,7 @@ Aspose.3D prend en charge **plus de 30 formats d’entrée et de sortie**—y co
 
 ## Prérequis
 
-Avant de plonger dans le code, assurez‑vous d’avoir les éléments suivants :
+Avant de plonger dans le code, assurez‑vous de disposer de :
 
 - Connaissances de base en programmation Java.  
 - Bibliothèque Aspose.3D pour Java installée (téléchargement depuis le [site Aspose](https://releases.aspose.com/3d/java/)).  
@@ -131,7 +133,12 @@ Avant de plonger dans le code, assurez‑vous d’avoir les éléments suivants�
 
 ## Importer les packages
 
-Le classe `Scene` représente un conteneur de scène 3D, tandis que `Mesh` contient les données géométriques ; `VertexElementMaterial` stocke les indices de matériau par polygone, et `PolygonModifier` fournit des utilitaires pour la manipulation de maillages.  
+`Scene` est l’objet racine d’Aspose.3D qui contient tous les nœuds, lumières et caméras d’une scène 3D.  
+`Mesh` représente les données géométriques—sommets, arêtes et faces—d’un objet 3D.  
+`VertexElementMaterial` stocke un indice de matériau entier pour chaque polygone, permettant l’attribution de matériau par polygone.  
+`PolygonModifier` offre des méthodes statiques pour éditer les maillages, comme la division ou la fusion de polygones.  
+
+La classe `Scene` représente un conteneur de scène 3D, tandis que `Mesh` contient les données de géométrie ; `VertexElementMaterial` stocke les indices de matériau par polygone, et `PolygonModifier` fournit des utilitaires pour la manipulation des maillages.  
 ```java
 import com.aspose.threed.*;
 
@@ -140,11 +147,11 @@ import java.util.Arrays;
 
 ## Guide étape par étape
 
-Voici un guide concis de chaque étape, avec des explications précédant le placeholder afin que vous sachiez exactement ce qui se passe.
+Voici un aperçu concis de chaque étape, avec des explications précédant le placeholder afin que vous sachiez exactement ce qui se passe.
 
-### Étape 1 : Créer un maillage d’une boîte
+### Étape 1 : Créer un maillage d’une boîte
 
-La classe `Box` crée une géométrie de cube avec six faces, chacune représentée comme un polygone séparé. Nous commençons avec une primitive géométrique simple — une boîte—afin de voir clairement comment chaque face (plan) obtient son propre matériau plus tard.  
+La classe `Box` crée une géométrie de cube avec six faces, chacune représentée comme un polygone distinct. Nous commençons avec un primitive géométrique simple—une boîte—pour pouvoir voir clairement comment chaque face (plan) obtient son propre matériau plus tard.  
 ```java
 // ExStart:SplitMeshbyMaterial
 
@@ -152,7 +159,7 @@ La classe `Box` crée une géométrie de cube avec six faces, chacune représent
 Mesh box = (new Box()).toMesh();
 ```
 
-### Étape 2 : Créer un élément de matériau
+### Étape 2 : Créer un élément de matériau
 
 `VertexElementMaterial` stocke les indices de matériau pour chaque polygone. En l’attachant au maillage, nous pouvons contrôler quel matériau chaque face utilise.  
 ```java
@@ -160,15 +167,15 @@ Mesh box = (new Box()).toMesh();
 VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElementType.MATERIAL, MappingMode.POLYGON, ReferenceMode.INDEX);
 ```
 
-### Étape 3 : Spécifier différents indices de matériau
+### Étape 3 : Spécifier différents indices de matériau
 
-Ici, nous attribuons un indice de matériau unique à chacune des six faces de la boîte. L’ordre du tableau correspond à l’ordre des polygones générés par la primitive `Box`.  
+Ici nous attribuons un indice de matériau unique à chacune des six faces de la boîte. L’ordre du tableau correspond à l’ordre des polygones générés par le primitive `Box`.  
 ```java
 // Specify different material indices for each plane
 mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
 ```
 
-### Étape 4 : Diviser le maillage en sous‑maillages
+### Étape 4 : Diviser le maillage en sous‑maillages
 
 L’énumération `SplitMeshPolicy` définit comment les données de sommet sont gérées pendant la division, par ex. `CLONE_DATA` ou `COMPACT_DATA`. Appeler `PolygonModifier.splitMesh` avec `SplitMeshPolicy.CLONE_DATA` crée un nouveau sous‑maillage pour chaque indice de matériau distinct tout en préservant les données de sommet originales.  
 ```java
@@ -176,9 +183,9 @@ L’énumération `SplitMeshPolicy` définit comment les données de sommet sont
 Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
 ```
 
-### Étape 5 : Mettre à jour les indices de matériau et diviser à nouveau
+### Étape 5 : Mettre à jour les indices de matériau et diviser à nouveau
 
-Pour démontrer une stratégie de division différente, nous regroupons maintenant les trois premières faces sous le matériau 0 et les trois restantes sous le matériau 1, puis nous divisons en utilisant `COMPACT_DATA` pour éliminer les sommets inutilisés.  
+Pour démontrer une stratégie de division différente, nous regroupons maintenant les trois premières faces sous le matériau 0 et les trois dernières sous le matériau 1, puis nous divisons en utilisant `COMPACT_DATA` afin d’éliminer les sommets inutilisés.  
 ```java
 // Update material indices and split into 2 sub-meshes
 mat.getIndices().clear();
@@ -186,7 +193,7 @@ mat.setIndices(new int[]{0, 0, 0, 1, 1, 1});
 planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 ```
 
-### Étape 6 : Confirmer le succès
+### Étape 6 : Confirmer le succès
 
 Un simple message console vous indique que l’opération s’est terminée sans erreur.  
 ```java
@@ -197,48 +204,47 @@ System.out.println("\nSplitting a mesh by specifying the material successfully."
 
 ## Réduire les appels de dessin et améliorer les performances de rendu
 
-En transformant chaque matériau en son propre maillage, vous permettez au pipeline graphique d’émettre un seul appel de dessin par matériau plutôt qu’un par polygone. Cette réduction des appels de dessin se traduit directement par des taux de rafraîchissement plus fluides, surtout sur du matériel bas de gamme. De plus, la politique `COMPACT_DATA` supprime les sommets inutilisés, réduisant davantage la bande passante mémoire et aidant le GPU à rendre plus efficacement.
+En transformant chaque matériau en son propre maillage, vous permettez au pipeline graphique d’émettre un appel de dessin unique par matériau plutôt qu’un appel par polygone. Cette réduction des appels de dessin se traduit directement par des taux de trame plus fluides, surtout sur du matériel bas de gamme. De plus, la politique `COMPACT_DATA` supprime les sommets inutilisés, réduisant davantage la bande passante mémoire et aidant le GPU à rendre plus efficacement.
 
 ## Problèmes courants et solutions
 
 | Problème | Pourquoi cela se produit | Solution |
 |----------|--------------------------|----------|
-| **Les sous‑maillages contiennent des sommets dupliqués** | L’utilisation de `CLONE_DATA` copie toutes les données de sommet pour chaque sous‑maillage. | Passez à `COMPACT_DATA` lorsque vous souhaitez que les sommets partagés soient dédupliqués. |
-| **Affectation de matériau incorrecte** | La longueur du tableau d’indices ne correspond pas au nombre de polygones. | Vérifiez le nombre de polygones (par ex., une boîte en a 6) et fournissez un tableau d’indices correspondant. |
+| **Les sous‑maillages contiennent des sommets dupliqués** | L’utilisation de `CLONE_DATA` copie toutes les données de sommet pour chaque sous‑maillage. | Passer à `COMPACT_DATA` lorsque vous souhaitez dédupliquer les sommets partagés. |
+| **Mauvaise attribution des matériaux** | La longueur du tableau d’indices ne correspond pas au nombre de polygones. | Vérifier le nombre de polygones (par ex. une boîte en a 6) et fournir un tableau d’indices correspondant. |
 
-## Questions fréquentes
+## Foire aux questions
 
-**Q : Aspose.3D est‑il compatible avec d’autres bibliothèques Java 3D ?**  
+**Q : Aspose.3D est‑il compatible avec d’autres bibliothèques 3D Java ?**  
 R : Oui, Aspose.3D peut coexister avec des bibliothèques comme Java 3D ou jMonkeyEngine, vous permettant d’importer/exporter des maillages entre elles.
 
 **Q : Cette technique peut‑elle être appliquée à des modèles complexes avec des centaines de matériaux ?**  
-R : Absolument. Les mêmes appels d’API fonctionnent quel que soit la complexité du maillage ; assurez‑vous simplement que votre tableau d’indices reflète correctement la disposition des matériaux.
+R : Absolument. Les mêmes appels d’API fonctionnent quel que soit le niveau de complexité du maillage ; il suffit de veiller à ce que votre tableau d’indices reflète correctement la répartition des matériaux.
 
-**Q : Où puis‑je trouver la documentation complète d’Aspose.3D Java ?**  
-R : Consultez la [documentation officielle d’Aspose.3D Java](https://reference.aspose.com/3d/java/) pour des références d’API détaillées et des exemples supplémentaires.
+**Q : Où trouver la documentation complète d’Aspose.3D pour Java ?**  
+R : Consultez la documentation officielle [Aspose.3D Java documentation](https://reference.aspose.com/3d/java/) pour des références d’API détaillées et des exemples supplémentaires.
 
 **Q : Une version d’essai gratuite est‑elle disponible pour Aspose.3D pour Java ?**  
-R : Oui, vous pouvez télécharger une version d’essai depuis la [page des versions Aspose](https://releases.aspose.com/).
+R : Oui, vous pouvez télécharger une version d’essai depuis la [page des releases Aspose](https://releases.aspose.com/).
 
-**Q : Comment obtenir du support en cas de problème ?**  
-R : Le forum communautaire Aspose ([forum Aspose.3D](https://forum.aspose.com/c/3d/18)) est un excellent endroit pour poser des questions et recevoir de l’aide de l’équipe Aspose ainsi que d’autres développeurs.
+**Q : Comment obtenir de l’aide en cas de problème ?**  
+R : Le forum communautaire Aspose ([Aspose.3D forum](https://forum.aspose.com/c/3d/18)) est un excellent endroit pour poser des questions et recevoir de l’aide tant de l’équipe Aspose que d’autres développeurs.
 
 ## Conclusion
 
-Vous disposez maintenant d’une méthode complète, prête pour la production, de **division de maillage par matériau** avec Aspose.3D en Java. En appliquant cette technique, vous constaterez moins d’appels de dessin, une meilleure utilisation de la mémoire et un rendu plus fluide sur une gamme d’appareils. N’hésitez pas à expérimenter avec différentes options `SplitMeshPolicy` ou à intégrer les sous‑maillages résultants dans votre propre pipeline de rendu.
+Vous disposez désormais d’une méthode complète, prête pour la production, pour **diviser un maillage par matériau** avec Aspose.3D en Java. En appliquant cette technique, vous constaterez moins d’appels de dessin, une meilleure utilisation de la mémoire et un rendu plus fluide sur une large gamme d’appareils. N’hésitez pas à expérimenter avec les différentes options `SplitMeshPolicy` ou à intégrer les sous‑maillages obtenus dans votre propre pipeline de rendu.
 
 ---
 
-**Last Updated:** 2026-09-03  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose
+**Dernière mise à jour :** 2026-11-04  
+**Testé avec :** Aspose.3D for Java 24.11  
+**Auteur :** Aspose
 
 ## Tutoriels associés
 
-- [Comment calculer les normales d’un maillage et ajouter des normales aux maillages 3D en Java (Utilisant Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Apprenez à trianguler les maillages pour un rendu optimisé en Java avec Aspose.3D](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
-- [Réduire la taille d’un modèle 3D : créer un maillage sphère en Java avec Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
+- [How to Calculate Mesh Normals and Add Normals to 3D Meshes in Java (Using Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
+- [Learn How to Triangulate Meshes for Optimized Rendering in Java Using Aspose.3D](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
+- [Reduce 3D Model Size: Create Sphere Mesh in Java with Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
