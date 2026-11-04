@@ -1,21 +1,24 @@
 ---
-date: 2026-09-03
+date: 2026-11-04
 description: 了解如何在 Java 中使用 Aspose.3D 高效地按材质拆分网格。本指南展示了在拆分网格时如何减少 draw calls 并提升 rendering
   performance。
+images:
+- /java/3d-mesh-data/split-meshes-by-material/og-image.png
 keywords:
 - how to split mesh
 - reduce draw calls
 - improve rendering performance
 - split mesh by material
-lastmod: 2026-09-03
+- 3d rendering optimization
+lastmod: 2026-11-04
 linktitle: 如何在 Java 中使用 Aspose.3D 按材质拆分网格
-og_description: 使用 Aspose.3D for Java 按材质拆分网格的步骤指南。通过本 step‑by‑step guide 减少 draw
-  calls 并提升 rendering performance。
+og_description: 使用 Aspose.3D for Java 按材质拆分网格的步骤指南。通过本指南减少 draw calls 并提升 rendering
+  performance。
 og_image_alt: Tutorial showing mesh splitting by material in Java with Aspose.3D
-og_title: 在 Java 中使用 Aspose.3D 按材质拆分网格的方法
+og_title: 如何在 Java 中使用 Aspose.3D 按材质拆分网格
 schemas:
 - author: Aspose
-  dateModified: '2026-09-03'
+  dateModified: '2026-11-04'
   description: Learn how to split mesh efficiently by material in Java with Aspose.3D.
     This guide shows you how to reduce draw calls and improve rendering performance
     while splitting mesh by material.
@@ -85,64 +88,67 @@ weight: 12
 
 ## 介绍
 
-如果您在 Java 中处理 3D 图形，您会很快发现处理大型网格可能成为性能瓶颈——尤其是当单个网格包含多种材质时。**学习如何按材质拆分网格**可以让您将每个材质对应的多边形组隔离开来，从而实现更快的渲染、更容易的剔除以及对纹理处理的更细粒度控制。在本教程中，我们将逐步演示如何使用 Aspose.3D 库**按材质拆分网格**，并提供实用解释、减少绘制调用的技巧以及提升渲染性能的建议。
+如果您在 Java 中从事 3D 图形开发，您会很快发现处理大型网格可能成为性能瓶颈——尤其是当单个网格包含多种材质时。**学习如何按材质拆分网格**可以让您将每个材质特定的多边形组隔离出来，从而实现更快的渲染、更容易的剔除以及对纹理处理的更细粒度控制。在本教程中，我们将逐步演示使用 Aspose.3D 库**按材质拆分网格**的完整步骤，并提供实用解释、减少绘制调用的技巧以及提升渲染性能的建议。
 
 ## 快速答案
-- **“按材质拆分网格”是什么意思？** 它将单个网格分割为多个子网格，每个子网格只包含使用相同材质的多边形。  
-- **为什么使用 Aspose.3D？** 它提供了高级、跨平台的 API，抽象了底层文件格式，同时保持性能。  
+- **“按材质拆分网格”是什么意思？** 它将单个网格分离为多个子网格，每个子网格包含共享相同材质的多边形。  
+- **为什么使用 Aspose.3D？** 它提供了一个高级、跨平台的 API，抽象了底层文件格式，同时保持性能。  
 - **实现需要多长时间？** 大约 10–15 分钟的编码和测试。  
-- **需要许可证吗？** 提供免费试用；生产环境需要商业许可证。  
+- **我需要许可证吗？** 提供免费试用；生产环境需要商业许可证。  
 - **支持哪个 Java 版本？** Java 8 或更高。
 
-## 什么是网格拆分？
+## 网格拆分是什么？
 
-`Mesh splitting` 是将复杂的 3D 网格划分为更小、更易管理的片段的过程。当拆分基于材质时，每个生成的子网格只包含引用单一材质的多边形。这种做法可以减少绘制调用、提升渲染性能，并简化诸如按材质着色等任务。
+`Mesh splitting` 是将复杂的 3D 网格划分为更小、更易管理的部分的过程。当拆分基于材质时，每个生成的子网格仅包含引用单一材质的多边形。这种方法可以减少绘制调用、提升渲染性能，并简化诸如应用每材质着色器等任务。
 
 ## 拆分如何减少绘制调用？
 
-按材质拆分网格会为每种材质创建一个子网格，使图形引擎能够对每种材质发出一次绘制调用，而不是对每个多边形都发出调用。绘制调用越少，GPU 状态切换越少，直接转化为桌面 GPU 和受限移动 GPU 上更高的帧率。
+拆分网格会为每种材质创建一个子网格，使图形引擎能够对每种材质发出一次绘制调用，而不是对每个多边形都发出一次。绘制调用越少，GPU 状态切换越少，直接转化为桌面 GPU 和受限移动 GPU 上更高的帧率。
 
 ## 为什么按材质拆分网格？
 
-按材质拆分网格可以提升性能，因为渲染器能够为每种材质批量绘制，减少 GPU 状态切换。它还为开发者提供了对每种材质应用不同着色器、后处理效果或碰撞逻辑的灵活性。此外，较小的子网格更易于流式传输、内存管理和剔除，这在移动、AR 和 VR 平台上尤为重要。
+按材质拆分网格可以提升性能，因为渲染器能够为每种材质批量绘制，减少 GPU 状态切换。它还为开发者提供了对每种材质应用不同着色器、后处理效果或碰撞逻辑的灵活性。此外，较小的子网格更易于流式加载、内存管理和剔除，这在移动、AR 和 VR 平台上尤为重要。
 
 ## Aspose.3D 的量化优势
 
-Aspose.3D 支持 **30+ 输入和输出格式**——包括 OBJ、FBX、STL 和 GLTF，并且能够在不将整个文件加载到内存的情况下处理 **高达 1000 万多边形**的网格。使用 `COMPACT_DATA` 拆分策略可以将顶点内存使用量 **降低至 40% 以内**，这对低端设备上的 Java 3D 图形尤为有价值。
+Aspose.3D 支持 **30+ 输入和输出格式**——包括 OBJ、FBX、STL 和 GLTF，并且可以在不将整个文件加载到内存的情况下处理 **高达 1000 万多边形**的网格。使用 `COMPACT_DATA` 拆分策略可以将顶点内存使用量 **降低至 40 %**，这对低端设备上的 Java 3D 图形尤为有价值。
 
 ## 常见使用场景
 
 | 场景 | 拆分的好处 |
 |----------|----------------------|
-| **即时策略游戏** | 每种地形类型可以拥有自己的材质，允许引擎一次性绘制所有草地块。 |
-| **建筑可视化** | 墙体、玻璃和金属可以分别处理，以实现不同的着色效果。 |
+| **即时策略游戏** | 每种地形类型可以拥有自己的材质，使引擎能够一次性绘制所有草地块。 |
+| **建筑可视化** | 墙体、玻璃和金属可以分别处理，以实现不同的着色器效果。 |
 | **移动 AR 应用** | 减少绘制调用有助于在受限硬件上保持 60 fps。 |
 | **VR 体验** | 降低 GPU 工作负载可减少延迟，提升用户舒适度。 |
 
-## 前置条件
+## 先决条件
 
-在深入代码之前，请确保您具备以下条件：
-
-- 基本的 Java 编程知识。  
-- 已安装 Aspose.3D for Java 库（从 [Aspose 网站](https://releases.aspose.com/3d/java/) 下载）。  
-- 已配置好用于 Java 开发的 IDE，如 IntelliJ IDEA、Eclipse 或 VS Code。
+- 基础的 Java 编程知识。  
+- 已安装 Aspose.3D for Java 库（从 [Aspose website](https://releases.aspose.com/3d/java/) 下载）。  
+- 已配置好用于 Java 开发的 IDE，例如 IntelliJ IDEA、Eclipse 或 VS Code。
 
 ## 导入包
 
-`Scene` 类表示 3D 场景容器，`Mesh` 保存几何数据；`VertexElementMaterial` 存储每个多边形的材质索引，`PolygonModifier` 提供网格操作的实用工具。  
+`Scene` 是 Aspose.3D 的根对象，保存 3D 场景中的所有节点、灯光和相机。  
+`Mesh` 表示 3D 对象的几何数据——顶点、边和面。  
+`VertexElementMaterial` 为每个多边形存储整数材质索引，以实现每多边形的材质分配。  
+`PolygonModifier` 提供用于编辑网格的静态方法，例如拆分或合并多边形。  
+
+`Scene` 类表示 3D 场景容器，而 `Mesh` 保存几何数据；`VertexElementMaterial` 存储每多边形的材质索引，`PolygonModifier` 提供网格操作的实用工具。  
 ```java
 import com.aspose.threed.*;
 
 import java.util.Arrays;
 ```
 
-## 步骤指南
+## 分步指南
 
-以下是每一步的简明走查，解释位于占位符之前，帮助您明确每一步的作用。
+下面是一段简明的逐步演练，每一步都有解释，帮助您明确每个占位符前的操作。
 
 ### 步骤 1：创建盒子网格
 
-`Box` 类生成一个六面体几何体，每个面都表示为单独的多边形。我们从一个简单的几何原语——盒子——开始，这样可以清晰地看到后续如何为每个面（平面）分配独立材质。  
+`Box` 类创建一个具有六个面的立方体几何体，每个面都表示为单独的多边形。我们从一个简单的几何原语——盒子——开始，以便清晰地看到稍后每个面（平面）如何获得自己的材质。  
 ```java
 // ExStart:SplitMeshbyMaterial
 
@@ -152,7 +158,7 @@ Mesh box = (new Box()).toMesh();
 
 ### 步骤 2：创建材质元素
 
-`VertexElementMaterial` 为每个多边形存储材质索引。将其附加到网格后，即可控制每个面使用的材质。  
+`VertexElementMaterial` 为每个多边形存储材质索引。将其附加到网格后，我们可以控制每个面使用的材质。  
 ```java
 // Create a material element on the box mesh
 VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElementType.MATERIAL, MappingMode.POLYGON, ReferenceMode.INDEX);
@@ -160,7 +166,7 @@ VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElem
 
 ### 步骤 3：指定不同的材质索引
 
-这里我们为盒子的六个平面分配唯一的材质索引。数组顺序与 `Box` 原语生成的多边形顺序相匹配。  
+这里我们为盒子的六个平面分别分配唯一的材质索引。数组顺序与 `Box` 原语生成的多边形顺序相匹配。  
 ```java
 // Specify different material indices for each plane
 mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
@@ -168,7 +174,7 @@ mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
 
 ### 步骤 4：将网格拆分为子网格
 
-`SplitMeshPolicy` 枚举定义了拆分时顶点数据的处理方式，例如 `CLONE_DATA` 或 `COMPACT_DATA`。使用 `SplitMeshPolicy.CLONE_DATA` 调用 `PolygonModifier.splitMesh` 会为每个不同的材质索引创建一个新子网格，同时保留原始顶点数据。  
+`SplitMeshPolicy` 枚举定义了拆分过程中顶点数据的处理方式，例如 `CLONE_DATA` 或 `COMPACT_DATA`。使用 `SplitMeshPolicy.CLONE_DATA` 调用 `PolygonModifier.splitMesh` 会为每个不同的材质索引创建一个新子网格，同时保留原始顶点数据。  
 ```java
 // Split the mesh into 6 sub-meshes, each plane becoming a sub-mesh
 Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
@@ -176,7 +182,7 @@ Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
 
 ### 步骤 5：更新材质索引并再次拆分
 
-为了演示不同的拆分策略，我们现在将前三个平面归为材质 0，剩余三个归为材质 1，然后使用 `COMPACT_DATA` 拆分，以消除未使用的顶点。  
+为了演示不同的拆分策略，我们现在将前三个平面归为材质 0，剩余三个归为材质 1，然后使用 `COMPACT_DATA` 拆分以消除未使用的顶点。  
 ```java
 // Update material indices and split into 2 sub-meshes
 mat.getIndices().clear();
@@ -195,48 +201,47 @@ System.out.println("\nSplitting a mesh by specifying the material successfully."
 
 ## 减少绘制调用并提升渲染性能
 
-将每种材质转换为独立的网格后，图形管线可以对每种材质发出一次绘制调用，而不是对每个多边形都发出调用。这种绘制调用的减少直接转化为更流畅的帧率，尤其在低端硬件上表现显著。此外，`COMPACT_DATA` 策略会移除未使用的顶点，进一步降低内存带宽占用，帮助 GPU 更高效地渲染。
+将每种材质转化为独立的网格后，图形管线可以对每种材质发出一次绘制调用，而不是对每个多边形都发出一次。这种绘制调用的减少直接转化为更流畅的帧率，尤其在低端硬件上表现明显。此外，`COMPACT_DATA` 策略会移除未使用的顶点，进一步降低内存带宽需求，帮助 GPU 更高效地渲染。
 
-## 常见问题与解决方案
+## 常见问题及解决方案
 
-| 问题 | 产生原因 | 解决方案 |
+| 问题 | 原因 | 解决方案 |
 |-------|----------------|-----|
-| **子网格包含重复顶点** | 使用 `CLONE_DATA` 为每个子网格复制了所有顶点数据。 | 在需要共享顶点去重时切换到 `COMPACT_DATA`。 |
-| **材质分配不正确** | 索引数组长度与多边形数量不匹配。 | 核实多边形数量（例如盒子有 6 个），并提供匹配的索引数组。 |
+| **子网格包含重复顶点** | 使用 `CLONE_DATA` 会为每个子网格复制所有顶点数据。 | 当您希望共享顶点去重时，请切换到 `COMPACT_DATA`。 |
+| **材质分配不正确** | 索引数组长度与多边形数量不匹配。 | 验证多边形数量（例如，盒子有 6 个），并提供匹配的索引数组。 |
 
-## 常见问答
+## 常见问题
 
-**问：Aspose.3D 能与其他 Java 3D 库兼容吗？**  
-答：可以，Aspose.3D 可与 Java 3D 或 jMonkeyEngine 等库共存，支持在它们之间导入/导出网格。
+**Q: Aspose.3D 是否兼容其他 Java 3D 库？**  
+A: 是的，Aspose.3D 可以与 Java 3D 或 jMonkeyEngine 等库共存，允许您在它们之间导入/导出网格。
 
-**问：此技术能否应用于拥有数百种材质的复杂模型？**  
-答：完全可以。相同的 API 调用在任何网格复杂度下都适用，只需确保索引数组正确反映材质布局。
+**Q: 该技术能否应用于拥有数百种材质的复杂模型？**  
+A: 完全可以。无论网格多复杂，API 调用方式相同，只需确保索引数组正确反映材质布局。
 
-**问：在哪里可以找到完整的 Aspose.3D Java 文档？**  
-答：请访问官方的 [Aspose.3D Java 文档](https://reference.aspose.com/3d/java/) 获取详细的 API 参考和更多示例。
+**Q: 我在哪里可以找到完整的 Aspose.3D Java 文档？**  
+A: 请访问官方 [Aspose.3D Java documentation](https://reference.aspose.com/3d/java/) 获取详细的 API 参考和更多示例。
 
-**问：Aspose.3D for Java 有免费试用吗？**  
-答：有，您可以从 [Aspose Releases 页面](https://releases.aspose.com/) 下载试用版。
+**Q: Aspose.3D for Java 是否提供免费试用？**  
+A: 是的，您可以从 [Aspose Releases page](https://releases.aspose.com/) 下载试用版本。
 
-**问：如果遇到问题，如何获取支持？**  
-答：Aspose 社区论坛（[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)）是提问并获得 Aspose 团队及其他开发者帮助的绝佳渠道。
+**Q: 如果遇到问题，如何获取支持？**  
+A: Aspose 社区论坛（[Aspose.3D forum](https://forum.aspose.com/c/3d/18)）是提问并获得 Aspose 团队和其他开发者帮助的极佳渠道。
 
 ## 结论
 
-现在您已经掌握了使用 Aspose.3D 在 Java 中**按材质拆分网格**的完整、可用于生产的方案。通过应用此技术，您将看到绘制调用减少、内存使用更佳以及在各种设备上更流畅的渲染效果。欢迎尝试不同的 `SplitMeshPolicy` 选项，或将生成的子网格集成到您自己的渲染管线中。
+您现在已经掌握了使用 Aspose.3D 在 Java 中**按材质拆分网格**的完整、可用于生产的方案。通过应用此技术，您将看到绘制调用减少、内存使用更佳以及在各种设备上渲染更流畅。欢迎尝试不同的 `SplitMeshPolicy` 选项，或将生成的子网格集成到您自己的渲染管线中。
 
 ---
 
-**最后更新：** 2026-09-03  
+**最后更新：** 2026-11-04  
 **测试环境：** Aspose.3D for Java 24.11  
 **作者：** Aspose
 
 ## 相关教程
 
-- [如何在 Java 中计算网格法线并将法线添加到 3D 网格（使用 Aspose.3D）](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [学习如何在 Java 中使用 Aspose.3D 对网格进行三角化以优化渲染](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
-- [压缩 3D 模型体积：使用 Draco 在 Java 中创建球体网格](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
+- [如何在 Java 中计算网格法线并向 3D 网格添加法线（使用 Aspose.3D）](/3d/java/3d-mesh-data/generate-mesh-data/)
+- [学习如何在 Java 中使用 Aspose.3D 对网格进行三角化以实现优化渲染](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
+- [减小 3D 模型体积：使用 Draco 在 Java 中创建球体网格](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

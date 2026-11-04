@@ -1,21 +1,24 @@
 ---
-date: 2026-09-03
-description: Aspose.3D を使用した Java で、Material 別に Mesh を効率的に分割する方法を学びます。このガイドでは、Mesh
-  を Material で分割しながら draw calls を削減し、rendering performance を向上させる方法を示します。
+date: 2026-11-04
+description: Java と Aspose.3D を使用して、マテリアル別にメッシュを効率的に分割する方法を学びます。このガイドでは、draw calls
+  を削減し、rendering performance を向上させながらメッシュをマテリアル別に分割する手順を示します。
+images:
+- /java/3d-mesh-data/split-meshes-by-material/og-image.png
 keywords:
 - how to split mesh
 - reduce draw calls
 - improve rendering performance
 - split mesh by material
-lastmod: 2026-09-03
-linktitle: Aspose.3D を使用した Java での Material 別 Mesh の分割方法
-og_description: Aspose.3D for Java を使用して Material 別に Mesh を分割する方法。step‑by‑step ガイドで
-  draw calls を削減し、rendering performance を向上させます。
+- 3d rendering optimization
+lastmod: 2026-11-04
+linktitle: Java と Aspose.3D を使用したマテリアル別メッシュ分割方法
+og_description: Aspose.3D for Java を使用したマテリアル別メッシュ分割方法。draw calls を削減し、rendering performance
+  を向上させる step‑by‑step ガイドです。
 og_image_alt: Tutorial showing mesh splitting by material in Java with Aspose.3D
-og_title: Aspose.3D を使用した Java での Material 別 Mesh 分割方法
+og_title: Java と Aspose.3D でマテリアル別にメッシュを分割する方法
 schemas:
 - author: Aspose
-  dateModified: '2026-09-03'
+  dateModified: '2026-11-04'
   description: Learn how to split mesh efficiently by material in Java with Aspose.3D.
     This guide shows you how to reduce draw calls and improve rendering performance
     while splitting mesh by material.
@@ -72,7 +75,7 @@ tags:
 - batch draw calls
 - reduce draw calls
 - improve rendering performance
-title: Aspose.3D を使用した Java での Material 別 Mesh の分割方法
+title: Java と Aspose.3D を使用したマテリアル別メッシュ分割方法
 url: /ja/java/3d-mesh-data/split-meshes-by-material/
 weight: 12
 ---
@@ -81,68 +84,74 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# JavaでAspose.3Dを使用してマテリアル別にメッシュを分割する方法
+# JavaでAspose.3Dを使用してマテリアルでメッシュを分割する方法
 
 ## はじめに
 
-Javaで3Dグラフィックスを扱う場合、特に単一のメッシュに複数のマテリアルが含まれていると、大規模なメッシュの処理がパフォーマンスのボトルネックになることにすぐに気付くでしょう。**Learning how to split mesh** をマテリアル別に行うことで、マテリアルごとのポリゴングループを分離でき、レンダリングが高速化し、カリングが容易になり、テクスチャ処理の制御がより細かくなります。このチュートリアルでは、Aspose.3D ライブラリを使用して **split mesh by material** を実現する正確な手順を、実用的な解説、描画呼び出し削減のヒント、レンダリング性能向上のアドバイスとともに紹介します。
+Javaで3Dグラフィックスを扱うと、大きなメッシュの処理がパフォーマンスのボトルネックになることにすぐ気付くでしょう—特に単一のメッシュに複数のマテリアルが含まれている場合です。マテリアルで**メッシュを分割する方法**を学ぶことで、マテリアルごとのポリゴン群を分離でき、レンダリングが高速化し、カリングが容易になり、テクスチャ処理の制御がより細かくなります。このチュートリアルでは、Aspose.3D ライブラリを使用して**マテリアルでメッシュを分割**する正確な手順を実践的な解説と、描画呼び出し削減のヒント、レンダリング性能向上のアドバイスと共に紹介します。
 
 ## クイック回答
-- **“split mesh by material”とは何ですか？** 単一のメッシュを複数のサブメッシュに分割し、同じマテリアルを共有するポリゴンだけを含むようにします。  
-- **なぜ Aspose.3D を使用するのですか？** 高レベルでクロスプラットフォームな API を提供し、低レベルのファイル形式を抽象化しながらパフォーマンスを維持します。  
-- **実装にどれくらい時間がかかりますか？** コーディングとテストでおおよそ 10〜15 分です。  
-- **ライセンスは必要ですか？** 無料トライアルが利用可能です。商用利用には有償ライセンスが必要です。  
-- **対応している Java バージョンは？** Java 8 以上。
 
-## メッシュ分割とは何か？
+- **「マテリアルでメッシュを分割する」とは何ですか？** 単一のメッシュを�数のサブメッシュに分割し、各サブメッシュは同じマテリアルを共有するポリゴンを含みます。  
+- **なぜ Aspose.3D を使用するのですか？** 低レベルのファイル形式を抽象化しつつ、パフォーマンスを維持する高レベルでクロスプラットフォームな API を提供します。  
+- **実装にはどれくらい時間がかかりますか？** コーディングとテストでおおよそ10〜15分です。  
+- **ライセンスは必要ですか？** 無料トライアルが利用可能ですが、製品版の使用には商用ライセンスが必要です。  
+- **サポートされている Java バージョンはどれですか？** Java 8 以降です。
 
-`Mesh splitting` は、複雑な 3D メッシュをより小さく管理しやすいピースに分割するプロセスです。マテリアルに基づいて分割する場合、生成される各サブメッシュは単一のマテリアルを参照するポリゴンだけを含みます。この手法により描画呼び出しが削減され、レンダリング性能が向上し、マテリアルごとのシェーダ適用が簡素化されます。
+## メッシュ分割とは何か
 
-## 分割はどのように描画呼び出しを削減するか？
+`Mesh splitting` は、複雑な 3D メッシュをより小さく扱いやすい部分に分割するプロセスです。分割がマテリアルに基づく場合、生成される各サブメッシュは単一のマテリアルを参照するポリゴンだけを含みます。このアプローチにより描画呼び出しが削減され、レンダリング性能が向上し、マテリアルごとのシェーダー適用などのタスクが簡素化されます。
 
-メッシュを分割すると、マテリアルごとに 1 つのサブメッシュが生成され、エンジンはポリゴンごとではなくマテリアルごとに単一の描画呼び出しを発行できます。描画呼び出しが減ることで GPU のステート変更が減少し、デスクトップ GPU でもモバイル GPU でもフレームレートが向上します。
+## 分割はどのように描画呼び出しを削減するのか
 
-## なぜマテリアル別にメッシュを分割するのか？
+メッシュを分割すると、マテリアルごとに 1 つのサブメッシュが作成され、グラフィックスエンジンはポリゴンごとではなくマテリアルごとに単一の描画呼び出しを発行できます。描画呼び出しが減ることで GPU の状態変更が少なくなり、デスクトップ GPU と制約のあるモバイル GPU の両方でフレームレートが向上します。
 
-マテリアル別にメッシュを分割すると、レンダラがマテリアルごとに描画呼び出しをバッチ処理できるため GPU のステート変更が減り、パフォーマンスが向上します。また、開発者はマテリアルごとに異なるシェーダやポストプロセス効果、衝突ロジックを適用できる柔軟性が得られます。さらに、サイズの小さいサブメッシュはストリーミングやメモリ管理、カリングが容易になるため、モバイル、AR、VR プラットフォームで特に有用です。
+## なぜマテリアルでメッシュを分割するのか
+
+マテリアルでメッシュを分割すると、レンダラーがマテリアルごとに描画呼び出しをバッチ処理できるため GPU の状態変更が減少し、パフォーマンスが向上します。また、開発者はマテリアルごとに異なるシェーダー、ポストプロセス効果、衝突ロジックを適用できる柔軟性を得られます。さらに、サブメッシュが小さくなることでストリーミングやメモリ管理、カリングが容易になり、特にモバイル、AR、VR プラットフォームで価値があります。
 
 ## Aspose.3D の定量的な利点
 
-Aspose.3D は **30 以上の入出力フォーマット**（OBJ、FBX、STL、GLTF など）をサポートし、**最大 1,000 万ポリゴン** のメッシュをメモリ全体にロードせずに処理できます。`COMPACT_DATA` 分割ポリシーを使用すると、頂点メモリ使用量を **最大 40 %** 削減でき、低スペックデバイス向けの Java 3D グラフィックスに特に価値があります。
+Aspose.3D は **30 以上の入出力フォーマット**（OBJ、FBX、STL、GLTF など）をサポートし、**最大 1,000 万ポリゴン** のメッシュをファイル全体をメモリにロードせずに処理できます。`COMPACT_DATA` 分割ポリシーを使用すると、頂点メモリ使用量を **最大 40 %** 削減でき、低スペックデバイス上の Java 3D グラフィックスに特に有用です。
 
-## 主な使用例
+## 一般的な使用例
 
 | シナリオ | 分割の利点 |
 |----------|----------------------|
-| **リアルタイムストラテジーゲーム** | 各地形タイプが独自のマテリアルを持つことができ、エンジンはすべての草地パッチを 1 回の呼び出しで描画できます。 |
-| **建築ビジュアライゼーション** | 壁、ガラス、金属を別々に処理でき、異なるシェーダ効果を適用できます。 |
-| **モバイルARアプリ** | 描画呼び出しを減らすことで、制限されたハードウェアでも 60 fps を維持できます。 |
-| **VR体験** | GPU負荷を下げることでレイテンシが減少し、ユーザーの快適さが向上します。 |
+| **リアルタイムストラテジーゲーム** | 各地形タイプが独自のマテリアルを持つことができ、エンジンはすべての草地パッチを一度の呼び出しで描画できます。 |
+| **建築可視化** | 壁、ガラス、金属を個別に処理でき、異なるシェーダー効果を適用できます。 |
+| **モバイル AR アプリ** | 描画呼び出しを減らすことで、制限されたハードウェアでも 60 fps を維持しやすくなります。 |
+| **VR 体験** | GPU の負荷が低減されることでレイテンシが減少し、ユーザーの快適性が向上します。 |
 
 ## 前提条件
 
 コードに入る前に、以下が揃っていることを確認してください。
 
-- Javaプログラミングの基本的な知識。  
-- Aspose.3D for Java ライブラリがインストールされていること（[Asposeのウェブサイト](https://releases.aspose.com/3d/java/)からダウンロード）。  
-- IntelliJ IDEA、Eclipse、または VS Code などの Java 開発用に設定された IDE。
+- Java プログラミングの基本知識。  
+- Aspose.3D for Java ライブラリがインストール済み（[Aspose のウェブサイト](https://releases.aspose.com/3d/java/) からダウンロード）。  
+- IntelliJ IDEA、Eclipse、または VS Code など、Java 開発用に設定された IDE。
 
 ## パッケージのインポート
 
-`Scene` クラスは 3D シーンコンテナを表し、`Mesh` がジオメトリデータを保持します。`VertexElementMaterial` はポリゴンごとのマテリアルインデックスを格納し、`PolygonModifier` はメッシュ操作のユーティリティを提供します。  
+`Scene` は Aspose.3D のルートオブジェクトで、3D シーン内のすべてのノード、ライト、カメラを保持します。  
+`Mesh` は 3D オブジェクトの幾何データ（頂点、エッジ、面）を表します。  
+`VertexElementMaterial` は各ポリゴンの整数マテリアルインデックスを格納し、ポリゴン単位のマテリアル割り当てを可能にします。  
+`PolygonModifier` はメッシュの分割や結合などの編集用静的メソッドを提供します。  
+
+`Scene` クラスは 3D シーンコンテナを表し、`Mesh` はジオメトリデータを保持します。`VertexElementMaterial` はポリゴンごとのマテリアルインデックスを格納し、`PolygonModifier` はメッシュ操作のユーティリティを提供します。  
 ```java
 import com.aspose.threed.*;
 
 import java.util.Arrays;
 ```
 
-## 手順ガイド
+## ステップバイステップガイド
 
-以下は各ステップを簡潔にまとめたものです。各ステップの前に説明があるので、何が起きているか正確に把握できます。
+以下は各ステップの簡潔な手順です。プレースホルダーの前に説明があるので、何が起きているか正確に把握できます。
 
 ### 手順 1: ボックスのメッシュを作成する
 
-`Box` クラスは 6 面を持つ立方体ジオメトリを生成し、各面は個別のポリゴンとして表現されます。シンプルなプリミティブ（ボックス）から始めることで、後で各面（平面）に個別のマテリアルが割り当てられる様子が明確に分かります。  
+`Box` クラスは 6 面を持つ立方体ジオメトリを作成し、各面は個別のポリゴンとして表現されます。シンプルな幾何プリミティブ（ボックス）から始めることで、後で各面（平面）がそれぞれのマテリアルを取得する様子を明確に確認できます。  
 ```java
 // ExStart:SplitMeshbyMaterial
 
@@ -160,7 +169,7 @@ VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElem
 
 ### 手順 3: 異なるマテリアルインデックスを指定する
 
-ここではボックスの 6 つの平面それぞれにユニークなマテリアルインデックスを割り当てます。配列の順序は `Box` プリミティブが生成するポリゴンの順序と一致します。  
+ここでは、ボックスの 6 つの平面それぞれに固有のマテリアルインデックスを割り当てます。配列の順序は `Box` プリミティブが生成するポリゴンの順序と一致します。  
 ```java
 // Specify different material indices for each plane
 mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
@@ -168,7 +177,7 @@ mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
 
 ### 手順 4: メッシュをサブメッシュに分割する
 
-`SplitMeshPolicy` 列挙型は分割時の頂点データ処理方法を定義します（例: `CLONE_DATA` または `COMPACT_DATA`）。`PolygonModifier.splitMesh` を `SplitMeshPolicy.CLONE_DATA` と共に呼び出すと、元の頂点データを保持したまま、異なるマテリアルインデックスごとに新しいサブメッシュが作成されます。  
+`SplitMeshPolicy` 列挙型は分割時の頂点データ処理方法を定義します（例: `CLONE_DATA` または `COMPACT_DATA`）。`PolygonModifier.splitMesh` を `SplitMeshPolicy.CLONE_DATA` と共に呼び出すと、元の頂点データを保持しつつ、各異なるマテリアルインデックスごとに新しいサブメッシュが作成されます。  
 ```java
 // Split the mesh into 6 sub-meshes, each plane becoming a sub-mesh
 Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
@@ -176,7 +185,7 @@ Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
 
 ### 手順 5: マテリアルインデックスを更新して再度分割する
 
-別の分割戦略を示すために、最初の 3 面をマテリアル 0、残りの 3 面をマテリアル 1 にまとめ、`COMPACT_DATA` を使用して未使用頂点を除去しながら分割します。  
+別の分割戦略を示すために、最初の 3 つの平面をマテリアル 0、残りの 3 つをマテリアル 1 にグループ化し、未使用の頂点を除去するために `COMPACT_DATA` を使用して分割します。  
 ```java
 // Update material indices and split into 2 sub-meshes
 mat.getIndices().clear();
@@ -186,54 +195,56 @@ planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 
 ### 手順 6: 成功を確認する
 
-簡単なコンソールメッセージで、エラーなく処理が完了したことを通知します。  
+シンプルなコンソールメッセージで、エラーなく操作が完了したことがわかります。  
 ```java
 // Display success message
 System.out.println("\nSplitting a mesh by specifying the material successfully.");
 // ExEnd:SplitMeshbyMaterial
 ```
 
-## 描画呼び出しを削減し、レンダリング性能を向上させる
+## 描画呼び出しを減らしレンダリング性能を向上させる
 
-各マテリアルを個別のメッシュに変換することで、グラフィックスパイプラインはポリゴンごとではなくマテリアルごとに単一の描画呼び出しを発行できるようになります。この描画呼び出しの削減は、特に低スペックハードウェアでフレームレートを滑らかに保つ直接的な効果があります。また、`COMPACT_DATA` ポリシーは未使用頂点を除去し、メモリ帯域幅をさらに削減して GPU のレンダリング効率を高めます。
+各マテリアルを個別のメッシュに変換することで、グラフィックスパイプラインはポリゴンごとではなくマテリアルごとに単一の描画呼び出しを発行できるようになります。この描画呼び出しの削減は、特に低スペックハードウェアでフレームレートを滑らかにします。さらに、`COMPACT_DATA` ポリシーは未使用の頂点を除去し、メモリ帯域幅をさらに低減して GPU のレンダリング効率を高めます。
 
 ## よくある問題と解決策
 
 | 問題 | 発生理由 | 解決策 |
 |-------|----------------|-----|
-| **サブメッシュに重複した頂点が含まれる** | `CLONE_DATA` を使用すると、各サブメッシュにすべての頂点データがコピーされます。 | 共有頂点を重複排除したい場合は `COMPACT_DATA` に切り替えてください。 |
-| **マテリアル割り当てが正しくない** | インデックス配列の長さがポリゴン数と一致しません。 | ポリゴン数（例：ボックスは 6）を確認し、対応するインデックス配列を提供してください。 |
+| **サブメッシュに重複した頂点が含まれる** | `CLONE_DATA` を使用すると、各サブメッシュに対してすべての頂点データがコピーされます。 | 共有頂点を重複排除したい場合は `COMPACT_DATA` に切り替えてください。 |
+| **マテリアル割り当てが正しくない** | インデックス配列の長さがポリゴン数と一致しません。 | ポリゴン数（例: ボックスは 6）を確認し、対応するインデックス配列を提供してください。 |
 
 ## よくある質問
 
 **Q: Aspose.3D は他の Java 3D ライブラリと互換性がありますか？**  
 A: はい、Aspose.3D は Java 3D や jMonkeyEngine などのライブラリと共存でき、メッシュのインポート/エクスポートが可能です。
 
-**Q: この手法は数百種類のマテリアルを持つ複雑なモデルにも適用できますか？**  
+**Q: この手法は数百のマテリアルを持つ複雑なモデルにも適用できますか？**  
 A: もちろんです。メッシュの複雑さに関係なく同じ API 呼び出しが機能します。インデックス配列がマテリアル配置を正しく反映していることを確認してください。
 
-**Q: 完全な Aspose.3D Java ドキュメントはどこで入手できますか？**  
-A: 詳細な API リファレンスや追加サンプルは公式の [Aspose.3D Java ドキュメント](https://reference.aspose.com/3d/java/) をご覧ください。
+**Q: 完全な Aspose.3D Java ドキュメントはどこで見つけられますか？**  
+A: 詳細な API リファレンスや追加サンプルは公式の [Aspose.3D Java documentation](https://reference.aspose.com/3d/java/) をご覧ください。
 
 **Q: Aspose.3D for Java の無料トライアルは利用可能ですか？**  
-A: はい、[Aspose Releases ページ](https://releases.aspose.com/) からトライアル版をダウンロードできます。
+A: はい、[Aspose Releases page](https://releases.aspose.com/) からトライアル版をダウンロードできます。
 
-**Q: 問題が発生した場合、どこでサポートを受けられますか？**  
-A: Aspose コミュニティフォーラム（[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18)）は、Aspose チームや他の開発者から質問や支援を受けるのに最適な場所です。
+**Q: 問題が発生した場合、どのようにサポートを受けられますか？**  
+A: Aspose コミュニティフォーラム（[Aspose.3D forum](https://forum.aspose.com/c/3d/18)）は、質問を投稿し、Aspose チームや他の開発者から支援を受けるのに最適な場所です。
 
 ## 結論
 
-これで、Java で Aspose.3D を使用して **splitting mesh by material** を実装するための完全な、実装可能な手順が揃いました。この手法を適用すれば、描画呼び出しが減少し、メモリ使用量が最適化され、さまざまなデバイスでのレンダリングが滑らかになります。`SplitMeshPolicy` の各オプションを試したり、生成されたサブメッシュを独自のレンダリングパイプラインに組み込んでみてください。
+これで、Java で Aspose.3D を使用して **マテリアルでメッシュを分割** する完全な本番対応の手法が手に入りました。この手法を適用すれば、描画呼び出しが減少し、メモリ使用量が改善され、さまざまなデバイスでスムーズなレンダリングが実現します。さまざまな `SplitMeshPolicy` オプションを試したり、生成されたサブメッシュを独自のレンダリングパイプラインに統合したりしてみてください。
 
-**最終更新日:** 2026-09-03  
+---
+
+**最終更新日:** 2026-11-04  
 **テスト環境:** Aspose.3D for Java 24.11  
 **作者:** Aspose
 
 ## 関連チュートリアル
 
 - [Javaでメッシュ法線を計算し、3Dメッシュに法線を追加する方法（Aspose.3D使用）](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Aspose.3D を使用して Java で最適化レンダリングのためにメッシュを三角形分割する方法](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
-- [3Dモデルサイズを削減：Draco を使用して Java で球体メッシュを作成する](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
+- [Aspose.3Dを使用してJavaで最適化レンダリングのためにメッシュを三角形化する方法を学ぶ](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
+- [3Dモデルサイズを削減：Dracoを使用してJavaで球体メッシュを作成する](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

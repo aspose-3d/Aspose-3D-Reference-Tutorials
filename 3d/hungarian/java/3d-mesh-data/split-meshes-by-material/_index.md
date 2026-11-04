@@ -1,24 +1,27 @@
 ---
-date: 2026-09-03
-description: Ismerje meg, hogyan lehet hatékonyan felosztani a mesh-et material szerint
+date: 2026-11-04
+description: Ismerje meg, hogyan lehet hatékonyan szétválasztani a mesh-et anyag szerint
   Java-ban az Aspose.3D segítségével. Ez az útmutató megmutatja, hogyan csökkenthetők
-  a draw calls és javítható a rendering performance a mesh material szerinti felosztása
+  a draw call-ok és javítható a rendering performance a mesh anyag szerinti szétválasztása
   során.
+images:
+- /java/3d-mesh-data/split-meshes-by-material/og-image.png
 keywords:
 - how to split mesh
 - reduce draw calls
 - improve rendering performance
 - split mesh by material
-lastmod: 2026-09-03
-linktitle: Hogyan osztható fel a mesh material szerint Java-ban az Aspose.3D használatával
-og_description: Hogyan osztható fel a mesh material az Aspose.3D for Java használatával.
-  Csökkentse a draw calls-t és javítsa a rendering performance-ot ezzel a step‑by‑step
-  guide-dal.
+- 3d rendering optimization
+lastmod: 2026-11-04
+linktitle: Hogyan válasszuk szét a mesh-et anyag szerint Java-ban az Aspose.3D használatával
+og_description: Hogyan válasszuk szét a mesh-et anyag szerint az Aspose.3D for Java
+  használatával. Csökkentse a draw call-okat és javítsa a rendering performance-ot
+  ezzel a lépésről‑lépésre útmutatóval.
 og_image_alt: Tutorial showing mesh splitting by material in Java with Aspose.3D
-og_title: Hogyan osztható fel a mesh material szerint Java-ban az Aspose.3D használatával
+og_title: Hogyan válasszuk szét a mesh-et anyag szerint Java-ban az Aspose.3D segítségével
 schemas:
 - author: Aspose
-  dateModified: '2026-09-03'
+  dateModified: '2026-11-04'
   description: Learn how to split mesh efficiently by material in Java with Aspose.3D.
     This guide shows you how to reduce draw calls and improve rendering performance
     while splitting mesh by material.
@@ -75,7 +78,7 @@ tags:
 - batch draw calls
 - reduce draw calls
 - improve rendering performance
-title: Hogyan osztható fel a mesh material szerint Java-ban az Aspose.3D használatával
+title: Hogyan válasszuk szét a mesh-et anyag szerint Java-ban az Aspose.3D használatával
 url: /hu/java/3d-mesh-data/split-meshes-by-material/
 weight: 12
 ---
@@ -84,53 +87,56 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan lehet anyag szerint felosztani a hálót Java-ban az Aspose.3D használatával
+# Hogyan osztható fel a háló anyag szerint Java-ban az Aspose.3D használatával
 
 ## Bevezetés
 
-Ha 3D grafikával dolgozik Java-ban, gyorsan rájön, hogy a nagy hálók feldolgozása teljesítménykorlátot jelenthet – különösen, ha egyetlen háló több anyagot tartalmaz. **Megtanulni, hogyan kell anyag szerint felosztani a hálót** lehetővé teszi, hogy elkülönítse az egyes anyagokra jellemző poligoncsoportokat, gyorsabb renderelést, egyszerűbb cullingot és finomabb vezérlést biztosít a textúra kezelésében. Ebben az oktatóanyagban lépésről‑lépésre bemutatjuk, hogyan **anyag szerint felosztani a hálót** az Aspose.3D könyvtár segítségével, gyakorlati magyarázatokkal, a draw call‑ok csökkentésére vonatkozó tippekkel és a renderelési teljesítmény javítására vonatkozó tanácsokkal.
+Ha Java-ban 3D grafikával dolgozol, hamar rájössz, hogy a nagy hálók feldolgozása teljesítménykorlátot jelenthet – különösen, ha egyetlen háló több anyagot tartalmaz. **A háló anyag szerinti felosztásának** megtanulása lehetővé teszi, hogy elkülönítsd az egyes anyagra jellemző poligoncsoportokat, gyorsabb renderelést, egyszerűbb cullingot és finomabb vezérlést biztosítva a textúra kezelésében. Ebben az útmutatóban lépésről lépésre bemutatjuk, hogyan **osztható fel a háló anyag szerint** az Aspose.3D könyvtár segítségével, gyakorlati magyarázatokkal, a draw call-ok csökkentésére vonatkozó tippekkel és a renderelési teljesítmény javítására vonatkozó tanácsokkal.
 
 ## Gyors válaszok
-- **Mi jelent a “split mesh by material” kifejezés?** Egyetlen hálót több alhálóra oszt szét, ahol minden alháló olyan poligonokat tartalmaz, amelyek ugyanazt az anyagot használják.  
-- **Miért használjuk az Aspose.3D‑t?** Magas szintű, platformközi API‑t biztosít, amely elrejti az alacsony szintű fájlformátumokat, miközben megőrzi a teljesítményt.  
+- **Mi jelent a “split mesh by material”?** Egyetlen hálót több alhálóra bont, amelyek mindegyike olyan poligonokat tartalmaz, amelyek ugyanazt az anyagot használják.  
+- **Miért használjuk az Aspose.3D‑t?** Magas szintű, többplatformos API-t biztosít, amely elrejti az alacsony szintű fájlformátumokat, miközben a teljesítményt megőrzi.  
 - **Mennyi időt vesz igénybe a megvalósítás?** Körülbelül 10–15 perc kódolás és tesztelés.  
-- **Szükségem van licencre?** Elérhető ingyenes próba; a kereskedelmi licenc szükséges a termelési használathoz.  
+- **Szükség van licencre?** Elérhető ingyenes próba, a kereskedelmi licenc szükséges a termelésben való használathoz.  
 - **Melyik Java verzió támogatott?** Java 8 vagy újabb.
 
 ## Mi a háló felosztása?
 
-A `Mesh splitting` egy összetett 3D háló kisebb, könnyebben kezelhető darabokra bontását jelenti. Amikor a felosztás anyag alapján történik, minden keletkező alháló csak azokat a poligonokat tartalmazza, amelyek egyetlen anyagra hivatkoznak. Ez a megközelítés csökkenti a draw call‑okat, javítja a renderelési teljesítményt, és egyszerűsíti az anyagonkénti shader alkalmazását.
+`Mesh splitting` a folyamat, amely egy összetett 3D hálót kisebb, könnyebben kezelhető darabokra osztja. Ha a felosztás anyagra alapul, minden keletkező alháló csak azokat a poligonokat tartalmazza, amelyek egyetlen anyagra hivatkoznak. Ez a megközelítés csökkenti a draw call‑okat, javítja a renderelési teljesítményt, és egyszerűsíti az olyan feladatokat, mint az anyagonkénti shader alkalmazása.
 
-## Hogyan csökkenti a felosztás a draw call-okat?
+## Hogyan csökkenti a felosztás a draw call‑okat?
 
-A háló felosztása anyagonként egy alhálót hoz létre, lehetővé téve a grafikus motor számára, hogy minden anyaghoz egyetlen draw call‑t adjon ki a poligononkénti hívás helyett. Kevesebb draw call kevesebb GPU állapotváltozást jelent, ami közvetlenül magasabb képkockaszámot eredményez mind asztali, mind korlátozott mobil GPU‑kon.
+A háló felosztása anyagonként egy alhálót hoz létre, lehetővé téve a grafikai motor számára, hogy minden anyaghoz egyetlen draw call‑t adjon ki a poligononkénti hívás helyett. Kevesebb draw call kevesebb GPU állapotváltozást jelent, ami közvetlenül magasabb képkockasebességhez vezet mind asztali, mind korlátozott mobil GPU‑k esetén.
 
-## Miért kell anyag szerint felosztani a hálót?
+## Miért osztható fel a háló anyag szerint?
 
-Az anyag szerinti felosztás javítja a teljesítményt, mivel a renderelő képes anyagonként csoportosítani a draw call‑okat, csökkentve ezzel a GPU állapotváltozásokat. Emellett a fejlesztők különböző shader‑eket, post‑processing effektusokat vagy ütközéslogikát alkalmazhatnak anyagonként. A kisebb alhálók könnyebben streamelhetők, memóriakezelhetők és cull‑olhatók, ami különösen értékes mobil, AR és VR platformokon.
+A háló anyag szerinti felosztása javítja a teljesítményt, mivel a renderelő képes anyagonként csoportosítani a draw call‑okat, csökkentve a GPU állapotváltozásokat. Emellett a fejlesztőknek rugalmasságot biztosít, hogy anyagonként különböző shader‑eket, post‑processing hatásokat vagy ütközéslogikát alkalmazzanak. Továbbá a kisebb alhálók könnyebben streamelhetők, memóriakezelhetők és cull‑olhatók, ami különösen értékes mobil, AR és VR platformokon.
 
-## Az Aspose.3D mérhető előnyei
+## Az Aspose.3D számszerű előnyei
 
-Az Aspose.3D **30+ bemeneti és kimeneti formátumot** támogat – beleértve az OBJ, FBX, STL és GLTF formátumokat – és **akár 10 millió poligon**‑t is képes feldolgozni anélkül, hogy a teljes fájlt a memóriába töltené. A `COMPACT_DATA` felosztási politika használata a **vertex memóriahasználatot akár 40 %‑kal** is csökkentheti, ami különösen fontos a Java 3D grafikához alacsony teljesítményű eszközökön.
+Az Aspose.3D **30+ bemeneti és kimeneti formátumot** támogat — beleértve az OBJ, FBX, STL és GLTF formátumokat — és képes **akár 10 millió poligon** tartalmú hálókat feldolgozni anélkül, hogy az egész fájlt a memóriába töltené. A `COMPACT_DATA` felosztási szabály használata a csúcspont memóriahasználatot **akár 40 %**-kal csökkentheti, ami különösen értékes a Java 3D grafikához alacsony végű eszközökön.
 
 ## Gyakori felhasználási esetek
 
 | Forgatókönyv | A felosztás előnye |
 |--------------|--------------------|
-| **Valós‑idő stratégiai játékok** | Minden tereptípus saját anyaggal rendelkezhet, lehetővé téve, hogy a motor egy hívással rajzolja az összes fűfoltot. |
-| **Építészeti vizualizáció** | Falak, üveg és fém külön kezelhetők különböző shader‑effektekkel. |
-| **Mobil AR alkalmazások** | A draw call‑ok csökkentése segít fenntartani a 60 fps‑t korlátozott hardveren. |
-| **VR élmények** | Alacsonyabb GPU terhelés csökkenti a késleltetést, javítva a felhasználói kényelmet. |
+| **Valós‑idő stratégiai játékok** | Minden tereptípus saját anyaggal rendelkezhet, lehetővé téve a motor számára, hogy az összes fűfoltot egy hívásban rajzolja. |
+| **Építészeti vizualizáció** | A falak, üveg és fém külön kezelhetők különálló shader‑effektekhez. |
+| **Mobil AR alkalmazások** | A draw call‑ok csökkentése segít 60 fps fenntartásában korlátozott hardveren. |
+| **VR élmények** | Az alacsonyabb GPU terhelés csökkenti a késleltetést, javítva a felhasználói kényelmet. |
 
 ## Előfeltételek
 
-Mielőtt a kódba merülnénk, győződjön meg róla, hogy a következőkkel rendelkezik:
-
 - Alapvető Java programozási ismeretek.  
-- Telepítve van az Aspose.3D for Java könyvtár (letölthető a [Aspose weboldaláról](https://releases.aspose.com/3d/java/)).  
+- Az Aspose.3D for Java könyvtár telepítve (letöltés a [Aspose weboldalról](https://releases.aspose.com/3d/java/)).  
 - Egy IDE, például IntelliJ IDEA, Eclipse vagy VS Code, Java fejlesztéshez beállítva.
 
 ## Csomagok importálása
+
+`Scene` az Aspose.3D gyökérobjektuma, amely egy 3D jelenetben az összes csomópontot, fényt és kamerát tartalmazza.  
+`Mesh` egy 3D objektum geometriai adatait — csúcsok, élek és felületek — képviseli.  
+`VertexElementMaterial` egy egész anyagindexet tárol minden poligonhoz, lehetővé téve a poligon‑szintű anyag hozzárendelést.  
+`PolygonModifier` statikus metódusokat kínál a hálók szerkesztéséhez, például a poligonok felosztásához vagy egyesítéséhez.  
 
 A `Scene` osztály egy 3D jelenet konténert képvisel, míg a `Mesh` a geometriai adatokat tárolja; a `VertexElementMaterial` poligon‑szintű anyagindexeket tárol, és a `PolygonModifier` segédprogramokat biztosít a háló manipulációjához.  
 ```java
@@ -141,11 +147,11 @@ import java.util.Arrays;
 
 ## Lépésről‑lépésre útmutató
 
-Az alábbiakban egy tömör áttekintést talál a minden egyes lépésről, magyarázatokkal a helyettesítő kódrészletek előtt, hogy pontosan tudja, mi történik.
+Az alábbiakban egy tömör áttekintést találsz minden lépésről, a magyarázatok a helyőrző előtt helyezkednek el, így pontosan tudod, mi történik.
 
-### 1. lépés: Hozzon létre egy doboz hálót
+### 1. lépés: Hozz létre egy doboz hálót
 
-A `Box` osztály egy kocka geometriát hoz létre hat felülettel, ahol minden felület külön poligonként jelenik meg. Egy egyszerű geometriai primitívvel – egy dobozzal – kezdünk, hogy egyértelműen lássuk, hogyan kap minden felület (sík) saját anyagot később.  
+A `Box` osztály egy kocka geometriát hoz létre hat felülettel, amelyeket különálló poligonokként ábrázol. Egy egyszerű geometriai primitívvel — egy dobozzal — kezdünk, hogy egyértelműen láthassuk, hogyan kap minden felület (sík) később saját anyagot.  
 ```java
 // ExStart:SplitMeshbyMaterial
 
@@ -153,15 +159,15 @@ A `Box` osztály egy kocka geometriát hoz létre hat felülettel, ahol minden f
 Mesh box = (new Box()).toMesh();
 ```
 
-### 2. lépés: Hozzon létre egy anyagelemet
+### 2. lépés: Hozz létre egy anyagelemet
 
-A `VertexElementMaterial` minden poligonhoz anyagindexeket tárol. A hálóhoz való csatolásával szabályozhatjuk, hogy melyik anyagot használja az egyes felületek.  
+`VertexElementMaterial` anyagindexeket tárol minden poligonhoz. A hálóhoz csatolva szabályozhatjuk, hogy mely anyagot használja minden felület.  
 ```java
 // Create a material element on the box mesh
 VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElementType.MATERIAL, MappingMode.POLYGON, ReferenceMode.INDEX);
 ```
 
-### 3. lépés: Adjon meg különböző anyag indexeket
+### 3. lépés: Adj meg különböző anyagindexeket
 
 Itt egyedi anyagindexet rendelünk a doboz hat síkjához. A tömb sorrendje megegyezik a `Box` primitív által generált poligonok sorrendjével.  
 ```java
@@ -169,17 +175,17 @@ Itt egyedi anyagindexet rendelünk a doboz hat síkjához. A tömb sorrendje meg
 mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
 ```
 
-### 4. lépés: Ossza fel a hálót alhálókká
+### 4. lépés: Oszd fel a hálót alhálókká
 
-A `SplitMeshPolicy` enum meghatározza, hogyan kezelje a vertex adatokat a felosztás során, például `CLONE_DATA` vagy `COMPACT_DATA`. A `PolygonModifier.splitMesh` meghívása `SplitMeshPolicy.CLONE_DATA`‑val minden egyes különböző anyagindexhez új alhálót hoz létre, miközben megőrzi az eredeti vertex adatokat.  
+A `SplitMeshPolicy` enum meghatározza, hogyan kezelődik a csúcspont adat a felosztás során, például `CLONE_DATA` vagy `COMPACT_DATA`. A `PolygonModifier.splitMesh` meghívása `SplitMeshPolicy.CLONE_DATA` paraméterrel új alhálót hoz létre minden egyedi anyagindexhez, miközben megőrzi az eredeti csúcspont adatot.  
 ```java
 // Split the mesh into 6 sub-meshes, each plane becoming a sub-mesh
 Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
 ```
 
-### 5. lépés: Frissítse az anyag indexeket és ossza fel újra
+### 5. lépés: Frissítsd az anyagindexeket és oszd fel újra
 
-Egy másik felosztási stratégia bemutatásához most az első három síkot az 0‑s anyaghoz, a maradék három síkot az 1‑es anyaghoz csoportosítjuk, majd a `COMPACT_DATA` használatával felosztunk, hogy a nem használt vertex‑okat eltávolítsuk.  
+Egy másik felosztási stratégia bemutatásához most az első három síkot a 0‑s anyaghoz, a maradék három síkot az 1‑es anyaghoz rendeljük, majd a `COMPACT_DATA` használatával osztjuk fel, hogy eltávolítsuk a nem használt csúcspontokat.  
 ```java
 // Update material indices and split into 2 sub-meshes
 mat.getIndices().clear();
@@ -187,7 +193,7 @@ mat.setIndices(new int[]{0, 0, 0, 1, 1, 1});
 planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 ```
 
-### 6. lépés: Erősítse meg a sikeres végrehajtást
+### 6. lépés: Erősítsd meg a sikerességet
 
 Egy egyszerű konzol üzenet jelzi, hogy a művelet hibamentesen befejeződött.  
 ```java
@@ -196,49 +202,49 @@ System.out.println("\nSplitting a mesh by specifying the material successfully."
 // ExEnd:SplitMeshbyMaterial
 ```
 
-## Csökkentse a draw call-okat és javítsa a renderelési teljesítményt
+## Draw call‑ok csökkentése és a renderelési teljesítmény javítása
 
-Az egyes anyagok saját hálóvá alakításával a grafikus csővezeték egyetlen draw call‑t tud kiadni anyagonként a poligononkénti hívás helyett. Ez a draw call‑ok csökkenése közvetlenül simább képkockaszámot eredményez, különösen alacsony teljesítményű hardveren. Emellett a `COMPACT_DATA` politika eltávolítja a nem használt vertex‑okat, tovább csökkentve a memória sávszélesség igényét és segítve a GPU‑t a hatékonyabb renderelésben.
+Az anyagok saját hálóvá alakításával a grafikai csővezeték minden anyaghoz egyetlen draw call‑t tud kiadni a poligononkénti hívás helyett. A draw call‑ok csökkenése közvetlenül simább képkockasebességhez vezet, különösen alacsony végű hardveren. Továbbá a `COMPACT_DATA` szabály eltávolítja a nem használt csúcspontokat, ezáltal csökkentve a memória sávszélességet és segítve a GPU-t a hatékonyabb renderelésben.
 
 ## Gyakori problémák és megoldások
 
 | Probléma | Miért fordul elő | Megoldás |
 |----------|------------------|----------|
-| **Az alhálók duplikált csúcsokat tartalmaznak** | A `CLONE_DATA` minden alhálóhoz lemásolja az összes csúcs adatot. | Váltson `COMPACT_DATA`‑ra, ha a megosztott csúcsokat deduplikálni szeretné. |
-| **Helytelen anyag hozzárendelés** | Az index tömb hossza nem egyezik a poligonok számával. | Ellenőrizze a poligonok számát (pl. egy doboznak 6 poligona van), és adjon meg egy megfelelő index tömböt. |
+| **Az alhálók duplikált csúcspontokat tartalmaznak** | `CLONE_DATA` használata minden alhálóhoz másolja az összes csúcspont adatot. | Válts `COMPACT_DATA`-ra, ha a megosztott csúcspontokat deduplikálni szeretnéd. |
+| **Helytelen anyag hozzárendelés** | Az index tömb hossza nem egyezik a poligon számával. | Ellenőrizd a poligonok számát (pl. egy doboznak 6 poligona van), és biztosíts egy megfelelő index tömböt. |
 
 ## Gyakran ismételt kérdések
 
-**Q: Kompatibilis az Aspose.3D más Java 3D könyvtárakkal?**  
-**A:** Igen, az Aspose.3D együtt használható olyan könyvtárakkal, mint a Java 3D vagy a jMonkeyEngine, lehetővé téve a hálók importálását/exportálását közöttük.
+**Q: Az Aspose.3D kompatibilis más Java 3D könyvtárakkal?**  
+A: Igen, az Aspose.3D együtt tud működni olyan könyvtárakkal, mint a Java 3D vagy a jMonkeyEngine, lehetővé téve a hálók importálását/exportálását közöttük.
 
 **Q: Alkalmazható ez a technika összetett modellekre, ahol több száz anyag van?**  
-**A:** Teljes mértékben. Ugyanazok az API‑hívások működnek a háló komplexitásától függetlenül; csak ügyeljen arra, hogy az index tömb pontosan tükrözze az anyag elrendezését.
+A: Teljesen. Ugyanazok az API hívások működnek a háló komplexitásától függetlenül; csak győződj meg róla, hogy az index tömb helyesen tükrözi az anyag elrendezését.
 
-**Q: Hol találom meg a teljes Aspose.3D Java dokumentációt?**  
-**A:** Látogassa meg a hivatalos [Aspose.3D Java dokumentációt](https://reference.aspose.com/3d/java/) a részletes API‑referenciákért és további példákért.
+**Q: Hol található a teljes Aspose.3D Java dokumentáció?**  
+A: Látogasd meg a hivatalos [Aspose.3D Java documentation](https://reference.aspose.com/3d/java/) oldalt a részletes API referenciákért és további példákért.
 
-**Q: Elérhető ingyenes próba az Aspose.3D for Java‑hoz?**  
-**A:** Igen, letölthet egy próbaverziót a [Aspose Releases oldalról](https://releases.aspose.com/).
+**Q: Elérhető ingyenes próba az Aspose.3D for Java-hoz?**  
+A: Igen, letölthetsz egy próbaverziót a [Aspose Releases page](https://releases.aspose.com/) oldalról.
 
-**Q: Hogyan kaphatok támogatást, ha problémáim adódnak?**  
-**A:** Az Aspose közösségi fórum ([Aspose.3D fórum](https://forum.aspose.com/c/3d/18)) kiváló hely kérdések feltevésére és segítségkérésre mind az Aspose csapata, mind más fejlesztők részéről.
+**Q: Hogyan kaphatok támogatást, ha problémákba ütközöm?**  
+A: Az Aspose közösségi fórum ([Aspose.3D forum](https://forum.aspose.com/c/3d/18)) kiváló hely kérdések feltevésére és segítség kapására mind az Aspose csapatától, mind más fejlesztőktől.
 
-## Következtetés
+## Összegzés
 
-Most már rendelkezik egy teljes, termelés‑kész módszerrel a **anyag szerint felosztani a hálót** az Aspose.3D használatával Java‑ban. Ennek alkalmazásával kevesebb draw call‑t, jobb memóriahasználatot és simább renderelést tapasztalhat különböző eszközökön. Nyugodtan kísérletezzen a különböző `SplitMeshPolicy` opciókkal, vagy integrálja a keletkezett alhálókat saját renderelési csővezetékébe.
+Most már egy teljes, termelésre kész módszered van a **háló anyag szerinti felosztására** az Aspose.3D használatával Java-ban. Ennek a technikának az alkalmazásával kevesebb draw call‑t, jobb memóriahasználatot és simább renderelést fogsz tapasztalni különböző eszközökön. Nyugodtan kísérletezz különböző `SplitMeshPolicy` beállításokkal, vagy integráld a keletkezett alhálókat a saját renderelési csővezetékeidbe.
 
 ---
 
-**Legutóbb frissítve:** 2026-09-03  
-**Tesztelve a következővel:** Aspose.3D for Java 24.11  
+**Legutóbb frissítve:** 2026-11-04  
+**Tesztelve ezzel:** Aspose.3D for Java 24.11  
 **Szerző:** Aspose
 
-## Kapcsolódó oktatóanyagok
+## Kapcsolódó útmutatók
 
-- [Hogyan számítsuk ki a háló normálokat és adjunk normálokat 3D hálókhoz Java-ban (Aspose.3D használatával)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Tanulja meg, hogyan trianguláljon hálókat az optimalizált rendereléshez Java-ban az Aspose.3D használatával](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
-- [Csökkentse a 3D modell méretét: Hozzon létre gömb hálót Java-ban a Draco-val](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
+- [Hogyan számítsuk ki a háló normálvektorait és adjunk normálvektorokat 3D hálókhoz Java-ban (Aspose.3D használatával)](/3d/java/3d-mesh-data/generate-mesh-data/)
+- [Tanulja meg, hogyan triangulálja a hálókat optimalizált rendereléshez Java-ban az Aspose.3D használatával](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
+- [3D modell méretének csökkentése: Gömb háló létrehozása Java-ban Draco-val](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

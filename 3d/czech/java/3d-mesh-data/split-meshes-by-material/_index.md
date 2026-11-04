@@ -1,22 +1,25 @@
 ---
-date: 2026-09-03
+date: 2026-11-04
 description: Naučte se, jak efektivně rozdělit mesh podle materiálu v Javě s Aspose.3D.
   Tento průvodce vám ukáže, jak snížit draw calls a zlepšit rendering performance
   při rozdělování mesh podle materiálu.
+images:
+- /java/3d-mesh-data/split-meshes-by-material/og-image.png
 keywords:
 - how to split mesh
 - reduce draw calls
 - improve rendering performance
 - split mesh by material
-lastmod: 2026-09-03
-linktitle: Jak rozdělit mesh podle materiálu v Javě pomocí Aspose.3D
+- 3d rendering optimization
+lastmod: 2026-11-04
+linktitle: Jak rozdělit Mesh podle materiálu v Javě pomocí Aspose.3D
 og_description: Jak rozdělit mesh podle materiálu pomocí Aspose.3D pro Javu. Snižte
-  draw calls a zlepšete rendering performance s tímto step‑by‑step guide.
+  draw calls a zlepšete rendering performance s tímto step‑by‑step průvodcem.
 og_image_alt: Tutorial showing mesh splitting by material in Java with Aspose.3D
 og_title: Jak rozdělit mesh podle materiálu v Javě s Aspose.3D
 schemas:
 - author: Aspose
-  dateModified: '2026-09-03'
+  dateModified: '2026-11-04'
   description: Learn how to split mesh efficiently by material in Java with Aspose.3D.
     This guide shows you how to reduce draw calls and improve rendering performance
     while splitting mesh by material.
@@ -82,55 +85,60 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak rozdělit síť podle materiálu v Javě pomocí Aspose.3D
+# Jak rozdělit mesh podle materiálu v Javě pomocí Aspose.3D
 
 ## Úvod
 
-Pokud pracujete s 3D grafikou v Javě, rychle zjistíte, že zpracování velkých sítí může být úzkým místem výkonu – zejména když jedna síť obsahuje více materiálů. **Naučení se, jak rozdělit síť** podle materiálu vám umožní izolovat každou skupinu polygonů specifickou pro materiál, což umožňuje rychlejší vykreslování, snadnější ořezávání a podrobnější kontrolu nad manipulací s texturami. V tomto tutoriálu projdeme přesné kroky k **rozdělení sítě podle materiálu** pomocí knihovny Aspose.3D, včetně praktických vysvětlení, tipů na snížení draw callů a rad pro zlepšení výkonu vykreslování.
+Pokud pracujete s 3D grafikou v Javě, rychle zjistíte, že zpracování velkých meshů může být úzkým místem výkonu – zejména když jediný mesh obsahuje více materiálů. **Naučit se, jak rozdělit mesh** podle materiálu vám umožní izolovat každou skupinu polygonů specifickou pro materiál, což umožňuje rychlejší vykreslování, snadnější ořezávání a podrobnější kontrolu nad manipulací s texturami. V tomto tutoriálu projdeme přesně kroky k **rozdělení mesh podle materiálu** pomocí knihovny Aspose.3D, včetně praktických vysvětlení, tipů na snížení draw callů a rad pro zlepšení výkonu vykreslování.
 
 ## Rychlé odpovědi
-- **Co znamená „rozdělit síť podle materiálu“?** Odděluje jednu síť na více pod‑sítí, z nichž každá obsahuje polygonů, které sdílejí stejný materiál.  
-- **Proč použít Aspose.3D?** Poskytuje vysoce‑úrovňové, multiplatformní API, které abstrahuje nízko‑úrovňové souborové formáty a přitom zachovává výkon.  
-- **Jak dlouho trvá implementace?** Přibližně 10–15 minut kódování a testování.  
-- **Potřebuji licenci?** K dispozici je bezplatná zkušební verze; pro produkční použití je vyžadována komerční licence.  
-- **Která verze Javy je podporována?** Java 8 nebo vyšší.
+- **What does “split mesh by material” mean?** Separuje jeden mesh na více sub‑meshů, z nichž každý obsahuje polygony sdílející stejný materiál.  
+- **Why use Aspose.3D?** Poskytuje vysoce‑úrovňové, multiplatformní API, které abstrahuje nízko‑úrovňové formáty souborů a přitom zachovává výkon.  
+- **How long does the implementation take?** Přibližně 10–15 minut kódování a testování.  
+- **Do I need a license?** K dispozici je bezplatná zkušební verze; pro produkční použití je vyžadována komerční licence.  
+- **Which Java version is supported?** Java 8 nebo vyšší.
 
-## Co je rozdělení sítě?
+## Co je rozdělení mesh?
 
-`Mesh splitting` je proces rozdělení komplexní 3D sítě na menší, lépe zvládnutelné části. Když je rozdělení založeno na materiálu, každá vzniklá pod‑síť obsahuje pouze polygonů, které odkazují na jediný materiál. Tento přístup snižuje draw cally, zlepšuje výkon vykreslování a zjednodušuje úkoly jako aplikace shaderů na úrovni materiálu.
+`Mesh splitting` je proces rozdělení složitého 3D meshu na menší, snadněji spravovatelné části. Když je rozdělení založeno na materiálu, každý vzniklý sub‑mesh obsahuje pouze polygony, které odkazují na jediný materiál. Tento přístup snižuje počet draw callů, zlepšuje výkon vykreslování a zjednodušuje úkoly jako aplikace shaderů na úrovni materiálu.
 
 ## Jak rozdělení snižuje draw cally?
 
-Rozdělením sítě vznikne jedna pod‑síť na materiál, což umožňuje grafickému enginu vydat jeden draw call pro každý materiál místo jednoho na polygon. Méně draw callů znamená méně změn stavu GPU, což přímo vede k vyššímu počtu snímků za sekundu jak na desktopových GPU, tak na omezených mobilních GPU.
+Rozdělením mesh vytvoříte jeden sub‑mesh na materiál, což umožňuje grafickému enginu vydat jeden draw call pro každý materiál místo jednoho na polygon. Méně draw callů znamená méně změn stavu GPU, což přímo vede k vyššímu počtu snímků za sekundu jak na desktopových GPU, tak na omezených mobilních GPU.
 
-## Proč rozdělit síť podle materiálu?
+## Proč rozdělit mesh podle materiálu?
 
-Rozdělení sítě podle materiálu zlepšuje výkon, protože renderer může seskupit draw cally pro každý materiál, čímž snižuje změny stavu GPU. Také poskytuje vývojářům flexibilitu aplikovat odlišné shadery, post‑processingové efekty nebo kolizní logiku na úrovni materiálu. Navíc menší pod‑sítě jsou snazší pro streamování, správu paměti a ořezávání, což je zvláště cenné na mobilních, AR a VR platformách.
+Rozdělení mesh podle materiálu zlepšuje výkon, protože renderer může seskupovat draw cally pro každý materiál, čímž snižuje změny stavu GPU. Také poskytuje vývojářům flexibilitu aplikovat odlišné shadery, post‑processing efekty nebo kolizní logiku na úrovni materiálu. Navíc menší sub‑meshe jsou snazší streamovat, spravovat paměť a ořezávat, což je zvláště cenné na mobilních, AR a VR platformách.
 
-## Kvantifikované výhody Aspose.3D
+## Měřitelné výhody Aspose.3D
 
-Aspose.3D podporuje **více než 30 vstupních a výstupních formátů** – včetně OBJ, FBX, STL a GLTF – a může zpracovávat sítě s **až 10 miliony polygonů** bez načítání celého souboru do paměti. Použití politiky rozdělení `COMPACT_DATA` může snížit využití paměti pro vrcholy **až o 40 %**, což je zvláště cenné pro Java 3D grafiku na nízkovýkonných zařízeních.
+Aspose.3D podporuje **30+ vstupních a výstupních formátů** – včetně OBJ, FBX, STL a GLTF – a může zpracovávat mesh s **až 10 miliony polygonů** bez načítání celého souboru do paměti. Použití politiky rozdělení `COMPACT_DATA` může snížit využití paměti pro vrcholy **až o 40 %**, což je zvláště cenné pro Java 3D grafiku na nízkovýkonných zařízeních.
 
 ## Běžné případy použití
 
-| Scenario | Benefit of splitting |
+| Scénář | Výhoda rozdělení |
 |----------|----------------------|
 | **Strategické hry v reálném čase** | Každý typ terénu může mít vlastní materiál, což umožňuje enginu vykreslit všechny trávníky v jednom volání. |
-| **Architektonická vizualizace** | Stěny, sklo a kov lze zpracovat samostatně pro odlišné shaderové efekty. |
+| **Architektonická vizualizace** | Stěny, sklo a kov lze zpracovávat samostatně pro odlišné efekty shaderů. |
 | **Mobilní AR aplikace** | Snížení draw callů pomáhá udržet 60 fps na omezeném hardwaru. |
 | **VR zážitky** | Nižší zatížení GPU snižuje latenci, zlepšuje pohodlí uživatele. |
 
-## Předpoklady
+## Požadavky
 
-Než se ponoříme do kódu, ujistěte se, že máte následující:
+Before we dive into the code, make sure you have the following:
 
 - Základní znalost programování v Javě.  
-- Knihovna Aspose.3D pro Java nainstalována (stáhněte z [Aspose webu](https://releases.aspose.com/3d/java/)).  
+- Knihovna Aspose.3D pro Java nainstalovaná (stáhněte z [Aspose website](https://releases.aspose.com/3d/java/)).  
 - IDE jako IntelliJ IDEA, Eclipse nebo VS Code nakonfigurované pro vývoj v Javě.
 
 ## Import balíčků
 
-Třída `Scene` představuje kontejner 3D scény, zatímco `Mesh` obsahuje geometrická data; `VertexElementMaterial` ukládá indexy materiálů pro jednotlivé polygonů a `PolygonModifier` poskytuje nástroje pro manipulaci se sítí.  
+`Scene` je kořenový objekt Aspose.3D, který obsahuje všechny uzly, světla a kamery ve 3D scéně.  
+`Mesh` představuje geometrická data – vrcholy, hrany a plochy – 3D objektu.  
+`VertexElementMaterial` ukládá celočíselný index materiálu pro každý polygon, což umožňuje přiřazení materiálu na úrovni polygonu.  
+`PolygonModifier` nabízí statické metody pro úpravu meshů, jako je rozdělení nebo sloučení polygonů.  
+
+Třída `Scene` představuje kontejner 3D scény, zatímco `Mesh` drží geometrická data; `VertexElementMaterial` ukládá indexy materiálů na úrovni polygonu a `PolygonModifier` poskytuje nástroje pro manipulaci s meshí.  
 ```java
 import com.aspose.threed.*;
 
@@ -141,9 +149,9 @@ import java.util.Arrays;
 
 Níže je stručný průvodce každým krokem, s vysvětleními před placeholderem, abyste přesně věděli, co se děje.
 
-### Krok 1: Vytvořit síť krabice
+### Krok 1: Vytvořit mesh krabice
 
-Třída `Box` vytváří krychlovou geometrii se šesti plochami, z nichž každá je reprezentována jako samostatný polygon. Začínáme jednoduchým geometrickým primitivem – krabicí – abychom jasně viděli, jak každá plocha (obrazec) získá později vlastní materiál.  
+Třída `Box` vytváří geometrii krychle se šesti plochami, z nichž každá je reprezentována jako samostatný polygon. Začínáme jednoduchým geometrickým primitivem – krabicí – abychom jasně viděli, jak každá plocha (rovina) později získá vlastní materiál.  
 ```java
 // ExStart:SplitMeshbyMaterial
 
@@ -153,7 +161,7 @@ Mesh box = (new Box()).toMesh();
 
 ### Krok 2: Vytvořit materiálový prvek
 
-`VertexElementMaterial` ukládá indexy materiálů pro každý polygon. Připojením k síti můžeme řídit, který materiál každá plocha používá.  
+`VertexElementMaterial` ukládá indexy materiálů pro každý polygon. Připojením k mesh můžete řídit, který materiál každá plocha používá.  
 ```java
 // Create a material element on the box mesh
 VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElementType.MATERIAL, MappingMode.POLYGON, ReferenceMode.INDEX);
@@ -161,15 +169,15 @@ VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElem
 
 ### Krok 3: Specifikovat různé indexy materiálů
 
-Zde přiřazujeme jedinečný index materiálu ke každé ze šesti ploch krabice. Pořadí v poli odpovídá pořadí polygonů generovaných primitivem `Box`.  
+Zde přiřazujeme jedinečný index materiálu každé ze šesti rovin krabice. Pořadí v poli odpovídá pořadí polygonů generovaných primitivem `Box`.  
 ```java
 // Specify different material indices for each plane
 mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
 ```
 
-### Krok 4: Rozdělit síť na pod‑sítě
+### Krok 4: Rozdělit mesh na sub‑meshe
 
-`SplitMeshPolicy` výčet definuje, jak jsou během rozdělení zpracovávána data vrcholů, např. `CLONE_DATA` nebo `COMPACT_DATA`. Volání `PolygonModifier.splitMesh` s `SplitMeshPolicy.CLONE_DATA` vytvoří novou pod‑síť pro každý odlišný index materiálu při zachování původních dat vrcholů.  
+Výčtový typ `SplitMeshPolicy` definuje, jak jsou během rozdělení zpracovávána data vrcholů, např. `CLONE_DATA` nebo `COMPACT_DATA`. Volání `PolygonModifier.splitMesh` s `SplitMeshPolicy.CLONE_DATA` vytvoří nový sub‑mesh pro každý odlišný index materiálu při zachování původních dat vrcholů.  
 ```java
 // Split the mesh into 6 sub-meshes, each plane becoming a sub-mesh
 Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
@@ -177,7 +185,7 @@ Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
 
 ### Krok 5: Aktualizovat indexy materiálů a znovu rozdělit
 
-Pro demonstraci jiné strategie rozdělení nyní seskupíme první tři plochy pod materiál 0 a zbývající tři pod materiál 1, poté rozdělíme pomocí `COMPACT_DATA`, aby se odstranily nepoužívané vrcholy.  
+Pro demonstraci jiné strategie rozdělení nyní seskupíme první tři roviny pod materiál 0 a zbývající tři pod materiál 1, poté rozdělujeme pomocí `COMPACT_DATA` k odstranění nepoužívaných vrcholů.  
 ```java
 // Update material indices and split into 2 sub-meshes
 mat.getIndices().clear();
@@ -196,48 +204,47 @@ System.out.println("\nSplitting a mesh by specifying the material successfully."
 
 ## Snížení draw callů a zlepšení výkonu vykreslování
 
-Přeměnou každého materiálu na vlastní síť umožníte grafickému pipeline vydat jeden draw call na materiál místo jednoho na polygon. Toto snížení draw callů přímo vede k plynulejším snímkům za sekundu, zejména na nízkovýkonném hardwaru. Navíc politika `COMPACT_DATA` odstraňuje nepoužité vrcholy, dále snižuje šířku pásma paměti a pomáhá GPU renderovat efektivněji.
+Přeměnou každého materiálu na vlastní mesh umožníte grafickému pipeline vydat jeden draw call na materiál místo jednoho na polygon. Toto snížení draw callů přímo vede k plynulejšímu počtu snímků za sekundu, zejména na nízkovýkonném hardwaru. Navíc politika `COMPACT_DATA` odstraňuje nepoužité vrcholy, dále snižuje šířku pásma paměti a pomáhá GPU renderovat efektivněji.
 
-## Běžné problémy a řešení
+## Časté problémy a řešení
 
-| Issue | Why it happens | Fix |
+| Problém | Proč se to děje | Řešení |
 |-------|----------------|-----|
-| **Pod‑sítě obsahují duplicitní vrcholy** | Použití `CLONE_DATA` kopíruje všechna data vrcholů pro každou pod‑síť. | Přepněte na `COMPACT_DATA`, pokud chcete, aby sdílené vrcholy byly deduplikovány. |
+| **Sub‑meshes obsahují duplicitní vrcholy** | Použití `CLONE_DATA` kopíruje všechna data vrcholů pro každý sub‑mesh. | Přepněte na `COMPACT_DATA`, pokud chcete, aby sdílené vrcholy byly deduplikovány. |
 | **Nesprávné přiřazení materiálu** | Délka pole indexů neodpovídá počtu polygonů. | Ověřte počet polygonů (např. krabice má 6) a poskytněte odpovídající pole indexů. |
 
 ## Často kladené otázky
 
 **Q: Je Aspose.3D kompatibilní s jinými Java 3D knihovnami?**  
-A: Ano, Aspose.3D může koexistovat s knihovnami jako Java 3D nebo jMonkeyEngine, což vám umožní importovat/exportovat sítě mezi nimi.
+A: Ano, Aspose.3D může koexistovat s knihovnami jako Java 3D nebo jMonkeyEngine, což vám umožní importovat/exportovat mesh mezi nimi.
 
-**Q: Lze tuto techniku použít na komplexní modely se stovkami materiálů?**  
-A: Rozhodně. Stejné API volání fungují bez ohledu na složitost sítě; stačí zajistit, aby vaše pole indexů správně odráželo rozložení materiálů.
+**Q: Lze tuto techniku použít na složité modely se stovkami materiálů?**  
+A: Rozhodně. Stejné API volání fungují bez ohledu na složitost mesh, jen je třeba zajistit, aby vaše pole indexů správně odráželo rozložení materiálů.
 
-**Q: Kde najdu kompletní dokumentaci Aspose.3D pro Java?**  
-A: Navštivte oficiální [Aspose.3D Java dokumentaci](https://reference.aspose.com/3d/java/) pro podrobné reference API a další příklady.
+**Q: Kde najdu kompletní dokumentaci Aspose.3D pro Javu?**  
+A: Navštivte oficiální [Aspose.3D Java documentation](https://reference.aspose.com/3d/java/) pro podrobné reference API a další příklady.
 
-**Q: Je k dispozici bezplatná zkušební verze Aspose.3D pro Java?**  
-A: Ano, můžete si stáhnout zkušební verzi ze [stránky Aspose Releases](https://releases.aspose.com/).
+**Q: Je k dispozici bezplatná zkušební verze Aspose.3D pro Javu?**  
+A: Ano, můžete si stáhnout zkušební verzi ze [Aspose Releases page](https://releases.aspose.com/).
 
 **Q: Jak mohu získat podporu, pokud narazím na problémy?**  
-A: Fórum komunity Aspose ([Aspose.3D fórum](https://forum.aspose.com/c/3d/18)) je vynikající místo pro kladení otázek a získání pomoci jak od týmu Aspose, tak od ostatních vývojářů.
+A: Fórum komunity Aspose ([Aspose.3D forum](https://forum.aspose.com/c/3d/18)) je vynikající místo pro kladení otázek a získání pomoci jak od týmu Aspose, tak od ostatních vývojářů.
 
 ## Závěr
 
-Nyní máte kompletní, připravenou metodu pro **rozdělení sítě podle materiálu** pomocí Aspose.3D v Javě. Použitím této techniky uvidíte méně draw callů, lepší využití paměti a plynulejší vykreslování na různých zařízeních. Klidně experimentujte s různými možnostmi `SplitMeshPolicy` nebo integrujte vzniklé pod‑sítě do vlastního renderovacího pipeline.
+Nyní máte kompletní, připravenou metodu pro **rozdělení mesh podle materiálu** pomocí Aspose.3D v Javě. Použitím této techniky uvidíte méně draw callů, lepší využití paměti a plynulejší vykreslování na různých zařízeních. Klidně experimentujte s různými možnostmi `SplitMeshPolicy` nebo integrujte vzniklé sub‑meshe do vlastního renderovacího pipeline.
 
 ---
 
-**Last Updated:** 2026-09-03  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose
+**Poslední aktualizace:** 2026-11-04  
+**Testováno s:** Aspose.3D for Java 24.11  
+**Autor:** Aspose
 
 ## Související tutoriály
 
-- [Jak vypočítat normály sítě a přidat normály do 3D sítí v Javě (pomocí Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Naučte se, jak triangulovat sítě pro optimalizované vykreslování v Javě pomocí Aspose.3D](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
-- [Snížení velikosti 3D modelu: Vytvořit kulovou síť v Javě s Dracem](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
+- [Jak vypočítat normály mesh a přidat normály do 3D meshů v Javě (pomocí Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
+- [Naučte se, jak triangulovat meshe pro optimalizované vykreslování v Javě pomocí Aspose.3D](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
+- [Snížení velikosti 3D modelu: Vytvořit sphere mesh v Javě s Dracem](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

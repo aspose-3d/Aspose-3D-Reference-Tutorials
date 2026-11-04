@@ -1,14 +1,17 @@
 ---
-date: 2026-09-03
+date: 2026-11-04
 description: Dowiedz się, jak efektywnie podzielić siatkę według materiału w Javie
   przy użyciu Aspose.3D. Ten przewodnik pokazuje, jak zmniejszyć draw calls i poprawić
   rendering performance podczas dzielenia siatki według materiału.
+images:
+- /java/3d-mesh-data/split-meshes-by-material/og-image.png
 keywords:
 - how to split mesh
 - reduce draw calls
 - improve rendering performance
 - split mesh by material
-lastmod: 2026-09-03
+- 3d rendering optimization
+lastmod: 2026-11-04
 linktitle: Jak podzielić siatkę według materiału w Javie przy użyciu Aspose.3D
 og_description: Jak podzielić siatkę według materiału przy użyciu Aspose.3D dla Javy.
   Zmniejsz draw calls i popraw rendering performance dzięki temu przewodnikowi krok
@@ -17,7 +20,7 @@ og_image_alt: Tutorial showing mesh splitting by material in Java with Aspose.3D
 og_title: Jak podzielić siatkę według materiału w Javie z Aspose.3D
 schemas:
 - author: Aspose
-  dateModified: '2026-09-03'
+  dateModified: '2026-11-04'
   description: Learn how to split mesh efficiently by material in Java with Aspose.3D.
     This guide shows you how to reduce draw calls and improve rendering performance
     while splitting mesh by material.
@@ -90,49 +93,50 @@ weight: 12
 Jeśli pracujesz z grafiką 3D w Javie, szybko odkryjesz, że przetwarzanie dużych siatek może stać się wąskim gardłem wydajności — szczególnie gdy pojedyncza siatka zawiera wiele materiałów. **Nauka podziału siatki** według materiału pozwala izolować każdą grupę wielokątów specyficzną dla materiału, umożliwiając szybsze renderowanie, łatwiejsze odrzucanie i bardziej szczegółową kontrolę nad obsługą tekstur. W tym samouczku przeprowadzimy Cię przez dokładne kroki **podziału siatki według materiału** przy użyciu biblioteki Aspose.3D, wraz z praktycznymi wyjaśnieniami, wskazówkami dotyczącymi redukcji wywołań rysowania oraz poradami na temat poprawy wydajności renderowania.
 
 ## Szybkie odpowiedzi
-- **Co oznacza „podział siatki według materiału”?** Oddziela pojedynczą siatkę na wiele pod‑siatek, z których każda zawiera wielokąty dzielące ten sam materiał.  
+- **Co oznacza „split mesh by material”?** Oddziela pojedynczą siatkę na wiele pod‑siatek, z których każda zawiera wielokąty używające tego samego materiału.  
 - **Dlaczego używać Aspose.3D?** Dostarcza wysokopoziomowe, wieloplatformowe API, które abstrahuje niskopoziomowe formaty plików, zachowując wydajność.  
 - **Jak długo trwa implementacja?** Około 10–15 minut kodowania i testowania.  
-- **Czy potrzebna jest licencja?** Dostępna jest darmowa wersja próbna; licencja komercyjna jest wymagana do użytku produkcyjnego.  
-- **Która wersja Javy jest wspierana?** Java 8 lub wyższa.
+- **Czy potrzebna jest licencja?** Dostępna jest bezpłatna wersja próbna; licencja komercyjna jest wymagana do użytku produkcyjnego.  
+- **Która wersja Javy jest obsługiwana?** Java 8 lub wyższa.
 
 ## Co to jest podział siatki?
 
-`Mesh splitting` to proces dzielenia złożonej siatki 3D na mniejsze, łatwiejsze do zarządzania części. Gdy podział opiera się na materiale, każda powstała pod‑siatka zawiera tylko wielokąty odwołujące się do jednego materiału. Takie podejście redukuje wywołania rysowania, poprawia wydajność renderowania i upraszcza zadania, takie jak stosowanie shaderów per‑material.
+`Mesh splitting` to proces dzielenia złożonej siatki 3D na mniejsze, łatwiejsze do zarządzania części. Gdy podział odbywa się na podstawie materiału, każda powstała pod‑siatka zawiera wyłącznie wielokąty odwołujące się do jednego materiału. Takie podejście zmniejsza liczbę wywołań rysowania, poprawia wydajność renderowania i upraszcza zadania, takie jak stosowanie shaderów per‑material.
 
-## Jak podział redukuje wywołania rysowania?
+## Jak podział zmniejsza liczbę wywołań rysowania?
 
-Podział siatki tworzy jedną pod‑siatkę na materiał, co pozwala silnikowi graficznemu wydać pojedyncze wywołanie rysowania dla każdego materiału zamiast jednego na każdy wielokąt. Mniej wywołań rysowania oznacza mniej zmian stanu GPU, co bezpośrednio przekłada się na wyższe liczby klatek na sekundę zarówno na desktopowych GPU, jak i ograniczonych mobilnych GPU.
+Podzielenie siatki tworzy jedną pod‑siatkę na każdy materiał, co pozwala silnikowi graficznemu wydać pojedyncze wywołanie rysowania dla każdego materiału zamiast jednego na każdy wielokąt. Mniejsza liczba wywołań rysowania oznacza mniej zmian stanu GPU, co bezpośrednio przekłada się na wyższe liczby klatek na sekundę zarówno na desktopowych, jak i ograniczonych mobilnych GPU.
 
 ## Dlaczego podzielić siatkę według materiału?
 
-Podział siatki według materiału poprawia wydajność, ponieważ renderer może grupować wywołania rysowania dla każdego materiału, redukując zmiany stanu GPU. Daje to również programistom elastyczność w stosowaniu odrębnych shaderów, efektów post‑processingowych lub logiki kolizji per materiał. Dodatkowo mniejsze pod‑siatki są łatwiejsze do strumieniowania, zarządzania pamięcią i odrzucania, co jest szczególnie cenne na platformach mobilnych, AR i VR.
+Podzielenie siatki według materiału poprawia wydajność, ponieważ renderer może grupować wywołania rysowania dla każdego materiału, redukując zmiany stanu GPU. Daje to także programistom elastyczność w stosowaniu odrębnych shaderów, efektów post‑processingu lub logiki kolizji per‑material. Dodatkowo mniejsze pod‑siatki są łatwiejsze do strumieniowania, zarządzania pamięcią i odrzucania, co jest szczególnie cenne na platformach mobilnych, AR i VR.
 
-## Zmierzona korzyść Aspose.3D
+## Zmierzone korzyści Aspose.3D
 
-Aspose.3D obsługuje **ponad 30 formatów wejściowych i wyjściowych** — w tym OBJ, FBX, STL i GLTF — i może przetwarzać siatki z **do 10 milionami wielokątów** bez wczytywania całego pliku do pamięci. Użycie polityki podziału `COMPACT_DATA` może zmniejszyć zużycie pamięci wierzchołków **do 40 %**, co jest szczególnie cenne dla grafiki Java 3D na słabych urządzeniach.
+Aspose.3D obsługuje **ponad 30 formatów wejścia i wyjścia** — w tym OBJ, FBX, STL i GLTF — i może przetwarzać siatki z **do 10 milionami wielokątów** bez ładowania całego pliku do pamięci. Użycie polityki podziału `COMPACT_DATA` może zmniejszyć zużycie pamięci wierzchołków **o nawet 40 %**, co jest szczególnie wartościowe dla grafiki 3D w Javie na słabych urządzeniach.
 
 ## Typowe przypadki użycia
 
 | Scenariusz | Korzyść z podziału |
 |------------|--------------------|
-| **Gry strategiczne w czasie rzeczywistym** | Każdy typ terenu może mieć własny materiał, co pozwala silnikowi narysować wszystkie fragmenty trawy w jednym wywołaniu. |
-| **Wizualizacja architektoniczna** | Ściany, szkło i metal mogą być obsługiwane osobno dla odrębnych efektów shaderów. |
+| **Gry strategiczne w czasie rzeczywistym** | Każdy typ terenu może mieć własny materiał, co pozwala silnikowi narysować wszystkie fragmenty trawy jednym wywołaniem. |
+| **Wizualizacja architektoniczna** | Ściany, szkło i metal mogą być obsługiwane osobno, aby uzyskać odrębne efekty shaderów. |
 | **Aplikacje mobilne AR** | Redukcja wywołań rysowania pomaga utrzymać 60 fps na ograniczonym sprzęcie. |
 | **Doświadczenia VR** | Mniejsze obciążenie GPU zmniejsza opóźnienia, poprawiając komfort użytkownika. |
 
 ## Wymagania wstępne
 
-Zanim przejdziemy do kodu, upewnij się, że masz następujące:
+Przed przystąpieniem do kodu upewnij się, że masz:
 
-- Podstawową wiedzę o programowaniu w Javie.  
-- Bibliotekę Aspose.3D dla Javy zainstalowaną (pobierz ze [strony Aspose](https://releases.aspose.com/3d/java/)).  
+- Podstawową znajomość programowania w Javie.  
+- Zainstalowaną bibliotekę Aspose.3D for Java (pobierz ze [strony Aspose](https://releases.aspose.com/3d/java/)).  
 - IDE, takie jak IntelliJ IDEA, Eclipse lub VS Code, skonfigurowane do programowania w Javie.
 
 ## Importowanie pakietów
 
-`Scene` reprezentuje kontener sceny 3D, natomiast `Mesh` przechowuje dane geometrii; `VertexElementMaterial` przechowuje indeksy materiałów per‑wielokąt, a `PolygonModifier` udostępnia narzędzia do manipulacji siatką.
+`Scene` jest obiektem głównym Aspose.3D, który przechowuje wszystkie węzły, światła i kamery w scenie 3D. `Mesh` reprezentuje dane geometryczne — wierzchołki, krawędzie i twarze — obiektu 3D. `VertexElementMaterial` przechowuje indeks materiału jako liczbę całkowitą dla każdego wielokąta, umożliwiając przypisanie materiału per‑wielokąt. `PolygonModifier` oferuje statyczne metody do edycji siatek, takie jak podział lub łączenie wielokątów.
 
+Klasa `Scene` reprezentuje kontener sceny 3D, natomiast `Mesh` przechowuje dane geometryczne; `VertexElementMaterial` przechowuje indeksy materiałów per‑wielokąt, a `PolygonModifier` dostarcza narzędzia do manipulacji siatką.  
 ```java
 import com.aspose.threed.*;
 
@@ -145,8 +149,7 @@ Poniżej znajduje się zwięzły przewodnik po każdym kroku, z wyjaśnieniami p
 
 ### Krok 1: Utwórz siatkę pudełka
 
-`Box` tworzy geometrię sześcianu z sześcioma ścianami, z których każda jest reprezentowana jako oddzielny wielokąt. Zaczynamy od prostego prymitywu geometrycznego — pudełka — aby wyraźnie zobaczyć, jak każda ściana (płaszczyzna) później otrzymuje własny materiał.
-
+Klasa `Box` tworzy geometrię sześcianu z sześcioma ścianami, z których każda jest reprezentowana jako oddzielny wielokąt. Zaczynamy od prostego prymitywu geometrycznego — pudełka — aby wyraźnie zobaczyć, jak każda ściana (płaszczyzna) później otrzymuje własny materiał.  
 ```java
 // ExStart:SplitMeshbyMaterial
 
@@ -156,8 +159,7 @@ Mesh box = (new Box()).toMesh();
 
 ### Krok 2: Utwórz element materiału
 
-`VertexElementMaterial` przechowuje indeksy materiałów dla każdego wielokąta. Przez dołączenie go do siatki możemy kontrolować, którego materiału używa każda ściana.
-
+`VertexElementMaterial` przechowuje indeksy materiałów dla każdego wielokąta. Dołączając go do siatki, możemy kontrolować, którego materiału używa każda ściana.  
 ```java
 // Create a material element on the box mesh
 VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElementType.MATERIAL, MappingMode.POLYGON, ReferenceMode.INDEX);
@@ -165,8 +167,7 @@ VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElem
 
 ### Krok 3: Określ różne indeksy materiałów
 
-Tutaj przypisujemy unikalny indeks materiału do każdej z sześciu płaszczyzn pudełka. Kolejność w tablicy odpowiada kolejności wielokątów generowanych przez prymityw `Box`.
-
+Tutaj przypisujemy unikalny indeks materiału do każdej z sześciu płaszczyzn pudełka. Kolejność w tablicy odpowiada kolejności wielokątów generowanych przez prymityw `Box`.  
 ```java
 // Specify different material indices for each plane
 mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
@@ -174,8 +175,7 @@ mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
 
 ### Krok 4: Podziel siatkę na pod‑siatki
 
-Enum `SplitMeshPolicy` definiuje, jak dane wierzchołków są obsługiwane podczas podziału, np. `CLONE_DATA` lub `COMPACT_DATA`. Wywołanie `PolygonModifier.splitMesh` z `SplitMeshPolicy.CLONE_DATA` tworzy nową pod‑siatkę dla każdego odrębnego indeksu materiału, zachowując oryginalne dane wierzchołków.
-
+Enum `SplitMeshPolicy` określa, jak dane wierzchołków są obsługiwane podczas podziału, np. `CLONE_DATA` lub `COMPACT_DATA`. Wywołanie `PolygonModifier.splitMesh` z `SplitMeshPolicy.CLONE_DATA` tworzy nową pod‑siatkę dla każdego odrębnego indeksu materiału, zachowując oryginalne dane wierzchołków.  
 ```java
 // Split the mesh into 6 sub-meshes, each plane becoming a sub-mesh
 Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
@@ -183,8 +183,7 @@ Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
 
 ### Krok 5: Zaktualizuj indeksy materiałów i podziel ponownie
 
-Aby zademonstrować inną strategię podziału, grupujemy teraz pierwsze trzy płaszczyzny pod materiał 0, a pozostałe trzy pod materiał 1, a następnie dzielimy używając `COMPACT_DATA`, aby usunąć nieużywane wierzchołki.
-
+Aby zademonstrować inną strategię podziału, grupujemy najpierw trzy pierwsze płaszczyzny pod materiał 0, a pozostałe trzy pod materiał 1, a następnie dzielimy przy użyciu `COMPACT_DATA`, aby usunąć nieużywane wierzchołki.  
 ```java
 // Update material indices and split into 2 sub-meshes
 mat.getIndices().clear();
@@ -194,56 +193,53 @@ planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 
 ### Krok 6: Potwierdź sukces
 
-Prosta wiadomość w konsoli informuje, że operacja zakończyła się bez błędów.
-
+Prosta wiadomość w konsoli informuje, że operacja zakończyła się pomyślnie, bez błędów.  
 ```java
 // Display success message
 System.out.println("\nSplitting a mesh by specifying the material successfully.");
 // ExEnd:SplitMeshbyMaterial
 ```
 
-## Redukcja wywołań rysowania i poprawa wydajności renderowania
+## Zmniejsz liczbę wywołań rysowania i popraw wydajność renderowania
 
-Przekształcając każdy materiał w własną siatkę, umożliwiasz potokowi graficznemu wydanie pojedynczego wywołania rysowania na materiał zamiast jednego na każdy wielokąt. Redukcja wywołań rysowania bezpośrednio przekłada się na płynniejsze liczby klatek, szczególnie na słabym sprzęcie. Dodatkowo polityka `COMPACT_DATA` usuwa nieużywane wierzchołki, jeszcze bardziej zmniejszając przepustowość pamięci i pomagając GPU renderować wydajniej.
+Przekształcając każdy materiał w osobną siatkę, umożliwiasz potokowi graficznemu wydanie jednego wywołania rysowania na materiał zamiast jednego na każdy wielokąt. Redukcja wywołań rysowania bezpośrednio przekłada się na płynniejsze liczby klatek, szczególnie na słabym sprzęcie. Dodatkowo polityka `COMPACT_DATA` usuwa nieużywane wierzchołki, co dalej obniża przepustowość pamięci i pomaga GPU renderować bardziej efektywnie.
 
 ## Typowe problemy i rozwiązania
 
 | Problem | Dlaczego się pojawia | Rozwiązanie |
 |---------|----------------------|-------------|
-| **Pod‑siatki zawierają zduplikowane wierzchołki** | Użycie `CLONE_DATA` kopiuje wszystkie dane wierzchołków dla każdej pod‑siatki. | Przejdź na `COMPACT_DATA`, gdy chcesz, aby współdzielone wierzchołki były deduplikowane. |
+| **Pod‑siatki zawierają duplikaty wierzchołków** | Użycie `CLONE_DATA` kopiuje wszystkie dane wierzchołków dla każdej pod‑siatki. | Przełącz na `COMPACT_DATA`, gdy chcesz, aby współdzielone wierzchołki były deduplikowane. |
 | **Nieprawidłowe przypisanie materiału** | Długość tablicy indeksów nie odpowiada liczbie wielokątów. | Sprawdź liczbę wielokątów (np. pudełko ma 6) i podaj pasującą tablicę indeksów. |
 
 ## Najczęściej zadawane pytania
 
-**Q: Czy Aspose.3D jest kompatybilny z innymi bibliotekami Java 3D?**  
+**Q: Czy Aspose.3D jest kompatybilny z innymi bibliotekami 3D dla Javy?**  
 A: Tak, Aspose.3D może współistnieć z takimi bibliotekami jak Java 3D czy jMonkeyEngine, umożliwiając import/eksport siatek pomiędzy nimi.
 
 **Q: Czy tę technikę można zastosować do złożonych modeli z setkami materiałów?**  
-A: Absolutnie. Te same wywołania API działają niezależnie od złożoności siatki; wystarczy upewnić się, że tablica indeksów prawidłowo odzwierciedla układ materiałów.
+A: Absolutnie. Te same wywołania API działają niezależnie od złożoności siatki; wystarczy zapewnić, że tablica indeksów prawidłowo odzwierciedla układ materiałów.
 
 **Q: Gdzie mogę znaleźć pełną dokumentację Aspose.3D Java?**  
-A: Odwiedź oficjalną [dokumentację Aspose.3D Java](https://reference.aspose.com/3d/java/) aby uzyskać szczegółowe odniesienia API i dodatkowe przykłady.
+A: Odwiedź oficjalną [dokumentację Aspose.3D Java](https://reference.aspose.com/3d/java/) po szczegółowe odniesienia API i dodatkowe przykłady.
 
-**Q: Czy dostępna jest darmowa wersja próbna Aspose.3D dla Javy?**  
+**Q: Czy dostępna jest bezpłatna wersja próbna Aspose.3D dla Javy?**  
 A: Tak, możesz pobrać wersję próbną ze [strony Aspose Releases](https://releases.aspose.com/).
 
 **Q: Jak mogę uzyskać wsparcie, jeśli napotkam problemy?**  
-A: Forum społeczności Aspose ([forum Aspose.3D](https://forum.aspose.com/c/3d/18)) jest doskonałym miejscem do zadawania pytań i otrzymywania pomocy zarówno od zespołu Aspose, jak i innych programistów.
+A: Forum społeczności Aspose ([forum Aspose.3D](https://forum.aspose.com/c/3d/18)) to doskonałe miejsce, aby zadawać pytania i otrzymywać pomoc zarówno od zespołu Aspose, jak i innych deweloperów.
 
 ## Zakończenie
 
-Masz teraz kompletną, gotową do produkcji metodę **podziału siatki według materiału** przy użyciu Aspose.3D w Javie. Stosując tę technikę zobaczysz mniej wywołań rysowania, lepsze wykorzystanie pamięci i płynniejsze renderowanie na różnych urządzeniach. Śmiało eksperymentuj z różnymi opcjami `SplitMeshPolicy` lub integruj powstałe pod‑siatki w własnym potoku renderowania.
+Masz teraz kompletną, gotową do produkcji metodę **podziału siatki według materiału** przy użyciu Aspose.3D w Javie. Stosując tę technikę, zauważysz mniejszą liczbę wywołań rysowania, lepsze wykorzystanie pamięci i płynniejsze renderowanie na różnych urządzeniach. Śmiało eksperymentuj z różnymi opcjami `SplitMeshPolicy` lub integruj powstałe pod‑siatki w własnym potoku renderującym.
 
----
-
-**Ostatnia aktualizacja:** 2026-09-03  
+**Ostatnia aktualizacja:** 2026-11-04  
 **Testowano z:** Aspose.3D for Java 24.11  
 **Autor:** Aspose
 
 ## Powiązane samouczki
 
-- [Jak obliczyć normalne siatki i dodać normalne do 3D siatek w Javie (przy użyciu Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Dowiedz się, jak triangulować siatki dla zoptymalizowanego renderowania w Javie przy użyciu Aspose.3D](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
+- [Jak obliczyć normalne siatki i dodać normalne do siatek 3D w Javie (z użyciem Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
+- [Naucz się triangulować siatki dla zoptymalizowanego renderowania w Javie przy użyciu Aspose.3D](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
 - [Zmniejsz rozmiar modelu 3D: Utwórz siatkę sfery w Javie z Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
