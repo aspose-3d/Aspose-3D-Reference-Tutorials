@@ -1,26 +1,28 @@
 ---
-date: 2026-09-08
-description: Hogyan csökkentsük a 3D modell méretét egy Java-ban generált gömbháló
-  létrehozásával és a Google Draco-val történő tömörítéssel az Aspose.3D segítségével.
-  Ismerje meg a teljes munkafolyamatot percek alatt.
+date: 2026-11-17
+description: Hogyan csökkentsük a 3D modell méretét egy sphere mesh generálásával
+  Java-ban és a Google Draco-val az Aspose.3D segítségével. Ismerje meg a teljes munkafolyamatot
+  percek alatt.
+images:
+- /java/3d-mesh-data/compress-meshes-google-draco/og-image.png
 keywords:
-- how to reduce 3d model size
+- create sphere mesh
+- how to compress 3d
+- reduce 3d model size
 - aspose 3d java
-- draco mesh compression
-- java sphere mesh
-- 3d model optimization
-lastmod: 2026-09-08
-linktitle: Hogyan csökkentsük a 3D modell méretét – Gömbháló létrehozása Java-ban
+- compress 3d mesh
+lastmod: 2026-11-17
+linktitle: Hogyan csökkentsük a 3D modell méretét – sphere mesh létrehozása Java-ban
   a Google Draco használatával
-og_description: Hogyan csökkentsük a 3D modell méretét egy Java-ban létrehozott gömbhálóval
-  és a Google Draco-val történő tömörítéssel az Aspose.3D használatával. Szerezzen
-  egy .drc fájlt, amely akár 95%-kal kisebb percek alatt.
+og_description: Sphere mesh létrehozása és 3D modell tömörítése Java-val az Aspose.3D
+  és a Google Draco használatával. Ez a bemutató megmutatja, hogyan generáljon egy
+  sphere-t, exportálja .drc formátumba, és percek alatt érjen el akár 95%-os méretcsökkentést.
 og_image_alt: 'Developer guide: Reduce 3d model size with Java sphere mesh and Draco
   compression'
-og_title: Hogyan csökkentsük a 3D modell méretét Java gömbhálóval és Draco-val
+og_title: Sphere mesh létrehozása és 3D modell tömörítése Java-val és Draco-val
 schemas:
 - author: Aspose
-  dateModified: '2026-09-08'
+  dateModified: '2026-11-17'
   description: How to reduce 3d model size by generating a sphere mesh in Java and
     compressing it with Google Draco via Aspose.3D. Learn the full workflow in minutes.
   headline: How to reduce 3d model size with a Java sphere mesh and Draco
@@ -71,7 +73,7 @@ tags:
 - Java 3D compression
 - Google Draco
 - sphere mesh
-title: Hogyan csökkentsük a 3D modell méretét Java gömbhálóval és Draco-val
+title: Hogyan csökkentsük a 3D modell méretét Java sphere mesh és Draco használatával
 url: /hu/java/3d-mesh-data/compress-meshes-google-draco/
 weight: 10
 ---
@@ -84,38 +86,42 @@ weight: 10
 
 ## Bevezetés
 
-Ha gyors módot keres a **3d modell méretének csökkentésére**, miközben továbbra is magas minőségű geometriát biztosít, jó helyen jár. Ebben az útmutatóban végigvezetjük, hogyan generáljunk egy gömb hálót **Aspose.3D for Java** segítségével, majd tömörítsük azt **Google Draco**-val. A végére egy használatra kész `.drc` fájlt kap, amely drámaian kisebb az eredetinél, így tökéletes web‑alapú megjelenítők, mobil játékok vagy bármely sávszélesség‑korlátozott Java alkalmazás számára.
+Az Aspose.3D for Java egy könyvtár, amely lehetővé teszi 3‑D modellek létrehozását, manipulálását és konvertálását közvetlenül Java kódból. Ha gyors módot keres a **3d modell méretének csökkentésére**, miközben továbbra is magas minőségű geometriát biztosít, a megfelelő helyen jár. Ebben az útmutatóban végigvezetjük a gömb háló generálását **Aspose.3D for Java** segítségével, majd a háló tömörítését **Google Draco** használatával. A végére egy kész `.drc` fájlt kap, amely drámaian kisebb az eredetinél, így tökéletes web‑alapú megjelenítők, mobil játékok vagy bármely sávszélesség‑korlátozott Java alkalmazás számára.
 
 ## Gyors válaszok
 
-- **Mi a tutorial tartalma?** Gömb háló létrehozása Java-ban és tömörítése Google Draco-val az Aspose.3D segítségével.  
+- **Mi a bemutató témája?** Gömb háló létrehozása Java-ban és tömörítése Google Draco-val az Aspose.3D segítségével.  
 - **Elsődleges könyvtár?** Aspose.3D for Java (használva a háló létrehozásához és a Draco exportáláshoz is).  
-- **Átlagos megvalósítási idő?** Körülbelül 10‑15 perc egy egyszerű gömbhöz.  
-- **Fő előfeltétel?** Java fejlesztői környezet az Aspose.3D JAR-okkal a classpath-on.  
-- **Eredmény?** Egy `.drc` fájl, amely **csökkenti a 3d modell méretét** akár 95 %-kal az eredeti, tömörítetlen hálóhoz képest.
+- **Tipikus megvalósítási idő?** Körülbelül 10‑15 perc egy egyszerű gömbhöz.  
+- **Kulcsfontosságú előfeltétel?** Java fejlesztői környezet az Aspose.3D JAR‑okkal a classpath‑on.  
+- **Eredmény?** Egy `.drc` fájl, amely **csökkenti a 3d modell méretét** akár 95 %-kal egy nem tömörített hálóhoz képest.
 
 ## Hogyan csökkentsük a 3d modell méretét?
 
-`Sphere` osztály egy háromszögelt gömb geometriát generál a megadott sugár és tesszelláció paraméterek alapján. Töltsd be a gömböt a `new Sphere(1.0, 32, 32)` kóddal, és exportáld közvetlenül Draco-ba a `scene.save("sphere.drc", SaveFormat.Draco)` használatával. A `scene.save` metódus a jelenlegi jelenetet egy fájlba írja a megadott formátumban. Az Aspose.3D belsőleg kezeli a konverziót, így elkerülheted a manuális kódolási lépéseket. A Draco exportáló automatikusan alkalmazza a geometria kvantálását és a csúcsok deduplikálását, így a fájlok gyakran 80‑95 %-kal kisebbek, miközben megőrzik a vizuális hűséget.
+Töltse be a gömböt, és tömörítse két egyszerű lépésben. Először **létrehozza a gömb hálót** a `new Sphere(1.0, 32, 32)` kóddal. Ezután a jelenetet közvetlenül Draco formátumba exportálja a `scene.save("sphere.drc", SaveFormat.Draco)` használatával. Az Aspose.3D automatikusan kezeli a geometria kvantálását és a csúcsok deduplikálását, így a fájlok általában 80‑95 %-kal kisebbek, miközben megőrzik a vizuális hűséget.
 
-## Mi jelent a “reduce 3d model size” a 3d fejlesztés kontextusában?
+A `Sphere` osztály az Aspose.3D beépített geometria generátora, amely háromszögelt gömb hálót hoz létre. Elfogad egy sugár és tesszellációs paramétereket, lehetővé téve a részletesség szintjének szabályozását a tömörítés előtt.
 
-**A 3d modell méretének csökkentése** azt jelenti, hogy a geometriai adat mennyiségét csökkentjük, amelyet át kell vinni vagy tárolni, anélkül, hogy észrevehetően rontaná a vizuális minőséget. A Draco ezt úgy éri el, hogy a csúcspozíciókat, normálvektorokat és egyéb attribútumokat egy nagyon kompakt bináris formátumban kódolja. Az Aspose.3D-vel kombinálva a teljes munkafolyamat Java-ban marad, így nem kell natív binárisokkal bajlódni.
+## Mi a „reduce 3d model size” a 3d fejlesztés kontextusában?
+
+A **3d modell méretének csökkentése** azt jelenti, hogy a továbbítandó vagy tárolandó geometriai adatmennyiséget csökkentjük, anélkül, hogy észrevehetően rontaná a vizuális minőséget. A Draco ezt úgy éri el, hogy a csúcspozíciókat, normálvektorokat és egyéb attribútumokat egy nagyon kompakt bináris formátumban kódolja. Az Aspose.3D-vel kombinálva a teljes munkafolyamat a Java környezetben marad, így nem kell natív binárisokkal bajlódni.
 
 ## Miért használjunk Google Draco háló tömörítést az Aspose.3D-vel?
 
-A Google Draco és az Aspose.3D kombinációja hatékony csővezetéket biztosít, amely drámaian lecsökkenti a háló fájlok méretét, miközben könnyen integrálható Java projektekbe. A könyvtár kezeli az összes alacsony szintű kódolást, így a fejlesztők a geometria létrehozására koncentrálhatnak anélkül, hogy a natív Draco binárisokkal kellene foglalkozniuk, ami gyorsabb fejlesztést és kisebb eszközöket eredményez web és mobil számára.
+A Google Draco és az Aspose.3D kombinációja hatékony csővezetéket biztosít, amely drámaian lecsökkenti a háló fájlok méretét, miközben könnyen integrálható Java projektekbe. A könyvtár kezeli az összes alacsony szintű kódolást, így a fejlesztők a geometria létrehozására koncentrálhatnak anélkül, hogy natív Draco binárisokkal kellene foglalkozniuk, ami gyorsabb fejlesztést és kisebb eszközöket eredményez web és mobil számára.
 
-- **Masszív méretcsökkentés:** A Draco akár 95 %-kal is lecsökkentheti a háló adatot tipikus modellek esetén, egy 5 MB-os OBJ-t 0.3 MB‑os `.drc`-re alakítva.  
-- **Gyors futásidejű dekódolás:** Az olyan motorok, mint a Unity, Unreal és a three.js natívan dekódolják a Draco-t, ami gyorsabb betöltési időket eredményez.  
-- **Zökkenőmentes Java integráció:** Az Aspose.3D elrejti a natív Draco könyvtárat, lehetővé téve, hogy a Java ökoszisztémában maradj.  
-- **Egyetlen helyen elérhető Aspose 3D export:** Ugyanazt az API-t, amelyet a geometria létrehozásához használsz, a exportálásra is használja, egyszerűsítve a csővezetéket.
+- **Masszív méretcsökkentés:** A Draco akár 95 %-kal is lecsökkentheti a háló adatokat tipikus modellek esetén, egy 5 MB-os OBJ-t 0,3 MB-os `.drc`‑vé alakítva.  
+- **Gyors futásidejű dekódolás:** Az olyan motorok, mint a Unity, Unreal és a three.js natívan dekódolják a Draco‑t, ami gyorsabb betöltési időket eredményez.  
+- **Zökkenőmentes Java integráció:** Az Aspose.3D elrejti a natív Draco könyvtárat, lehetővé téve, hogy a Java ökoszisztémában maradjon.  
+- **Egyetlen helyen elérhető Aspose 3D export:** Ugyanaz az API, amelyet a geometria létrehozásához használ, kezeli az exportot is, egyszerűsítve a csővezetéket.  
+
+Az Aspose.3D támogat **50+ bemeneti és kimeneti formátumot** — beleértve az OBJ, FBX, STL, GLTF és sok más formátumot — és képes több száz oldalas modelleket feldolgozni anélkül, hogy a teljes fájlt a memóriába töltené.
 
 ## Előfeltételek
 
 - **Java Development Kit (JDK)** – 8-as vagy újabb verzió.  
-- **Aspose.3D for Java** – töltse le a legújabb JAR-okat a **[Aspose 3D Java releases page](https://releases.aspose.com/3d/java/)** oldalról.  
-- **Basic familiarity with Google Draco** – Alapvető ismeretek a Google Draco-val – a tutorial az Aspose.3D wrapperét használja, így nincs szükség natív Draco beállításra.
+- **Aspose.3D for Java** – töltse le a legújabb JAR‑okat az **[Aspose 3D Java kiadási oldalról](https://releases.aspose.com/3d/java/)**.  
+- **Alapvető ismeretek a Google Draco-val** – az Aspose.3D csomagolót fogja használni, így nincs szükség natív Draco beállításra.
 
 ## Csomagok importálása
 
@@ -135,11 +141,11 @@ import java.nio.file.Paths;
 
 ### 1. lépés: a projekt beállítása
 
-Hozzon létre egy új Java projektet (bármely IDE működik), és adja hozzá az összes Aspose.3D JAR-t a classpath-hoz. Tartsa a forrásfájlokat egy, például `com.example.draco` csomagban a tisztaság érdekében.
+Hozzon létre egy új Java projektet (bármely IDE működik), és adja hozzá az összes Aspose.3D JAR‑t a classpath‑hoz. Tartsa a forrásfájlokat egy, például `com.example.draco` csomagban a tisztaság érdekében.
 
 ### 2. lépés: hogyan hozzunk létre gömb hálót Java-ban
 
-`Sphere` osztály az Aspose.3D beépített geometria generátora, amely egy háromszögelt hálót hoz létre konfigurálható sugárral és tesszellációval.
+A `Sphere` osztály az Aspose.3D beépített geometria generátora, amely háromszögelt gömb hálót hoz létre.  
 
 ```java
 import java.nio.file.Files;
@@ -166,64 +172,64 @@ Files.write(Paths.get(MyDir, "SphereMeshtoDRC_Out.drc"), b);
 // ExEnd:Encode3DMeshinGoogleDraco
 ```
 
-> **Pro tipp:** A `Sphere` osztály egy háromszögelt hálót generál alapértelmezett 1.0 sugárral. Egyedi sugár, tesszelláció vagy anyag paramétereket adhat meg, ha a tömörítés előtt más részletességi szintre van szüksége.
+> **Pro tipp:** A `Sphere` osztály egy alapértelmezett 1.0 sugárral rendelkező háromszögelt hálót generál. Egyedi sugár, tesszelláció vagy anyag paramétereket adhat meg, ha a tömörítés előtt más részletességi szintre van szüksége.
 
 ### 3. lépés: a háló exportálása Draco formátumba
 
-Miután a gömböt hozzáadtuk egy `Scene` objektumhoz, hívja meg a `scene.save("sphere.drc", SaveFormat.Draco)` metódust. Az Aspose.3D automatikusan kiválasztja az optimális tömörítési beállításokat, de finomhangolhatja őket a `DracoCompressionOptions` módosításával, ha a lehető legkisebb fájlt szeretné. A `DracoCompressionOptions` lehetővé teszi a Draco tömörítési beállításainak testreszabását, például a kvantálást és a tömörítési szintet.
+A `Scene` osztály egy teljes 3‑D jelenetet képvisel, amely tartalmazhat hálókat, fényeket és kamerákat. A `DracoCompressionOptions` osztály lehetővé teszi a Draco tömörítési beállítások testreszabását, például a kvantálást és a tömörítési szintet. Miután a gömb hozzá lett adva egy `Scene` objektumhoz, hívja a `scene.save("sphere.drc", SaveFormat.Draco)` metódust. Az Aspose.3D automatikusan kiválasztja az optimális tömörítési beállításokat, de finomhangolhatja őket a `DracoCompressionOptions` módosításával, ha a lehető legkisebb fájlt szeretné. A `DracoCompressionOptions` lehetővé teszi, hogy
 
 ### 4. lépés: a kimenet ellenőrzése
 
-Nyissa meg a generált `.drc` fájlt egy Draco megjelenítővel (például three.js `DRACOLoader`), hogy biztosítsa a geometria helyes megjelenítését. A fájlméret drámai csökkenését fogja észrevenni – gyakran tízszeres vagy nagyobb.
+A `DRACOLoader` egy three.js segédprogram, amely Draco‑tömörített `.drc` fájlokat tölt be, és WebGL‑kompatibilis geometriává alakítja őket. Nyissa meg a generált `.drc` fájlt egy Draco nézővel (pl. three.js `DRACOLoader`) a geometria helyes megjelenítésének ellenőrzéséhez. Drámai fájlméret‑csökkenést fog észrevenni — gyakran tízszeres vagy nagyobb.
 
 ## Általános felhasználási esetek
 
-| Forgatókönyv | Miért csökkentsük a modell méretét? | Hogyan segít ez a tutorial |
+| Forgatókönyv | Miért csökkentsük a modell méretét? | Hogyan segít ez az útmutató |
 |--------------|--------------------------------------|-----------------------------|
-| Web‑alapú termékkonfigurátorok | Gyorsabb oldalbetöltés lassú kapcsolatokon | A Draco‑tömörített `.drc` fájlok másodpercek alatt betöltődnek |
-| Mobil AR/VR alkalmazások | Alacsonyabb memóriahasználat az eszközökön | A kisebb hálók a alkalmazást reszponzívvá teszik |
+| Web‑alapú termékkonfigurátorok | Gyorsabb oldalbetöltés lassú kapcsolatokon | Draco‑tömörített `.drc` fájlok másodpercek alatt betöltődnek |
+| Mobil AR/VR alkalmazások | Alacsonyabb memóriahasználat az eszközökön | Kisebb hálók segítik az alkalmazás válaszkészségét |
 | Felhőben renderelt jelenetek | Csökkentik a sávszélesség költségeit | Egy kattintásos export az Aspose.3D‑ról Draco‑ra |
 
-## Általános problémák és megoldások
+## Gyakori problémák és megoldások
 
 | Probléma | Ok | Megoldás |
 |----------|----|----------|
-| **`NoClassDefFoundError` for Draco classes** | Az Aspose.3D JAR-ok nincsenek a classpath-on | Ellenőrizze, hogy *az összes* Aspose.3D JAR fájl szerepel-e, és hogy a verzió megegyezik a dokumentációval. |
+| **`NoClassDefFoundError` for Draco classes** | Az Aspose.3D JAR‑ok nincsenek a classpath‑on | Ellenőrizze, hogy *az összes* Aspose.3D JAR fájl be legyen vonva, és a verzió megegyezik a dokumentációval. |
 | **Output file is empty** | `MyDir` egy nem létező mappára mutat | Hozza létre a könyvtárat programozottan (`Files.createDirectories(Paths.get(MyDir))`) a fájl írása előtt. |
-| **Compressed mesh looks distorted** | Alacsony tömörítési szint vagy nem elegendő tesszelláció használata | Váltson `DracoCompressionLevel.OPTIMAL`-ra és növelje a gömb tesszellációját (pl. `new Sphere(1.0, 64, 64)`). A `DracoCompressionLevel.OPTIMAL` a legmagasabb tömörítési minőséget választja a Draco kimenethez. |
+| **Compressed mesh looks distorted** | Alacsony tömörítési szint vagy elégtelen tesszelláció használata | Váltson `DracoCompressionLevel.OPTIMAL`‑ra, és növelje a gömb tesszellációját (pl. `new Sphere(1.0, 64, 64)`). A `DracoCompressionLevel.OPTIMAL` a legmagasabb tömörítési minőséget választja a Draco kimenethez. |
 
 ## Gyakran ismételt kérdések
 
 **Q: Az Aspose.3D kompatibilis különböző 3d fájlformátumokkal?**  
 A: Igen, az Aspose.3D támogatja az OBJ, FBX, STL, GLTF és sok más formátumot, így sokoldalú választás a **Aspose 3d export** csővezetékekhez.
 
-**Q: Használhatom a Google Draco-t tömörítésre más programozási nyelvekben?**  
-A: Teljesen. A Draco natív könyvtárakat kínál C++, Python és JavaScript számára. Ez az útmutató a Java-ra fókuszál, de a koncepciók más nyelvekre is alkalmazhatók.
+**Q: Használhatom a Google Draco‑t tömörítésre más programozási nyelvekben?**  
+A: Természetesen. A Draco natív könyvtárakat kínál C++, Python és JavaScript nyelvekhez. Ez az útmutató a Java-ra fókuszál, de a koncepciók más nyelvekre is alkalmazhatók.
 
 **Q: Hol találok további Aspose.3D dokumentációt?**  
-A: Látogassa meg a **[Aspose.3D Java documentation](https://reference.aspose.com/3d/java/)** oldalt a teljes API-referencia és további példákért.
+A: Látogassa meg a **[Aspose.3D Java dokumentációt](https://reference.aspose.com/3d/java/)** a teljes API referenciákért és további példákért.
 
 **Q: Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?**  
-A: Tekintse meg az ideiglenes licencelési lehetőségeket a **[Aspose temporary license page](https://purchase.aspose.com/temporary-license/)** oldalon.
+A: Tekintse meg az ideiglenes licencelési lehetőségeket a **[Aspose ideiglenes licenc oldalán](https://purchase.aspose.com/temporary-license/)**.
 
-**Q: Van közösségi fórum az Aspose.3D támogatásra?**  
-A: Igen, csatlakozzon a beszélgetéshez a **[Aspose.3D Forum](https://forum.aspose.com/c/3d/18)** oldalon.
+**Q: Van közösségi fórum az Aspose.3D támogatásához?**  
+A: Igen, csatlakozzon a beszélgetéshez a **[Aspose.3D Fórumon](https://forum.aspose.com/c/3d/18)**.
 
 ## Összegzés
 
-Ebben az útmutatóban bemutattuk, hogyan **csökkenthetjük a 3d modell méretét** egy gömb háló Java-ban történő létrehozásával, majd a Google Draco-val történő tömörítésével az Aspose.3D segítségével. A tömör, lépésről‑lépésre követett eljárás segítségével drámaian lecsökkentheti a háló fájlok méretét, javíthatja a betöltési időket, és Java‑alapú 3d alkalmazásait reszponzív és sávszélesség‑kímélő módon tarthatja.
+Ebben az útmutatóban bemutattuk, hogyan **csökkenthetjük a 3d modell méretét** egy Java-ban létrehozott gömb hálóval, majd a Google Draco-val az Aspose.3D segítségével tömörítve. A rövid lépések követésével drámaian lecsökkentheti a háló fájlokat, javíthatja a betöltési időket, és Java‑alapú 3d alkalmazásait válaszkész és sávszélesség‑barát állapotban tarthatja.
 
 ---
 
-**Legutóbb frissítve:** 2026-09-08  
-**Tesztelve ezzel:** Aspose.3D for Java 24.12 (latest)  
+**Utolsó frissítés:** 2026-11-17  
+**Tesztelt verzió:** Aspose.3D for Java 24.12 (latest)  
 **Szerző:** Aspose
 
 ## Kapcsolódó útmutatók
 
-- [3D fájlméret csökkentése – Jelenetek tömörítése Aspose.3D for Java-val](/3d/java/3d-scenes-and-models/compress-3d-scenes/)
-- [Draco pontfelhő generálása gömbökből Aspose.3D for Java segítségével](/3d/java/point-clouds/generate-point-clouds-spheres-java/)
-- [Ismerje meg a hálók háromszögelését optimalizált rendereléshez Java-ban az Aspose.3D használatával](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
+- [3D fájlméret csökkentése – Jelenetek tömörítése Aspose.3D for Java használatával](/3d/java/3d-scenes-and-models/compress-3d-scenes/)
+- [Draco pontfelhő generálása gömbökkel az Aspose.3D for Java segítségével](/3d/java/point-clouds/generate-point-clouds-spheres-java/)
+- [Ismerje meg, hogyan trianguláljon hálókat optimalizált rendereléshez Java‑ban az Aspose.3D használatával](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

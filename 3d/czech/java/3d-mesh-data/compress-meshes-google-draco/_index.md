@@ -1,26 +1,27 @@
 ---
-date: 2026-09-08
-description: Jak snížit velikost 3D modelu vytvořením sférové sítě v Java a kompresí
-  pomocí Google Draco přes Aspose.3D. Naučte se celý pracovní postup během několika
-  minut.
+date: 2026-11-17
+description: Jak snížit velikost 3D modelu generováním sphere mesh v Java a compressing
+  pomocí Google Draco přes Aspose.3D. Naučte se celý workflow během několika minut.
+images:
+- /java/3d-mesh-data/compress-meshes-google-draco/og-image.png
 keywords:
-- how to reduce 3d model size
+- create sphere mesh
+- how to compress 3d
+- reduce 3d model size
 - aspose 3d java
-- draco mesh compression
-- java sphere mesh
-- 3d model optimization
-lastmod: 2026-09-08
-linktitle: Jak snížit velikost 3D modelu – Vytvořte sférovou síť v Java pomocí Google
+- compress 3d mesh
+lastmod: 2026-11-17
+linktitle: Jak snížit velikost 3D modelu – vytvořit Sphere Mesh v Java pomocí Google
   Draco
-og_description: Jak snížit velikost 3D modelu vytvořením sférové sítě v Java a kompresí
-  pomocí Google Draco s využitím Aspose.3D. Získáte soubor .drc až o 95 % menší během
-  několika minut.
+og_description: Vytvořte sphere mesh a compress 3D model pomocí Java s Aspose.3D a
+  Google Draco. Tento tutoriál ukazuje, jak generovat sphere, exportovat do .drc a
+  dosáhnout až 95 % snížení velikosti během několika minut.
 og_image_alt: 'Developer guide: Reduce 3d model size with Java sphere mesh and Draco
   compression'
-og_title: Jak snížit velikost 3D modelu pomocí sférové sítě v Java a Draca
+og_title: Vytvořte sphere mesh a compress 3D model pomocí Java a Draco
 schemas:
 - author: Aspose
-  dateModified: '2026-09-08'
+  dateModified: '2026-11-17'
   description: How to reduce 3d model size by generating a sphere mesh in Java and
     compressing it with Google Draco via Aspose.3D. Learn the full workflow in minutes.
   headline: How to reduce 3d model size with a Java sphere mesh and Draco
@@ -71,7 +72,7 @@ tags:
 - Java 3D compression
 - Google Draco
 - sphere mesh
-title: Jak snížit velikost 3D modelu pomocí sférové sítě v Java a Draca
+title: Jak snížit velikost 3D modelu pomocí Java sphere mesh a Draco
 url: /cs/java/3d-mesh-data/compress-meshes-google-draco/
 weight: 10
 ---
@@ -84,37 +85,41 @@ weight: 10
 
 ## Úvod
 
-Pokud hledáte rychlý způsob, jak **snížit velikost 3d modelu** a přitom zachovat vysoce kvalitní geometrii, jste na správném místě. V tomto tutoriálu vás provedeme generováním sférické sítě pomocí **Aspose.3D for Java** a následným kompresováním této sítě pomocí **Google Draco**. Na konci budete mít připravený soubor `.drc`, který je dramaticky menší než originál, což je ideální pro webové prohlížeče, mobilní hry nebo jakoukoli Java aplikaci s omezenou šířkou pásma.
+Aspose.3D for Java je knihovna, která umožňuje vytvářet, manipulovat a převádět 3‑D modely přímo z Java kódu. Pokud hledáte rychlý způsob, jak **snížit velikost 3d modelu** a přitom zachovat vysoce kvalitní geometrii, jste na správném místě. V tomto tutoriálu si projdeme generování sférické sítě pomocí **Aspose.3D for Java** a následnou kompresi této sítě pomocí **Google Draco**. Na konci budete mít připravený soubor `.drc`, který je dramaticky menší než originál, což je ideální pro webové prohlížeče, mobilní hry nebo jakoukoli Java aplikaci s omezenou šířkou pásma.
 
 ## Rychlé odpovědi
 - **Co tento tutoriál pokrývá?** Vytvoření sférické sítě v Javě a komprese pomocí Google Draco přes Aspose.3D.  
-- **Primární knihovna?** Aspose.3D for Java (použita pro tvorbu sítě i export do Draco).  
-- **Typický čas implementace?** Přibližně 10‑15 minut pro základní kouli.  
-- **Klíčová podmínka?** Vývojové prostředí Javy s JAR soubory Aspose.3D na classpathu.  
+- **Primární knihovna?** Aspose.3D for Java (používá se jak pro tvorbu sítě, tak pro export do Draco).  
+- **Typický čas implementace?** Zhruba 10‑15 minut pro základní kouli.  
+- **Klíčová podmínka?** Vývojové prostředí Java s JAR soubory Aspose.3D na classpathu.  
 - **Výsledek?** Soubor `.drc`, který **snižuje velikost 3d modelu** až o 95 % ve srovnání s nekomprimovanou sítí.
 
 ## Jak snížit velikost 3d modelu?
 
-Třída `Sphere` generuje triangulovanou sférickou geometrii na základě zadaného poloměru a parametrů tessellace. Načtěte svou kouli pomocí `new Sphere(1.0, 32, 32)` a exportujte ji přímo do Draco pomocí `scene.save("sphere.drc", SaveFormat.Draco)`. Metoda `scene.save` zapíše aktuální scénu do souboru ve specifikovaném formátu. Aspose.3D provádí konverzi interně, takže se vyhnete ručním krokům kódování. Exportér Draco automaticky aplikuje kvantizaci geometrie a deduplikaci vrcholů, což vede k souborům, které jsou často o 80‑95 % menší při zachování vizuální věrnosti.
+Nahrajte svou kouli a komprimujte ji ve dvou jednoduchých krocích. Nejprve **vytvoříte sférickou síť** pomocí `new Sphere(1.0, 32, 32)`. Poté exportujete scénu přímo do Draco pomocí `scene.save("sphere.drc", SaveFormat.Draco)`. Aspose.3D automaticky provádí kvantizaci geometrie a deduplikaci vrcholů, čímž vytváří soubory, které jsou typicky o 80‑95 % menší při zachování vizuální věrnosti.
+
+Třída `Sphere` je vestavěný generátor geometrie v Aspose.3D, který vytváří triangulovanou sférickou síť. Přijímá parametr poloměru a tessellace, což vám umožňuje řídit úroveň detailu před kompresí.
 
 ## Co znamená „snížit velikost 3d modelu“ v kontextu 3d vývoje?
 
-**Snížení velikosti 3d modelu** znamená zmenšení množství geometrických dat, která je třeba přenést nebo uložit, aniž by došlo k výraznému zhoršení vizuální kvality. Draco toho dosahuje kódováním pozic vrcholů, normál a dalších atributů do vysoce kompaktního binárního formátu. V kombinaci s Aspose.3D zůstává celý pracovní postup uvnitř Javy, takže nemusíte manipulovat s nativními binárními soubory Draco.
+**Snížení velikosti 3d modelu** znamená zmenšení množství geometrických dat, která je potřeba přenést nebo uložit, aniž by došlo k znatelnému zhoršení vizuální kvality. Draco toho dosahuje kódováním pozic vrcholů, normál a dalších atributů do vysoce kompaktního binárního formátu. V kombinaci s Aspose.3D zůstává celý pracovní postup uvnitř Javy, takže nemusíte manipulovat s nativními binárními soubory.
 
 ## Proč použít kompresi sítí Google Draco s Aspose.3D?
 
-Google Draco v kombinaci s Aspose.3D poskytuje efektivní pipeline, která dramaticky zmenšuje soubory sítí a zároveň je snadno integruje do Java projektů. Knihovna se stará o veškeré nízkoúrovňové kódování, takže se vývojáři mohou soustředit na tvorbu geometrie, aniž by museli pracovat s nativními binárními soubory Draco, což vede k rychlejšímu vývoji a menším assetům pro web a mobil.
+Google Draco v kombinaci s Aspose.3D poskytuje efektivní pipeline, která dramaticky zmenšuje soubory sítí a zároveň je snadno integruje do Java projektů. Knihovna zajišťuje veškeré nízkoúrovňové kódování, takže se vývojáři mohou soustředit na tvorbu geometrie, aniž by museli pracovat s nativními binárními soubory Draco, což vede k rychlejšímu vývoji a menším assetům pro web a mobil.
 
-- **Obrovské zmenšení velikosti:** Draco může snížit data sítě až o 95 % u typických modelů, přemění 5 MB OBJ na 0,3 MB `.drc`.  
+- **Masivní zmenšení velikosti:** Draco může utypických modelů zmenšit data sítě až o 95 %, převádějíc 5 MB OBJ na 0,3 MB `.drc`.  
 - **Rychlé dekódování za běhu:** Enginy jako Unity, Unreal a three.js dekódují Draco nativně, což vede k rychlejším načítacím časům.  
-- **Bezproblémová integrace s Javou:** Aspose.3D abstrahuje nativní knihovnu Draco, což vám umožní zůstat v ekosystému Javy.  
-- **Komplexní export z Aspose 3D:** Stejné API, které používáte k vytvoření geometrie, také provádí export, což zjednodušuje pipeline.
+- **Bezproblémová integrace s Java:** Aspose.3D abstrahuje nativní knihovnu Draco, což vám umožní zůstat v ekosystému Java.  
+- **Kompletní export z Aspose 3D:** Stejné API, které používáte k tvorbě geometrie, také zajišťuje export, což zjednodušuje pipeline.  
+
+Aspose.3D podporuje **více než 50 vstupních a výstupních formátů** — včetně OBJ, FBX, STL, GLTF a mnoha dalších — a dokáže zpracovat modely o stovkách stránek, aniž by načítal celý soubor do paměti.
 
 ## Požadavky
 
 - **Java Development Kit (JDK)** – verze 8 nebo novější.  
 - **Aspose.3D for Java** – stáhněte nejnovější JAR soubory ze **[Aspose 3D Java releases page](https://releases.aspose.com/3d/java/)**.  
-- **Základní znalost Google Draco** – použijete wrapper Aspose.3D, takže není vyžadována žádná nativní instalace Draco.
+- **Základní znalost Google Draco** – použijete wrapper Aspose.3D, takže není vyžadováno nastavení nativního Draco.
 
 ## Import balíčků
 
@@ -130,15 +135,15 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 ```
 
-## Průvodce krok za krokem
+## Postupný průvodce
 
 ### Krok 1: nastavení projektu
 
-Vytvořte nový Java projekt (funguje jakékoli IDE) a přidejte všechny JAR soubory Aspose.3D do classpathu. Pro přehlednost umístěte své zdrojové soubory do balíčku například `com.example.draco`.
+Vytvořte nový Java projekt (funguje jakékoli IDE) a přidejte všechny JAR soubory Aspose.3D do classpathu. Udržujte své zdrojové soubory v balíčku jako `com.example.draco` pro přehlednost.
 
 ### Krok 2: jak vytvořit sférickou síť v Javě
 
-Třída `Sphere` je vestavěný generátor geometrie v Aspose.3D, který vytváří triangulovanou síť s konfigurovatelným poloměrem a tessellací.  
+Třída `Sphere` je vestavěný generátor geometrie v Aspose.3D, který vytváří triangulovanou sférickou síť.  
 
 ```java
 import java.nio.file.Files;
@@ -165,41 +170,41 @@ Files.write(Paths.get(MyDir, "SphereMeshtoDRC_Out.drc"), b);
 // ExEnd:Encode3DMeshinGoogleDraco
 ```
 
-> **Tip:** Třída `Sphere` generuje triangulovanou síť s výchozím poloměrem 1.0. Můžete zadat vlastní poloměr, tessellaci nebo parametry materiálu, pokud potřebujete před kompresí jinou úroveň detailu.
+> **Tip:** Třída `Sphere` generuje triangulovanou síť s výchozím poloměrem 1.0. Můžete zadat vlastní poloměr, tessellaci nebo parametry materiálu, pokud potřebujete jinou úroveň detailu před kompresí.
 
 ### Krok 3: export sítě do formátu Draco
 
-Po přidání koule do objektu `Scene` zavolejte `scene.save("sphere.drc", SaveFormat.Draco)`. Aspose.3D automaticky vybere optimální nastavení komprese, ale můžete je doladit úpravou `DracoCompressionOptions`, pokud potřebujete co nejmenší soubor. `DracoCompressionOptions` vám umožňuje přizpůsobit nastavení komprese Draco, jako je kvantizace a úroveň komprese.
+Třída `Scene` představuje kompletní 3‑D scénu, která může obsahovat sítě, světla a kamery. Třída `DracoCompressionOptions` vám umožňuje přizpůsobit nastavení komprese Draco, jako je kvantizace a úroveň komprese. Po přidání koule do objektu `Scene` zavolejte `scene.save("sphere.drc", SaveFormat.Draco)`. Aspose.3D automaticky vybere optimální nastavení komprese, ale můžete je doladit úpravou `DracoCompressionOptions`, pokud potřebujete co nejmenší soubor. `DracoCompressionOptions` vám umožňuje
 
 ### Krok 4: ověření výstupu
 
-Otevřete vygenerovaný soubor `.drc` v Draco prohlížeči (např. three.js `DRACOLoader`), abyste se ujistili, že geometrie se vykresluje správně. Všimnete si dramatického snížení velikosti souboru – často o faktor deset nebo více.
+`DRACOLoader` je utilita three.js, která načítá Draco‑komprimované soubory `.drc` a převádí je na WebGL‑kompatibilní geometrii. Otevřete vygenerovaný soubor `.drc` v Draco prohlížeči (např. three.js `DRACOLoader`), abyste se ujistili, že geometrie se vykresluje správně. Všimnete si dramatického zmenšení velikosti souboru — často o faktor deset nebo více.
 
 ## Běžné případy použití
 
 | Scénář | Proč snížit velikost modelu? | Jak tento tutoriál pomáhá |
-|----------|-----------------------------|---------------------------|
-| Webové konfigurátory produktů | Rychlejší načítání stránek při pomalých připojeních | Draco‑komprimované soubory `.drc` se načtou během několika sekund |
-| Mobilní AR/VR aplikace | Nižší paměťová náročnost na zařízeních | Menší sítě udržují aplikaci responsivní |
+|----------|-----------------------|--------------------------|
+| Webové konfigurátory produktů | Rychlejší načítání stránek při pomalých připojeních | Draco‑komprimované soubory `.drc` se načítají během sekund |
+| Mobilní AR/VR aplikace | Nižší paměťová náročnost na zařízeních | Menší sítě udržují aplikaci responzivní |
 | Scény renderované v cloudu | Snížení nákladů na šířku pásma | Export jedním kliknutím z Aspose.3D do Draco |
 
 ## Běžné problémy a řešení
 
-| Problém | Důvod | Řešení |
+| Problém | Příčina | Řešení |
 |-------|--------|-----|
-| **`NoClassDefFoundError` pro třídy Draco** | JAR soubory Aspose.3D nejsou na classpathu | Ověřte, že jsou zahrnuty *všechny* JAR soubory Aspose.3D a že verze odpovídá dokumentaci. |
-| **Výstupní soubor je prázdný** | `MyDir` ukazuje na neexistující složku | Vytvořte adresář programově (`Files.createDirectories(Paths.get(MyDir))`) před zápisem souboru. |
-| **Komprimovaná síť vypadá deformovaně** | Použití nízké úrovně komprese nebo nedostatečná tessellace | Přepněte na `DracoCompressionLevel.OPTIMAL` a zvýšte tessellaci koule (např. `new Sphere(1.0, 64, 64)`). `DracoCompressionLevel.OPTIMAL` vybírá nejvyšší kvalitu komprese pro výstup Draco. |
+| **`NoClassDefFoundError` for Draco classes** | JAR soubory Aspose.3D nejsou na classpathu | Ověřte, že *všechny* JAR soubory Aspose.3D jsou zahrnuty a že verze odpovídá dokumentaci. |
+| **Output file is empty** | `MyDir` ukazuje na neexistující složku | Vytvořte adresář programově (`Files.createDirectories(Paths.get(MyDir))`) před zápisem souboru. |
+| **Compressed mesh looks distorted** | Použití nízké úrovně komprese nebo nedostatečná tessellace | Přepněte na `DracoCompressionLevel.OPTIMAL` a zvyšte tessellaci koule (např. `new Sphere(1.0, 64, 64)`). `DracoCompressionLevel.OPTIMAL` vybírá nejvyšší kvalitu komprese pro výstup Draco. |
 
 ## Často kladené otázky
 
 **Q: Je Aspose.3D kompatibilní s různými 3d formáty souborů?**  
-A: Ano, Aspose.3D podporuje OBJ, FBX, STL, GLTF a mnoho dalších, což z něj činí všestrannou volbu pro **Aspose 3d export** pipeline.
+A: Ano, Aspose.3D podporuje OBJ, FBX, STL, GLTF a mnoho dalších, což z něj činí univerzální volbu pro **Aspose 3d export** pipeline.
 
 **Q: Mohu použít Google Draco pro kompresi v jiných programovacích jazycích?**  
-A: Rozhodně. Draco nabízí nativní knihovny pro C++, Python a JavaScript. Tento tutoriál se zaměřuje na Javu, ale koncepty platí i pro ostatní jazyky.
+A: Rozhodně. Draco nabízí nativní knihovny pro C++, Python a JavaScript. Tento tutoriál se zaměřuje na Javu, ale koncepty platí napříč jazyky.
 
-**Q: Kde najdu další dokumentaci k Aspose.3D?**  
+**Q: Kde mohu najít další dokumentaci k Aspose.3D?**  
 A: Navštivte **[Aspose.3D Java documentation](https://reference.aspose.com/3d/java/)** pro kompletní referenci API a další příklady.
 
 **Q: Jak získám dočasnou licenci pro Aspose.3D?**  
@@ -210,20 +215,19 @@ A: Ano, připojte se k diskuzi na **[Aspose.3D Forum](https://forum.aspose.com/c
 
 ## Závěr
 
-V tomto průvodci jsme ukázali, jak **snížit velikost 3d modelu** vytvořením sférické sítě v Javě a následnou kompresí pomocí Google Draco prostřednictvím Aspose.3D. Dodržením těchto stručných kroků můžete dramaticky zmenšit soubory sítí, zlepšit načítací časy a udržet své Java‑založené 3d aplikace responsivní a šetrné k šířce pásma.
+V tomto průvodci jsme ukázali, jak **snížit velikost 3d modelu** vytvořením sférické sítě v Javě a následnou kompresí pomocí Google Draco prostřednictvím Aspose.3D. Dodržením těchto stručných kroků můžete dramaticky zmenšit soubory sítí, zlepšit načítací časy a udržet své Java‑založené 3d aplikace responzivní a šetrné k šířce pásma.
 
 ---
 
-**Poslední aktualizace:** 2026-09-08  
+**Poslední aktualizace:** 2026-11-17  
 **Testováno s:** Aspose.3D for Java 24.12 (latest)  
 **Autor:** Aspose
 
 ## Související tutoriály
 
-- [Snížení velikosti 3D souboru – komprese scén s Aspose.3D pro Java](/3d/java/3d-scenes-and-models/compress-3d-scenes/)
-- [Generování Draco bodového mraku ze sfér pomocí Aspose.3D pro Java](/3d/java/point-clouds/generate-point-clouds-spheres-java/)
+- [Snížení velikosti 3D souboru – Komprese scén pomocí Aspose.3D pro Java](/3d/java/3d-scenes-and-models/compress-3d-scenes/)
+- [Generování Draco point cloudu ze sfér pomocí Aspose.3D pro Java](/3d/java/point-clouds/generate-point-clouds-spheres-java/)
 - [Naučte se triangulovat sítě pro optimalizované renderování v Javě pomocí Aspose.3D](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

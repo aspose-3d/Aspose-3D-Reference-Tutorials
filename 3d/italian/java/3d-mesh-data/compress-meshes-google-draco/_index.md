@@ -1,27 +1,28 @@
 ---
-date: 2026-09-08
+date: 2026-11-17
 description: Come ridurre le dimensioni di un modello 3D generando una mesh sferica
   in Java e comprimendola con Google Draco tramite Aspose.3D. Scopri l'intero flusso
   di lavoro in pochi minuti.
+images:
+- /java/3d-mesh-data/compress-meshes-google-draco/og-image.png
 keywords:
-- how to reduce 3d model size
+- create sphere mesh
+- how to compress 3d
+- reduce 3d model size
 - aspose 3d java
-- draco mesh compression
-- java sphere mesh
-- 3d model optimization
-lastmod: 2026-09-08
-linktitle: Come ridurre le dimensioni del modello 3D – Crea una mesh sferica in Java
-  usando Google Draco
-og_description: Come ridurre le dimensioni di un modello 3D creando una mesh sferica
-  in Java e comprimendola con Google Draco usando Aspose.3D. Ottieni un file .drc
-  fino al 95% più piccolo in pochi minuti.
+- compress 3d mesh
+lastmod: 2026-11-17
+linktitle: Come ridurre le dimensioni del modello 3D – Crea mesh sferica in Java usando
+  Google Draco
+og_description: Crea mesh sferica e comprimi modello 3D con Java usando Aspose.3D
+  e Google Draco. Questo tutorial mostra come generare una sfera, esportare in .drc
+  e ottenere una riduzione delle dimensioni fino al 95% in pochi minuti.
 og_image_alt: 'Developer guide: Reduce 3d model size with Java sphere mesh and Draco
   compression'
-og_title: Come ridurre le dimensioni di un modello 3D con una mesh sferica Java e
-  Draco
+og_title: Crea mesh sferica e comprimi modello 3D con Java e Draco
 schemas:
 - author: Aspose
-  dateModified: '2026-09-08'
+  dateModified: '2026-11-17'
   description: How to reduce 3d model size by generating a sphere mesh in Java and
     compressing it with Google Draco via Aspose.3D. Learn the full workflow in minutes.
   headline: How to reduce 3d model size with a Java sphere mesh and Draco
@@ -81,14 +82,14 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Come ridurre le dimensioni di un modello 3d con una mesh sferica Java e Draco
+# Come ridurre le dimensioni del modello 3d con una mesh sferica Java e Draco
 
 ## Introduzione
 
-Se stai cercando un modo rapido per **ridurre le dimensioni del modello 3d** mantenendo comunque una geometria di alta qualità, sei nel posto giusto. In questo tutorial vedremo come generare una mesh sferica con **Aspose.3D for Java** e poi comprimere quella mesh usando **Google Draco**. Alla fine avrai un file `.drc` pronto all'uso, drasticamente più piccolo dell'originale, perfetto per visualizzatori web, giochi mobili o qualsiasi applicazione Java con larghezza di banda limitata.
+Aspose.3D for Java è una libreria che consente la creazione, manipolazione e conversione di modelli 3‑D direttamente dal codice Java. Se stai cercando un modo rapido per **ridurre le dimensioni del modello 3d** mantenendo una geometria di alta qualità, sei nel posto giusto. In questo tutorial vedremo come generare una mesh sferica con **Aspose.3D for Java** e poi comprimere quella mesh usando **Google Draco**. Alla fine avrai un file `.drc` pronto all'uso, drasticamente più piccolo dell'originale, perfetto per visualizzatori web, giochi mobile o qualsiasi applicazione Java con larghezza di banda limitata.
 
 ## Risposte rapide
-- **Di cosa tratta questo tutorial?** Creazione di una mesh sferica in Java e compressione con Google Draco tramite Aspose.3D.  
+- **Di cosa tratta questo tutorial?** Creare una mesh sferica in Java e comprimerla con Google Draco tramite Aspose.3D.  
 - **Libreria principale?** Aspose.3D for Java (usata sia per la creazione della mesh che per l'esportazione Draco).  
 - **Tempo tipico di implementazione?** Circa 10‑15 minuti per una sfera di base.  
 - **Prerequisito chiave?** Un ambiente di sviluppo Java con i JAR di Aspose.3D nel classpath.  
@@ -96,20 +97,24 @@ Se stai cercando un modo rapido per **ridurre le dimensioni del modello 3d** man
 
 ## Come ridurre le dimensioni del modello 3d?
 
-La classe `Sphere` genera una geometria sferica triangolata basata sul raggio e sui parametri di tessellazione forniti. Carica la tua sfera con `new Sphere(1.0, 32, 32)` ed esportala direttamente in Draco usando `scene.save("sphere.drc", SaveFormat.Draco)`. Il metodo `scene.save` scrive la scena corrente in un file nel formato specificato. Aspose.3D gestisce la conversione internamente, così eviti passaggi di codifica manuali. L'esportatore Draco applica automaticamente la quantizzazione della geometria e la deduplicazione dei vertici, producendo file spesso più piccoli dell'80‑95 % mantenendo la fedeltà visiva.
+Carica la tua sfera e comprimila in due semplici passaggi. Prima, **crei la mesh sferica** con `new Sphere(1.0, 32, 32)`. Poi esporti la scena direttamente in Draco usando `scene.save("sphere.drc", SaveFormat.Draco)`. Aspose.3D gestisce automaticamente la quantizzazione della geometria e la deduplicazione dei vertici, producendo file tipicamente dal 80‑95 % più piccoli mantenendo la fedeltà visiva.
+
+La classe `Sphere` è il generatore di geometria integrato di Aspose.3D che crea una mesh sferica triangolata. Accetta un raggio e parametri di tessellazione, permettendoti di controllare il livello di dettaglio prima della compressione.
 
 ## Cosa significa “ridurre le dimensioni del modello 3d” nel contesto dello sviluppo 3d?
 
-**Ridurre le dimensioni del modello 3d** significa diminuire la quantità di dati geometrici da trasferire o memorizzare, senza degradare visibilmente la qualità visiva. Draco ottiene ciò codificando le posizioni dei vertici, le normali e altri attributi in un formato binario altamente compatto. Quando abbinato ad Aspose.3D, l'intero flusso di lavoro rimane all'interno di Java, così non è necessario gestire binari nativi.
+**Ridurre le dimensioni del modello 3d** significa ridurre la quantità di dati geometrici da trasferire o memorizzare, senza degradare visibilmente la qualità visiva. Draco ottiene questo codificando le posizioni dei vertici, le normali e altri attributi in un formato binario altamente compatto. Quando è abbinato ad Aspose.3D, l'intero flusso di lavoro rimane all'interno di Java, così non devi gestire binari nativi.
 
-## Perché utilizzare la compressione mesh Google Draco con Aspose.3D?
+## Perché usare la compressione mesh Google Draco con Aspose.3D?
 
-Google Draco combinato con Aspose.3D fornisce una pipeline efficiente che riduce drasticamente i file mesh mantenendoli facili da integrare nei progetti Java. La libreria gestisce tutta la codifica a basso livello, così gli sviluppatori possono concentrarsi sulla creazione della geometria senza doversi occupare dei binari nativi di Draco, risultando in uno sviluppo più rapido e asset più piccoli per web e mobile.
+Google Draco combinato con Aspose.3D offre una pipeline efficiente che riduce drasticamente le dimensioni dei file mesh mantenendoli facili da integrare nei progetti Java. La libreria gestisce tutta la codifica a basso livello, così gli sviluppatori possono concentrarsi sulla creazione della geometria senza doversi occupare dei binari nativi di Draco, risultando in uno sviluppo più rapido e asset più piccoli per web e mobile.
 
-- **Massiva riduzione delle dimensioni:** Draco può ridurre i dati mesh fino al 95 % per modelli tipici, trasformando un OBJ da 5 MB in un `.drc` da 0.3 MB.  
-- **Decodifica rapida a runtime:** Motori come Unity, Unreal e three.js decodificano Draco nativamente, portando a tempi di caricamento più brevi.  
+- **Riduzione massiccia delle dimensioni:** Draco può ridurre i dati mesh fino al 95 % per modelli tipici, trasformando un OBJ da 5 MB in un `.drc` da 0.3 MB.  
+- **Decodifica rapida a runtime:** Motori come Unity, Unreal e three.js decodificano Draco nativamente, portando a tempi di caricamento più rapidi.  
 - **Integrazione Java senza soluzione di continuità:** Aspose.3D astrae la libreria nativa Draco, permettendoti di rimanere nell'ecosistema Java.  
-- **Esportazione Aspose 3D tutto in uno:** La stessa API usata per creare la geometria gestisce anche l'esportazione, semplificando la pipeline.
+- **Esportazione Aspose 3D tutto in uno:** La stessa API usata per creare la geometria gestisce anche l'esportazione, semplificando la pipeline.  
+
+Aspose.3D supporta **oltre 50 formati di input e output** — inclusi OBJ, FBX, STL, GLTF e molti altri — e può elaborare modelli di centinaia di pagine senza caricare l'intero file in memoria.
 
 ## Prerequisiti
 
@@ -139,7 +144,7 @@ Crea un nuovo progetto Java (qualsiasi IDE va bene) e aggiungi tutti i JAR di As
 
 ### Passo 2: come creare una mesh sferica in Java
 
-La classe `Sphere` è il generatore di geometria integrato di Aspose.3D che produce una mesh triangolata con raggio e tessellazione configurabili.
+La classe `Sphere` è il generatore di geometria integrato di Aspose.3D che crea una mesh sferica triangolata.  
 
 ```java
 import java.nio.file.Files;
@@ -166,31 +171,31 @@ Files.write(Paths.get(MyDir, "SphereMeshtoDRC_Out.drc"), b);
 // ExEnd:Encode3DMeshinGoogleDraco
 ```
 
-> **Suggerimento:** La classe `Sphere` genera una mesh triangolata con un raggio predefinito di 1.0. Puoi passare un raggio personalizzato, tessellazione o parametri di materiale se hai bisogno di un diverso livello di dettaglio prima della compressione.
+> **Consiglio professionale:** La classe `Sphere` genera una mesh triangolata con un raggio predefinito di 1.0. Puoi passare un raggio personalizzato, parametri di tessellazione o di materiale se hai bisogno di un diverso livello di dettaglio prima della compressione.
 
 ### Passo 3: esporta la mesh in formato Draco
 
-Dopo aver aggiunto la sfera a un oggetto `Scene`, chiama `scene.save("sphere.drc", SaveFormat.Draco)`. Aspose.3D seleziona automaticamente le impostazioni di compressione ottimali, ma puoi perfezionarle regolando `DracoCompressionOptions` se desideri il file più piccolo possibile. `DracoCompressionOptions` ti consente di personalizzare le impostazioni di compressione Draco, come la quantizzazione e il livello di compressione.
+La classe `Scene` rappresenta una scena 3‑D completa che può contenere mesh, luci e telecamere. La classe `DracoCompressionOptions` ti permette di personalizzare le impostazioni di compressione Draco, come la quantizzazione e il livello di compressione. Dopo che la sfera è stata aggiunta a un oggetto `Scene`, chiama `scene.save("sphere.drc", SaveFormat.Draco)`. Aspose.3D seleziona automaticamente le impostazioni di compressione ottimali, ma puoi affinare i parametri regolando `DracoCompressionOptions` se hai bisogno del file più piccolo possibile. `DracoCompressionOptions` ti permette di
 
 ### Passo 4: verifica l'output
 
-Apri il file `.drc` generato con un visualizzatore Draco (ad esempio il `DRACOLoader` di three.js) per assicurarti che la geometria venga renderizzata correttamente. Noterai una riduzione drastica delle dimensioni del file, spesso di un fattore dieci o più.
+Il `DRACOLoader` è un'utilità di three.js che carica file `.drc` compressi con Draco e li converte in geometria compatibile con WebGL. Apri il file `.drc` generato con un visualizzatore Draco (ad esempio, three.js `DRACOLoader`) per assicurarti che la geometria venga renderizzata correttamente. Noterai una riduzione drammatica delle dimensioni del file — spesso di un fattore dieci o più.
 
 ## Casi d'uso comuni
 
 | Scenario | Perché ridurre le dimensioni del modello? | Come aiuta questo tutorial |
-|----------|-------------------------------------------|-----------------------------|
-| Configuratori di prodotto basati sul web | Caricamenti di pagina più veloci su connessioni lente | File `.drc` compressi con Draco si caricano in pochi secondi |
-| App AR/VR mobili | Minore utilizzo di memoria sui dispositivi | Mesh più piccole mantengono l'app reattiva |
+|----------|-------------------------------------------|----------------------------|
+| Configuratori di prodotto basati sul web | Caricamenti di pagina più rapidi su connessioni lente | I file `.drc` compressi con Draco si caricano in pochi secondi |
+| App AR/VR mobile | Minore utilizzo di memoria sui dispositivi | Mesh più piccole mantengono l'app reattiva |
 | Scene renderizzate in cloud | Ridurre i costi di larghezza di banda | Esportazione con un clic da Aspose.3D a Draco |
 
 ## Problemi comuni e soluzioni
 
 | Problema | Motivo | Soluzione |
 |----------|--------|-----------|
-| **`NoClassDefFoundError` per le classi Draco** | JAR di Aspose.3D non presenti nel classpath | Verifica che *tutti* i file JAR di Aspose.3D siano inclusi e che la versione corrisponda alla documentazione. |
+| **`NoClassDefFoundError` for Draco classes** | JAR di Aspose.3D non presenti nel classpath | Verifica che *tutti* i file JAR di Aspose.3D siano inclusi e che la versione corrisponda alla documentazione. |
 | **Il file di output è vuoto** | `MyDir` punta a una cartella inesistente | Crea la directory programmaticamente (`Files.createDirectories(Paths.get(MyDir))`) prima di scrivere il file. |
-| **La mesh compressa appare distorta** | Uso di un livello di compressione basso o tessellazione insufficiente | Passa a `DracoCompressionLevel.OPTIMAL` e aumenta la tessellazione della sfera (ad esempio, `new Sphere(1.0, 64, 64)`). `DracoCompressionLevel.OPTIMAL` seleziona la massima qualità di compressione per l'output Draco. |
+| **La mesh compressa appare distorta** | Uso di un livello di compressione basso o tessellazione insufficiente | Passa a `DracoCompressionLevel.OPTIMAL` e aumenta la tessellazione della sfera (ad es., `new Sphere(1.0, 64, 64)`). `DracoCompressionLevel.OPTIMAL` seleziona la massima qualità di compressione per l'output Draco. |
 
 ## Domande frequenti
 
@@ -198,12 +203,12 @@ Apri il file `.drc` generato con un visualizzatore Draco (ad esempio il `DRACOLo
 A: Sì, Aspose.3D supporta OBJ, FBX, STL, GLTF e molti altri, rendendolo una scelta versatile per le pipeline di **Aspose 3d export**.
 
 **Q: Posso usare Google Draco per la compressione in altri linguaggi di programmazione?**  
-A: Assolutamente. Draco offre librerie native per C++, Python e JavaScript. Questo tutorial si concentra su Java, ma i concetti sono applicabili a tutti i linguaggi.
+A: Assolutamente. Draco offre librerie native per C++, Python e JavaScript. Questo tutorial si concentra su Java, ma i concetti si applicano a tutti i linguaggi.
 
 **Q: Dove posso trovare ulteriore documentazione su Aspose.3D?**  
-A: Visita la **[Aspose.3D Java documentation](https://reference.aspose.com/3d/java/)** per riferimenti API completi e più esempi.
+A: Visita la **[Aspose.3D Java documentation](https://reference.aspose.com/3d/java/)** per riferimenti API completi e altri esempi.
 
-**Q: Come posso ottenere una licenza temporanea per Aspose.3D?**  
+**Q: Come ottengo una licenza temporanea per Aspose.3D?**  
 A: Esplora le opzioni di licenza temporanea nella **[Aspose temporary license page](https://purchase.aspose.com/temporary-license/)**.
 
 **Q: Esiste un forum della community per il supporto di Aspose.3D?**  
@@ -211,11 +216,11 @@ A: Sì, partecipa alla discussione sul **[Aspose.3D Forum](https://forum.aspose.
 
 ## Conclusione
 
-In questa guida abbiamo dimostrato come **ridurre le dimensioni del modello 3d** creando una mesh sferica in Java e poi comprimendola con Google Draco tramite Aspose.3D. Seguendo questi passaggi concisi puoi ridurre drasticamente i file mesh, migliorare i tempi di caricamento e mantenere le tue applicazioni 3d basate su Java reattive e a basso consumo di larghezza di banda.
+In questa guida abbiamo dimostrato come **ridurre le dimensioni del modello 3d** creando una mesh sferica in Java e poi comprimendola con Google Draco tramite Aspose.3D. Seguendo questi passaggi concisi puoi ridurre drasticamente le dimensioni dei file mesh, migliorare i tempi di caricamento e mantenere le tue applicazioni 3d basate su Java reattive e a basso consumo di banda.
 
 ---
 
-**Ultimo aggiornamento:** 2026-09-08  
+**Ultimo aggiornamento:** 2026-11-17  
 **Testato con:** Aspose.3D for Java 24.12 (latest)  
 **Autore:** Aspose
 
@@ -223,8 +228,7 @@ In questa guida abbiamo dimostrato come **ridurre le dimensioni del modello 3d**
 
 - [Riduci le dimensioni del file 3D – Comprimi le scene con Aspose.3D per Java](/3d/java/3d-scenes-and-models/compress-3d-scenes/)
 - [Genera una nuvola di punti Draco da sfere usando Aspose.3D per Java](/3d/java/point-clouds/generate-point-clouds-spheres-java/)
-- [Impara a triangolare le mesh per un rendering ottimizzato in Java usando Aspose.3D](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
-
+- [Scopri come triangolare le mesh per il rendering ottimizzato in Java usando Aspose.3D](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

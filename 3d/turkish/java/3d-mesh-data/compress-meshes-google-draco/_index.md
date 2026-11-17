@@ -1,26 +1,26 @@
 ---
-date: 2026-09-08
-description: Java'da bir küre ağı oluşturarak ve Google Draco'yu Aspose.3D aracılığıyla
-  kullanarak 3d model boyutunu nasıl küçültebileceğinizi öğrenin. Tam iş akışını dakikalar
-  içinde öğrenin.
+date: 2026-11-17
+description: Java'da bir küre ağı oluşturarak ve Google Draco'yu Aspose.3D üzerinden
+  kullanarak 3D model boyutunu nasıl azaltılır. Tam iş akışını dakikalar içinde öğrenin.
+images:
+- /java/3d-mesh-data/compress-meshes-google-draco/og-image.png
 keywords:
-- how to reduce 3d model size
+- create sphere mesh
+- how to compress 3d
+- reduce 3d model size
 - aspose 3d java
-- draco mesh compression
-- java sphere mesh
-- 3d model optimization
-lastmod: 2026-09-08
-linktitle: 3d Model Boyutunu Nasıl Küçültülür – Java'da Google Draco Kullanarak Küre
-  Ağı Oluşturma
-og_description: Java'da bir küre ağı oluşturarak ve Google Draco'yu Aspose.3D ile
-  kullanarak 3d model boyutunu nasıl küçültebileceğinizi öğrenin. .drc dosyasını dakikalar
-  içinde %95'e kadar küçültebilirsiniz.
+- compress 3d mesh
+lastmod: 2026-11-17
+linktitle: 3D Model Boyutunu Azaltma – Java'da Google Draco Kullanarak Küre Ağı Oluşturma
+og_description: Java kullanarak Aspose.3D ve Google Draco ile küre ağı oluşturun ve
+  3D modeli sıkıştırın. Bu öğreticide bir küre nasıl oluşturulur, .drc formatına nasıl
+  dışa aktarılır ve dakikalar içinde %95'e varan boyut azaltımı nasıl sağlanır gösterilmektedir.
 og_image_alt: 'Developer guide: Reduce 3d model size with Java sphere mesh and Draco
   compression'
-og_title: Java küre ağı ve Draco ile 3d model boyutunu nasıl küçültülür
+og_title: Java ve Draco ile küre ağı oluşturun ve 3D modeli sıkıştırın
 schemas:
 - author: Aspose
-  dateModified: '2026-09-08'
+  dateModified: '2026-11-17'
   description: How to reduce 3d model size by generating a sphere mesh in Java and
     compressing it with Google Draco via Aspose.3D. Learn the full workflow in minutes.
   headline: How to reduce 3d model size with a Java sphere mesh and Draco
@@ -71,7 +71,7 @@ tags:
 - Java 3D compression
 - Google Draco
 - sphere mesh
-title: Java küre ağı ve Draco ile 3d model boyutunu nasıl küçültülür
+title: Java küre ağı ve Draco ile 3D model boyutunu nasıl azaltılır
 url: /tr/java/3d-mesh-data/compress-meshes-google-draco/
 weight: 10
 ---
@@ -84,37 +84,41 @@ weight: 10
 
 ## Giriş
 
-Eğer yüksek kaliteli geometriyi korurken **3d model boyutunu** hızlı bir şekilde **küçültmek** istiyorsanız, doğru yerdesiniz. Bu eğitimde **Aspose.3D for Java** ile bir küre ağı oluşturup ardından **Google Draco** kullanarak bu ağı sıkıştıracağız. Sonunda orijinaline göre çok daha küçük bir `.drc` dosyasına sahip olacaksınız; bu da web tabanlı görüntüleyiciler, mobil oyunlar veya bant genişliği sınırlı herhangi bir Java uygulaması için mükemmeldir.
+Aspose.3D for Java, Java kodundan doğrudan 3‑D modellerin oluşturulmasını, manipüle edilmesini ve dönüştürülmesini sağlayan bir kütüphanedir. **3d model boyutunu azaltmak** için hızlı bir yol arıyorsanız ve hâlâ yüksek kaliteli geometri sunmak istiyorsanız doğru yerdesiniz. Bu öğreticide **Aspose.3D for Java** ile bir küre ağı oluşturmayı ve ardından **Google Draco** kullanarak bu ağı sıkıştırmayı adım adım göstereceğiz. Sonunda, orijinaline göre dramatik şekilde daha küçük bir `.drc` dosyasına sahip olacaksınız; bu, web‑tabanlı görüntüleyiciler, mobil oyunlar veya bant genişliği sınırlı herhangi bir Java uygulaması için mükemmeldir.
 
 ## Hızlı cevaplar
-- **Bu eğitim neyi kapsıyor?** Java'da bir küre ağı oluşturmak ve Aspose.3D aracılığıyla Google Draco ile sıkıştırmak.  
-- **Ana kütüphane?** Aspose.3D for Java (hem ağ oluşturma hem de Draco dışa aktarımı için kullanılır).  
+- **Bu öğreticinin kapsamı nedir?** Java'da bir küre ağı oluşturmak ve Aspose.3D aracılığıyla Google Draco ile sıkıştırmak.  
+- **Ana kütüphane?** Aspose.3D for Java (hem ağ oluşturma hem de Draco dışa aktarma için kullanılır).  
 - **Tipik uygulama süresi?** Temel bir küre için yaklaşık 10‑15 dakika.  
-- **Temel önkoşul?** Aspose.3D JAR'larının sınıf yolunda bulunduğu bir Java geliştirme ortamı.  
+- **Temel önkoşul?** ClassPath'te Aspose.3D JAR'ları bulunan bir Java geliştirme ortamı.  
 - **Sonuç?** Sıkıştırılmamış bir ağ ile karşılaştırıldığında **3d model boyutunu** %95'e kadar azaltan bir `.drc` dosyası.
 
 ## 3d model boyutunu nasıl azaltılır?
 
-`Sphere` sınıfı, verilen yarıçap ve teselleştirme parametrelerine göre üçgenlenmiş bir küre geometrisi üretir. Kürenizi `new Sphere(1.0, 32, 32)` ile oluşturup `scene.save("sphere.drc", SaveFormat.Draco)` kullanarak doğrudan Draco'ya dışa aktarın. `scene.save` yöntemi mevcut sahneyi belirtilen formatta bir dosyaya yazar. Aspose.3D dönüşümü dahili olarak yönetir, böylece manuel kodlama adımlarından kaçınırsınız. Draco dışa aktarımı, geometri kuantizasyonu ve vertex tekrarlamasını otomatik olarak uygular; bu da genellikle %80‑95 daha küçük dosyalar üretirken görsel bütünlüğü korur.
+Sphere'ınızı yükleyin ve iki basit adımda sıkıştırın. İlk olarak, `new Sphere(1.0, 32, 32)` ile **küre ağı oluşturursunuz**. Ardından, `scene.save("sphere.drc", SaveFormat.Draco)` kullanarak sahneyi doğrudan Draco'ya dışa aktarırsınız. Aspose.3D, geometri kantitatizasyonu ve vertex tekrarlamasını otomatik olarak yönetir ve genellikle %80‑95 daha küçük dosyalar sunar, görsel kaliteyi korur.
 
-## “3d model boyutunu azaltma” 3d geliştirme bağlamında ne anlama gelir?
+`Sphere` sınıfı, Aspose.3D'nin yerleşik geometri üreteci olup üçgenlenmiş bir küre ağı oluşturur. Yarıçap ve tessellation parametrelerini kabul eder, sıkıştırmadan önce detay seviyesini kontrol etmenizi sağlar.
 
-**3d model boyutunu küçültmek**, görsel kalitede belirgin bir düşüş olmadan aktarılması veya depolanması gereken geometri verisi miktarını azaltmak anlamına gelir. Draco, vertex konumlarını, normalleri ve diğer öznitelikleri son derece sıkışık bir ikili formatta kodlayarak bunu başarır. Aspose.3D ile birleştirildiğinde, tüm iş akışı Java içinde kalır; böylece yerel ikili dosyalarla uğraşmak zorunda kalmazsınız.
+## 3d geliştirme bağlamında “3d model boyutunu azaltma” ne anlama geliyor?
+
+**3d model boyutunu azaltmak**, görsel kaliteyi belirgin şekilde düşürmeden, aktarılması veya depolanması gereken geometri verisinin miktarını küçültmek anlamına gelir. Draco, vertex konumlarını, normalleri ve diğer öznitelikleri son derece sıkışık bir ikili formatta kodlayarak bunu başarır. Aspose.3D ile birlikte kullanıldığında, tüm iş akışı Java içinde kalır, böylece yerel ikili dosyalarla uğraşmanız gerekmez.
 
 ## Aspose.3D ile Google Draco ağ sıkıştırması neden kullanılmalı?
 
-Google Draco, Aspose.3D ile birleştirildiğinde, ağ dosyalarını dramatik şekilde küçülten ve Java projelerine entegrasyonu kolaylaştıran verimli bir işlem hattı sunar. Kütüphane tüm düşük seviyeli kodlamayı yönetir, bu sayede geliştiriciler yerel Draco ikili dosyalarıyla uğraşmadan geometri oluşturumuna odaklanabilir; bu da daha hızlı geliştirme ve web ile mobil için daha küçük varlıklar anlamına gelir.
+Google Draco, Aspose.3D ile birleştirildiğinde, ağ dosyalarını dramatik şekilde küçülten ve Java projelerine entegrasyonunu kolaylaştıran verimli bir işlem hattı sağlar. Kütüphane tüm düşük‑seviye kodlamayı yönetir, böylece geliştiriciler yerel Draco ikili dosyalarıyla uğraşmadan geometri oluşturumuna odaklanabilir; bu da daha hızlı geliştirme ve web ile mobil için daha küçük varlıklar anlamına gelir.
 
-- **Büyük boyut azaltma:** Draco, tipik modellerde ağ verisini %95'e kadar azaltabilir; 5 MB bir OBJ dosyasını 0.3 MB `.drc`'ye dönüştürür.  
+- **Büyük boyut azaltma:** Draco, tipik modeller için ağ verisini %95'e kadar azaltabilir, 5 MB OBJ'yi 0.3 MB `.drc`'ye dönüştürür.  
 - **Hızlı çalışma zamanı çözümleme:** Unity, Unreal ve three.js gibi motorlar Draco'yu yerel olarak çözer, bu da daha hızlı yükleme süreleri sağlar.  
-- **Sorunsuz Java entegrasyonu:** Aspose.3D, yerel Draco kütüphanesini soyutlayarak Java ekosisteminde kalmanıza olanak tanır.  
-- **Tek durak Aspose 3D dışa aktarımı:** Geometri oluşturmak için kullandığınız aynı API, dışa aktarımı da yönetir; bu da işlem hattını basitleştirir.
+- **Sorunsuz Java entegrasyonu:** Aspose.3D, yerel Draco kütüphanesini soyutlayarak Java ekosisteminde kalmanızı sağlar.  
+- **Tek durak Aspose 3D dışa aktarımı:** Geometri oluşturmak için kullandığınız aynı API dışa aktarmayı da yönetir, işlem hattını basitleştirir.  
+
+Aspose.3D, **50+ giriş ve çıkış formatını** destekler — OBJ, FBX, STL, GLTF ve daha fazlası dahil — ve tüm dosyayı belleğe yüklemeden çok sayfalı modelleri işleyebilir.
 
 ## Önkoşullar
 
 - **Java Development Kit (JDK)** – sürüm 8 veya daha yeni.  
 - **Aspose.3D for Java** – en son JAR'ları **[Aspose 3D Java releases page](https://releases.aspose.com/3d/java/)** adresinden indirin.  
-- **Google Draco'ya temel aşinalık** – Aspose.3D'nin sarmalayıcısını kullanacaksınız, bu yüzden yerel Draco kurulumu gerekli değildir.
+- **Google Draco'ya temel aşinalık** – Aspose.3D'nin sarmalayıcısını kullanacaksınız, bu yüzden yerel Draco kurulumu gerekmez.
 
 ## Paketleri içe aktar
 
@@ -134,11 +138,11 @@ import java.nio.file.Paths;
 
 ### Adım 1: projeyi kurun
 
-Yeni bir Java projesi oluşturun (herhangi bir IDE çalışır) ve tüm Aspose.3D JAR'larını sınıf yoluna ekleyin. Kaynak dosyalarınızı netlik için `com.example.draco` gibi bir paket içinde tutun.
+Yeni bir Java projesi oluşturun (herhangi bir IDE çalışır) ve tüm Aspose.3D JAR'larını classpath'e ekleyin. Kaynak dosyalarınızı netlik için `com.example.draco` gibi bir pakette tutun.
 
 ### Adım 2: Java'da küre ağı nasıl oluşturulur
 
-`Sphere` sınıfı, Aspose.3D'nin yerleşik geometri üreticisi olup, yapılandırılabilir bir yarıçap ve teselleştirme ile üçgenlenmiş bir ağ üretir.  
+`Sphere` sınıfı, Aspose.3D'nin yerleşik geometri üreteci olup üçgenlenmiş bir küre ağı oluşturur.  
 
 ```java
 import java.nio.file.Files;
@@ -165,64 +169,64 @@ Files.write(Paths.get(MyDir, "SphereMeshtoDRC_Out.drc"), b);
 // ExEnd:Encode3DMeshinGoogleDraco
 ```
 
-> **Pro ipucu:** `Sphere` sınıfı, varsayılan 1.0 yarıçapıyla üçgenlenmiş bir ağ üretir. Sıkıştırmadan önce farklı bir detay seviyesine ihtiyacınız varsa, özel yarıçap, teselleştirme veya malzeme parametreleri geçirebilirsiniz.
+> **Pro tip:** `Sphere` sınıfı, varsayılan 1.0 yarıçapıyla üçgenlenmiş bir ağ oluşturur. Sıkıştırmadan önce farklı bir detay seviyesine ihtiyacınız varsa özel yarıçap, tessellation veya materyal parametreleri geçirebilirsiniz.
 
 ### Adım 3: ağı Draco formatına dışa aktar
 
-Küre bir `Scene` nesnesine eklendikten sonra `scene.save("sphere.drc", SaveFormat.Draco)` metodunu çağırın. Aspose.3D otomatik olarak optimal sıkıştırma ayarlarını seçer, ancak en küçük dosyayı istiyorsanız `DracoCompressionOptions` ayarlarını değiştirerek ince ayar yapabilirsiniz. `DracoCompressionOptions`, kuantizasyon ve sıkıştırma seviyesi gibi Draco sıkıştırma ayarlarını özelleştirmenizi sağlar.
+`Scene` sınıfı, ağlar, ışıklar ve kameralar içerebilen tam bir 3‑D sahneyi temsil eder. `DracoCompressionOptions` sınıfı, kantitatizasyon ve sıkıştırma seviyesi gibi Draco sıkıştırma ayarlarını özelleştirmenizi sağlar. Küre bir `Scene` nesnesine eklendikten sonra `scene.save("sphere.drc", SaveFormat.Draco)` çağrısını yapın. Aspose.3D otomatik olarak optimal sıkıştırma ayarlarını seçer, ancak en küçük dosyayı istiyorsanız `DracoCompressionOptions` ayarlayarak ince ayar yapabilirsiniz. `DracoCompressionOptions` size
 
 ### Adım 4: çıktıyı doğrula
 
-Oluşturulan `.drc` dosyasını bir Draco görüntüleyiciyle (ör. three.js `DRACOLoader`) açarak geometrinin doğru render edildiğinden emin olun. Dosya boyutunda dramatik bir azalma göreceksiniz; genellikle on kat ya da daha fazla.
+`DRACOLoader`, Draco‑sıkıştırılmış `.drc` dosyalarını yükleyen ve WebGL‑uyumlu geometriye dönüştüren bir three.js yardımcı programıdır. Oluşturulan `.drc` dosyasını bir Draco görüntüleyici (ör. three.js `DRACOLoader`) ile açarak geometrinin doğru render edildiğinden emin olun. Dosya boyutunda dramatik bir azalma fark edeceksiniz — genellikle on kat veya daha fazla.
 
 ## Yaygın kullanım senaryoları
 
-| Senaryo | Model boyutunu neden azaltmalı? | Bu eğitim nasıl yardımcı olur |
-|----------|-------------------------------|------------------------------|
-| Web tabanlı ürün yapılandırıcıları | Yavaş bağlantılarda daha hızlı sayfa yüklemeleri | Draco sıkıştırmalı `.drc` dosyaları saniyeler içinde yüklenir |
+| Senaryo | Model boyutunu neden azaltmalı? | Bu öğretici nasıl yardımcı olur |
+|----------|-------------------------------|---------------------------------|
+| Web tabanlı ürün yapılandırıcıları | Yavaş bağlantılarda daha hızlı sayfa yüklemeleri | Draco‑sıkıştırılmış `.drc` dosyaları saniyeler içinde yüklenir |
 | Mobil AR/VR uygulamaları | Cihazlarda daha düşük bellek ayak izi | Daha küçük ağlar uygulamanın yanıt vermesini sağlar |
-| Bulut tabanlı render sahneleri | Bant genişliği maliyetlerini azaltır | Aspose.3D'den Draco'ya tek tıkla dışa aktarım |
+| Bulut‑renderlı sahneler | Bant genişliği maliyetlerini azalt | Aspose.3D'den Draco'ya tek tıkla dışa aktarım |
 
 ## Yaygın sorunlar ve çözümler
 
-| Sorun | Sebep | Çözüm |
+| Sorun | Neden | Çözüm |
 |-------|-------|-------|
-| **`NoClassDefFoundError` Draco sınıfları için** | Aspose.3D JAR'ları sınıf yolunda değil | *Tüm* Aspose.3D JAR dosyalarının dahil edildiğini ve sürümün belgelerle eşleştiğini doğrulayın. |
-| **Çıktı dosyası boş** | `MyDir` var olmayan bir klasöre işaret ediyor | Dosyayı yazmadan önce dizini programatik olarak oluşturun (`Files.createDirectories(Paths.get(MyDir))`). |
-| **Sıkıştırılmış ağ bozuk görünüyor** | Düşük sıkıştırma seviyesi veya yetersiz teselleştirme kullanılması | `DracoCompressionLevel.OPTIMAL`'a geçin ve kürenin teselleştirmesini artırın (ör. `new Sphere(1.0, 64, 64)`). `DracoCompressionLevel.OPTIMAL`, Draco çıktısı için en yüksek sıkıştırma kalitesini seçer. |
+| **`Draco` sınıfları için `NoClassDefFoundError`** | Aspose.3D JAR'ları classpath'te değil | *Tüm* Aspose.3D JAR dosyalarının dahil edildiğini ve sürümün belgelerle eşleştiğini doğrulayın. |
+| **Çıktı dosyası boş** | `MyDir` var olmayan bir klasöre işaret ediyor | Dosyayı yazmadan önce dizini programlı olarak oluşturun (`Files.createDirectories(Paths.get(MyDir))`). |
+| **Sıkıştırılmış ağ bozulmuş görünüyor** | Düşük sıkıştırma seviyesi veya yetersiz tessellation kullanmak | `DracoCompressionLevel.OPTIMAL`'a geçin ve kürenin tessellation'ını artırın (ör. `new Sphere(1.0, 64, 64)`). `DracoCompressionLevel.OPTIMAL`, Draco çıktısı için en yüksek sıkıştırma kalitesini seçer. |
 
 ## Sıkça Sorulan Sorular
 
-**S: Aspose.3D farklı 3d dosya formatlarıyla uyumlu mu?**  
-C: Evet, Aspose.3D OBJ, FBX, STL, GLTF ve daha birçok formatı destekler; bu da **Aspose 3d export** işlem hatları için çok yönlü bir seçim yapar.
+**S:** Aspose.3D farklı 3d dosya formatlarıyla uyumlu mu?  
+**C:** Evet, Aspose.3D OBJ, FBX, STL, GLTF ve daha birçok formatı destekler, bu da **Aspose 3d export** işlem hatları için çok yönlü bir seçim yapar.
 
-**S: Google Draco'yu başka programlama dillerinde sıkıştırma için kullanabilir miyim?**  
-C: Kesinlikle. Draco, C++, Python ve JavaScript için yerel kütüphaneler sunar. Bu eğitim Java'ya odaklanmıştır, ancak kavramlar diller arasında geçerlidir.
+**S:** Google Draco'yu diğer programlama dillerinde sıkıştırma için kullanabilir miyim?  
+**C:** Kesinlikle. Draco, C++, Python ve JavaScript için yerel kütüphaneler sunar. Bu öğretici Java'ya odaklanır, ancak kavramlar diller arasında geçerlidir.
 
-**S: Ek Aspose.3D belgelerini nerede bulabilirim?**  
-C: Tam API referansları ve daha fazla örnek için **[Aspose.3D Java documentation](https://reference.aspose.com/3d/java/)** adresini ziyaret edin.
+**S:** Ek Aspose.3D belgelerini nerede bulabilirim?  
+**C:** Tam API referansları ve daha fazla örnek için **[Aspose.3D Java documentation](https://reference.aspose.com/3d/java/)** adresini ziyaret edin.
 
-**S: Aspose.3D için geçici bir lisans nasıl alabilirim?**  
-C: **[Aspose temporary license page](https://purchase.aspose.com/temporary-license/)** adresindeki geçici lisans seçeneklerini inceleyin.
+**S:** Aspose.3D için geçici bir lisans nasıl alabilirim?  
+**C:** **[Aspose temporary license page](https://purchase.aspose.com/temporary-license/)** adresindeki geçici lisans seçeneklerini inceleyin.
 
-**S: Aspose.3D desteği için bir topluluk forumu var mı?**  
-C: Evet, **[Aspose.3D Forum](https://forum.aspose.com/c/3d/18)** adresindeki tartışmaya katılabilirsiniz.
+**S:** Aspose.3D desteği için bir topluluk forumu var mı?  
+**C:** Evet, **[Aspose.3D Forum](https://forum.aspose.com/c/3d/18)** adresindeki tartışmaya katılın.
 
 ## Sonuç
 
-Bu rehberde, Java'da bir küre ağı oluşturarak ve ardından Aspose.3D aracılığıyla Google Draco ile sıkıştırarak **3d model boyutunu nasıl küçültebileceğinizi** gösterdik. Bu özlü adımları izleyerek ağ dosyalarını dramatik şekilde küçültebilir, yükleme sürelerini iyileştirebilir ve Java tabanlı 3d uygulamalarınızı yanıt verebilir ve bant genişliği dostu tutabilirsiniz.
+Bu rehberde, Java'da bir küre ağı oluşturarak ve ardından Google Draco'yu Aspose.3D aracılığıyla kullanarak **3d model boyutunu** nasıl azaltacağınızı gösterdik. Bu kısa adımları izleyerek ağ dosyalarını dramatik şekilde küçültebilir, yükleme sürelerini iyileştirebilir ve Java‑tabanlı 3d uygulamalarınızı yanıt verir ve bant genişliği dostu tutabilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2026-09-08  
+**Son Güncelleme:** 2026-11-17  
 **Test Edilen Versiyon:** Aspose.3D for Java 24.12 (latest)  
 **Yazar:** Aspose
 
-## İlgili Eğitimler
+## İlgili öğreticiler
 
 - [3D Dosya Boyutunu Azalt – Aspose.3D for Java ile Sahneleri Sıkıştır](/3d/java/3d-scenes-and-models/compress-3d-scenes/)
 - [Aspose.3D for Java kullanarak kürelerden Draco nokta bulutu oluştur](/3d/java/point-clouds/generate-point-clouds-spheres-java/)
-- [Aspose.3D kullanarak Java'da Optimize Görüntüleme için Ağları Nasıl Üçgenleştireceğinizi Öğrenin](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
+- [Aspose.3D kullanarak Java'da Optimize Edilmiş Render için Ağları Üçgenleştirmeyi Öğren](/3d/java/geometry/triangulate-meshes-for-optimized-rendering/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
