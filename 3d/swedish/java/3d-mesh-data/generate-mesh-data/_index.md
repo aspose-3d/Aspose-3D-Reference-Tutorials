@@ -1,33 +1,37 @@
 ---
-date: 2026-09-03
-description: Lär dig hur du lägger till normals till 3D meshes i Java med Aspose.3D.
-  Denna steg‑för‑steg‑guide visar hur du genererar mesh normals, skapar normal data
-  och exporterar en render‑ready model.
+date: 2026-11-17
+description: Lär dig hur du beräknar mesh normals och lägger till dem i 3D meshes
+  i Java med Aspose.3D. Denna steg‑för‑steg‑guide visar hur du genererar mesh normals,
+  skapar normaldata och exporterar en render‑ready model.
+images:
+- /java/3d-mesh-data/generate-mesh-data/og-image.png
 keywords:
+- calculate mesh normals
 - how to add normals
-- add normals to mesh
-- calculate mesh normals java
-- aspose 3d java
-lastmod: 2026-09-03
-linktitle: Hur man beräknar Mesh Normals och lägger till normals till 3D Meshes i
-  Java (med Aspose.3D)
-og_description: Lär dig hur du lägger till normals till 3D meshes i Java med Aspose.3D.
-  Denna guide går igenom hur du genererar mesh normals, skapar normal data och exporterar
-  en render‑ready model.
+- 3d model lighting
+- load 3d scene
+- create normal data
+lastmod: 2026-11-17
+linktitle: Hur man beräknar mesh normals och lägger till dem i 3D meshes i Java med
+  Aspose.3D
+og_description: Lär dig hur du beräknar mesh normals och lägger till dem i 3D meshes
+  i Java med Aspose.3D. Denna guide går igenom hur du genererar mesh normals, skapar
+  normaldata och exporterar render‑ready modeller.
 og_image_alt: Tutorial showing Java code to add normals to 3D meshes using Aspose.3D
-og_title: Hur man lägger till normals till 3D meshes i Java med Aspose.3D
+og_title: Hur man beräknar mesh normals och lägger till dem i 3D meshes i Java
 schemas:
 - author: Aspose
-  dateModified: '2026-09-03'
-  description: Learn how to add normals to 3D meshes in Java with Aspose.3D. This
-    step‑by‑step guide shows you how to generate mesh normals, create normal data,
-    and export a render‑ready model.
-  headline: How to add normals to 3D meshes in Java using Aspose.3D
+  dateModified: '2026-11-17'
+  description: Learn how to calculate mesh normals and add them to 3D meshes in Java
+    with Aspose.3D. This step‑by‑step guide shows you how to generate mesh normals,
+    create normal data, and export a render‑ready model.
+  headline: How to calculate mesh normals and add them to 3D meshes in Java using
+    Aspose.3D
   type: TechArticle
-- description: Learn how to add normals to 3D meshes in Java with Aspose.3D. This
-    step‑by‑step guide shows you how to generate mesh normals, create normal data,
-    and export a render‑ready model.
-  name: How to add normals to 3D meshes in Java using Aspose.3D
+- description: Learn how to calculate mesh normals and add them to 3D meshes in Java
+    with Aspose.3D. This step‑by‑step guide shows you how to generate mesh normals,
+    create normal data, and export a render‑ready model.
+  name: How to calculate mesh normals and add them to 3D meshes in Java using Aspose.3D
   steps:
   - name: Load the 3D document
     text: The `Scene` class represents an entire 3‑D scene (geometry, materials, cameras,
@@ -65,7 +69,7 @@ tags:
 - java graphics
 - mesh normals
 - 3d rendering
-title: Hur man lägger till normals till 3D meshes i Java med Aspose.3D
+title: Hur man beräknar mesh normals och lägger till dem i 3D meshes i Java med Aspose.3D
 url: /sv/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
@@ -74,42 +78,40 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hur man lägger till normaler till 3D-meshar i Java med Aspose.3D
+# Hur man beräknar meshnormaler och lägger till dem i 3D-meshar i Java med Aspose.3D
 
 ## Introduktion  
 
-If you’re looking **hur man lägger till normaler** to a 3‑D mesh, you’ve landed in the right spot. Adding correct normal vectors is essential for realistic lighting, shading, and physics calculations. In this tutorial we’ll walk through the exact steps required to **beräkna mesh-normaler**, generate normal data, and export a clean, render‑ready model that looks great under any lighting condition using **Aspose.3D for Java**.
+Om du letar **hur man lägger till normaler** till ett 3‑D-mesh, har du hamnat på rätt ställe. Att lägga till korrekta normalvektorer är avgörande för realistisk belysning, skuggning och fysikberäkningar. I den här handledningen går vi igenom de exakta stegen som krävs för att **beräkna meshnormaler**, generera normaldata och exportera en ren, render‑klar modell som ser bra ut under alla ljusförhållanden med hjälp av **Aspose.3D för Java**.
 
 ## Snabba svar
 - **Vad innebär “adding normals”?** Det möjliggör korrekt belysning och skuggning på 3D-ytor.  
-- **Vilket bibliotek används?** Aspose.3D for Java.  
+- **Vilket bibliotek används?** Aspose.3D för Java.  
 - **Behöver jag en licens?** En gratis provversion fungerar för utveckling; en kommersiell licens krävs för produktion.  
-- **Hur lång tid tar implementeringen?** Ungefär 10‑15 minuter för en grundläggande mesh.  
-- **Kan detta användas med andra format?** Ja – Aspose.3D stödjer många 3D-filtyper (OBJ, FBX, STL, osv.).  
+- **Hur lång tid tar implementeringen?** Ungefär 10‑15 minuter för ett grundläggande mesh.  
+- **Kan detta användas med andra format?** Ja – Aspose.3D stödjer många 3D-filtyper (OBJ, FBX, STL, etc.).  
 
-## Vad är “adding normals” på en mesh?  
+## Vad är “adding normals” till ett mesh?  
 
-Loading a mesh without normals results in flat or incorrectly lit surfaces; adding normals supplies the per‑vertex direction vectors that tell the renderer how light should interact with each face. **In practice, you generate a normal for every vertex, which the graphics pipeline then uses to compute diffuse and specular lighting.**  
-
-Normals are vectors perpendicular to a surface’s polygons. They tell the rendering engine how light interacts with each face. When a file lacks this information (common in older 3DS files), you must **generate mesh normals** before the model looks correct in a scene.
+Att lägga till normaler förser varje vertex med riktningsvektorer som talar om för renderaren hur ljus ska interagera med varje yta. Normaler är vektorer som är vinkelräta mot ytan vid varje vertex, och de används av skuggalgoritmer för att bestämma hur mycket ljus som reflekteras mot kameran. Genom att generera en normal för varje vertex kan grafik‑pipeline beräkna både diffusa och spekulära ljuskomponenter, vilket ger realistisk skuggning och djupkänsla.
 
 ## Varför använda Aspose.3D för denna uppgift?  
 
-Aspose.3D provides a high‑level API that abstracts the low‑level math needed to compute normals, and it supports **over 30 input and output formats** while processing meshes with up to **1 million vertices** without loading the entire file into memory. The library also respects smoothing groups, generating smooth shading where needed and sharp edges where defined, making it the standard approach for professional 3‑D workflows.
+Aspose.3D tillhandahåller ett hög‑nivå‑API som abstraherar den lågnivå‑matematik som behövs för att beräkna normaler, och det stödjer **över 30 in‑ och utdataformat** samtidigt som det kan bearbeta meshar med upp till **1 miljon vertexar** utan att ladda hela filen i minnet. Biblioteket respekterar även smoothing‑grupper, genererar jämn skuggning där det behövs och skarpa kanter där de är definierade, vilket gör det till standardmetoden för professionella 3‑D‑arbetsflöden.
 
 ## Förutsättningar  
 
-- Grundläggande kunskap i Java-programmering.  
-- Aspose.3D for Java installerat – download it **[Aspose.3D Java download page](https://releases.aspose.com/3d/java/)**.  
-- En 3D-fil i 3DS-format (vi använder **camera.3ds** som exempel).  
+- Grundläggande kunskaper i Java-programmering.  
+- Aspose.3D för Java installerat – ladda ner det **[Aspose.3D Java download page](https://releases.aspose.com/3d/java/)**.  
+- En 3D‑fil i 3DS-format (vi använder **camera.3ds** som exempel).  
 
-## Hur man beräknar mesh-normaler och lägger till normaler till dina 3D-meshar  
+## Hur man beräknar meshnormaler och lägger till normaler i dina 3D-meshar  
 
-Below is the complete, step‑by‑step guide. Each code block is unchanged from the original tutorial; the surrounding text adds context and explanations.
+Nedan är den kompletta steg‑för‑steg‑guiden. Varje kodblock är oförändrat från den ursprungliga handledningen; den omgivande texten ger kontext och förklaringar.
 
 ### Importera paket  
 
-The `com.aspose.threed.*` package gives you access to `Scene`, `NodeVisitor`, `Mesh`, and the `PolygonModifier` utility that will create the normal data for us.
+`com.aspose.threed.*`‑paketet ger dig åtkomst till `Scene`, `NodeVisitor`, `Mesh` och verktyget `PolygonModifier` som kommer att skapa normaldata åt oss.
 
 ```java
 import com.aspose.threed.*;
@@ -118,11 +120,13 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-*Förklaring:* `com.aspose.threed.*` contains all core classes required for scene manipulation, mesh traversal, and geometry modification.
+*Förklaring:* `com.aspose.threed.*` innehåller alla kärnklasser som krävs för scenmanipulation, mesh‑traversering och geometrimodifiering.
 
 ### Steg 1: Ladda 3D-dokumentet  
 
-The `Scene` class represents an entire 3‑D scene (geometry, materials, cameras, etc.). Loading the file brings the full hierarchy into memory so you can iterate over its nodes.
+`Scene`‑klassen representerar en fullständig 3‑D-scen som innehåller geometri, material, kameror och ljus.  
+
+`Scene`‑klassen representerar en hel 3‑D-scen (geometri, material, kameror osv.). Att ladda filen hämtar hela hierarkin till minnet så att du kan iterera över dess noder.
 
 ```java
 // ExStart:GenerateDataForMeshes
@@ -133,11 +137,13 @@ String MyDir = "Your Document Directory";
 Scene s = Scene.fromFile(MyDir + "camera.3ds");
 ```
 
-*Varför detta är viktigt:* Loading the scene is the first step in any mesh‑processing pipeline. Once the scene is in memory, we can traverse its node hierarchy and apply calculations such as **generate mesh normals**.
+*Varför detta är viktigt:* Att ladda scenen är det första steget i alla mesh‑bearbetningspipelines. När scenen är i minnet kan vi traversera dess nodhierarki och tillämpa beräkningar såsom **generate mesh normals**.
 
 ### Steg 2: Besök noder och skapa normaldata  
 
-`PolygonModifier.generateNormal(mesh)` computes a per‑vertex normal for the supplied `Mesh` and returns a `VertexElementNormal` object. Adding this element to the mesh stores the newly created normals.
+`PolygonModifier.generateNormal(mesh)` beräknar en per‑vertex normal för den angivna `Mesh` och returnerar ett `VertexElementNormal`‑objekt.  
+
+`PolygonModifier.generateNormal(mesh)` är en hjälpfunktion som analyserar meshens topologi och producerar en jämn per‑vertex normaluppsättning. Att lägga till detta element i meshen lagrar de nyss skapade normalerna.
 
 ```java
 s.getRootNode().accept(new NodeVisitor() {
@@ -153,62 +159,62 @@ s.getRootNode().accept(new NodeVisitor() {
 });
 ```
 
-*Tips:* The `generateNormal` method respects existing smoothing groups, so the resulting normals will look smooth where intended and sharp where edges are defined. This is exactly what you need for **smooth shading normals**.
+*Tips:* Metoden `generateNormal` respekterar befintliga smoothing‑grupper, så de resulterande normalerna blir jämna där det är avsett och skarpa där kanter är definierade. Detta är exakt vad du behöver för **smooth shading normals**.
 
 ### Steg 3: Bekräfta framgång  
 
-After the visitor finishes, printing a short message confirms that normal data was generated for **all meshes** in the scene.
+När besökaren är klar bekräftar utskrift av ett kort meddelande att normaldata har genererats för **alla mesh** i scenen.
 
 ```java
 // ExEnd:GenerateDataForMeshes
 System.out.println("\nNormal data generated successfully for all meshes.");
 ```
 
-*Vad du kan förvänta dig:* When you open the resulting scene in any 3D viewer (e.g., Aspose.3D Viewer, Blender, or Unity), the model will now display proper lighting because the normals are present.
+*Vad du kan förvänta dig:* När du öppnar den resulterande scenen i någon 3D‑visare (t.ex. Aspose.3D Viewer, Blender eller Unity) kommer modellen nu att visa korrekt belysning eftersom normalerna finns.
 
-## Vanliga användningsområden för att beräkna mesh-normaler  
+## Vanliga användningsområden för att beräkna meshnormaler  
 
 - **Spelutveckling:** Noggrann belysning på karaktärsmodeller och miljöobjekt.  
-- **AR/VR-applikationer:** Realtids-skuggning kräver per-vertex-normaler för trovärdig djup.  
-- **3D-utskrift förhandsvisningar:** Normaler hjälper slicer-programvara att bestämma ytorientering.  
+- **AR/VR‑applikationer:** Realtidskuggning kräver per‑vertex normaler för trovärdig djupkänsla.  
+- **3D‑utskrift förhandsvisningar:** Normaler hjälper skivningsprogramvara att bestämma ytorientering.  
 
-## Felsök mesh-normaler  
+## Felsök meshnormaler  
 
-Even with a straightforward workflow, you might run into issues. Below are common symptoms and how to **troubleshoot mesh normals** effectively.
+Även med ett enkelt arbetsflöde kan du stöta på problem. Nedan är vanliga symptom och hur du **troubleshoot mesh normals** effektivt.
 
-| Symtom | Trolig orsak | Åtgärd |
+| Symptom | Trolig orsak | Åtgärd |
 |---------|--------------|-----|
-| Ingen utdata eller tom konsol | `MyDir`-sökvägen är felaktig | Verify the directory path ends with a trailing slash and the file exists. |
-| Mesh ser platt eller för ljus ut | Normals were not added | Ensure `mesh.addElement(normals);` is executed for each mesh. |
-| Prestandaförsämring på stora filer | Visiting every node synchronously | Consider processing meshes in parallel using Java streams (outside the scope of this tutorial). |
+| Ingen utdata eller tom konsol | `MyDir`-sökvägen är felaktig | Verifiera att katalogsökvägen slutar med ett snedstreck och att filen finns. |
+| Meshen ser platt eller för ljus ut | Normaler lades inte till | Säkerställ att `mesh.addElement(normals);` körs för varje mesh. |
+| Prestandaförsämring på stora filer | Besöker varje nod synkront | Överväg att bearbeta meshar parallellt med Java streams (utanför denna handlednings omfattning). |
 
 ## Vanliga frågor  
 
-**Q: Är Aspose.3D kompatibel med andra 3D-filformat?**  
-A: Ja, Aspose.3D supports a wide range of formats such as OBJ, FBX, STL, glTF, and more than 30 others.  
+**Q: Är Aspose.3D kompatibel med andra 3D‑filformat?**  
+A: Ja, Aspose.3D stödjer ett brett spektrum av format såsom OBJ, FBX, STL, glTF och mer än 30 andra.  
 
-**Q: Kan jag använda den här koden i ett kommersiellt projekt?**  
-A: Absolutely. Purchase a commercial license **[Aspose purchase page](https://purchase.aspose.com/buy)**.  
+**Q: Kan jag använda denna kod i ett kommersiellt projekt?**  
+A: Absolut. Köp en kommersiell licens **[Aspose purchase page](https://purchase.aspose.com/buy)**.  
 
-**Q: Finns det en gratis provversion tillgänglig?**  
-A: Yes, you can explore a free trial **[Aspose free trial page](https://releases.aspose.com/)**.  
+**Q: Finns en gratis provversion tillgänglig?**  
+A: Ja, du kan utforska en gratis provversion **[Aspose free trial page](https://releases.aspose.com/)**.  
 
 **Q: Var kan jag hitta detaljerad dokumentation för Aspose.3D?**  
-A: Refer to the official documentation **[Aspose 3D Java API reference](https://reference.aspose.com/3d/java/)**.  
+A: Se den officiella dokumentationen **[Aspose 3D Java API reference](https://reference.aspose.com/3d/java/)**.  
 
 **Q: Behöver du hjälp eller vill diskutera med communityn?**  
-A: Visit the Aspose.3D forum **[Aspose 3D forum](https://forum.aspose.com/c/3d/18)**.  
+A: Besök Aspose.3D‑forumet **[Aspose 3D forum](https://forum.aspose.com/c/3d/18)**.  
 
 **Q: Hur verifierar jag att normalerna har lagts till korrekt?**  
-A: Load the saved scene in a viewer that displays vertex normals (e.g., Blender’s “Viewport Overlays” → “Normals”).  
+A: Ladda den sparade scenen i en visare som visar vertex‑normaler (t.ex. Blenders “Viewport Overlays” → “Normals”).  
 
-**Q: Kan jag generera tangenter och binormals tillsammans med normaler?**  
-A: Yes, Aspose.3D provides `PolygonModifier.generateTangentBinormal(mesh)` which you can call after generating normals.
+**Q: Kan jag generera tangenter och binormaler tillsammans med normaler?**  
+A: Ja, Aspose.3D tillhandahåller `PolygonModifier.generateTangentBinormal(mesh)` som du kan anropa efter att ha genererat normaler.
 
 ---
 
-**Senast uppdaterad:** 2026-09-03  
-**Testad med:** Aspose.3D for Java 24.11 (latest at time of writing)  
+**Senast uppdaterad:** 2026-11-17  
+**Testad med:** Aspose.3D för Java 24.11 (senaste vid skrivande)  
 **Författare:** Aspose
 
 ## Relaterade handledningar

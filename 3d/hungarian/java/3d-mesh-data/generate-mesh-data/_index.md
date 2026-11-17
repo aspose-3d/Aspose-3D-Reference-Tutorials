@@ -1,33 +1,39 @@
 ---
-date: 2026-09-03
-description: Tanulja meg, hogyan adjon normals-t 3D meshes-hez Java-ban az Aspose.3D
-  segítségével. Ez a lépésről‑lépésre útmutató bemutatja, hogyan generáljon mesh normals-t,
-  hozzon létre normal adatot, és exportáljon egy render‑ready modellt.
+date: 2026-11-17
+description: Ismerje meg, hogyan számítsa ki a mesh normals-t, és adja hozzá őket
+  3D meshes-hez Java-ban az Aspose.3D használatával. Ez a lépésről‑lépésre útmutató
+  megmutatja, hogyan generáljon mesh normals-t, hozzon létre normal data-t, és exportáljon
+  render‑ready modellt.
+images:
+- /java/3d-mesh-data/generate-mesh-data/og-image.png
 keywords:
+- calculate mesh normals
 - how to add normals
-- add normals to mesh
-- calculate mesh normals java
-- aspose 3d java
-lastmod: 2026-09-03
-linktitle: Hogyan számítsuk ki a Mesh Normals-t és adjunk normals-t 3D meshes-hez
-  Java-ban (Az Aspose.3D használatával)
-og_description: Tanulja meg, hogyan adjon normals-t 3D meshes-hez Java-ban az Aspose.3D
-  segítségével. Ez a lépésről‑lépésre útmutató bemutatja, hogyan generáljon mesh normals-t,
-  hozzon létre normal adatot, és exportáljon egy render‑ready modellt.
+- 3d model lighting
+- load 3d scene
+- create normal data
+lastmod: 2026-11-17
+linktitle: Hogyan számítsuk ki a mesh normals-t, és adjuk hozzá őket 3D meshes-hez
+  Java-ban az Aspose.3D használatával
+og_description: Ismerje meg, hogyan számítsa ki a mesh normals-t, és adja hozzá őket
+  3D meshes-hez Java-ban az Aspose.3D segítségével. Ez az útmutató végigvezeti a mesh
+  normals generálásán, a normal data létrehozásán és a render‑ready modellek exportálásán.
 og_image_alt: Tutorial showing Java code to add normals to 3D meshes using Aspose.3D
-og_title: Hogyan adjunk normals-t 3D meshes-hez Java-ban az Aspose.3D használatával
+og_title: Hogyan számítsuk ki a mesh normals-t, és adjuk hozzá őket 3D meshes-hez
+  Java-ban
 schemas:
 - author: Aspose
-  dateModified: '2026-09-03'
-  description: Learn how to add normals to 3D meshes in Java with Aspose.3D. This
-    step‑by‑step guide shows you how to generate mesh normals, create normal data,
-    and export a render‑ready model.
-  headline: How to add normals to 3D meshes in Java using Aspose.3D
+  dateModified: '2026-11-17'
+  description: Learn how to calculate mesh normals and add them to 3D meshes in Java
+    with Aspose.3D. This step‑by‑step guide shows you how to generate mesh normals,
+    create normal data, and export a render‑ready model.
+  headline: How to calculate mesh normals and add them to 3D meshes in Java using
+    Aspose.3D
   type: TechArticle
-- description: Learn how to add normals to 3D meshes in Java with Aspose.3D. This
-    step‑by‑step guide shows you how to generate mesh normals, create normal data,
-    and export a render‑ready model.
-  name: How to add normals to 3D meshes in Java using Aspose.3D
+- description: Learn how to calculate mesh normals and add them to 3D meshes in Java
+    with Aspose.3D. This step‑by‑step guide shows you how to generate mesh normals,
+    create normal data, and export a render‑ready model.
+  name: How to calculate mesh normals and add them to 3D meshes in Java using Aspose.3D
   steps:
   - name: Load the 3D document
     text: The `Scene` class represents an entire 3‑D scene (geometry, materials, cameras,
@@ -65,7 +71,8 @@ tags:
 - java graphics
 - mesh normals
 - 3d rendering
-title: Hogyan adjunk normals-t 3D meshes-hez Java-ban az Aspose.3D használatával
+title: Hogyan számítsuk ki a mesh normals-t, és adjuk hozzá őket 3D meshes-hez Java-ban
+  az Aspose.3D használatával
 url: /hu/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
@@ -74,36 +81,34 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan adjunk normálvektorokat 3D hálókhoz Java-ban az Aspose.3D használatával
+# Hogyan számítsuk ki a háló normálvektorait és adjuk hozzá őket a 3D hálókhoz Java-ban az Aspose.3D használatával
 
 ## Bevezetés  
 
-Ha **hogyan adjunk normálvektorokat** egy 3‑D hálóhoz, akkor a megfelelő helyen jársz. A helyes normálvektorok hozzáadása elengedhetetlen a valósághű megvilágítás, árnyékolás és fizikai számítások számára. Ebben az útmutatóban lépésről lépésre bemutatjuk, hogyan **számítsuk ki a háló normálvektorait**, generáljunk normál adatot, és exportáljunk egy tiszta, renderelésre kész modellt, amely bármilyen megvilágítási körülmény mellett nagyszerűen néz ki a **Aspose.3D for Java** használatával.
+Ha **hogyan adjunk hozzá normálvektorokat** egy 3‑D hálóhoz, akkor a megfelelő helyen jársz. A helyes normálvektorok hozzáadása elengedhetetlen a valósághű megvilágítás, árnyékolás és fizikai számítások számára. Ebben az útmutatóban lépésről‑lépésre végigvezetünk a **háló normálvektorainak kiszámításához** szükséges pontos lépéseken, generáljuk a normál adatokat, és exportálunk egy tiszta, renderelésre kész modellt, amely bármilyen megvilágítási körülményben nagyszerűen néz ki a **Aspose.3D for Java** használatával.
 
 ## Gyors válaszok
-- **Miért hasznos a „normálvektorok hozzáadása”?** Lehetővé teszi a megfelelő megvilágítást és árnyékolást a 3D felületeken.  
+- **Miért hasznos a “normálok hozzáadása”?** Lehetővé teszi a megfelelő megvilágítást és árnyékolást a 3D felületeken.  
 - **Melyik könyvtárat használjuk?** Aspose.3D for Java.  
-- **Szükségem van licencre?** Egy ingyenes próba a fejlesztéshez működik; a termeléshez kereskedelmi licenc szükséges.  
+- **Szükségem van licencre?** Egy ingyenes próba verzió fejlesztéshez megfelelő; a gyártási környezethez kereskedelmi licenc szükséges.  
 - **Mennyi időt vesz igénybe a megvalósítás?** Körülbelül 10‑15 perc egy alap hálóhoz.  
-- **Használható-e más formátumokkal?** Igen – az Aspose.3D számos 3D fájltípust támogat (OBJ, FBX, STL, stb.).  
+- **Használható más formátumokkal is?** Igen – az Aspose.3D számos 3D fájltípust támogat (OBJ, FBX, STL, stb.).  
 
-## Mi a „normálvektorok hozzáadása” egy hálóhoz?  
+## Mi az a „normálok hozzáadása” egy hálóhoz?  
 
-Ha egy hálót normálvektorok nélkül töltünk be, lapos vagy helytelenül megvilágított felületek keletkeznek; a normálvektorok hozzáadása biztosítja a csúcsonkénti irányvektorokat, amelyek megmondják a renderelőnek, hogyan kell a fénynek kölcsönhatásba lépnie minden egyes felülettel. **Gyakorlatban minden csúcshoz generálsz egy normált, amelyet a grafikus csővezeték a diffúz és a spekuláris megvilágítás kiszámításához használ.**  
+A normálok hozzáadása per‑csúcs irányvektorokat biztosít, amelyek megmondják a renderelőnek, hogyan kell a fénynek kölcsönhatásba lépnie az egyes felületekkel. A normálok vektorok, amelyek merőlegesek a felületre minden csúcsnál, és az árnyékolási algoritmusok használják őket annak meghatározására, mennyi fény verődik vissza a kamerába. Minden csúcsra generálva a normált, a grafikus csővezeték képes kiszámítani mind a diffúz, mind a spekuláris fénykomponenseket, ami valósághű árnyékolást és mélységérzetet eredményez.
 
-A normálvektorok a felület poligonjaira merőleges vektorok. Megmondják a renderelő motornak, hogyan hat a fény minden egyes felületre. Ha egy fájlban hiányzik ez az információ (gyakori a régebbi 3DS fájlokban), akkor **generálnod kell a háló normálvektorait**, mielőtt a modell helyesen jelenik meg a jelenetben.
+## Miért használjuk az Aspose.3D‑t ehhez a feladathoz?  
 
-## Miért használjuk az Aspose.3D-t ehhez a feladathoz?  
-
-Az Aspose.3D magas szintű API-t biztosít, amely elrejti a normálok kiszámításához szükséges alacsony szintű matematikát, és több mint **30 bemeneti és kimeneti formátumot** támogat, miközben akár **1 millió csúcsot** képes feldolgozni a fájl teljes betöltése nélkül. A könyvtár tiszteletben tartja a simítási csoportokat, sima árnyékolást generál ahol szükséges, és éles éleket ahol definiált, így a professzionális 3‑D munkafolyamatok szabványos megközelítése.
+Az Aspose.3D egy magas szintű API‑t biztosít, amely elrejti a normálok kiszámításához szükséges alacsony szintű matematikát, és támogat **több mint 30 bemeneti és kimeneti formátumot**, miközben akár **1 millió csúcsot** tartalmazó hálókat is képes feldolgozni anélkül, hogy a teljes fájlt a memóriába töltené. A könyvtár tiszteletben tartja a simítási csoportokat, ahol szükséges sima árnyékolást, ahol definiált, éles éleket generál, így a professzionális 3‑D munkafolyamatok szabványos megközelítése.
 
 ## Előfeltételek  
 
 - Alapvető Java programozási ismeretek.  
-- Aspose.3D for Java telepítve – töltsd le a **[Aspose.3D Java letöltési oldalról](https://releases.aspose.com/3d/java/)**.  
-- Egy 3D fájl 3DS formátumban (példaként a **camera.3ds**-t használjuk).  
+- Telepített Aspose.3D for Java – töltsd le a **[Aspose.3D Java letöltési oldal](https://releases.aspose.com/3d/java/)**.  
+- Egy 3D fájl 3DS formátumban (példaként a **camera.3ds**-t használjuk).
 
-## Hogyan számítsuk ki a háló normálvektorait és adjunk normálvektorokat a 3D hálókhoz  
+## Hogyan számítsuk ki a háló normálvektorait és adjuk hozzá a normálokat a 3D hálókhoz  
 
 Az alábbiakban a teljes, lépésről‑lépésre útmutató található. Minden kódrészlet változatlan az eredeti útmutatóból; a környező szöveg kontextust és magyarázatot ad.
 
@@ -120,9 +125,11 @@ import java.io.IOException;
 
 *Magyarázat:* A `com.aspose.threed.*` tartalmazza az összes alapvető osztályt, amely a jelenet manipulációjához, a háló bejárásához és a geometria módosításához szükséges.
 
-### 1. lépés: 3D dokumentum betöltése  
+### 1. lépés: A 3D dokumentum betöltése  
 
-A `Scene` osztály egy teljes 3‑D jelenetet (geometria, anyagok, kamerák stb.) reprezentál. A fájl betöltése a teljes hierarchiát memóriába hozza, így végigjárhatod a csomópontjait.
+`Scene` osztály egy teljes 3‑D jelenetet képvisel, amely geometriát, anyagokat, kamerákat és fényeket tartalmaz.  
+
+A `Scene` osztály egy teljes 3‑D jelenetet (geometria, anyagok, kamerák stb.) képvisel. A fájl betöltése a teljes hierarchiát a memóriába hozza, így iterálhatsz a csomópontjai felett.
 
 ```java
 // ExStart:GenerateDataForMeshes
@@ -133,11 +140,13 @@ String MyDir = "Your Document Directory";
 Scene s = Scene.fromFile(MyDir + "camera.3ds");
 ```
 
-*Miért fontos:* A jelenet betöltése az első lépés minden hálófeldolgozó csővezetékben. Miután a jelenet a memóriában van, bejárhatjuk a csomópont hierarchiáját és alkalmazhatunk számításokat, például a **háló normálvektorainak generálását**.
+*Miért fontos:* A jelenet betöltése az első lépés minden háló‑feldolgozó csővezetékben. Miután a jelenet a memóriában van, bejárhatjuk a csomópont hierarchiáját, és alkalmazhatunk számításokat, például a **generate mesh normals**.
 
-### 2. lépés: Csomópontok bejárása és normál adatok létrehozása  
+### 2. lépés: Csomópontok felkeresése és normál adatok létrehozása  
 
-A `PolygonModifier.generateNormal(mesh)` kiszámítja a megadott `Mesh` csúcsonkénti normálját, és visszaad egy `VertexElementNormal` objektumot. Ennek az elemnek a hálóhoz adásával tároljuk az újonnan létrehozott normálvektorokat.
+`PolygonModifier.generateNormal(mesh)` kiszámítja a megadott `Mesh` per‑csúcs normálját, és visszaad egy `VertexElementNormal` objektumot.  
+
+`PolygonModifier.generateNormal(mesh)` egy segédmetódus, amely elemzi a háló topológiáját, és egy sima per‑csúcs normál készletet hoz létre. Ennek az elemnek a hálóhoz való hozzáadása elmenti az újonnan létrehozott normálokat.
 
 ```java
 s.getRootNode().accept(new NodeVisitor() {
@@ -153,69 +162,69 @@ s.getRootNode().accept(new NodeVisitor() {
 });
 ```
 
-*Tipp:* A `generateNormal` metódus figyelembe veszi a meglévő simítási csoportokat, így a kapott normálok simán fognak kinézni, ahol szükséges, és élesek lesznek, ahol élek vannak definiálva. Ez pontosan az, amire a **simított árnyalási normálok** esetén szükség van.
+*Tipp:* A `generateNormal` metódus tiszteletben tartja a meglévő simítási csoportokat, így a kapott normálok ott lesznek simák, ahol azt szándékozták, és élesek ott, ahol élek vannak definiálva. Ez pontosan az, amire a **smooth shading normals**-hoz szükséged van.
 
 ### 3. lépés: Siker megerősítése  
 
-Miután a látogató befejeződik, egy rövid üzenet kiírása megerősíti, hogy a normál adatok **minden háló** számára generálva lettek a jelenetben.
+Miután a látogató befejeződik, egy rövid üzenet kiírása megerősíti, hogy a normál adatok **az összes háló** számára generálva lettek a jelenetben.
 
 ```java
 // ExEnd:GenerateDataForMeshes
 System.out.println("\nNormal data generated successfully for all meshes.");
 ```
 
-*Mire számíthatsz:* Amikor a keletkezett jelenetet bármely 3D nézőben (pl. Aspose.3D Viewer, Blender vagy Unity) megnyitod, a modell most már megfelelő megvilágítást mutat, mivel a normálvektorok jelen vannak.
+*Mit várhatsz:* Amikor a keletkezett jelenetet bármely 3D nézőben (pl. Aspose.3D Viewer, Blender vagy Unity) megnyitod, a modell most már megfelelő megvilágítást mutat, mivel a normálok jelen vannak.
 
-## Gyakori felhasználási esetek a háló normálvektorainak számításához  
+## Gyakori felhasználási esetek a háló normálok számításához  
 
-- **Játékfejlesztés:** Pontos megvilágítás karaktermodelleken és környezeti eszközökön.  
-- **AR/VR alkalmazások:** A valós idejű árnyékolás per‑csúcs normálvektorokat igényel a hiteles mélységhez.  
-- **3D nyomtatási előnézetek:** A normálvektorok segítik a szeletelő szoftvert a felület orientációjának meghatározásában.  
+- **Játékfejlesztés:** Pontos megvilágítás karaktermodelleken és környezeteszközökön.  
+- **AR/VR alkalmazások:** A valós idejű árnyékolás per‑csúcs normálokat igényel a hiteles mélységhez.  
+- **3D nyomtatási előnézetek:** A normálok segítik a szeletelő szoftvert a felület tájolásának meghatározásában.
 
-## A háló normálvektorok hibakeresése  
+## Hibakeresés a háló normáloknál  
 
-Még egy egyszerű munkafolyamat esetén is előfordulhatnak problémák. Az alábbiakban gyakori tünetek és a **háló normálvektorok hibakeresésének** hatékony módjai találhatók.
+Még egy egyszerű munkafolyamat esetén is előfordulhatnak problémák. Az alábbiakban a gyakori tünetek és a **mesh normálok hibakeresése** hatékony módja található.
 
 | Tünet | Valószínű ok | Megoldás |
 |---------|--------------|-----|
 | Nincs kimenet vagy üres konzol | `MyDir` útvonal helytelen | Ellenőrizd, hogy az útvonal perjellel végződik, és a fájl létezik. |
-| A háló lapos vagy túl fényes | A normálvektorok nem lettek hozzáadva | Győződj meg róla, hogy a `mesh.addElement(normals);` minden hálón végrehajtásra kerül. |
-| Teljesítménycsökkenés nagy fájlok esetén | Minden csomópont szinkron bejárása | Fontold meg a hálók párhuzamos feldolgozását Java stream-ekkel (az útmutató keretein kívül). |
+| A háló laposnak vagy túl fényesnek tűnik | A normálok nem lettek hozzáadva | Győződj meg arról, hogy a `mesh.addElement(normals);` minden hálón végrehajtásra kerül. |
+| Teljesítménycsökkenés nagy fájlok esetén | Minden csomópont szinkron felkeresése | Fontold meg a hálók párhuzamos feldolgozását Java stream-ekkel (az útmutató keretein kívül). |
 
-## Gyakran ismételt kérdések  
+## Gyakran feltett kérdések  
 
-**K: Az Aspose.3D kompatibilis más 3D fájlformátumokkal?**  
-V: Igen, az Aspose.3D széles körű formátumot támogat, például OBJ, FBX, STL, glTF és több mint 30 egyéb.  
+**Q: Az Aspose.3D kompatibilis más 3D fájlformátumokkal?**  
+A: Igen, az Aspose.3D számos formátumot támogat, például OBJ, FBX, STL, glTF, és több mint 30 egyéb formátumot.  
 
-**K: Használhatom ezt a kódot kereskedelmi projektben?**  
-V: Természetesen. Vásárolj kereskedelmi licencet **[Aspose vásárlási oldal](https://purchase.aspose.com/buy)**.  
+**Q: Használhatom ezt a kódot kereskedelmi projektben?**  
+A: Természetesen. Vásárolj kereskedelmi licencet **[Aspose purchase page](https://purchase.aspose.com/buy)**.  
 
-**K: Elérhető ingyenes próba?**  
-V: Igen, kipróbálhatod az ingyenes próbát **[Aspose ingyenes próba oldal](https://releases.aspose.com/)**.  
+**Q: Elérhető ingyenes próba?**  
+A: Igen, kipróbálhatod az ingyenes próbaverziót **[Aspose free trial page](https://releases.aspose.com/)**.  
 
-**K: Hol találok részletes dokumentációt az Aspose.3D-hez?**  
-V: Tekintsd meg a hivatalos dokumentációt **[Aspose 3D Java API referencia](https://reference.aspose.com/3d/java/)**.  
+**Q: Hol találok részletes dokumentációt az Aspose.3D-hez?**  
+A: Tekintsd meg a hivatalos dokumentációt **[Aspose 3D Java API reference](https://reference.aspose.com/3d/java/)**.  
 
-**K: Szükségem van segítségre vagy szeretnék a közösséggel beszélgetni?**  
-V: Látogasd meg az Aspose.3D fórumot **[Aspose 3D fórum](https://forum.aspose.com/c/3d/18)**.  
+**Q: Szükséged van segítségre vagy szeretnél a közösséggel beszélgetni?**  
+A: Látogasd meg az Aspose.3D fórumot **[Aspose 3D forum](https://forum.aspose.com/c/3d/18)**.  
 
-**K: Hogyan ellenőrizhetem, hogy a normálvektorok helyesen lettek hozzáadva?**  
-V: Töltsd be a mentett jelenetet egy olyan nézőben, amely megjeleníti a csúcsnormálokat (pl. a Blender „Viewport Overlays” → „Normals”).  
+**Q: Hogyan ellenőrizhetem, hogy a normálok helyesen lettek hozzáadva?**  
+A: Töltsd be a mentett jelenetet egy olyan nézőben, amely megjeleníti a csúcsnormálokat (pl. a Blender “Viewport Overlays” → “Normals” funkciója).  
 
-**K: Generálhatok tangenseket és binormálokat a normálvektorokkal együtt?**  
-V: Igen, az Aspose.3D biztosítja a `PolygonModifier.generateTangentBinormal(mesh)` metódust, amelyet a normálok generálása után hívhatsz.  
+**Q: Generálhatok tangenseket és binormálokat is a normálokkal együtt?**  
+A: Igen, az Aspose.3D biztosítja a `PolygonModifier.generateTangentBinormal(mesh)` metódust, amelyet a normálok generálása után hívhatsz meg.
 
 ---
 
-**Legutóbb frissítve:** 2026-09-03  
-**Tesztelve ezzel:** Aspose.3D for Java 24.11 (legújabb a kiadás időpontjában)  
+**Utolsó frissítés:** 2026-11-17  
+**Tesztelve:** Aspose.3D for Java 24.11 (a legújabb a írás időpontjában)  
 **Szerző:** Aspose
 
 ## Kapcsolódó útmutatók
 
-- [Hogyan állítsunk be normálvektorokat 3D objektumokon Java-ban az Aspose.3D Java API használatával](/3d/java/geometry/set-up-normals-on-3d-objects/)
-- [Hogyan trianguláljunk hálót és generáljunk tangent és binormál adatot 3D hálókhoz Java-ban](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
-- [Tanulja meg, hogyan hozzunk létre UV koordinátákat Java-ban – UV generálás 3D modellekhez az Aspose.3D segítségével](/3d/java/polygon/generate-uv-coordinates/)
+- [Hogyan állítsunk be normálokat 3D objektumokon Java-ban az Aspose.3D Java API használatával](/3d/java/geometry/set-up-normals-on-3d-objects/)
+- [Hogyan trianguláljunk hálót és generáljunk tangent és binormál adatokat 3D hálókhoz Java-ban](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
+- [Tanulja meg, hogyan hozzunk létre UV koordinátákat Java-ban – UV generálása 3D modellekhez az Aspose.3D segítségével](/3d/java/polygon/generate-uv-coordinates/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
