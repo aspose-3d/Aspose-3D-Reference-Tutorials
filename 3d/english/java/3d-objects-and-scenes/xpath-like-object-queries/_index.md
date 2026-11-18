@@ -110,7 +110,7 @@ First, import the Aspose.3D classes you’ll need. This step makes the library a
 
 ```java
 import com.aspose.threed.*;
-import com.aspose.threed.scene.*;
+
 import java.util.ArrayList;
 import java.util.List;
 ```
